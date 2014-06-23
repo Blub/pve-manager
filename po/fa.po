@@ -17,9 +17,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../www/manager/qemu/Options.js:125 ../www/manager/qemu/Options.js:130
-#, fuzzy
 msgid "ACPI support"
-msgstr "پشتیبانی"
+msgstr "پشتیبانی ACPI"
 
 #: ../www/manager/storage/ContentView.js:231
 msgid "Abort"
@@ -37,7 +36,7 @@ msgstr "فعال"
 
 #: ../www/manager/dc/AuthView.js:85 ../www/manager/dc/AuthEdit.js:37
 msgid "Active Directory Server"
-msgstr ""
+msgstr "سرور Active Directory"
 
 #: ../www/manager/window/Edit.js:186 ../www/manager/grid/PoolMembers.js:144
 #: ../www/manager/Utils.js:857 ../www/manager/openvz/Network.js:345
@@ -72,9 +71,8 @@ msgid "Are you sure you want to activate your changes"
 msgstr "آیا تغییرات انجام شده، فعال گردند؟"
 
 #: ../www/manager/StateProvider.js:161
-#, fuzzy
 msgid "Are you sure you want to navigate away from this page?"
-msgstr "آیا تغییرات انجام شده، فعال گردند؟"
+msgstr "آیا مطمئن هستید که می خواهید از این صفحه خارج شوید؟"
 
 #: ../www/manager/openvz/Config.js:89 ../www/manager/qemu/Config.js:98
 msgid ""
@@ -107,9 +105,8 @@ msgid "Are you sure you want to revert your changes"
 msgstr "آیا تغییرات به طور کامل لغو شوند؟"
 
 #: ../www/manager/qemu/SnapshotTree.js:144
-#, fuzzy
 msgid "Are you sure you want to rollback to snapshot {0}"
-msgstr "آیا از حذف  {0} اطمینان دارید؟"
+msgstr "آیا مطمئن هستید که می خواهید به snapshot {0} باز گردید؟"
 
 #: ../www/manager/dc/Config.js:78
 msgid "Authentication"
@@ -117,13 +114,12 @@ msgstr "احراز هویت"
 
 #: ../www/manager/qemu/MemoryEdit.js:70
 msgid "Automatically allocate memory within this range"
-msgstr ""
+msgstr "اختصاص خودکار حافظه در محدوده"
 
 #: ../www/manager/node/NetworkView.js:209
 #: ../www/manager/node/NetworkEdit.js:36 ../www/manager/dc/HAConfig.js:35
-#, fuzzy
 msgid "Autostart"
-msgstr "راه اندازی مجدد"
+msgstr "راه اندازی خودکار"
 
 #: ../www/manager/form/StorageSelector.js:87
 #: ../www/manager/storage/StatusView.js:60
@@ -154,7 +150,7 @@ msgstr ""
 
 #: ../www/manager/dc/AuthEdit.js:54
 msgid "Base Domain Name"
-msgstr ""
+msgstr "دامنه اصلی"
 
 #: ../www/manager/storage/LVMEdit.js:157
 msgid "Base storage"
@@ -170,7 +166,7 @@ msgstr "ساده"
 
 #: ../www/manager/storage/NexentaEdit.js:100
 msgid "Block Size"
-msgstr ""
+msgstr "اندازه Block"
 
 #: ../www/manager/qemu/BootOrderEdit.js:114
 #: ../www/manager/qemu/BootOrderEdit.js:122
@@ -191,21 +187,20 @@ msgstr ""
 
 #: ../www/manager/node/NetworkEdit.js:46
 msgid "Bridge ports"
-msgstr ""
+msgstr "پورت های Bridge"
 
 #: ../www/manager/openvz/CreateWizard.js:186
 #: ../www/manager/qemu/NetworkEdit.js:77
 msgid "Bridged mode"
-msgstr ""
+msgstr "حالت Bridge"
 
 #: ../www/manager/form/ControllerSelector.js:60
 msgid "Bus/Device"
 msgstr ""
 
 #: ../www/manager/qemu/CreateWizard.js:20
-#, fuzzy
 msgid "CD/DVD"
-msgstr "درایو نوری"
+msgstr "دیسک نوری"
 
 #: ../www/manager/qemu/HardwareView.js:114
 #: ../www/manager/qemu/HardwareView.js:125
@@ -222,9 +217,8 @@ msgstr ""
 #: ../www/manager/openvz/Options.js:50 ../www/manager/openvz/Options.js:54
 #: ../www/manager/openvz/Options.js:58 ../www/manager/qemu/Options.js:167
 #: ../www/manager/qemu/Options.js:171 ../www/manager/qemu/Options.js:175
-#, fuzzy
 msgid "CPU units"
-msgstr "مصرف CPU"
+msgstr "میزان CPU"
 
 #: ../www/manager/data/ResourceStore.js:122
 #: ../www/manager/form/NodeSelector.js:57 ../www/manager/openvz/Summary.js:67
@@ -237,19 +231,19 @@ msgstr "مصرف CPU"
 #: ../www/manager/openvz/RessourceEdit.js:56
 #: ../www/manager/node/StatusView.js:45
 msgid "CPUs"
-msgstr ""
+msgstr "تعداد CPU"
 
 #: ../www/manager/qemu/HDEdit.js:232
 msgid "Cache"
-msgstr ""
+msgstr "حافظه Cache"
 
 #: ../www/manager/form/StorageSelector.js:93
 msgid "Capacity"
-msgstr ""
+msgstr "ظرفیت"
 
 #: ../www/manager/node/APT.js:114 ../www/manager/node/APT.js:143
 msgid "Changelog"
-msgstr ""
+msgstr "لاگ تغییرات"
 
 #: ../www/manager/node/Subscription.js:95
 msgid "Check"
@@ -283,9 +277,8 @@ msgid "Compression"
 msgstr "فشرده سازی"
 
 #: ../www/manager/Utils.js:490
-#, fuzzy
 msgid "Configure"
-msgstr "تایید"
+msgstr "تنظیم"
 
 #: ../www/manager/window/Restore.js:105 ../www/manager/button/Button.js:45
 #: ../www/manager/openvz/CreateWizard.js:254
@@ -392,9 +385,8 @@ msgid "Delete Snapshot"
 msgstr ""
 
 #: ../www/manager/qemu/HDMove.js:109
-#, fuzzy
 msgid "Delete source"
-msgstr "منابع"
+msgstr "حذف مبدا"
 
 #: ../www/manager/data/ResourceStore.js:49
 #: ../www/manager/storage/ContentView.js:60 ../www/manager/node/APT.js:192
@@ -410,21 +402,19 @@ msgstr "حذف"
 
 #: ../www/manager/window/TaskViewer.js:61
 msgid "Details"
-msgstr ""
+msgstr "جزئیات"
 
 #: ../www/manager/storage/DirEdit.js:38
 msgid "Directory"
 msgstr "دایرکتوری"
 
 #: ../www/manager/qemu/HDMove.js:56 ../www/manager/qemu/HDResize.js:40
-#, fuzzy
 msgid "Disk"
-msgstr "فضای دیسک"
+msgstr "دیسک"
 
 #: ../www/manager/openvz/Summary.js:88 ../www/manager/qemu/Summary.js:83
-#, fuzzy
 msgid "Disk IO"
-msgstr "فضای دیسک"
+msgstr "مصرف IO دیسک"
 
 #: ../www/manager/qemu/HDEdit.js:137 ../www/manager/qemu/HDEdit.js:158
 #: ../www/manager/qemu/HDEdit.js:223
@@ -451,9 +441,8 @@ msgid "Do not use any proxy"
 msgstr "از پروکسی استفاده نکن"
 
 #: ../www/manager/qemu/CmdMenu.js:95
-#, fuzzy
 msgid "Do you really want to convert VM {0} into a template?"
-msgstr "آیا VM{0} ریست شود?"
+msgstr "آیا VM{0} تبدیل به قالب شود?"
 
 #: ../www/manager/qemu/Config.js:79 ../www/manager/VNCConsole.js:268
 msgid "Do you really want to reset VM {0}?"
@@ -485,7 +474,7 @@ msgstr "آیا VM{0} تعلیق شود?"
 
 #: ../www/manager/dc/AuthEdit.js:42
 msgid "Domain"
-msgstr ""
+msgstr "دامنه"
 
 #: ../www/manager/storage/ContentView.js:105 ../www/manager/Utils.js:509
 msgid "Download"
@@ -493,7 +482,7 @@ msgstr "دانلود"
 
 #: ../www/manager/dc/UserEdit.js:119
 msgid "E-Mail"
-msgstr ""
+msgstr "ایمیل"
 
 #: ../www/manager/Utils.js:862 ../www/manager/openvz/Network.js:326
 #: ../www/manager/openvz/RessourceView.js:92 ../www/manager/openvz/DNS.js:103
@@ -637,17 +626,17 @@ msgstr "فرمت"
 #: ../www/manager/qemu/Options.js:184 ../www/manager/qemu/Options.js:189
 #: ../www/manager/qemu/Options.js:197
 msgid "Freeze CPU at startup"
-msgstr ""
+msgstr "در زمان راه اندازی، CPU را freeze کن"
 
 #: ../www/manager/qemu/Clone.js:140
 msgid "Full Clone"
-msgstr ""
+msgstr "Clone کامل"
 
 #: ../www/manager/storage/SheepdogEdit.js:40
 #: ../www/manager/node/NetworkView.js:233
 #: ../www/manager/node/NetworkEdit.js:120
 msgid "Gateway"
-msgstr ""
+msgstr "درگاه (Gateway)"
 
 #: ../www/manager/openvz/CreateWizard.js:60
 #: ../www/manager/qemu/CreateWizard.js:44
@@ -686,7 +675,7 @@ msgstr ""
 #: ../www/manager/dc/OptionView.js:8 ../www/manager/dc/OptionView.js:16
 #: ../www/manager/dc/OptionView.js:69
 msgid "HTTP proxy"
-msgstr ""
+msgstr "پروکسی HTTP"
 
 #: ../www/manager/qemu/HDEdit.js:317 ../www/manager/qemu/HDEdit.js:319
 #: ../www/manager/qemu/CreateWizard.js:29
@@ -704,22 +693,19 @@ msgstr "سخت افزار"
 
 #: ../www/manager/openvz/BeanCounterGrid.js:57
 msgid "Held"
-msgstr ""
+msgstr "نگه داشته شده"
 
 #: ../www/manager/openvz/Network.js:96 ../www/manager/openvz/Network.js:413
-#, fuzzy
 msgid "Host MAC address"
-msgstr "آدرس IP"
+msgstr "آدرس MAC هاست"
 
 #: ../www/manager/openvz/Network.js:88
-#, fuzzy
 msgid "Host device name"
-msgstr "دستگاه بوت"
+msgstr "نام دستگاه هاست"
 
 #: ../www/manager/openvz/Network.js:408
-#, fuzzy
 msgid "Host ifname"
-msgstr "نام کاربری"
+msgstr "نام کارت شبکه هاست"
 
 #: ../www/manager/openvz/CreateWizard.js:89 ../www/manager/openvz/DNS.js:26
 #: ../www/manager/openvz/DNS.js:29 ../www/manager/openvz/DNS.js:35
@@ -728,7 +714,7 @@ msgstr ""
 
 #: ../www/manager/node/StatusView.js:47
 msgid "IO delay"
-msgstr ""
+msgstr "تاخیر IO"
 
 #: ../www/manager/openvz/Network.js:136 ../www/manager/openvz/Network.js:142
 #: ../www/manager/openvz/Network.js:159 ../www/manager/openvz/Network.js:349
@@ -744,13 +730,12 @@ msgid "ISO Image"
 msgstr ""
 
 #: ../www/manager/storage/ContentView.js:188
-#, fuzzy
 msgid "ISO image"
-msgstr "image دیسک"
+msgstr ""
 
 #: ../www/manager/qemu/Snapshot.js:92
 msgid "Include RAM"
-msgstr ""
+msgstr "همراه حافظه"
 
 #: ../www/manager/dc/Backup.js:29
 msgid "Include selected VMs"
@@ -758,16 +743,15 @@ msgstr "VMهای انتخاب شده را شامل کن"
 
 #: ../www/manager/node/StatusView.js:50
 msgid "KSM sharing"
-msgstr ""
+msgstr "اشتراک KSM"
 
 #: ../www/manager/qemu/Options.js:149 ../www/manager/qemu/Options.js:154
 msgid "KVM hardware virtualization"
-msgstr ""
+msgstr "مجازی سازی سخت افزاری KVM"
 
 #: ../www/manager/node/StatusView.js:53
-#, fuzzy
 msgid "Kernel version"
-msgstr "دسترسی کاربر"
+msgstr "نسخه کرنل"
 
 #: ../www/manager/qemu/HardwareView.js:80
 #: ../www/manager/qemu/KeyboardEdit.js:8
@@ -777,9 +761,8 @@ msgid "Keyboard Layout"
 msgstr "نوع صفحه کلید"
 
 #: ../www/manager/dc/AuthView.js:95 ../www/manager/dc/AuthEdit.js:49
-#, fuzzy
 msgid "LDAP Server"
-msgstr "سرور"
+msgstr "سرور LDAP"
 
 #: ../www/manager/window/LoginWindow.js:104
 msgid "Language"
@@ -791,7 +774,7 @@ msgstr "نام خانوادگی"
 
 #: ../www/manager/node/Subscription.js:75
 msgid "Last checked"
-msgstr ""
+msgstr "آخرین بررسی"
 
 #: ../www/manager/dc/Summary.js:178
 msgid "Last owner"
@@ -803,7 +786,7 @@ msgstr "آخرین انتقال"
 
 #: ../www/manager/openvz/BeanCounterGrid.js:75
 msgid "Limit"
-msgstr ""
+msgstr "محدوده"
 
 #: ../www/manager/qemu/Clone.js:142
 msgid "Linked Clone"
@@ -811,7 +794,7 @@ msgstr ""
 
 #: ../www/manager/node/StatusView.js:44
 msgid "Load average"
-msgstr ""
+msgstr "متوسط Load"
 
 #: ../www/manager/Utils.js:889
 msgid "Loading..."
@@ -832,13 +815,12 @@ msgstr "خروج"
 
 #: ../www/manager/openvz/Network.js:71 ../www/manager/openvz/Network.js:403
 #: ../www/manager/qemu/NetworkEdit.js:132
-#, fuzzy
 msgid "MAC address"
-msgstr "آدرس IP"
+msgstr "آدرس MAC"
 
 #: ../www/manager/openvz/StatusView.js:68 ../www/manager/qemu/StatusView.js:50
 msgid "Managed by HA"
-msgstr ""
+msgstr "مدیریت شده توسط HA"
 
 #: ../www/manager/storage/GlusterFsEdit.js:152
 #: ../www/manager/storage/DirEdit.js:67 ../www/manager/storage/NFSEdit.js:155
@@ -850,9 +832,8 @@ msgid "Maxheld"
 msgstr ""
 
 #: ../www/manager/qemu/MemoryEdit.js:87
-#, fuzzy
 msgid "Maximum memory"
-msgstr "حافظه"
+msgstr "حداکثر حافظه"
 
 #: ../www/manager/pool/Config.js:23
 msgid "Members"
@@ -890,9 +871,8 @@ msgid "Migrate"
 msgstr "انتقال"
 
 #: ../www/manager/qemu/MemoryEdit.js:110
-#, fuzzy
 msgid "Minimum memory"
-msgstr "حافظه"
+msgstr "حداقل حافظه"
 
 #: ../www/manager/window/Backup.js:41 ../www/manager/node/NetworkEdit.js:57
 #: ../www/manager/qemu/Clone.js:146 ../www/manager/dc/Backup.js:170
@@ -900,18 +880,16 @@ msgid "Mode"
 msgstr "حالت"
 
 #: ../www/manager/qemu/NetworkEdit.js:125
-#, fuzzy
 msgid "Model"
-msgstr "حالت"
+msgstr "مدل"
 
 #: ../www/manager/qemu/Config.js:173
 msgid "Monitor"
 msgstr "مانیتور"
 
 #: ../www/manager/storage/RBDEdit.js:48
-#, fuzzy
 msgid "Monitor Host"
-msgstr "مانیتور"
+msgstr "هاست مانیتور"
 
 #: ../www/manager/Utils.js:497
 msgid "Mount"
@@ -920,11 +898,11 @@ msgstr "اتصال"
 #: ../www/manager/Utils.js:482 ../www/manager/qemu/HDMove.js:129
 #: ../www/manager/qemu/HDMove.js:131 ../www/manager/qemu/HardwareView.js:289
 msgid "Move disk"
-msgstr ""
+msgstr "انتقال دیسک"
 
 #: ../www/manager/qemu/NetworkEdit.js:107
 msgid "NAT mode"
-msgstr ""
+msgstr "حالت NAT"
 
 #: ../www/manager/data/ResourceStore.js:86
 #: ../www/manager/form/StorageSelector.js:76
@@ -964,9 +942,8 @@ msgstr "کارت شبکه"
 
 #: ../www/manager/openvz/Summary.js:81 ../www/manager/node/Summary.js:126
 #: ../www/manager/qemu/Summary.js:76
-#, fuzzy
 msgid "Network traffic"
-msgstr "کارت شبکه"
+msgstr "ترافیک شبکه"
 
 #: ../www/manager/window/Wizard.js:90
 msgid "Next"
@@ -982,9 +959,8 @@ msgstr "بدون پشتیبان"
 
 #: ../www/manager/form/CacheTypeSelector.js:9
 #: ../www/manager/form/CacheTypeSelector.js:14
-#, fuzzy
 msgid "No cache"
-msgstr "بدون تغییر"
+msgstr "بدون Cache"
 
 #: ../www/manager/node/NetworkView.js:41
 #: ../www/manager/node/NetworkView.js:255
@@ -992,9 +968,8 @@ msgid "No changes"
 msgstr "بدون تغییر"
 
 #: ../www/manager/qemu/NetworkEdit.js:117
-#, fuzzy
 msgid "No network device"
-msgstr "کارت شبکه"
+msgstr "بدون کارت شبکه"
 
 #: ../www/manager/storage/NexentaEdit.js:111
 #: ../www/manager/storage/GlusterFsEdit.js:139
@@ -1011,9 +986,8 @@ msgid "No updates available."
 msgstr ""
 
 #: ../www/manager/Utils.js:452
-#, fuzzy
 msgid "No valid subscription"
-msgstr "آپلود کلید اشتراک"
+msgstr "بدون اشتراک معتبر"
 
 #: ../www/manager/data/ResourceStore.js:182
 #: ../www/manager/window/TaskViewer.js:125
@@ -1046,12 +1020,11 @@ msgstr "یادداشت ها"
 
 #: ../www/manager/qemu/CreateWizard.js:97
 msgid "OS"
-msgstr ""
+msgstr "سیستم عامل"
 
 #: ../www/manager/qemu/Options.js:65
-#, fuzzy
 msgid "OS Type"
-msgstr "نوع"
+msgstr "نوع سیستم عامل"
 
 #: ../www/manager/data/ResourceStore.js:36 ../www/manager/window/Migrate.js:71
 #: ../www/manager/dc/Summary.js:42
@@ -1068,9 +1041,8 @@ msgid "OpenVZ Container"
 msgstr "OpenVZ Container"
 
 #: ../www/manager/storage/ContentView.js:190
-#, fuzzy
 msgid "OpenVZ template"
-msgstr "OpenVZ Container"
+msgstr "قابل OpenVZ"
 
 #: ../www/manager/openvz/Config.js:142 ../www/manager/qemu/Config.js:158
 #: ../www/manager/dc/Config.js:26
@@ -1092,16 +1064,15 @@ msgstr "مالک"
 
 #: ../www/manager/node/StatusView.js:52
 msgid "PVE Manager version"
-msgstr ""
+msgstr "نسخه PVE Manager"
 
 #: ../www/manager/storage/ContentView.js:50 ../www/manager/node/APT.js:169
 msgid "Package"
 msgstr "بسته"
 
 #: ../www/manager/node/Summary.js:24 ../www/manager/node/Summary.js:90
-#, fuzzy
 msgid "Package versions"
-msgstr "بسته"
+msgstr "نسخه بسته"
 
 #: ../www/manager/window/LoginWindow.js:87
 #: ../www/manager/storage/NexentaEdit.js:75
@@ -1154,9 +1125,8 @@ msgid "Port"
 msgstr "پورت"
 
 #: ../www/manager/storage/NexentaEdit.js:43
-#, fuzzy
 msgid "Portal"
-msgstr "پورت"
+msgstr "پورتال"
 
 #: ../www/manager/node/NetworkView.js:218
 msgid "Ports/Slaves"
@@ -1171,9 +1141,8 @@ msgid "Privileges"
 msgstr "حقوق"
 
 #: ../www/manager/window/TaskViewer.js:129
-#, fuzzy
 msgid "Process ID"
-msgstr "پردازنده ها"
+msgstr "مشخصه پردازنده"
 
 #: ../www/manager/openvz/RessourceView.js:45
 #: ../www/manager/qemu/HardwareView.js:58
@@ -1201,34 +1170,32 @@ msgstr ""
 #: ../www/manager/openvz/Options.js:66 ../www/manager/openvz/Options.js:76
 #: ../www/manager/openvz/Options.js:82
 msgid "Quota UGID limit"
-msgstr ""
+msgstr "محدودیت UGID دیسک"
 
 #: ../www/manager/qemu/SnapshotTree.js:249
 msgid "RAM"
-msgstr ""
+msgstr "حافظه"
 
 #: ../www/manager/node/StatusView.js:48
-#, fuzzy
 msgid "RAM usage"
-msgstr "مصرف CPU"
+msgstr "مصرف حافظه"
 
 #: ../www/manager/qemu/Options.js:220 ../www/manager/qemu/Options.js:224
 #: ../www/manager/qemu/Options.js:230
 msgid "RTC start date"
-msgstr ""
+msgstr "تاریخ شروع RTC"
 
 #: ../www/manager/qemu/NetworkEdit.js:140
 msgid "Rate limit"
-msgstr ""
+msgstr "محدودیت سرعت"
 
 #: ../www/manager/form/DiskFormatSelector.js:9
-#, fuzzy
 msgid "Raw disk image"
-msgstr "image دیسک"
+msgstr "image دیسک raw"
 
 #: ../www/manager/qemu/HDEdit.js:249 ../www/manager/qemu/HDEdit.js:269
 msgid "Read limit"
-msgstr ""
+msgstr "محدودیت خواندن"
 
 #: ../www/manager/form/RealmComboBox.js:16 ../www/manager/dc/AuthView.js:120
 #: ../www/manager/dc/UserEdit.js:133 ../www/manager/dc/UserView.js:192
@@ -1267,12 +1234,11 @@ msgstr "ریست"
 #: ../www/manager/qemu/HDResize.js:72 ../www/manager/qemu/HDResize.js:74
 #: ../www/manager/qemu/HardwareView.js:274
 msgid "Resize disk"
-msgstr ""
+msgstr "تغییر میزان دیسک"
 
 #: ../www/manager/openvz/BeanCounterGrid.js:52
-#, fuzzy
 msgid "Resource"
-msgstr "منابع"
+msgstr "منبع"
 
 #: ../www/manager/tree/ResourceTree.js:13 ../www/manager/pool/Config.js:14
 #: ../www/manager/openvz/CreateWizard.js:97
@@ -1303,14 +1269,12 @@ msgid "Restore"
 msgstr "بازگرداندن پشتیبان"
 
 #: ../www/manager/window/Restore.js:121
-#, fuzzy
 msgid "Restore CT"
-msgstr "بازگرداندن پشتیبان"
+msgstr "بازگرداندن CT"
 
 #: ../www/manager/window/Restore.js:122
-#, fuzzy
 msgid "Restore VM"
-msgstr "بازگرداندن پشتیبان"
+msgstr "بازگرداندن VM"
 
 #: ../www/manager/Utils.js:489 ../www/manager/qemu/Config.js:38
 #: ../www/manager/VNCConsole.js:290
@@ -1336,18 +1300,16 @@ msgstr ""
 
 #: ../www/manager/qemu/ScsiHwEdit.js:8 ../www/manager/qemu/Options.js:143
 msgid "SCSI Controller Type"
-msgstr ""
+msgstr "نوع کنترلر SCSI"
 
 #: ../www/manager/node/StatusView.js:49
-#, fuzzy
 msgid "SWAP usage"
-msgstr "مصرف CPU"
+msgstr "مصرف SWAP"
 
 #: ../www/manager/storage/LVMEdit.js:28 ../www/manager/storage/IScsiEdit.js:49
 #: ../www/manager/storage/NFSEdit.js:49
-#, fuzzy
 msgid "Scanning..."
-msgstr "در حال بازگزاری..."
+msgstr "در حال اسکن..."
 
 #: ../www/manager/grid/ResourceGrid.js:167
 #: ../www/manager/grid/ResourceGrid.js:174
@@ -1355,9 +1317,8 @@ msgid "Search"
 msgstr "جستجو"
 
 #: ../www/manager/node/DNSEdit.js:16
-#, fuzzy
 msgid "Search domain"
-msgstr "جستجو"
+msgstr "جستجوی دامنه"
 
 #: ../www/manager/storage/ContentView.js:199
 msgid "Select File..."
@@ -1378,7 +1339,7 @@ msgstr "ارسال ایمیل به"
 #: ../www/manager/Utils.js:191 ../www/manager/Utils.js:192
 #: ../www/manager/Utils.js:193 ../www/manager/Utils.js:194
 msgid "Serial terminal"
-msgstr ""
+msgstr "ترمینال سریال"
 
 #: ../www/manager/storage/GlusterFsEdit.js:103
 #: ../www/manager/storage/NFSEdit.js:106 ../www/manager/dc/AuthEdit.js:87
@@ -1390,18 +1351,16 @@ msgid "Server Address"
 msgstr "آدرس سرور"
 
 #: ../www/manager/node/Subscription.js:69
-#, fuzzy
 msgid "Server ID"
-msgstr "سرور"
+msgstr "مشخصه سرور"
 
 #: ../www/manager/form/ViewSelector.js:10
 msgid "Server View"
 msgstr "نمای سرور"
 
 #: ../www/manager/node/Summary.js:114
-#, fuzzy
 msgid "Server load"
-msgstr "سرور"
+msgstr "load سرور"
 
 #: ../www/manager/node/TimeView.js:36
 msgid "Server time"
@@ -1431,9 +1390,8 @@ msgid "Shared"
 msgstr "مشترک"
 
 #: ../www/manager/qemu/MemoryEdit.js:123
-#, fuzzy
 msgid "Shares"
-msgstr "مشترک"
+msgstr "اشتراکات"
 
 #: ../www/manager/Utils.js:473 ../www/manager/node/Config.js:51
 #: ../www/manager/VNCConsole.js:451
@@ -1449,9 +1407,8 @@ msgid "Shutdown"
 msgstr "شات داون"
 
 #: ../www/manager/qemu/StartupEdit.js:48
-#, fuzzy
 msgid "Shutdown timeout"
-msgstr "شات داون"
+msgstr "مهلت شات داون"
 
 #: ../www/manager/form/FileSelector.js:63
 #: ../www/manager/storage/ContentView.js:466
@@ -1462,7 +1419,7 @@ msgstr "اندازه"
 
 #: ../www/manager/qemu/HDResize.js:52
 msgid "Size Increment"
-msgstr ""
+msgstr "افزایش اندازه"
 
 #: ../www/manager/node/NetworkEdit.js:52
 msgid "Slaves"
@@ -1480,12 +1437,12 @@ msgstr ""
 
 #: ../www/manager/node/StatusView.js:13
 msgid "Socket"
-msgstr ""
+msgstr "سوکت"
 
 #: ../www/manager/node/Subscription.js:72 ../www/manager/node/StatusView.js:14
 #: ../www/manager/qemu/ProcessorEdit.js:15
 msgid "Sockets"
-msgstr ""
+msgstr "سوکت ها"
 
 #: ../www/manager/window/Restore.js:41
 msgid "Source"
@@ -1500,9 +1457,8 @@ msgid "Standard"
 msgstr "استاندارد"
 
 #: ../www/manager/Utils.js:187
-#, fuzzy
 msgid "Standard VGA"
-msgstr "استاندارد"
+msgstr "کارت گرافیک استاندارد"
 
 #: ../www/manager/Utils.js:484 ../www/manager/Utils.js:495
 #: ../www/manager/Utils.js:501 ../www/manager/Utils.js:503
@@ -1521,7 +1477,7 @@ msgstr "زمان شروع"
 
 #: ../www/manager/Utils.js:512
 msgid "Start all VMs and Containers"
-msgstr ""
+msgstr "همه VMها و CTها را راه اندازی کن"
 
 #: ../www/manager/openvz/Options.js:26 ../www/manager/openvz/Options.js:31
 #: ../www/manager/openvz/Options.js:37 ../www/manager/qemu/Options.js:41
@@ -1532,12 +1488,11 @@ msgstr "شروه هنگام راه اندازی"
 #: ../www/manager/qemu/StartupEdit.js:34 ../www/manager/qemu/StartupEdit.js:67
 #: ../www/manager/qemu/Options.js:58
 msgid "Start/Shutdown order"
-msgstr ""
+msgstr "ترتیب راه اندازی/خاموش کردن"
 
 #: ../www/manager/qemu/StartupEdit.js:41
-#, fuzzy
 msgid "Startup delay"
-msgstr "زمان شروع"
+msgstr "تاخیر شروع"
 
 #: ../www/manager/pool/StatusView.js:21
 #: ../www/manager/window/TaskViewer.js:101
@@ -1566,7 +1521,7 @@ msgstr "نوقف"
 
 #: ../www/manager/Utils.js:513
 msgid "Stop all VMs and Containers"
-msgstr ""
+msgstr "همه VMها و CTها را متوقف کن"
 
 #: ../www/manager/data/ResourceStore.js:189
 #: ../www/manager/window/Restore.js:25 ../www/manager/window/Backup.js:25
@@ -1598,9 +1553,8 @@ msgid "Subnet mask"
 msgstr "Subnet mask"
 
 #: ../www/manager/node/Config.js:143
-#, fuzzy
 msgid "Subscription"
-msgstr "کلید اشتراک"
+msgstr "اشتراک"
 
 #: ../www/manager/node/Subscription.js:14
 #: ../www/manager/node/Subscription.js:59
@@ -1632,36 +1586,34 @@ msgid "Swap"
 msgstr "Swap"
 
 #: ../www/manager/Workspace.js:152
-#, fuzzy
 msgid "System upgrade on node {0}"
-msgstr "فضای ذخیره سازی {0} بر روی نود {1}"
+msgstr "ارتقا سیستم بر روی نود {0}"
 
 #: ../www/manager/qemu/Snapshot.js:142 ../www/manager/qemu/Snapshot.js:144
 #: ../www/manager/qemu/SnapshotTree.js:212
 msgid "Take Snapshot"
-msgstr ""
+msgstr "تهیه Snapshot"
 
 #: ../www/manager/storage/NexentaEdit.js:51
 msgid "Target"
-msgstr ""
+msgstr "هدف"
 
 #: ../www/manager/qemu/HDMove.js:65 ../www/manager/qemu/Clone.js:197
-#, fuzzy
 msgid "Target Storage"
-msgstr "فضای ذخیره سازی اصلی"
+msgstr "فضای ذخیره سازی هذف"
 
 #: ../www/manager/window/Migrate.js:61 ../www/manager/qemu/Clone.js:132
 msgid "Target node"
-msgstr ""
+msgstr "نود هدف"
 
 #: ../www/manager/openvz/Config.js:147 ../www/manager/node/Config.js:124
 #: ../www/manager/qemu/Config.js:163
 msgid "Task History"
-msgstr ""
+msgstr "تاریخچه وظایف"
 
 #: ../www/manager/window/TaskViewer.js:117
 msgid "Task type"
-msgstr ""
+msgstr "نوع وظیفه"
 
 #: ../www/manager/panel/StatusPanel.js:31
 msgid "Tasks"
@@ -1681,11 +1633,11 @@ msgstr "قالب ها"
 
 #: ../www/manager/form/VMIDSelector.js:31
 msgid "This VM ID does not exists"
-msgstr ""
+msgstr "این شماره VM، وجود ندارد"
 
 #: ../www/manager/form/VMIDSelector.js:36
 msgid "This VM ID is already in use"
-msgstr ""
+msgstr "این شماره VM، قبلا استفاده شده است"
 
 #: ../www/manager/Utils.js:70
 msgid "This is not a valid DNS name"
@@ -1710,33 +1662,32 @@ msgid "Time zone"
 msgstr "منطقه زمانی"
 
 #: ../www/manager/qemu/Snapshot.js:83
-#, fuzzy
 msgid "Timestamp"
-msgstr "زمان"
+msgstr "برچسب زمان"
 
 #: ../www/manager/Utils.js:664
 msgid "Total"
-msgstr ""
+msgstr "مجموع"
 
 #: ../www/manager/data/ResourceStore.js:136
 msgid "Total Disk Read"
-msgstr ""
+msgstr "مجموع خواندن دیسک"
 
 #: ../www/manager/data/ResourceStore.js:144
 msgid "Total Disk Write"
-msgstr ""
+msgstr "مجموع نوشتن دیسک"
 
 #: ../www/manager/data/ResourceStore.js:152
 msgid "Total NetIn"
-msgstr ""
+msgstr "مجموع ورودی شبکه"
 
 #: ../www/manager/data/ResourceStore.js:160
 msgid "Total NetOut"
-msgstr ""
+msgstr "مجموع خروجی شبکه"
 
 #: ../www/manager/qemu/ProcessorEdit.js:53
 msgid "Total cores"
-msgstr ""
+msgstr "تعداد کل هسته ها"
 
 #: ../www/manager/data/ResourceStore.js:21
 #: ../www/manager/form/StorageSelector.js:82
@@ -1751,13 +1702,12 @@ msgid "Type"
 msgstr "نوع"
 
 #: ../www/manager/dc/Support.js:50
-#, fuzzy
 msgid "Unable to load subscription status"
-msgstr "آپلود کلید اشتراک"
+msgstr "عدم توانایی نمایش وضعیت اشتراک"
 
 #: ../www/manager/window/TaskViewer.js:138
 msgid "Unique task ID"
-msgstr ""
+msgstr "مشخصه یکتای وظیفه"
 
 #: ../www/manager/Utils.js:657
 msgid "Unknown"
@@ -1777,20 +1727,19 @@ msgstr "دیسک استفاده نشده"
 
 #: ../www/manager/qemu/Snapshot.js:133
 msgid "Update"
-msgstr ""
+msgstr "به روز رسانی"
 
 #: ../www/manager/Utils.js:511
 msgid "Update package database"
-msgstr ""
+msgstr "به روز رسانی پایگاه داده بسته ها"
 
 #: ../www/manager/node/Config.js:152
-#, fuzzy
 msgid "Updates"
-msgstr "قالب ها"
+msgstr "به روز رسانی ها"
 
 #: ../www/manager/node/APT.js:82
 msgid "Upgrade"
-msgstr ""
+msgstr "ارتقا"
 
 #: ../www/manager/storage/ContentView.js:239
 #: ../www/manager/storage/ContentView.js:306
@@ -1814,13 +1763,12 @@ msgid "Uptime"
 msgstr "آپ تایم"
 
 #: ../www/manager/storage/Summary.js:44
-#, fuzzy
 msgid "Usage"
 msgstr "مصرف CPU"
 
 #: ../www/manager/qemu/CDEdit.js:85
 msgid "Use CD/DVD disc image file (iso)"
-msgstr ""
+msgstr "استفاده از فایل iso دسک نوری {iso}"
 
 #: ../www/manager/storage/IScsiEdit.js:149
 msgid "Use LUNs directly"
@@ -1828,21 +1776,20 @@ msgstr "به طور مستقیم از LUNها استفاده کن"
 
 #: ../www/manager/qemu/MemoryEdit.js:40
 msgid "Use fixed size memory"
-msgstr ""
+msgstr "استفاده از فضای حافظه ثابت"
 
 #: ../www/manager/qemu/Options.js:202 ../www/manager/qemu/Options.js:207
 #: ../www/manager/qemu/Options.js:215
 msgid "Use local time for RTC"
-msgstr ""
+msgstr "استفاده از زمان محلی برای RTC"
 
 #: ../www/manager/qemu/CDEdit.js:130
-#, fuzzy
 msgid "Use physical CD/DVD Drive"
-msgstr "درایو نوری"
+msgstr "استفاده از دیسک نوری"
 
 #: ../www/manager/qemu/Options.js:107 ../www/manager/qemu/Options.js:112
 msgid "Use tablet for pointer"
-msgstr ""
+msgstr "استفاده از تبلت برای اشاره گر"
 
 #: ../www/manager/storage/StatusView.js:50 ../www/manager/Utils.js:665
 msgid "Used"
@@ -1872,7 +1819,7 @@ msgstr "نام کاربری"
 
 #: ../www/manager/openvz/Options.js:22
 msgid "User quotas disabled."
-msgstr ""
+msgstr "quotaهای کاربر، غیر فعال شده اند."
 
 #: ../www/manager/dc/Config.js:50
 msgid "Users"
@@ -1880,28 +1827,27 @@ msgstr "کاربران"
 
 #: ../www/manager/qemu/NetworkEdit.js:98
 msgid "VLAN Tag"
-msgstr ""
+msgstr "برچسب VLAN"
 
 #: ../www/manager/Utils.js:188
 msgid "VMWare compatible"
-msgstr ""
+msgstr "سازگار با VMWare"
 
 #: ../www/manager/form/DiskFormatSelector.js:11
 msgid "VMware image format"
 msgstr ""
 
 #: ../www/manager/openvz/StatusView.js:65
-#, fuzzy
 msgid "VSwap usage"
-msgstr "مصرف CPU"
+msgstr "مصرف VSwap"
 
 #: ../www/manager/storage/ContentView.js:189
 msgid "VZDump backup file"
-msgstr ""
+msgstr "فایل پشتیبان VZDump"
 
 #: ../www/manager/grid/ObjectGrid.js:100
 msgid "Value"
-msgstr ""
+msgstr "مقدار"
 
 #: ../www/manager/storage/ContentView.js:55 ../www/manager/Workspace.js:257
 #: ../www/manager/node/APT.js:175
@@ -1929,7 +1875,7 @@ msgstr "گروه پارتیشن"
 
 #: ../www/manager/qemu/HDEdit.js:259 ../www/manager/qemu/HDEdit.js:279
 msgid "Write limit"
-msgstr ""
+msgstr "محدودیت نوشتن"
 
 #: ../www/manager/form/Boolean.js:11 ../www/manager/Utils.js:654
 msgid "Yes"
@@ -1989,11 +1935,11 @@ msgstr "در حال کار"
 
 #: ../www/manager/openvz/Options.js:94
 msgid "seconds"
-msgstr ""
+msgstr "ثانیه"
 
 #: ../www/manager/storage/NexentaEdit.js:93
 msgid "ssl"
-msgstr ""
+msgstr "SSL"
 
 #: ../www/manager/Utils.js:662
 msgid "stopped"
@@ -2002,8 +1948,8 @@ msgstr "متوقف شده"
 #: ../www/manager/qemu/HDEdit.js:251 ../www/manager/qemu/HDEdit.js:261
 #: ../www/manager/qemu/HDEdit.js:271 ../www/manager/qemu/HDEdit.js:281
 msgid "unlimited"
-msgstr ""
+msgstr "نامحدود"
 
 #: ../www/manager/form/CacheTypeSelector.js:13
 msgid "unsafe"
-msgstr ""
+msgstr "نا امن"
