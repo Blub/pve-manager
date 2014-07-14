@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Mon Jul 14 10:39:21 2014\n"
+"POT-Creation-Date: Mon Jul 14 11:06:02 2014\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <support@proxmox.com>\n"
@@ -20,7 +20,7 @@ msgstr ""
 msgid "ACPI support"
 msgstr ""
 
-#: ../www/manager/storage/ContentView.js:231
+#: ../www/manager/storage/ContentView.js:227
 msgid "Abort"
 msgstr ""
 
@@ -80,7 +80,7 @@ msgstr ""
 msgid "Are you sure you want to remove VM {0}? This will permanently erase all VM data."
 msgstr ""
 
-#: ../www/manager/storage/ContentView.js:409 ../www/manager/grid/PoolMembers.js:111 ../www/manager/grid/BackupView.js:121 ../www/manager/openvz/Network.js:279 ../www/manager/qemu/HardwareView.js:327 ../www/manager/qemu/SnapshotTree.js:179 ../www/manager/dc/StorageView.js:74 ../www/manager/dc/GroupView.js:28 ../www/manager/dc/AuthView.js:56 ../www/manager/dc/UserView.js:90 ../www/manager/dc/PoolView.js:28 ../www/manager/ceph/Pool.js:112
+#: ../www/manager/storage/ContentView.js:405 ../www/manager/grid/PoolMembers.js:111 ../www/manager/grid/BackupView.js:121 ../www/manager/openvz/Network.js:279 ../www/manager/qemu/HardwareView.js:327 ../www/manager/qemu/SnapshotTree.js:179 ../www/manager/dc/StorageView.js:74 ../www/manager/dc/GroupView.js:28 ../www/manager/dc/AuthView.js:56 ../www/manager/dc/UserView.js:90 ../www/manager/dc/PoolView.js:28 ../www/manager/ceph/Pool.js:112
 msgid "Are you sure you want to remove entry {0}"
 msgstr ""
 
@@ -268,7 +268,7 @@ msgstr ""
 msgid "Container {0} on node {1}"
 msgstr ""
 
-#: ../www/manager/storage/Browser.js:37 ../www/manager/storage/GlusterFsEdit.js:128 ../www/manager/storage/ContentView.js:192 ../www/manager/storage/DirEdit.js:46 ../www/manager/storage/StatusView.js:30 ../www/manager/storage/NFSEdit.js:131 ../www/manager/dc/StorageView.js:200
+#: ../www/manager/storage/Browser.js:37 ../www/manager/storage/GlusterFsEdit.js:128 ../www/manager/storage/ContentView.js:188 ../www/manager/storage/DirEdit.js:46 ../www/manager/storage/StatusView.js:30 ../www/manager/storage/NFSEdit.js:131 ../www/manager/dc/StorageView.js:200
 msgid "Content"
 msgstr ""
 
@@ -480,7 +480,7 @@ msgstr ""
 msgid "Erase data"
 msgstr ""
 
-#: ../www/manager/window/Restore.js:64 ../www/manager/window/LoginWindow.js:16 ../www/manager/window/Edit.js:111 ../www/manager/window/Edit.js:156 ../www/manager/window/Migrate.js:14 ../www/manager/window/TaskViewer.js:156 ../www/manager/storage/ContentView.js:117 ../www/manager/storage/ContentView.js:217 ../www/manager/storage/ContentView.js:271 ../www/manager/storage/ContentView.js:275 ../www/manager/storage/ContentView.js:284 ../www/manager/storage/ContentView.js:424 ../www/manager/Workspace.js:169 ../www/manager/grid/PoolMembers.js:133 ../www/manager/grid/FirewallAliases.js:159 ../www/manager/grid/FirewallRules.js:433 ../www/manager/grid/FirewallRules.js:460 ../www/manager/grid/FirewallRules.js:481 ../www/manager/Utils.js:667 ../www/manager/Utils.js:883 ../www/manager/openvz/Network.js:204 ../www/manager/openvz/Network.js:310 ../www/manager/openvz/CreateWizard.js:313 ../www/manager/openvz/CmdMenu.js:25 ../www/manager/node/APT.js:58 ../www/manager/node/APT.js:122 ../www/manager/node/NetworkView.js:33 ../www/manager/node/NetworkView.js:92 ../www/manager/node/NetworkView.js:212 ../www/manager/node/Config.js:27 ../www/manager/node/NetworkEdit.js:260 ../www/manager/node/ServiceView.js:33 ../www/manager/node/Subscription.js:103 ../www/manager/node/Summary.js:38 ../www/manager/panel/NotesView.js:11 ../www/manager/panel/IPSet.js:138 ../www/manager/panel/IPSet.js:359 ../www/manager/qemu/Smbios1Edit.js:106 ../www/manager/qemu/HDEdit.js:264 ../www/manager/qemu/NetworkEdit.js:194 ../www/manager/qemu/HDResize.js:16 ../www/manager/qemu/CreateWizard.js:163 ../www/manager/qemu/Snapshot.js:19 ../www/manager/qemu/Snapshot.js:39 ../www/manager/qemu/Snapshot.js:183 ../www/manager/qemu/TemplateMenu.js:27 ../www/manager/qemu/HDThrottle.js:201 ../www/manager/qemu/SnapshotTree.js:163 ../www/manager/qemu/SnapshotTree.js:199 ../www/manager/VNCConsole.js:241 ../www/manager/dc/StorageView.js:86 ../www/manager/dc/GroupView.js:40 ../www/manager/dc/AuthView.js:73 ../www/manager/dc/SecurityGroups.js:157 ../www/manager/dc/Support.js:49 ../www/manager/dc/UserView.js:104 ../www/manager/dc/PoolView.js:40 ../www/manager/dc/ACLView.js:176 ../www/manager/dc/Backup.js:364 ../www/manager/dc/HAConfig.js:138 ../www/manager/dc/HAConfig.js:159 ../www/manager/dc/HAConfig.js:181 ../www/manager/dc/HAConfig.js:252 ../www/manager/ceph/Monitor.js:81 ../www/manager/ceph/Monitor.js:94 ../www/manager/ceph/Monitor.js:135 ../www/manager/ceph/Monitor.js:149 ../www/manager/ceph/Config.js:12 ../www/manager/ceph/Pool.js:130 ../www/manager/ceph/Crush.js:12 ../www/manager/ceph/OSD.js:137 ../www/manager/ceph/OSD.js:159
+#: ../www/manager/window/Restore.js:64 ../www/manager/window/LoginWindow.js:16 ../www/manager/window/Edit.js:111 ../www/manager/window/Edit.js:156 ../www/manager/window/Migrate.js:14 ../www/manager/window/TaskViewer.js:156 ../www/manager/storage/ContentView.js:117 ../www/manager/storage/ContentView.js:213 ../www/manager/storage/ContentView.js:267 ../www/manager/storage/ContentView.js:271 ../www/manager/storage/ContentView.js:280 ../www/manager/storage/ContentView.js:420 ../www/manager/Workspace.js:169 ../www/manager/grid/PoolMembers.js:133 ../www/manager/grid/FirewallAliases.js:159 ../www/manager/grid/FirewallRules.js:433 ../www/manager/grid/FirewallRules.js:460 ../www/manager/grid/FirewallRules.js:481 ../www/manager/Utils.js:667 ../www/manager/Utils.js:883 ../www/manager/openvz/Network.js:204 ../www/manager/openvz/Network.js:310 ../www/manager/openvz/CreateWizard.js:313 ../www/manager/openvz/CmdMenu.js:25 ../www/manager/node/APT.js:58 ../www/manager/node/APT.js:122 ../www/manager/node/NetworkView.js:33 ../www/manager/node/NetworkView.js:92 ../www/manager/node/NetworkView.js:212 ../www/manager/node/Config.js:27 ../www/manager/node/NetworkEdit.js:260 ../www/manager/node/ServiceView.js:33 ../www/manager/node/Subscription.js:103 ../www/manager/node/Summary.js:38 ../www/manager/panel/NotesView.js:11 ../www/manager/panel/IPSet.js:138 ../www/manager/panel/IPSet.js:359 ../www/manager/qemu/Smbios1Edit.js:106 ../www/manager/qemu/HDEdit.js:264 ../www/manager/qemu/NetworkEdit.js:194 ../www/manager/qemu/HDResize.js:16 ../www/manager/qemu/CreateWizard.js:163 ../www/manager/qemu/Snapshot.js:19 ../www/manager/qemu/Snapshot.js:39 ../www/manager/qemu/Snapshot.js:183 ../www/manager/qemu/TemplateMenu.js:27 ../www/manager/qemu/HDThrottle.js:201 ../www/manager/qemu/SnapshotTree.js:163 ../www/manager/qemu/SnapshotTree.js:199 ../www/manager/VNCConsole.js:241 ../www/manager/dc/StorageView.js:86 ../www/manager/dc/GroupView.js:40 ../www/manager/dc/AuthView.js:73 ../www/manager/dc/SecurityGroups.js:157 ../www/manager/dc/Support.js:49 ../www/manager/dc/UserView.js:104 ../www/manager/dc/PoolView.js:40 ../www/manager/dc/ACLView.js:176 ../www/manager/dc/Backup.js:364 ../www/manager/dc/HAConfig.js:138 ../www/manager/dc/HAConfig.js:159 ../www/manager/dc/HAConfig.js:181 ../www/manager/dc/HAConfig.js:252 ../www/manager/ceph/Monitor.js:81 ../www/manager/ceph/Monitor.js:94 ../www/manager/ceph/Monitor.js:135 ../www/manager/ceph/Monitor.js:149 ../www/manager/ceph/Config.js:12 ../www/manager/ceph/Pool.js:130 ../www/manager/ceph/Crush.js:12 ../www/manager/ceph/OSD.js:137 ../www/manager/ceph/OSD.js:159
 msgid "Error"
 msgstr ""
 
@@ -540,7 +540,7 @@ msgstr ""
 msgid "Form fields may not be submitted with invalid values"
 msgstr ""
 
-#: ../www/manager/form/FileSelector.js:58 ../www/manager/storage/ContentView.js:461 ../www/manager/grid/BackupView.js:164 ../www/manager/Utils.js:73 ../www/manager/Utils.js:78 ../www/manager/Utils.js:83 ../www/manager/Utils.js:89 ../www/manager/qemu/HDMove.js:96 ../www/manager/qemu/HDEdit.js:124 ../www/manager/qemu/Clone.js:217
+#: ../www/manager/form/FileSelector.js:58 ../www/manager/storage/ContentView.js:457 ../www/manager/grid/BackupView.js:164 ../www/manager/Utils.js:73 ../www/manager/Utils.js:78 ../www/manager/Utils.js:83 ../www/manager/Utils.js:89 ../www/manager/qemu/HDMove.js:96 ../www/manager/qemu/HDEdit.js:124 ../www/manager/qemu/Clone.js:217
 msgid "Format"
 msgstr ""
 
@@ -844,7 +844,7 @@ msgstr ""
 msgid "NAT mode"
 msgstr ""
 
-#: ../www/manager/data/ResourceStore.js:86 ../www/manager/form/StorageSelector.js:76 ../www/manager/form/FileSelector.js:52 ../www/manager/form/UserSelector.js:34 ../www/manager/form/IPRefSelector.js:59 ../www/manager/storage/ContentView.js:454 ../www/manager/grid/ObjectGrid.js:93 ../www/manager/grid/FirewallAliases.js:26 ../www/manager/grid/FirewallAliases.js:172 ../www/manager/grid/BackupView.js:157 ../www/manager/openvz/Network.js:58 ../www/manager/openvz/Network.js:403 ../www/manager/openvz/StatusView.js:58 ../www/manager/node/NetworkView.js:229 ../www/manager/node/NetworkEdit.js:170 ../www/manager/node/ServiceView.js:118 ../www/manager/panel/IPSet.js:72 ../www/manager/panel/IPSet.js:107 ../www/manager/qemu/CreateWizard.js:73 ../www/manager/qemu/Snapshot.js:73 ../www/manager/qemu/Options.js:26 ../www/manager/qemu/Options.js:29 ../www/manager/qemu/Options.js:35 ../www/manager/qemu/Clone.js:190 ../www/manager/qemu/StatusView.js:43 ../www/manager/qemu/SnapshotTree.js:237 ../www/manager/dc/GroupView.js:90 ../www/manager/dc/GroupEdit.js:28 ../www/manager/dc/SecurityGroups.js:24 ../www/manager/dc/PoolEdit.js:28 ../www/manager/dc/UserView.js:213 ../www/manager/dc/PoolView.js:90 ../www/manager/dc/RoleView.js:40 ../www/manager/dc/Backup.js:102 ../www/manager/dc/Summary.js:30 ../www/manager/dc/Summary.js:148 ../www/manager/ceph/Monitor.js:162 ../www/manager/ceph/Pool.js:22 ../www/manager/ceph/Pool.js:144
+#: ../www/manager/data/ResourceStore.js:86 ../www/manager/form/StorageSelector.js:76 ../www/manager/form/FileSelector.js:52 ../www/manager/form/UserSelector.js:34 ../www/manager/form/IPRefSelector.js:59 ../www/manager/storage/ContentView.js:450 ../www/manager/grid/ObjectGrid.js:93 ../www/manager/grid/FirewallAliases.js:26 ../www/manager/grid/FirewallAliases.js:172 ../www/manager/grid/BackupView.js:157 ../www/manager/openvz/Network.js:58 ../www/manager/openvz/Network.js:403 ../www/manager/openvz/StatusView.js:58 ../www/manager/node/NetworkView.js:229 ../www/manager/node/NetworkEdit.js:170 ../www/manager/node/ServiceView.js:118 ../www/manager/panel/IPSet.js:72 ../www/manager/panel/IPSet.js:107 ../www/manager/qemu/CreateWizard.js:73 ../www/manager/qemu/Snapshot.js:73 ../www/manager/qemu/Options.js:26 ../www/manager/qemu/Options.js:29 ../www/manager/qemu/Options.js:35 ../www/manager/qemu/Clone.js:190 ../www/manager/qemu/StatusView.js:43 ../www/manager/qemu/SnapshotTree.js:237 ../www/manager/dc/GroupView.js:90 ../www/manager/dc/GroupEdit.js:28 ../www/manager/dc/SecurityGroups.js:24 ../www/manager/dc/PoolEdit.js:28 ../www/manager/dc/UserView.js:213 ../www/manager/dc/PoolView.js:90 ../www/manager/dc/RoleView.js:40 ../www/manager/dc/Backup.js:102 ../www/manager/dc/Summary.js:30 ../www/manager/dc/Summary.js:148 ../www/manager/ceph/Monitor.js:162 ../www/manager/ceph/Pool.js:22 ../www/manager/ceph/Pool.js:144
 msgid "Name"
 msgstr ""
 
@@ -1120,7 +1120,7 @@ msgstr ""
 msgid "Reload"
 msgstr ""
 
-#: ../www/manager/window/Edit.js:198 ../www/manager/storage/ContentView.js:405 ../www/manager/grid/PoolMembers.js:107 ../www/manager/grid/FirewallAliases.js:146 ../www/manager/grid/FirewallRules.js:573 ../www/manager/grid/BackupView.js:116 ../www/manager/openvz/Network.js:266 ../www/manager/openvz/Config.js:88 ../www/manager/node/NetworkView.js:72 ../www/manager/panel/IPSet.js:125 ../www/manager/panel/IPSet.js:345 ../www/manager/qemu/Config.js:97 ../www/manager/qemu/HardwareView.js:322 ../www/manager/qemu/SnapshotTree.js:175 ../www/manager/dc/StorageView.js:70 ../www/manager/dc/GroupView.js:24 ../www/manager/dc/AuthView.js:52 ../www/manager/dc/SecurityGroups.js:144 ../www/manager/dc/UserView.js:80 ../www/manager/dc/PoolView.js:24 ../www/manager/dc/ACLView.js:149 ../www/manager/dc/Backup.js:351 ../www/manager/dc/HAConfig.js:238 ../www/manager/ceph/Monitor.js:128 ../www/manager/ceph/Pool.js:108 ../www/manager/ceph/OSD.js:71 ../www/manager/ceph/OSD.js:189
+#: ../www/manager/window/Edit.js:198 ../www/manager/storage/ContentView.js:401 ../www/manager/grid/PoolMembers.js:107 ../www/manager/grid/FirewallAliases.js:146 ../www/manager/grid/FirewallRules.js:573 ../www/manager/grid/BackupView.js:116 ../www/manager/openvz/Network.js:266 ../www/manager/openvz/Config.js:88 ../www/manager/node/NetworkView.js:72 ../www/manager/panel/IPSet.js:125 ../www/manager/panel/IPSet.js:345 ../www/manager/qemu/Config.js:97 ../www/manager/qemu/HardwareView.js:322 ../www/manager/qemu/SnapshotTree.js:175 ../www/manager/dc/StorageView.js:70 ../www/manager/dc/GroupView.js:24 ../www/manager/dc/AuthView.js:52 ../www/manager/dc/SecurityGroups.js:144 ../www/manager/dc/UserView.js:80 ../www/manager/dc/PoolView.js:24 ../www/manager/dc/ACLView.js:149 ../www/manager/dc/Backup.js:351 ../www/manager/dc/HAConfig.js:238 ../www/manager/ceph/Monitor.js:128 ../www/manager/ceph/Pool.js:108 ../www/manager/ceph/OSD.js:71 ../www/manager/ceph/OSD.js:189
 msgid "Remove"
 msgstr ""
 
@@ -1156,7 +1156,7 @@ msgstr ""
 msgid "Restarts"
 msgstr ""
 
-#: ../www/manager/window/Restore.js:79 ../www/manager/storage/ContentView.js:377 ../www/manager/grid/BackupView.js:94 ../www/manager/Utils.js:701 ../www/manager/Utils.js:715
+#: ../www/manager/window/Restore.js:79 ../www/manager/storage/ContentView.js:373 ../www/manager/grid/BackupView.js:94 ../www/manager/Utils.js:701 ../www/manager/Utils.js:715
 msgid "Restore"
 msgstr ""
 
@@ -1232,7 +1232,7 @@ msgstr ""
 msgid "Security Group"
 msgstr ""
 
-#: ../www/manager/storage/ContentView.js:199
+#: ../www/manager/storage/ContentView.js:195
 msgid "Select File..."
 msgstr ""
 
@@ -1316,7 +1316,7 @@ msgstr ""
 msgid "Shutdown timeout"
 msgstr ""
 
-#: ../www/manager/form/FileSelector.js:63 ../www/manager/storage/ContentView.js:466 ../www/manager/storage/StatusView.js:45 ../www/manager/grid/BackupView.js:169 ../www/manager/ceph/Pool.js:28 ../www/manager/ceph/Pool.js:150 ../www/manager/ceph/Disks.js:80 ../www/manager/ceph/Disks.js:169
+#: ../www/manager/form/FileSelector.js:63 ../www/manager/storage/ContentView.js:462 ../www/manager/storage/StatusView.js:45 ../www/manager/grid/BackupView.js:169 ../www/manager/ceph/Pool.js:28 ../www/manager/ceph/Pool.js:150 ../www/manager/ceph/Disks.js:80 ../www/manager/ceph/Disks.js:169
 msgid "Size"
 msgstr ""
 
@@ -1496,7 +1496,7 @@ msgstr ""
 msgid "Template"
 msgstr ""
 
-#: ../www/manager/storage/ContentView.js:133 ../www/manager/storage/ContentView.js:430
+#: ../www/manager/storage/ContentView.js:133 ../www/manager/storage/ContentView.js:426
 msgid "Templates"
 msgstr ""
 
@@ -1616,7 +1616,7 @@ msgstr ""
 msgid "Upgrade"
 msgstr ""
 
-#: ../www/manager/storage/ContentView.js:239 ../www/manager/storage/ContentView.js:306 ../www/manager/storage/ContentView.js:441
+#: ../www/manager/storage/ContentView.js:235 ../www/manager/storage/ContentView.js:302 ../www/manager/storage/ContentView.js:437
 msgid "Upload"
 msgstr ""
 
@@ -1624,7 +1624,7 @@ msgstr ""
 msgid "Upload Subscription Key"
 msgstr ""
 
-#: ../www/manager/storage/ContentView.js:211
+#: ../www/manager/storage/ContentView.js:207
 msgid "Uploading file..."
 msgstr ""
 

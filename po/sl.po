@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Mon Jul 14 10:39:21 2014\n"
+"POT-Creation-Date: Mon Jul 14 11:06:02 2014\n"
 "PO-Revision-Date: 2012-10-07 11:35+0100\n"
 "Last-Translator: dejan <dean.borstnar@gmail.com>\n"
 "Language-Team: Slovenian\n"
@@ -23,7 +23,7 @@ msgstr ""
 msgid "ACPI support"
 msgstr "Podpora"
 
-#: ../www/manager/storage/ContentView.js:231
+#: ../www/manager/storage/ContentView.js:227
 msgid "Abort"
 msgstr "Prekini"
 
@@ -105,7 +105,7 @@ msgid ""
 "data."
 msgstr "Izbriši VM {0}? Vsi podatki za ta VM bodo izbrisani."
 
-#: ../www/manager/storage/ContentView.js:409
+#: ../www/manager/storage/ContentView.js:405
 #: ../www/manager/grid/PoolMembers.js:111
 #: ../www/manager/grid/BackupView.js:121 ../www/manager/openvz/Network.js:279
 #: ../www/manager/qemu/HardwareView.js:327
@@ -367,7 +367,7 @@ msgstr "Shramba {0} na strežniku {1}"
 
 #: ../www/manager/storage/Browser.js:37
 #: ../www/manager/storage/GlusterFsEdit.js:128
-#: ../www/manager/storage/ContentView.js:192
+#: ../www/manager/storage/ContentView.js:188
 #: ../www/manager/storage/DirEdit.js:46
 #: ../www/manager/storage/StatusView.js:30
 #: ../www/manager/storage/NFSEdit.js:131 ../www/manager/dc/StorageView.js:200
@@ -657,11 +657,11 @@ msgstr "Izbriši podatke"
 #: ../www/manager/window/Edit.js:111 ../www/manager/window/Edit.js:156
 #: ../www/manager/window/Migrate.js:14 ../www/manager/window/TaskViewer.js:156
 #: ../www/manager/storage/ContentView.js:117
-#: ../www/manager/storage/ContentView.js:217
+#: ../www/manager/storage/ContentView.js:213
+#: ../www/manager/storage/ContentView.js:267
 #: ../www/manager/storage/ContentView.js:271
-#: ../www/manager/storage/ContentView.js:275
-#: ../www/manager/storage/ContentView.js:284
-#: ../www/manager/storage/ContentView.js:424 ../www/manager/Workspace.js:169
+#: ../www/manager/storage/ContentView.js:280
+#: ../www/manager/storage/ContentView.js:420 ../www/manager/Workspace.js:169
 #: ../www/manager/grid/PoolMembers.js:133
 #: ../www/manager/grid/FirewallAliases.js:159
 #: ../www/manager/grid/FirewallRules.js:433
@@ -760,7 +760,7 @@ msgid "Form fields may not be submitted with invalid values"
 msgstr "Vnosna polja morajo vsebovati pravilne vrednosti"
 
 #: ../www/manager/form/FileSelector.js:58
-#: ../www/manager/storage/ContentView.js:461
+#: ../www/manager/storage/ContentView.js:457
 #: ../www/manager/grid/BackupView.js:164 ../www/manager/Utils.js:73
 #: ../www/manager/Utils.js:78 ../www/manager/Utils.js:83
 #: ../www/manager/Utils.js:89 ../www/manager/qemu/HDMove.js:96
@@ -1138,7 +1138,7 @@ msgstr ""
 #: ../www/manager/form/FileSelector.js:52
 #: ../www/manager/form/UserSelector.js:34
 #: ../www/manager/form/IPRefSelector.js:59
-#: ../www/manager/storage/ContentView.js:454
+#: ../www/manager/storage/ContentView.js:450
 #: ../www/manager/grid/ObjectGrid.js:93
 #: ../www/manager/grid/FirewallAliases.js:26
 #: ../www/manager/grid/FirewallAliases.js:172
@@ -1504,7 +1504,7 @@ msgstr "Osveži"
 msgid "Reload"
 msgstr "Odpri ponovno"
 
-#: ../www/manager/window/Edit.js:198 ../www/manager/storage/ContentView.js:405
+#: ../www/manager/window/Edit.js:198 ../www/manager/storage/ContentView.js:401
 #: ../www/manager/grid/PoolMembers.js:107
 #: ../www/manager/grid/FirewallAliases.js:146
 #: ../www/manager/grid/FirewallRules.js:573
@@ -1566,7 +1566,7 @@ msgid "Restarts"
 msgstr "Ponovno zaženi"
 
 #: ../www/manager/window/Restore.js:79
-#: ../www/manager/storage/ContentView.js:377
+#: ../www/manager/storage/ContentView.js:373
 #: ../www/manager/grid/BackupView.js:94 ../www/manager/Utils.js:701
 #: ../www/manager/Utils.js:715
 msgid "Restore"
@@ -1658,7 +1658,7 @@ msgstr "Iskanje"
 msgid "Security Group"
 msgstr ""
 
-#: ../www/manager/storage/ContentView.js:199
+#: ../www/manager/storage/ContentView.js:195
 msgid "Select File..."
 msgstr "Izberi datoteko..."
 
@@ -1761,7 +1761,7 @@ msgid "Shutdown timeout"
 msgstr "Zaustavi"
 
 #: ../www/manager/form/FileSelector.js:63
-#: ../www/manager/storage/ContentView.js:466
+#: ../www/manager/storage/ContentView.js:462
 #: ../www/manager/storage/StatusView.js:45
 #: ../www/manager/grid/BackupView.js:169 ../www/manager/ceph/Pool.js:28
 #: ../www/manager/ceph/Pool.js:150 ../www/manager/ceph/Disks.js:80
@@ -2009,7 +2009,7 @@ msgid "Template"
 msgstr "Predloga"
 
 #: ../www/manager/storage/ContentView.js:133
-#: ../www/manager/storage/ContentView.js:430
+#: ../www/manager/storage/ContentView.js:426
 msgid "Templates"
 msgstr "Predloge"
 
@@ -2149,9 +2149,9 @@ msgstr "Predloge"
 msgid "Upgrade"
 msgstr ""
 
-#: ../www/manager/storage/ContentView.js:239
-#: ../www/manager/storage/ContentView.js:306
-#: ../www/manager/storage/ContentView.js:441
+#: ../www/manager/storage/ContentView.js:235
+#: ../www/manager/storage/ContentView.js:302
+#: ../www/manager/storage/ContentView.js:437
 msgid "Upload"
 msgstr "Naloži"
 
@@ -2160,7 +2160,7 @@ msgstr "Naloži"
 msgid "Upload Subscription Key"
 msgstr "Naloži naročniški ključ"
 
-#: ../www/manager/storage/ContentView.js:211
+#: ../www/manager/storage/ContentView.js:207
 msgid "Uploading file..."
 msgstr "Datoteka se nalaga..."
 
