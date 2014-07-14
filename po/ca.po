@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Mon Jul 14 08:14:29 2014\n"
+"POT-Creation-Date: Mon Jul 14 08:43:56 2014\n"
 "PO-Revision-Date: 2012-06-13 19:28+0100\n"
 "Last-Translator: Laura Mora i Aubert <blackhold@marsupi.org>\n"
 "Language-Team: Catalan\n"
@@ -532,6 +532,11 @@ msgstr "Utilització de Disc"
 #: ../www/manager/qemu/DisplayEdit.js:33
 msgid "Display"
 msgstr "Vista"
+
+#: ../www/manager/qemu/CDEdit.js:137
+#, fuzzy
+msgid "Do not use any media"
+msgstr "No utilitzis cap proxy"
 
 #: ../www/manager/dc/OptionView.js:13 ../www/manager/dc/OptionView.js:81
 msgid "Do not use any proxy"
@@ -1143,7 +1148,7 @@ msgstr ""
 #: ../www/manager/panel/IPSet.js:107 ../www/manager/qemu/CreateWizard.js:73
 #: ../www/manager/qemu/Snapshot.js:73 ../www/manager/qemu/Options.js:26
 #: ../www/manager/qemu/Options.js:29 ../www/manager/qemu/Options.js:35
-#: ../www/manager/qemu/StatusView.js:43
+#: ../www/manager/qemu/Clone.js:190 ../www/manager/qemu/StatusView.js:43
 #: ../www/manager/qemu/SnapshotTree.js:237 ../www/manager/dc/GroupView.js:90
 #: ../www/manager/dc/GroupEdit.js:28 ../www/manager/dc/SecurityGroups.js:24
 #: ../www/manager/dc/PoolEdit.js:28 ../www/manager/dc/UserView.js:213

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Mon Jul 14 08:14:29 2014\n"
+"POT-Creation-Date: Mon Jul 14 08:43:56 2014\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <support@proxmox.com>\n"
@@ -394,6 +394,10 @@ msgstr ""
 
 #: ../www/manager/qemu/HardwareView.js:88 ../www/manager/qemu/DisplayEdit.js:33
 msgid "Display"
+msgstr ""
+
+#: ../www/manager/qemu/CDEdit.js:137
+msgid "Do not use any media"
 msgstr ""
 
 #: ../www/manager/dc/OptionView.js:13 ../www/manager/dc/OptionView.js:81
@@ -840,7 +844,7 @@ msgstr ""
 msgid "NAT mode"
 msgstr ""
 
-#: ../www/manager/data/ResourceStore.js:86 ../www/manager/form/StorageSelector.js:76 ../www/manager/form/FileSelector.js:52 ../www/manager/form/UserSelector.js:34 ../www/manager/form/IPRefSelector.js:59 ../www/manager/storage/ContentView.js:454 ../www/manager/grid/ObjectGrid.js:93 ../www/manager/grid/FirewallAliases.js:26 ../www/manager/grid/FirewallAliases.js:172 ../www/manager/grid/BackupView.js:157 ../www/manager/openvz/Network.js:58 ../www/manager/openvz/Network.js:403 ../www/manager/openvz/StatusView.js:58 ../www/manager/node/NetworkView.js:229 ../www/manager/node/NetworkEdit.js:170 ../www/manager/node/ServiceView.js:118 ../www/manager/panel/IPSet.js:72 ../www/manager/panel/IPSet.js:107 ../www/manager/qemu/CreateWizard.js:73 ../www/manager/qemu/Snapshot.js:73 ../www/manager/qemu/Options.js:26 ../www/manager/qemu/Options.js:29 ../www/manager/qemu/Options.js:35 ../www/manager/qemu/StatusView.js:43 ../www/manager/qemu/SnapshotTree.js:237 ../www/manager/dc/GroupView.js:90 ../www/manager/dc/GroupEdit.js:28 ../www/manager/dc/SecurityGroups.js:24 ../www/manager/dc/PoolEdit.js:28 ../www/manager/dc/UserView.js:213 ../www/manager/dc/PoolView.js:90 ../www/manager/dc/RoleView.js:40 ../www/manager/dc/Backup.js:102 ../www/manager/dc/Summary.js:30 ../www/manager/dc/Summary.js:148 ../www/manager/ceph/Monitor.js:162 ../www/manager/ceph/Pool.js:22 ../www/manager/ceph/Pool.js:144
+#: ../www/manager/data/ResourceStore.js:86 ../www/manager/form/StorageSelector.js:76 ../www/manager/form/FileSelector.js:52 ../www/manager/form/UserSelector.js:34 ../www/manager/form/IPRefSelector.js:59 ../www/manager/storage/ContentView.js:454 ../www/manager/grid/ObjectGrid.js:93 ../www/manager/grid/FirewallAliases.js:26 ../www/manager/grid/FirewallAliases.js:172 ../www/manager/grid/BackupView.js:157 ../www/manager/openvz/Network.js:58 ../www/manager/openvz/Network.js:403 ../www/manager/openvz/StatusView.js:58 ../www/manager/node/NetworkView.js:229 ../www/manager/node/NetworkEdit.js:170 ../www/manager/node/ServiceView.js:118 ../www/manager/panel/IPSet.js:72 ../www/manager/panel/IPSet.js:107 ../www/manager/qemu/CreateWizard.js:73 ../www/manager/qemu/Snapshot.js:73 ../www/manager/qemu/Options.js:26 ../www/manager/qemu/Options.js:29 ../www/manager/qemu/Options.js:35 ../www/manager/qemu/Clone.js:190 ../www/manager/qemu/StatusView.js:43 ../www/manager/qemu/SnapshotTree.js:237 ../www/manager/dc/GroupView.js:90 ../www/manager/dc/GroupEdit.js:28 ../www/manager/dc/SecurityGroups.js:24 ../www/manager/dc/PoolEdit.js:28 ../www/manager/dc/UserView.js:213 ../www/manager/dc/PoolView.js:90 ../www/manager/dc/RoleView.js:40 ../www/manager/dc/Backup.js:102 ../www/manager/dc/Summary.js:30 ../www/manager/dc/Summary.js:148 ../www/manager/ceph/Monitor.js:162 ../www/manager/ceph/Pool.js:22 ../www/manager/ceph/Pool.js:144
 msgid "Name"
 msgstr ""
 
