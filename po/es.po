@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Mon Jul 14 08:43:56 2014\n"
+"POT-Creation-Date: Mon Jul 14 10:39:21 2014\n"
 "PO-Revision-Date: 2013-08-20 07:45+0200\n"
 "Last-Translator: Proxmox Support Team <support@proxmox.com>\n"
 "Language-Team: Spanish\n"
@@ -47,7 +47,7 @@ msgstr ""
 
 #: ../www/manager/window/Edit.js:198 ../www/manager/grid/PoolMembers.js:144
 #: ../www/manager/grid/FirewallAliases.js:135
-#: ../www/manager/grid/FirewallRules.js:543 ../www/manager/Utils.js:1084
+#: ../www/manager/grid/FirewallRules.js:543 ../www/manager/Utils.js:1090
 #: ../www/manager/openvz/Network.js:356 ../www/manager/panel/IPSet.js:329
 #: ../www/manager/qemu/HardwareView.js:367
 #: ../www/manager/dc/StorageView.js:101 ../www/manager/dc/AuthView.js:81
@@ -344,7 +344,7 @@ msgstr "Confirmar la contraseña"
 
 #: ../www/manager/Utils.js:565 ../www/manager/Utils.js:616
 #: ../www/manager/Utils.js:618 ../www/manager/Utils.js:620
-#: ../www/manager/Utils.js:622 ../www/manager/Utils.js:1242
+#: ../www/manager/Utils.js:622 ../www/manager/Utils.js:1248
 msgid "Connection error"
 msgstr "Error de conexión"
 
@@ -388,7 +388,7 @@ msgstr ""
 
 #: ../www/manager/window/Edit.js:198 ../www/manager/Utils.js:700
 #: ../www/manager/Utils.js:714 ../www/manager/Utils.js:730
-#: ../www/manager/Utils.js:732 ../www/manager/Utils.js:1086
+#: ../www/manager/Utils.js:732 ../www/manager/Utils.js:1092
 #: ../www/manager/node/NetworkView.js:135 ../www/manager/panel/IPSet.js:95
 #: ../www/manager/dc/GroupView.js:68 ../www/manager/dc/SecurityGroups.js:134
 #: ../www/manager/dc/PoolView.js:68 ../www/manager/ceph/Monitor.js:118
@@ -494,7 +494,7 @@ msgstr "Servicio"
 msgid "Direction"
 msgstr "Directorio"
 
-#: ../www/manager/storage/DirEdit.js:38
+#: ../www/manager/storage/DirEdit.js:38 ../www/manager/Utils.js:893
 msgid "Directory"
 msgstr "Directorio"
 
@@ -513,8 +513,8 @@ msgstr "Tamaño de disco"
 msgid "Disk Throttle"
 msgstr ""
 
-#: ../www/manager/qemu/HDEdit.js:112 ../www/manager/qemu/HDEdit.js:133
-#: ../www/manager/qemu/HDEdit.js:198
+#: ../www/manager/Utils.js:894 ../www/manager/qemu/HDEdit.js:112
+#: ../www/manager/qemu/HDEdit.js:133 ../www/manager/qemu/HDEdit.js:198
 #, fuzzy
 msgid "Disk image"
 msgstr "Imagen de disco"
@@ -590,7 +590,7 @@ msgstr ""
 
 #: ../www/manager/grid/FirewallOptions.js:199
 #: ../www/manager/grid/FirewallAliases.js:128
-#: ../www/manager/grid/FirewallRules.js:536 ../www/manager/Utils.js:1089
+#: ../www/manager/grid/FirewallRules.js:536 ../www/manager/Utils.js:1095
 #: ../www/manager/openvz/Network.js:337
 #: ../www/manager/openvz/RessourceView.js:92 ../www/manager/openvz/DNS.js:103
 #: ../www/manager/openvz/Options.js:139 ../www/manager/node/NetworkView.js:66
@@ -900,7 +900,7 @@ msgstr ""
 msgid "ISO Image"
 msgstr ""
 
-#: ../www/manager/storage/ContentView.js:188
+#: ../www/manager/Utils.js:897
 #, fuzzy
 msgid "ISO image"
 msgstr "Imagen de disco"
@@ -998,7 +998,7 @@ msgstr ""
 msgid "Load average"
 msgstr ""
 
-#: ../www/manager/Utils.js:1212
+#: ../www/manager/Utils.js:1218
 msgid "Loading..."
 msgstr "Cargando..."
 
@@ -1297,12 +1297,12 @@ msgstr "En linéa"
 msgid "Only Errors"
 msgstr "Sólo los errores"
 
-#: ../www/manager/tree/ResourceTree.js:25
+#: ../www/manager/tree/ResourceTree.js:25 ../www/manager/Utils.js:898
 #: ../www/manager/openvz/CreateWizard.js:56
 msgid "OpenVZ Container"
 msgstr "Contenedor OpenVZ"
 
-#: ../www/manager/storage/ContentView.js:190
+#: ../www/manager/Utils.js:896
 #, fuzzy
 msgid "OpenVZ template"
 msgstr "Contenedor OpenVZ"
@@ -2252,7 +2252,7 @@ msgstr ""
 msgid "VSwap usage"
 msgstr "Utilización CPU"
 
-#: ../www/manager/storage/ContentView.js:189
+#: ../www/manager/Utils.js:895
 msgid "VZDump backup file"
 msgstr ""
 
@@ -2403,6 +2403,14 @@ msgstr ""
 #, fuzzy
 #~ msgid "Confirmation"
 #~ msgstr "Confirmación"
+
+#, fuzzy
+#~ msgid "Container"
+#~ msgstr "Contenedor OpenVZ"
+
+#, fuzzy
+#~ msgid "Images"
+#~ msgstr "Imagen de disco"
 
 #, fuzzy
 #~ msgid "Keyboard"
