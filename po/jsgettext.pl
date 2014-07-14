@@ -50,26 +50,31 @@ $href->{''} = $po;
 sub extract_msg {
     my ($filename, $linenr, $line) = @_;
 
-    my $text;
-    if ($line =~ m/\Wgettext\s*\("((?:[^"\\]++|\\.)*+)"\)/) {
-	$text = $1;
-    } elsif ($line =~ m/\Wgettext\s*\('((?:[^'\\]++|\\.)*+)'\)/) {
-	$text = $1;
-    } else {
-	die "can't extract gettext message in '$filename' line $linenr\n";
-    }
+    my $count = 0;
 
-    my $ref = "$filename:$linenr";
+    while(1) {
+	my $text;
+	if ($line =~ m/\Wgettext\s*\((("((?:[^"\\]++|\\.)*+)")|('((?:[^'\\]++|\\.)*+)'))\)/g) {
+	    $text = $3 || $5;
+	}
+	
+	last if !$text;
 
-    if (my $po = $href->{$text}) {
-	$po->reference($po->reference() . " $ref");
-	return;
-    }
+	$count++;
 
-    my $po = new Locale::PO(-msgid=> $text, -reference=> $ref, -msgstr=> '');
-    $href->{$text} = $po;
+	my $ref = "$filename:$linenr";
+
+	if (my $po = $href->{$text}) {
+	    $po->reference($po->reference() . " $ref");
+	} else {   
+	    my $po = new Locale::PO(-msgid=> $text, -reference=> $ref, -msgstr=> '');
+	    $href->{$text} = $po;
+	}
+    };
+
+    die "can't extract gettext message in '$filename' line $linenr\n"
+	if !$count;
 }
-
 
 foreach my $s (@$sources) {
     open(SRC, $s) || die "unable to open file '$s' - $!\n";
