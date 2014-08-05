@@ -2,15 +2,15 @@
 # Copyright (C) 2013 Proxmox Server Solutions GmbH
 # This file is distributed under the same license as the pve-manager package.
 # Proxmox Support Team <support@proxmox.com>, 2013.
-#
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: pve-manager 2.0\n"
+"Project-Id-Version: pve-manager 3.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
 "POT-Creation-Date: Mon Jul 14 11:06:02 2014\n"
-"PO-Revision-Date: 2013-09-03 11:34+0800\n"
+"PO-Revision-Date: 2014-08-01 15:28+0800\n"
 "Last-Translator: 黄学武 <1833net@163.com>\n"
-"Language-Team: Chinese (simplified)\n"
+"Language-Team: Chinese (simplified) <hxw@unoc.cn>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -63,20 +63,19 @@ msgstr "MAC 地址"
 
 #: ../www/manager/grid/FirewallAliases.js:48
 msgid "Alias"
-msgstr ""
+msgstr "别名"
 
 #: ../www/manager/grid/FirewallAliases.js:73
 msgid "Aliases"
-msgstr ""
+msgstr "别名"
 
 #: ../www/manager/storage/GlusterFsEdit.js:138
 #: ../www/manager/storage/RBDEdit.js:76
 #: ../www/manager/storage/SheepdogEdit.js:60
 #: ../www/manager/storage/LVMEdit.js:193 ../www/manager/storage/DirEdit.js:81
 #: ../www/manager/storage/IScsiEdit.js:133
-#: ../www/manager/storage/ZFSEdit.js:120 ../www/manager/storage/NFSEdit.js:141
-#: ../www/manager/dc/Backup.js:30 ../www/manager/dc/Backup.js:119
-#: ../www/manager/dc/Backup.js:310
+#: ../www/manager/storage/ZFSEdit.js:120
+#: ../www/manager/storage/NFSEdit.js:141 ../www/manager/dc/Backup.js:119
 msgid "All"
 msgstr "所有"
 
@@ -94,7 +93,7 @@ msgstr "你确定要激活您所做的更改吗？"
 
 #: ../www/manager/StateProvider.js:161
 msgid "Are you sure you want to navigate away from this page?"
-msgstr "你确定要离开该导航页？"
+msgstr "你确定要离开此页？"
 
 #: ../www/manager/openvz/Config.js:91 ../www/manager/qemu/Config.js:100
 msgid ""
@@ -106,10 +105,9 @@ msgstr "你确定你要删除VM{0}？这将永久删除VM的所有数据。"
 #: ../www/manager/grid/PoolMembers.js:111
 #: ../www/manager/grid/BackupView.js:121 ../www/manager/openvz/Network.js:279
 #: ../www/manager/qemu/HardwareView.js:327
-#: ../www/manager/qemu/SnapshotTree.js:179 ../www/manager/dc/StorageView.js:74
-#: ../www/manager/dc/GroupView.js:28 ../www/manager/dc/AuthView.js:56
-#: ../www/manager/dc/UserView.js:90 ../www/manager/dc/PoolView.js:28
-#: ../www/manager/ceph/Pool.js:112
+#: ../www/manager/qemu/SnapshotTree.js:179
+#: ../www/manager/dc/StorageView.js:74 ../www/manager/dc/AuthView.js:56
+#: ../www/manager/dc/PoolView.js:28
 msgid "Are you sure you want to remove entry {0}"
 msgstr "你确定你要删除该项{0}吗？"
 
@@ -206,7 +204,8 @@ msgstr "引导顺序"
 msgid "Bridge"
 msgstr "桥接"
 
-#: ../www/manager/node/NetworkEdit.js:58 ../www/manager/node/NetworkEdit.js:64
+#: ../www/manager/node/NetworkEdit.js:58
+#: ../www/manager/node/NetworkEdit.js:64
 msgid "Bridge ports"
 msgstr "桥接端口"
 
@@ -247,7 +246,7 @@ msgstr "CPU 单位"
 #: ../www/manager/node/StatusView.js:46 ../www/manager/qemu/Summary.js:62
 #: ../www/manager/qemu/StatusView.js:45
 msgid "CPU usage"
-msgstr "CPU使用率"
+msgstr "CPU利用率"
 
 #: ../www/manager/openvz/RessourceEdit.js:56
 #: ../www/manager/node/StatusView.js:45
@@ -256,11 +255,11 @@ msgstr "CPUs"
 
 #: ../www/manager/qemu/HDEdit.js:207
 msgid "Cache"
-msgstr "Cache"
+msgstr "缓存"
 
 #: ../www/manager/form/StorageSelector.js:93
 msgid "Capacity"
-msgstr "Capacity"
+msgstr "容量"
 
 #: ../www/manager/node/APT.js:104 ../www/manager/node/APT.js:133
 msgid "Changelog"
@@ -371,7 +370,7 @@ msgstr "拷贝数据"
 
 #: ../www/manager/qemu/ProcessorEdit.js:31
 msgid "Cores"
-msgstr "核心"
+msgstr "核"
 
 #: ../www/manager/window/Edit.js:198 ../www/manager/Utils.js:700
 #: ../www/manager/Utils.js:714 ../www/manager/Utils.js:730
@@ -389,11 +388,11 @@ msgstr "创建CT"
 
 #: ../www/manager/Workspace.js:330
 msgid "Create VM"
-msgstr "创建VM"
+msgstr "创建虚拟机"
 
 #: ../www/manager/ceph/Pool.js:46
 msgid "Crush RuleSet"
-msgstr ""
+msgstr "Crush规则集"
 
 #: ../www/manager/openvz/Config.js:139 ../www/manager/node/Config.js:84
 #: ../www/manager/node/DNSEdit.js:44
@@ -420,15 +419,15 @@ msgstr "数据中心"
 
 #: ../www/manager/qemu/SnapshotTree.js:261
 msgid "Date"
-msgstr ""
+msgstr "日期"
 
 #: ../www/manager/dc/Backup.js:141 ../www/manager/dc/Backup.js:405
 msgid "Day of week"
-msgstr "星期几"
+msgstr "星期"
 
-#: ../www/manager/form/Boolean.js:10 ../www/manager/grid/FirewallOptions.js:67
-#: ../www/manager/Utils.js:885 ../www/manager/dc/AuthEdit.js:79
-#: ../www/manager/dc/AuthEdit.js:103
+#: ../www/manager/form/Boolean.js:10
+#: ../www/manager/grid/FirewallOptions.js:67
+#: ../www/manager/dc/AuthEdit.js:79
 msgid "Default"
 msgstr "默认"
 
@@ -445,15 +444,15 @@ msgstr "删除源"
 #: ../www/manager/storage/ContentView.js:60
 #: ../www/manager/grid/FirewallRules.js:37 ../www/manager/node/APT.js:182
 #: ../www/manager/node/ServiceView.js:130 ../www/manager/node/Tasks.js:147
-#: ../www/manager/qemu/Snapshot.js:100 ../www/manager/qemu/SnapshotTree.js:275
-#: ../www/manager/dc/Tasks.js:97
+#: ../www/manager/qemu/Snapshot.js:100
+#: ../www/manager/qemu/SnapshotTree.js:275
 msgid "Description"
 msgstr "说明"
 
 #: ../www/manager/grid/FirewallRules.js:210
 #: ../www/manager/grid/FirewallRules.js:703
 msgid "Dest. port"
-msgstr ""
+msgstr "目标端口"
 
 #: ../www/manager/grid/FirewallRules.js:148
 #: ../www/manager/grid/FirewallRules.js:687
@@ -495,7 +494,7 @@ msgstr "磁盘 IO"
 
 #: ../www/manager/qemu/HardwareView.js:308
 msgid "Disk Throttle"
-msgstr ""
+msgstr "磁盘限速"
 
 #: ../www/manager/Utils.js:894 ../www/manager/qemu/HDEdit.js:112
 #: ../www/manager/qemu/HDEdit.js:133 ../www/manager/qemu/HDEdit.js:198
@@ -504,7 +503,8 @@ msgstr "磁盘映像"
 
 #: ../www/manager/data/ResourceStore.js:99
 #: ../www/manager/openvz/RessourceEdit.js:46
-#: ../www/manager/openvz/RessourceView.js:51 ../www/manager/qemu/HDEdit.js:145
+#: ../www/manager/openvz/RessourceView.js:51
+#: ../www/manager/qemu/HDEdit.js:145
 msgid "Disk size"
 msgstr "磁盘大小"
 
@@ -520,7 +520,7 @@ msgstr "显示"
 #: ../www/manager/qemu/CDEdit.js:137
 #, fuzzy
 msgid "Do not use any media"
-msgstr "不使用任何代理"
+msgstr "不使用任何介质"
 
 #: ../www/manager/dc/OptionView.js:13 ../www/manager/dc/OptionView.js:81
 msgid "Do not use any proxy"
@@ -528,11 +528,11 @@ msgstr "不使用任何代理"
 
 #: ../www/manager/qemu/CmdMenu.js:95
 msgid "Do you really want to convert VM {0} into a template?"
-msgstr "你真的要把VM{0}转换成模板？"
+msgstr "你真的要把虚拟机{0}转换成模板？"
 
 #: ../www/manager/qemu/Config.js:81 ../www/manager/VNCConsole.js:334
 msgid "Do you really want to reset VM {0}?"
-msgstr "你真的要重置 VM {0}?"
+msgstr "你真的要重置虚拟机 {0}?"
 
 #: ../www/manager/node/Config.js:35
 msgid "Do you really want to restart node {0}?"
@@ -552,11 +552,11 @@ msgstr "你真的要关闭节点 {0}?"
 #: ../www/manager/qemu/Config.js:59 ../www/manager/qemu/CmdMenu.js:70
 #: ../www/manager/VNCConsole.js:317 ../www/manager/VNCConsole.js:452
 msgid "Do you really want to stop VM {0}?"
-msgstr "你真的要停止 VM {0}?"
+msgstr "你真的要停止虚拟机 {0}?"
 
 #: ../www/manager/VNCConsole.js:346
 msgid "Do you really want to suspend VM {0}?"
-msgstr "你真的要挂起 VM {0}?"
+msgstr "你真的要挂起虚拟机 {0}?"
 
 #: ../www/manager/dc/AuthEdit.js:42
 msgid "Domain"
@@ -578,8 +578,9 @@ msgstr "E-Mail"
 #: ../www/manager/openvz/Options.js:139 ../www/manager/node/NetworkView.js:66
 #: ../www/manager/node/DNSView.js:32 ../www/manager/node/TimeView.js:43
 #: ../www/manager/panel/IPSet.js:88 ../www/manager/panel/IPSet.js:322
-#: ../www/manager/qemu/HardwareView.js:266 ../www/manager/qemu/Snapshot.js:131
-#: ../www/manager/qemu/Options.js:283 ../www/manager/qemu/SnapshotTree.js:131
+#: ../www/manager/qemu/HardwareView.js:266
+#: ../www/manager/qemu/Snapshot.js:131
+#: ../www/manager/qemu/SnapshotTree.js:131
 #: ../www/manager/dc/StorageView.js:63 ../www/manager/dc/GroupView.js:60
 #: ../www/manager/dc/AuthView.js:42 ../www/manager/dc/SecurityGroups.js:127
 #: ../www/manager/dc/OptionView.js:138 ../www/manager/dc/UserView.js:124
@@ -604,13 +605,13 @@ msgstr "启用"
 #: ../www/manager/grid/FirewallOptions.js:119
 #, fuzzy
 msgid "Enable DHCP"
-msgstr "启用"
+msgstr "启用 DHCP"
 
 #: ../www/manager/grid/FirewallOptions.js:107
 #: ../www/manager/grid/FirewallOptions.js:118
 #: ../www/manager/grid/FirewallOptions.js:124
 msgid "Enable Firewall"
-msgstr ""
+msgstr "启用防火墙"
 
 #: ../www/manager/storage/StatusView.js:20 ../www/manager/qemu/Options.js:120
 #: ../www/manager/qemu/Options.js:138 ../www/manager/qemu/Options.js:162
@@ -624,19 +625,19 @@ msgstr "结束时间"
 
 #: ../www/manager/window/LoginWindow.js:96
 msgid "Enter your password"
-msgstr "请输入您的密码"
+msgstr "密码"
 
 #: ../www/manager/window/LoginWindow.js:73
 msgid "Enter your user name"
-msgstr "请输入您的用户名"
+msgstr "用户名"
 
 #: ../www/manager/Utils.js:735
 msgid "Erase data"
 msgstr "擦除数据"
 
-#: ../www/manager/window/Restore.js:64 ../www/manager/window/LoginWindow.js:16
-#: ../www/manager/window/Edit.js:111 ../www/manager/window/Edit.js:156
-#: ../www/manager/window/Migrate.js:14 ../www/manager/window/TaskViewer.js:156
+#: ../www/manager/window/Restore.js:64
+#: ../www/manager/window/LoginWindow.js:16 ../www/manager/window/Edit.js:156
+#: ../www/manager/window/TaskViewer.js:156
 #: ../www/manager/storage/ContentView.js:117
 #: ../www/manager/storage/ContentView.js:213
 #: ../www/manager/storage/ContentView.js:267
@@ -692,7 +693,7 @@ msgstr "示例"
 
 #: ../www/manager/dc/Backup.js:31
 msgid "Exclude selected VMs"
-msgstr "不包括选择的VMs"
+msgstr "不包括选择的虚拟机"
 
 #: ../www/manager/storage/LVMEdit.js:48
 msgid "Existing volume groups"
@@ -700,7 +701,7 @@ msgstr "现有的卷组"
 
 #: ../www/manager/dc/UserEdit.js:93 ../www/manager/dc/UserView.js:206
 msgid "Expire"
-msgstr "有效期"
+msgstr "有效期至"
 
 #: ../www/manager/openvz/BeanCounterGrid.js:81
 msgid "Failcnt"
@@ -726,7 +727,7 @@ msgstr "完成"
 #: ../www/manager/node/Config.js:147 ../www/manager/qemu/Config.js:184
 #: ../www/manager/qemu/NetworkEdit.js:102 ../www/manager/dc/Config.js:88
 msgid "Firewall"
-msgstr ""
+msgstr "防火墙"
 
 #: ../www/manager/dc/UserEdit.js:109
 msgid "First Name"
@@ -822,7 +823,7 @@ msgstr "硬件"
 
 #: ../www/manager/node/NetworkEdit.js:101
 msgid "Hash policy"
-msgstr ""
+msgstr "Hash策略"
 
 #: ../www/manager/openvz/BeanCounterGrid.js:57
 msgid "Held"
@@ -873,7 +874,7 @@ msgstr "IP地址"
 #: ../www/manager/panel/IPSet.js:207 ../www/manager/panel/IPSet.js:215
 #: ../www/manager/panel/IPSet.js:243 ../www/manager/panel/IPSet.js:392
 msgid "IP/CIDR"
-msgstr ""
+msgstr "IP段"
 
 #: ../www/manager/qemu/CDEdit.js:103
 msgid "ISO Image"
@@ -896,21 +897,21 @@ msgstr "包括选取的VMs"
 #: ../www/manager/grid/FirewallOptions.js:139
 #, fuzzy
 msgid "Input Policy"
-msgstr "输出"
+msgstr "流入策略"
 
 #: ../www/manager/grid/FirewallRules.js:558
 msgid "Insert"
-msgstr ""
+msgstr "插入"
 
 #: ../www/manager/grid/FirewallRules.js:113
 #: ../www/manager/grid/FirewallRules.js:332
 #: ../www/manager/grid/FirewallRules.js:668
 msgid "Interface"
-msgstr ""
+msgstr "接口"
 
 #: ../www/manager/ceph/OSD.js:37
 msgid "Journal Disk"
-msgstr ""
+msgstr "日志磁盘"
 
 #: ../www/manager/node/StatusView.js:50
 msgid "KSM sharing"
@@ -961,7 +962,7 @@ msgstr "最近转变"
 
 #: ../www/manager/ceph/OSD.js:329
 msgid "Latency (ms)"
-msgstr ""
+msgstr "延时(ms)"
 
 #: ../www/manager/openvz/BeanCounterGrid.js:75
 msgid "Limit"
@@ -1005,15 +1006,16 @@ msgstr "文件数"
 #: ../www/manager/grid/FirewallRules.js:166
 #: ../www/manager/grid/FirewallRules.js:657
 msgid "Macro"
-msgstr ""
+msgstr "宏"
 
-#: ../www/manager/openvz/StatusView.js:68 ../www/manager/qemu/StatusView.js:50
+#: ../www/manager/openvz/StatusView.js:68
+#: ../www/manager/qemu/StatusView.js:50
 msgid "Managed by HA"
 msgstr "托管于HA"
 
 #: ../www/manager/qemu/Smbios1Edit.js:40
 msgid "Manufacturer"
-msgstr ""
+msgstr "厂商"
 
 #: ../www/manager/storage/GlusterFsEdit.js:152
 #: ../www/manager/storage/DirEdit.js:67 ../www/manager/storage/NFSEdit.js:155
@@ -1066,7 +1068,7 @@ msgstr "迁移"
 #: ../www/manager/ceph/Pool.js:37
 #, fuzzy
 msgid "Min. Size"
-msgstr "大小"
+msgstr "最小"
 
 #: ../www/manager/qemu/MemoryEdit.js:110
 msgid "Minimum memory"
@@ -1113,7 +1115,8 @@ msgstr "NAT模式"
 #: ../www/manager/grid/FirewallAliases.js:26
 #: ../www/manager/grid/FirewallAliases.js:172
 #: ../www/manager/grid/BackupView.js:157 ../www/manager/openvz/Network.js:58
-#: ../www/manager/openvz/Network.js:403 ../www/manager/openvz/StatusView.js:58
+#: ../www/manager/openvz/Network.js:403
+#: ../www/manager/openvz/StatusView.js:58
 #: ../www/manager/node/NetworkView.js:229
 #: ../www/manager/node/NetworkEdit.js:170
 #: ../www/manager/node/ServiceView.js:118 ../www/manager/panel/IPSet.js:72
@@ -1182,7 +1185,8 @@ msgstr "无网络驱动器"
 #: ../www/manager/storage/SheepdogEdit.js:61
 #: ../www/manager/storage/LVMEdit.js:194 ../www/manager/storage/DirEdit.js:82
 #: ../www/manager/storage/IScsiEdit.js:134
-#: ../www/manager/storage/ZFSEdit.js:121 ../www/manager/storage/NFSEdit.js:142
+#: ../www/manager/storage/ZFSEdit.js:121
+#: ../www/manager/storage/NFSEdit.js:142
 msgid "No restrictions"
 msgstr "无限制"
 
@@ -1214,8 +1218,8 @@ msgstr "节点列表"
 #: ../www/manager/storage/SheepdogEdit.js:59
 #: ../www/manager/storage/LVMEdit.js:192 ../www/manager/storage/DirEdit.js:80
 #: ../www/manager/storage/IScsiEdit.js:132
-#: ../www/manager/storage/ZFSEdit.js:119 ../www/manager/storage/NFSEdit.js:140
-#: ../www/manager/dc/Summary.js:247
+#: ../www/manager/storage/ZFSEdit.js:119
+#: ../www/manager/storage/NFSEdit.js:140
 msgid "Nodes"
 msgstr "节点"
 
@@ -1242,16 +1246,17 @@ msgstr "OS 类型"
 
 #: ../www/manager/window/LoginWindow.js:38
 msgid "OTP"
-msgstr ""
+msgstr "动态口令"
 
-#: ../www/manager/node/NetworkEdit.js:69 ../www/manager/node/NetworkEdit.js:90
+#: ../www/manager/node/NetworkEdit.js:69
+#: ../www/manager/node/NetworkEdit.js:90
 #: ../www/manager/node/NetworkEdit.js:146
 #, fuzzy
 msgid "OVS options"
-msgstr "选项"
+msgstr "OVS 选项"
 
-#: ../www/manager/data/ResourceStore.js:36 ../www/manager/window/Migrate.js:71
-#: ../www/manager/dc/Summary.js:42
+#: ../www/manager/data/ResourceStore.js:36
+#: ../www/manager/window/Migrate.js:71
 msgid "Online"
 msgstr "在线"
 
@@ -1262,7 +1267,7 @@ msgstr "仅错误"
 #: ../www/manager/tree/ResourceTree.js:25 ../www/manager/Utils.js:898
 #: ../www/manager/openvz/CreateWizard.js:56
 msgid "OpenVZ Container"
-msgstr "OpenVZ 的容器"
+msgstr "OpenVZ 容器"
 
 #: ../www/manager/Utils.js:896
 msgid "OpenVZ template"
@@ -1287,7 +1292,7 @@ msgstr "输出"
 #: ../www/manager/grid/FirewallOptions.js:155
 #, fuzzy
 msgid "Output Policy"
-msgstr "输出"
+msgstr "流出策略"
 
 #: ../www/manager/dc/Summary.js:154
 msgid "Owner"
@@ -1295,7 +1300,7 @@ msgstr "所有者"
 
 #: ../www/manager/node/StatusView.js:52
 msgid "PVE Manager version"
-msgstr "PVE 管理器版本"
+msgstr "PVE Manager 版本"
 
 #: ../www/manager/storage/ContentView.js:50 ../www/manager/node/APT.js:159
 msgid "Package"
@@ -1340,8 +1345,8 @@ msgid "Please wait..."
 msgstr "请稍候..."
 
 #: ../www/manager/data/ResourceStore.js:196
-#: ../www/manager/form/PoolSelector.js:22 ../www/manager/storage/RBDEdit.js:40
-#: ../www/manager/storage/ZFSEdit.js:46 ../www/manager/dc/PoolEdit.js:22
+#: ../www/manager/form/PoolSelector.js:22
+#: ../www/manager/storage/RBDEdit.js:40 ../www/manager/dc/PoolEdit.js:22
 msgid "Pool"
 msgstr "资源池"
 
@@ -1381,7 +1386,7 @@ msgstr "处理器"
 
 #: ../www/manager/qemu/Smbios1Edit.js:46
 msgid "Product"
-msgstr ""
+msgstr "产品"
 
 #: ../www/manager/dc/ACLView.js:51 ../www/manager/dc/ACLView.js:135
 msgid "Propagate"
@@ -1391,7 +1396,7 @@ msgstr "继承"
 #: ../www/manager/grid/FirewallRules.js:191
 #: ../www/manager/grid/FirewallRules.js:695
 msgid "Protocol"
-msgstr ""
+msgstr "协议"
 
 #: ../www/manager/window/LoginWindow.js:52
 msgid "Proxmox VE Login"
@@ -1462,7 +1467,8 @@ msgstr "刷新"
 msgid "Reload"
 msgstr "重载"
 
-#: ../www/manager/window/Edit.js:198 ../www/manager/storage/ContentView.js:401
+#: ../www/manager/window/Edit.js:198
+#: ../www/manager/storage/ContentView.js:401
 #: ../www/manager/grid/PoolMembers.js:107
 #: ../www/manager/grid/FirewallAliases.js:146
 #: ../www/manager/grid/FirewallRules.js:573
@@ -1470,13 +1476,11 @@ msgstr "重载"
 #: ../www/manager/openvz/Config.js:88 ../www/manager/node/NetworkView.js:72
 #: ../www/manager/panel/IPSet.js:125 ../www/manager/panel/IPSet.js:345
 #: ../www/manager/qemu/Config.js:97 ../www/manager/qemu/HardwareView.js:322
-#: ../www/manager/qemu/SnapshotTree.js:175 ../www/manager/dc/StorageView.js:70
-#: ../www/manager/dc/GroupView.js:24 ../www/manager/dc/AuthView.js:52
-#: ../www/manager/dc/SecurityGroups.js:144 ../www/manager/dc/UserView.js:80
-#: ../www/manager/dc/PoolView.js:24 ../www/manager/dc/ACLView.js:149
-#: ../www/manager/dc/Backup.js:351 ../www/manager/dc/HAConfig.js:238
-#: ../www/manager/ceph/Monitor.js:128 ../www/manager/ceph/Pool.js:108
-#: ../www/manager/ceph/OSD.js:71 ../www/manager/ceph/OSD.js:189
+#: ../www/manager/qemu/SnapshotTree.js:175
+#: ../www/manager/dc/StorageView.js:70 ../www/manager/dc/AuthView.js:52
+#: ../www/manager/dc/UserView.js:80 ../www/manager/dc/ACLView.js:149
+#: ../www/manager/dc/HAConfig.js:238 ../www/manager/ceph/Pool.js:108
+#: ../www/manager/ceph/OSD.js:189
 msgid "Remove"
 msgstr "删除"
 
@@ -1560,11 +1564,11 @@ msgstr "回滚"
 #: ../www/manager/grid/FirewallRules.js:264
 #: ../www/manager/grid/FirewallRules.js:360
 msgid "Rule"
-msgstr ""
+msgstr "规则"
 
 #: ../www/manager/dc/SecurityGroups.js:204
 msgid "Rules"
-msgstr ""
+msgstr "规则"
 
 #: ../www/manager/qemu/ScsiHwEdit.js:8 ../www/manager/qemu/Options.js:143
 msgid "SCSI Controller Type"
@@ -1581,13 +1585,14 @@ msgstr ""
 #: ../www/manager/grid/FirewallOptions.js:108
 #, fuzzy
 msgid "SMURFS filter"
-msgstr "文件数"
+msgstr "SMURFS 过滤"
 
 #: ../www/manager/node/StatusView.js:49
 msgid "SWAP usage"
 msgstr "SWAP 使用率"
 
-#: ../www/manager/storage/LVMEdit.js:28 ../www/manager/storage/IScsiEdit.js:49
+#: ../www/manager/storage/LVMEdit.js:28
+#: ../www/manager/storage/IScsiEdit.js:49
 #: ../www/manager/storage/NFSEdit.js:49
 msgid "Scanning..."
 msgstr "扫描中…"
@@ -1607,7 +1612,7 @@ msgstr "搜索域名"
 #: ../www/manager/dc/SecurityGroups.js:36
 #: ../www/manager/dc/SecurityGroups.js:38
 msgid "Security Group"
-msgstr ""
+msgstr "安全组"
 
 #: ../www/manager/storage/ContentView.js:195
 msgid "Select File..."
@@ -1669,7 +1674,8 @@ msgid "Services"
 msgstr "服务"
 
 #: ../www/manager/openvz/CreateWizard.js:258
-#: ../www/manager/qemu/CreateWizard.js:117 ../www/manager/qemu/Snapshot.js:105
+#: ../www/manager/qemu/CreateWizard.js:117
+#: ../www/manager/qemu/Snapshot.js:105
 msgid "Settings"
 msgstr "设置"
 
@@ -1720,7 +1726,7 @@ msgstr "增量大小"
 #: ../www/manager/node/NetworkEdit.js:96
 #: ../www/manager/node/NetworkEdit.js:191
 msgid "Slaves"
-msgstr ""
+msgstr "辅"
 
 #: ../www/manager/form/SnapshotSelector.js:51
 #: ../www/manager/form/BackupModeSelector.js:9 ../www/manager/Utils.js:697
@@ -1734,24 +1740,25 @@ msgstr "快照"
 
 #: ../www/manager/node/StatusView.js:13
 msgid "Socket"
-msgstr "插座"
+msgstr ""
 
-#: ../www/manager/node/Subscription.js:72 ../www/manager/node/StatusView.js:14
+#: ../www/manager/node/Subscription.js:72
+#: ../www/manager/node/StatusView.js:14
 #: ../www/manager/qemu/ProcessorEdit.js:15
 msgid "Sockets"
-msgstr "插座"
+msgstr ""
 
 #: ../www/manager/window/Restore.js:41
 #: ../www/manager/grid/FirewallRules.js:138
 #: ../www/manager/grid/FirewallRules.js:679
 msgid "Source"
-msgstr "恢复数据"
+msgstr "源地址"
 
 #: ../www/manager/grid/FirewallRules.js:203
 #: ../www/manager/grid/FirewallRules.js:711
 #, fuzzy
 msgid "Source port"
-msgstr "恢复数据"
+msgstr "源端口"
 
 #: ../www/manager/dc/Summary.js:134
 msgid "Standalone node - no cluster defined"
@@ -1791,8 +1798,8 @@ msgstr "启动所有虚拟机和容器"
 msgid "Start at boot"
 msgstr "开机自启动"
 
-#: ../www/manager/qemu/StartupEdit.js:34 ../www/manager/qemu/StartupEdit.js:67
-#: ../www/manager/qemu/Options.js:58
+#: ../www/manager/qemu/StartupEdit.js:34
+#: ../www/manager/qemu/StartupEdit.js:67
 msgid "Start/Shutdown order"
 msgstr "启动/关机顺序"
 
@@ -1803,7 +1810,8 @@ msgstr "启动延时"
 #: ../www/manager/pool/StatusView.js:21
 #: ../www/manager/window/TaskViewer.js:101
 #: ../www/manager/window/TaskViewer.js:174
-#: ../www/manager/storage/StatusView.js:67 ../www/manager/openvz/Summary.js:29
+#: ../www/manager/storage/StatusView.js:67
+#: ../www/manager/openvz/Summary.js:29
 #: ../www/manager/openvz/StatusView.js:59
 #: ../www/manager/node/ServiceView.js:124
 #: ../www/manager/node/Subscription.js:62 ../www/manager/node/Tasks.js:153
@@ -1832,8 +1840,10 @@ msgstr "停止所有虚拟机和容器"
 
 #: ../www/manager/data/ResourceStore.js:189
 #: ../www/manager/window/Restore.js:25 ../www/manager/window/Backup.js:25
-#: ../www/manager/grid/PoolMembers.js:52 ../www/manager/grid/PoolMembers.js:61
-#: ../www/manager/grid/PoolMembers.js:157 ../www/manager/grid/BackupView.js:67
+#: ../www/manager/grid/PoolMembers.js:52
+#: ../www/manager/grid/PoolMembers.js:61
+#: ../www/manager/grid/PoolMembers.js:157
+#: ../www/manager/grid/BackupView.js:67
 #: ../www/manager/openvz/CreateWizard.js:20
 #: ../www/manager/openvz/CreateWizard.js:35
 #: ../www/manager/openvz/Options.js:46 ../www/manager/qemu/CDEdit.js:111
@@ -1861,7 +1871,7 @@ msgstr "子网掩码"
 
 #: ../www/manager/node/Config.js:136
 msgid "Subscription"
-msgstr "认购密钥"
+msgstr "认购"
 
 #: ../www/manager/node/Subscription.js:14
 #: ../www/manager/node/Subscription.js:59
@@ -1899,7 +1909,7 @@ msgstr "在节点 {0} 上系统升级"
 #: ../www/manager/grid/FirewallOptions.js:109
 #, fuzzy
 msgid "TCP flags filter"
-msgstr "文件数"
+msgstr "TCP flags 过滤"
 
 #: ../www/manager/dc/AuthView.js:132
 msgid "TFA"
@@ -1908,7 +1918,7 @@ msgstr ""
 #: ../www/manager/qemu/Snapshot.js:142 ../www/manager/qemu/Snapshot.js:144
 #: ../www/manager/qemu/SnapshotTree.js:212
 msgid "Take Snapshot"
-msgstr "拍摄快照"
+msgstr "做快照"
 
 #: ../www/manager/storage/ZFSEdit.js:62
 msgid "Target"
@@ -2021,8 +2031,10 @@ msgstr "核心总数"
 #: ../www/manager/storage/ContentView.js:45
 #: ../www/manager/storage/StatusView.js:35
 #: ../www/manager/grid/FirewallRules.js:641
-#: ../www/manager/openvz/Network.js:397 ../www/manager/node/NetworkView.js:235
-#: ../www/manager/node/Subscription.js:56 ../www/manager/qemu/ScsiHwEdit.js:13
+#: ../www/manager/openvz/Network.js:397
+#: ../www/manager/node/NetworkView.js:235
+#: ../www/manager/node/Subscription.js:56
+#: ../www/manager/qemu/ScsiHwEdit.js:13
 #: ../www/manager/qemu/ProcessorEdit.js:49
 #: ../www/manager/dc/StorageView.js:193 ../www/manager/dc/AuthView.js:126
 #: ../www/manager/dc/Backup.js:107
@@ -2040,16 +2052,16 @@ msgstr "无法加载认购状态"
 
 #: ../www/manager/qemu/NetworkEdit.js:194
 msgid "Unable to parse network options"
-msgstr ""
+msgstr "不能解析网络选项"
 
 #: ../www/manager/qemu/Smbios1Edit.js:106
 #, fuzzy
 msgid "Unable to parse smbios options"
-msgstr "无法加载认购状态"
+msgstr "不能解析smbios选项"
 
 #: ../www/manager/window/TaskViewer.js:138
 msgid "Unique task ID"
-msgstr "独有任务 ID"
+msgstr "唯一任务 ID"
 
 #: ../www/manager/Utils.js:884
 msgid "Unknown"
@@ -2100,8 +2112,8 @@ msgid "Uploading file..."
 msgstr "上传文件中..."
 
 #: ../www/manager/data/ResourceStore.js:175
-#: ../www/manager/openvz/StatusView.js:67 ../www/manager/node/StatusView.js:43
-#: ../www/manager/qemu/StatusView.js:49
+#: ../www/manager/openvz/StatusView.js:67
+#: ../www/manager/node/StatusView.js:43
 msgid "Uptime"
 msgstr "运行时间"
 
@@ -2217,23 +2229,25 @@ msgstr "虚拟机"
 msgid "Virtual Machine {0} on node {1}"
 msgstr "虚拟机 {0} 在节点 {1} 上"
 
-#: ../www/manager/storage/LVMEdit.js:133 ../www/manager/storage/LVMEdit.js:140
+#: ../www/manager/storage/LVMEdit.js:133
+#: ../www/manager/storage/LVMEdit.js:140
 msgid "Volume group"
 msgstr "卷组"
 
 #: ../www/manager/storage/ZFSEdit.js:103
 #, fuzzy
 msgid "Write cache"
-msgstr "无缓存"
+msgstr "写缓存"
 
 #: ../www/manager/qemu/HDThrottle.js:96 ../www/manager/qemu/HDThrottle.js:140
 msgid "Write limit"
 msgstr "写入限制"
 
-#: ../www/manager/qemu/HDThrottle.js:107 ../www/manager/qemu/HDThrottle.js:151
+#: ../www/manager/qemu/HDThrottle.js:107
+#: ../www/manager/qemu/HDThrottle.js:151
 #, fuzzy
 msgid "Write max burst"
-msgstr "写入限制"
+msgstr "写入最大限制"
 
 #: ../www/manager/form/Boolean.js:11 ../www/manager/Utils.js:881
 msgid "Yes"
@@ -2260,7 +2274,8 @@ msgid "days"
 msgstr "天"
 
 #: ../www/manager/qemu/HDThrottle.js:86 ../www/manager/qemu/HDThrottle.js:109
-#: ../www/manager/qemu/HDThrottle.js:131 ../www/manager/qemu/HDThrottle.js:153
+#: ../www/manager/qemu/HDThrottle.js:131
+#: ../www/manager/qemu/HDThrottle.js:153
 #, fuzzy
 msgid "default"
 msgstr "默认"
@@ -2291,7 +2306,7 @@ msgstr "新"
 
 #: ../www/manager/panel/IPSet.js:229
 msgid "nomatch"
-msgstr ""
+msgstr "无匹配"
 
 #: ../www/manager/form/CompressionSelector.js:9
 msgid "none"
@@ -2314,7 +2329,8 @@ msgid "stopped"
 msgstr "停止中"
 
 #: ../www/manager/qemu/HDThrottle.js:75 ../www/manager/qemu/HDThrottle.js:98
-#: ../www/manager/qemu/HDThrottle.js:120 ../www/manager/qemu/HDThrottle.js:142
+#: ../www/manager/qemu/HDThrottle.js:120
+#: ../www/manager/qemu/HDThrottle.js:142
 msgid "unlimited"
 msgstr "无限"
 
