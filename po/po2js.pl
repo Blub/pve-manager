@@ -37,7 +37,7 @@ my $catalog;
 my $charset;
 my $hpo = $href->{'""'} || die "no header";
 my $header = $hpo->dequote($hpo->msgstr);
-if ($header =~ m|\\nContent-Type:\s+text/plain;\s+charset=(\S+)\\n|im) {
+if ($header =~ m|^Content-Type:\s+text/plain;\s+charset=(\S+)$|im) {
     $charset = $1;
 } else {
     die "unable to get charset\n" if !$charset;
