@@ -12,6 +12,7 @@ ${EXTDATA}: ${EXTJSSRC}
 	rm -rf ${EXTJSDIR} extjs
 	unzip -x ${EXTJSSRC}
 	mv ${EXTJSDIR} extjs
+	touch ${EXTDATA}
 
 all: ${EXTDATA}
 
