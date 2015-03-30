@@ -10,6 +10,7 @@ TOUCHDATA = 					\
 ${TOUCHDATA}: ${TOUCHSRC}
 	rm -rf ${TOUCHDIR}
 	unzip -x ${TOUCHSRC}
+	touch ${TOUCHDATA}
 
 all: ${TOUCHDATA}
 
