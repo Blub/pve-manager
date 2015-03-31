@@ -8,6 +8,12 @@ EXTDATA=	\
 	extjs/build/ext-all-debug.js	\
 	extjs/build/bootstrap.js
 
+# pve 3.* theme
+EXT_CLASSIC_THEME=	\
+	extjs/packages/ext-theme-base	\
+	extjs/packages/ext-theme-neutral	\
+	extjs/packages/ext-theme-classic	\
+
 ${EXTDATA}: ${EXTJSSRC}
 	rm -rf ${EXTJSDIR} extjs
 	unzip -x ${EXTJSSRC}
@@ -20,9 +26,9 @@ all: ${EXTDATA}
 install: ${EXTDATA}
 	install -d ${WWWEXT5DIR}
 	install -m 0644 ${EXTDATA} ${WWWEXT5DIR}
-	cp -a extjs/build/packages ${WWWEXT5DIR}
-	install -d ${WWWEXT5DIR}/locale
-	cp -a extjs/build/packages/ext-locale/build/* ${WWWEXT5DIR}/locale/
+	install -d ${WWWEXT5DIR}/packages
+	cp -a extjs/build/packages/ext-locale ${WWWEXT5DIR}/packages
+	cp -a ${EXT_CLASSIC_THEME} ${WWWEXT5DIR}/packages
 	chown -R www-data:www-data ${WWWEXT5DIR}
 
 .PHONY: distclean
