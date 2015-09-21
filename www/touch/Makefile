@@ -1,7 +1,7 @@
 include ../../defines.mk
 
-TOUCHDIR=touch-2.3.1
-TOUCHSRC=sencha-touch-2.3.1a-gpl.zip
+TOUCHDIR=touch-2.4.2
+TOUCHSRC=sencha-touch-2.4.2-gpl.zip
 
 TOUCHDATA = 					\
 	${TOUCHDIR}/sencha-touch-all.js		\
