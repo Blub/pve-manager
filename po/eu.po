@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Mon Jul 14 11:06:02 2014\n"
+"POT-Creation-Date: Wed Oct 28 12:45:25 2015\n"
 "PO-Revision-Date: 2014-04-17 10:44+0100\n"
 "Last-Translator: Xabier Isla Rodriguez <xabi@uharte.com>\n"
 "Language-Team: Euskera\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Poedit 1.6.4\n"
 
-#: ../www/manager/qemu/Options.js:125 ../www/manager/qemu/Options.js:130
+#: ../www/manager/qemu/Options.js:142 ../www/manager/qemu/Options.js:147
 msgid "ACPI support"
 msgstr "ACPI euskarria"
 
@@ -32,28 +32,26 @@ msgstr "Utzi"
 msgid "Action"
 msgstr "Hautaketa"
 
-#: ../www/manager/dc/HAConfig.js:124
-msgid "Activate"
-msgstr "Aktibatu"
-
 #: ../www/manager/form/BridgeSelector.js:55
-#: ../www/manager/storage/StatusView.js:25
 #: ../www/manager/node/NetworkView.js:243
+#: ../www/manager/storage/StatusView.js:25
 msgid "Active"
 msgstr "Aktibo"
 
-#: ../www/manager/dc/AuthView.js:85 ../www/manager/dc/AuthEdit.js:37
+#: ../www/manager/dc/AuthView.js:78 ../www/manager/dc/AuthEdit.js:37
 msgid "Active Directory Server"
 msgstr "Active Directory Zerbitzaria"
 
-#: ../www/manager/window/Edit.js:198 ../www/manager/grid/PoolMembers.js:144
+#: ../www/manager/openvz/Network.js:356 ../www/manager/Utils.js:920
+#: ../www/manager/dc/UserView.js:148 ../www/manager/dc/AuthView.js:74
+#: ../www/manager/dc/ACLView.js:190 ../www/manager/dc/Backup.js:396
+#: ../www/manager/dc/StorageView.js:104
 #: ../www/manager/grid/FirewallAliases.js:135
-#: ../www/manager/grid/FirewallRules.js:543 ../www/manager/Utils.js:1090
-#: ../www/manager/openvz/Network.js:356 ../www/manager/panel/IPSet.js:329
-#: ../www/manager/qemu/HardwareView.js:367
-#: ../www/manager/dc/StorageView.js:101 ../www/manager/dc/AuthView.js:81
-#: ../www/manager/dc/UserView.js:148 ../www/manager/dc/ACLView.js:190
-#: ../www/manager/dc/Backup.js:381 ../www/manager/dc/HAConfig.js:166
+#: ../www/manager/grid/FirewallRules.js:543
+#: ../www/manager/grid/PoolMembers.js:144
+#: ../www/manager/qemu/HardwareView.js:466 ../www/manager/lxc/Network.js:457
+#: ../www/manager/panel/IPSet.js:329 ../www/manager/ha/Resources.js:95
+#: ../www/manager/window/Edit.js:198
 msgid "Add"
 msgstr "Erantsi"
 
@@ -63,59 +61,62 @@ msgid "Address"
 msgstr "DirecciÃ³n IP"
 
 #: ../www/manager/grid/FirewallAliases.js:48
+#: ../www/manager/grid/FirewallAliases.js:73
 msgid "Alias"
 msgstr ""
 
-#: ../www/manager/grid/FirewallAliases.js:73
-msgid "Aliases"
-msgstr ""
-
-#: ../www/manager/storage/GlusterFsEdit.js:138
-#: ../www/manager/storage/RBDEdit.js:76
-#: ../www/manager/storage/SheepdogEdit.js:60
-#: ../www/manager/storage/LVMEdit.js:193 ../www/manager/storage/DirEdit.js:81
-#: ../www/manager/storage/IScsiEdit.js:133
-#: ../www/manager/storage/ZFSEdit.js:120 ../www/manager/storage/NFSEdit.js:141
 #: ../www/manager/dc/Backup.js:30 ../www/manager/dc/Backup.js:119
-#: ../www/manager/dc/Backup.js:310
+#: ../www/manager/dc/Backup.js:325 ../www/manager/storage/DirEdit.js:81
+#: ../www/manager/storage/ZFSPoolEdit.js:124
+#: ../www/manager/storage/IScsiEdit.js:133
+#: ../www/manager/storage/NFSEdit.js:141 ../www/manager/storage/RBDEdit.js:89
+#: ../www/manager/storage/LVMEdit.js:203 ../www/manager/storage/ZFSEdit.js:120
+#: ../www/manager/storage/GlusterFsEdit.js:146
+#: ../www/manager/storage/SheepdogEdit.js:60
 msgid "All"
 msgstr "Guztia"
 
-#: ../www/manager/dc/Backup.js:311
+#: ../www/manager/dc/Backup.js:326
 msgid "All except {0}"
 msgstr "Guztia {0} izan ezik"
 
-#: ../www/manager/Utils.js:94
+#: ../www/manager/Toolkit.js:76 ../www/manager/Toolkit.js:81
 msgid "Allowed characters"
 msgstr "Baimendutako karaktereak"
 
-#: ../www/manager/dc/HAConfig.js:127
-msgid "Are you sure you want to activate your changes"
-msgstr "Ziur zaude aldaketak aktibatu nahi dituzula?"
+#: ../www/manager/form/EmailNotificationSelector.js:9
+msgid "Always"
+msgstr ""
+
+#: ../www/manager/lxc/Options.js:51
+msgid "Architecture"
+msgstr ""
 
 #: ../www/manager/StateProvider.js:161
 msgid "Are you sure you want to navigate away from this page?"
 msgstr "Ziur zaude orrialdetik alde egin nahi duzula?"
 
-#: ../www/manager/openvz/Config.js:91 ../www/manager/qemu/Config.js:100
+#: ../www/manager/openvz/Config.js:91 ../www/manager/qemu/Config.js:102
+#: ../www/manager/lxc/Config.js:91
 msgid ""
 "Are you sure you want to remove VM {0}? This will permanently erase all VM "
 "data."
 msgstr ""
 "Ziur zaude {0} VM ezabatu nahi duzula? Datu guztiak betirako ezabatuko dira. "
 
-#: ../www/manager/storage/ContentView.js:405
+#: ../www/manager/openvz/Network.js:279 ../www/manager/dc/PoolView.js:28
+#: ../www/manager/dc/UserView.js:90 ../www/manager/dc/AuthView.js:49
+#: ../www/manager/dc/GroupView.js:28 ../www/manager/dc/StorageView.js:77
+#: ../www/manager/grid/BackupView.js:146
 #: ../www/manager/grid/PoolMembers.js:111
-#: ../www/manager/grid/BackupView.js:121 ../www/manager/openvz/Network.js:279
-#: ../www/manager/qemu/HardwareView.js:327
-#: ../www/manager/qemu/SnapshotTree.js:179 ../www/manager/dc/StorageView.js:74
-#: ../www/manager/dc/GroupView.js:28 ../www/manager/dc/AuthView.js:56
-#: ../www/manager/dc/UserView.js:90 ../www/manager/dc/PoolView.js:28
-#: ../www/manager/ceph/Pool.js:112
+#: ../www/manager/qemu/SnapshotTree.js:179
+#: ../www/manager/qemu/HardwareView.js:373
+#: ../www/manager/lxc/SnapshotTree.js:179 ../www/manager/lxc/Network.js:399
+#: ../www/manager/storage/ContentView.js:405 ../www/manager/ceph/Pool.js:112
 msgid "Are you sure you want to remove entry {0}"
 msgstr "Ziur zaude {0} sarrera ezabatu nahi duzula?"
 
-#: ../www/manager/dc/ACLView.js:152 ../www/manager/dc/Backup.js:354
+#: ../www/manager/dc/ACLView.js:152 ../www/manager/dc/Backup.js:369
 msgid "Are you sure you want to remove this entry"
 msgstr "Ziur zaude sarrera hau ezabatu nahi duzula?"
 
@@ -123,11 +124,8 @@ msgstr "Ziur zaude sarrera hau ezabatu nahi duzula?"
 msgid "Are you sure you want to restore this VM?"
 msgstr "Ziur zaude VM hau berrezarri nahi duzula?"
 
-#: ../www/manager/dc/HAConfig.js:148
-msgid "Are you sure you want to revert your changes"
-msgstr "Ziur zaude zure aldaketak leheneratu nahi dituzula?"
-
 #: ../www/manager/qemu/SnapshotTree.js:144
+#: ../www/manager/lxc/SnapshotTree.js:144
 msgid "Are you sure you want to rollback to snapshot {0}"
 msgstr "Ziur zaude {0} snapshot-ra rollback egin nahi duzula?"
 
@@ -135,17 +133,17 @@ msgstr "Ziur zaude {0} snapshot-ra rollback egin nahi duzula?"
 msgid "Authentication"
 msgstr "Kautotu Prozedura"
 
-#: ../www/manager/qemu/MemoryEdit.js:70
+#: ../www/manager/qemu/MemoryEdit.js:65
 msgid "Automatically allocate memory within this range"
 msgstr "Automatikoki memoria egokitu tarte horretan"
 
+#: ../www/manager/node/NetworkEdit.js:50
 #: ../www/manager/node/NetworkView.js:253
-#: ../www/manager/node/NetworkEdit.js:48 ../www/manager/dc/HAConfig.js:35
 msgid "Autostart"
 msgstr "Auto abiaratzea"
 
 #: ../www/manager/form/StorageSelector.js:87
-#: ../www/manager/storage/StatusView.js:60
+#: ../www/manager/storage/StatusView.js:55
 msgid "Avail"
 msgstr "Erabilgarri"
 
@@ -153,17 +151,18 @@ msgstr "Erabilgarri"
 msgid "Back"
 msgstr "Atzera"
 
-#: ../www/manager/window/Backup.js:57 ../www/manager/window/Backup.js:91
-#: ../www/manager/Utils.js:737 ../www/manager/openvz/Config.js:165
-#: ../www/manager/qemu/Config.js:166 ../www/manager/dc/Config.js:43
+#: ../www/manager/openvz/Config.js:165 ../www/manager/Utils.js:563
+#: ../www/manager/dc/Config.js:43 ../www/manager/qemu/Config.js:168
+#: ../www/manager/lxc/Config.js:159 ../www/manager/window/Backup.js:57
+#: ../www/manager/window/Backup.js:91
 msgid "Backup"
 msgstr "Backup"
 
-#: ../www/manager/dc/Backup.js:266
+#: ../www/manager/dc/Backup.js:281
 msgid "Backup Job"
 msgstr "Backup Lana"
 
-#: ../www/manager/grid/BackupView.js:81
+#: ../www/manager/grid/BackupView.js:106
 msgid "Backup now"
 msgstr "Backup Egin"
 
@@ -183,7 +182,7 @@ msgstr "Oinarrizko Biltegiratze"
 msgid "Base volume"
 msgstr "Oinarrizko Bolumena"
 
-#: ../www/manager/Utils.js:288
+#: ../www/manager/Utils.js:70
 msgid "Basic"
 msgstr "Oinarrizko"
 
@@ -197,23 +196,24 @@ msgstr "Block Tamaina"
 msgid "Boot device"
 msgstr "Abio gailua"
 
-#: ../www/manager/qemu/BootOrderEdit.js:184 ../www/manager/qemu/Options.js:74
+#: ../www/manager/qemu/Options.js:74 ../www/manager/qemu/BootOrderEdit.js:184
 msgid "Boot order"
 msgstr "Abio ordena"
 
-#: ../www/manager/form/BridgeSelector.js:49
-#: ../www/manager/openvz/Network.js:81 ../www/manager/openvz/Network.js:409
 #: ../www/manager/openvz/CreateWizard.js:48
-#: ../www/manager/qemu/NetworkEdit.js:65
+#: ../www/manager/openvz/Network.js:81 ../www/manager/openvz/Network.js:409
+#: ../www/manager/form/BridgeSelector.js:49
+#: ../www/manager/qemu/NetworkEdit.js:67 ../www/manager/lxc/Network.js:136
+#: ../www/manager/lxc/Network.js:485
 msgid "Bridge"
 msgstr "Bridge"
 
-#: ../www/manager/node/NetworkEdit.js:58 ../www/manager/node/NetworkEdit.js:64
+#: ../www/manager/node/NetworkEdit.js:66 ../www/manager/node/NetworkEdit.js:72
 msgid "Bridge ports"
 msgstr "Bridge portuak"
 
 #: ../www/manager/openvz/CreateWizard.js:186
-#: ../www/manager/qemu/NetworkEdit.js:78
+#: ../www/manager/qemu/NetworkEdit.js:80
 msgid "Bridged mode"
 msgstr "Bridge modua"
 
@@ -225,29 +225,49 @@ msgstr "Bus/Device"
 msgid "CD/DVD"
 msgstr "CD/DVD"
 
-#: ../www/manager/qemu/HardwareView.js:114
-#: ../www/manager/qemu/HardwareView.js:125
-#: ../www/manager/qemu/HardwareView.js:136
-#: ../www/manager/qemu/HardwareView.js:147
-#: ../www/manager/qemu/HardwareView.js:384
+#: ../www/manager/qemu/HardwareView.js:154
+#: ../www/manager/qemu/HardwareView.js:165
+#: ../www/manager/qemu/HardwareView.js:176
+#: ../www/manager/qemu/HardwareView.js:187
+#: ../www/manager/qemu/HardwareView.js:483
 msgid "CD/DVD Drive"
 msgstr "CD/DVD Gailua"
 
+#: ../www/manager/Utils.js:117
+#: ../www/manager/form/HotplugFeatureSelector.js:53
 #: ../www/manager/qemu/CreateWizard.js:104
+#: ../www/manager/lxc/CreateWizard.js:164
+#: ../www/manager/lxc/ResourceEdit.js:28
 msgid "CPU"
 msgstr "PUZ"
 
+#: ../www/manager/qemu/CPUOptions.js:83
+#, fuzzy
+msgid "CPU Options"
+msgstr "Aukerak"
+
+#: ../www/manager/qemu/CPUOptions.js:51 ../www/manager/lxc/Resources.js:60
+#: ../www/manager/lxc/ResourceEdit.js:54
+#, fuzzy
+msgid "CPU limit"
+msgstr "PUZ unitateak"
+
+#: ../www/manager/qemu/HardwareView.js:363
+#, fuzzy
+msgid "CPU options"
+msgstr "Aukerak"
+
 #: ../www/manager/openvz/Options.js:50 ../www/manager/openvz/Options.js:54
-#: ../www/manager/openvz/Options.js:58 ../www/manager/qemu/Options.js:167
-#: ../www/manager/qemu/Options.js:171 ../www/manager/qemu/Options.js:175
+#: ../www/manager/openvz/Options.js:58 ../www/manager/qemu/CPUOptions.js:58
+#: ../www/manager/lxc/Resources.js:71 ../www/manager/lxc/ResourceEdit.js:61
 msgid "CPU units"
 msgstr "PUZ unitateak"
 
-#: ../www/manager/data/ResourceStore.js:122
-#: ../www/manager/form/NodeSelector.js:57 ../www/manager/openvz/Summary.js:67
-#: ../www/manager/openvz/StatusView.js:61 ../www/manager/node/Summary.js:108
-#: ../www/manager/node/StatusView.js:46 ../www/manager/qemu/Summary.js:62
-#: ../www/manager/qemu/StatusView.js:45
+#: ../www/manager/openvz/StatusView.js:61 ../www/manager/openvz/Summary.js:67
+#: ../www/manager/form/NodeSelector.js:56 ../www/manager/node/StatusView.js:46
+#: ../www/manager/node/Summary.js:108 ../www/manager/data/ResourceStore.js:123
+#: ../www/manager/qemu/StatusView.js:45 ../www/manager/qemu/Summary.js:62
+#: ../www/manager/lxc/StatusView.js:61 ../www/manager/lxc/Summary.js:67
 msgid "CPU usage"
 msgstr "PUZ-aren erabilera"
 
@@ -256,7 +276,12 @@ msgstr "PUZ-aren erabilera"
 msgid "CPUs"
 msgstr "PUZ-ak"
 
-#: ../www/manager/qemu/HDEdit.js:207
+#: ../www/manager/lxc/Options.js:122 ../www/manager/lxc/Options.js:127
+#, fuzzy
+msgid "CT protection"
+msgstr "Direktorioa"
+
+#: ../www/manager/qemu/HDEdit.js:222
 msgid "Cache"
 msgstr "Cache-a"
 
@@ -268,25 +293,40 @@ msgstr "Kapazitatea"
 msgid "Changelog"
 msgstr "Changelog"
 
-#: ../www/manager/node/Subscription.js:95
+#: ../www/manager/node/Subscription.js:98
 msgid "Check"
 msgstr "Egiaztatu"
 
-#: ../www/manager/Utils.js:704 ../www/manager/qemu/TemplateMenu.js:48
-#: ../www/manager/qemu/CmdMenu.js:81 ../www/manager/qemu/Clone.js:267
+#: ../www/manager/Utils.js:525 ../www/manager/qemu/CmdMenu.js:101
+#: ../www/manager/qemu/Clone.js:268 ../www/manager/qemu/TemplateMenu.js:48
 msgid "Clone"
 msgstr "Klonatu"
+
+#: ../www/manager/dc/Summary.js:96
+#, fuzzy
+msgid "Cluster"
+msgstr "Clusterreko loga"
 
 #: ../www/manager/panel/StatusPanel.js:36
 msgid "Cluster log"
 msgstr "Clusterreko loga"
 
-#: ../www/manager/pool/StatusView.js:15
+#: ../www/manager/ha/Fencing.js:29
+#, fuzzy
+msgid "Command"
+msgstr "Iruzkina"
+
+#: ../www/manager/pool/StatusView.js:15 ../www/manager/dc/UserEdit.js:128
+#: ../www/manager/dc/PoolEdit.js:35 ../www/manager/dc/PoolView.js:96
+#: ../www/manager/dc/UserView.js:221 ../www/manager/dc/AuthView.js:132
+#: ../www/manager/dc/GroupView.js:96 ../www/manager/dc/GroupEdit.js:35
+#: ../www/manager/dc/SecurityGroups.js:31
+#: ../www/manager/dc/SecurityGroups.js:170 ../www/manager/dc/AuthEdit.js:202
 #: ../www/manager/form/SecurityGroupSelector.js:35
-#: ../www/manager/form/UserSelector.js:42
-#: ../www/manager/form/GroupSelector.js:29
 #: ../www/manager/form/PoolSelector.js:29
+#: ../www/manager/form/GroupSelector.js:29
 #: ../www/manager/form/IPRefSelector.js:65
+#: ../www/manager/form/UserSelector.js:42
 #: ../www/manager/grid/FirewallAliases.js:38
 #: ../www/manager/grid/FirewallAliases.js:174
 #: ../www/manager/grid/FirewallRules.js:219
@@ -294,80 +334,105 @@ msgstr "Clusterreko loga"
 #: ../www/manager/grid/FirewallRules.js:719 ../www/manager/panel/IPSet.js:79
 #: ../www/manager/panel/IPSet.js:114 ../www/manager/panel/IPSet.js:151
 #: ../www/manager/panel/IPSet.js:237 ../www/manager/panel/IPSet.js:404
-#: ../www/manager/dc/GroupView.js:96 ../www/manager/dc/GroupEdit.js:35
-#: ../www/manager/dc/AuthView.js:139 ../www/manager/dc/UserEdit.js:128
-#: ../www/manager/dc/SecurityGroups.js:31
-#: ../www/manager/dc/SecurityGroups.js:170 ../www/manager/dc/PoolEdit.js:35
-#: ../www/manager/dc/UserView.js:221 ../www/manager/dc/PoolView.js:96
-#: ../www/manager/dc/AuthEdit.js:74
+#: ../www/manager/ha/GroupSelector.js:36 ../www/manager/ha/Groups.js:106
+#: ../www/manager/ha/GroupEdit.js:58 ../www/manager/ha/ResourceEdit.js:67
 msgid "Comment"
 msgstr "Iruzkina"
 
-#: ../www/manager/Utils.js:287
+#: ../www/manager/Utils.js:69
 msgid "Community"
 msgstr "Elkarte"
 
-#: ../www/manager/window/Backup.js:49 ../www/manager/dc/Backup.js:165
+#: ../www/manager/dc/Backup.js:172 ../www/manager/window/Backup.js:49
 msgid "Compression"
 msgstr "Trinkotzea"
 
-#: ../www/manager/Utils.js:713
+#: ../www/manager/ceph/Config.js:110
+#, fuzzy
+msgid "Config"
+msgstr "Konfiguratu"
+
+#: ../www/manager/Utils.js:534
 msgid "Configure"
 msgstr "Konfiguratu"
 
-#: ../www/manager/window/Restore.js:105 ../www/manager/button/Button.js:45
-#: ../www/manager/openvz/CreateWizard.js:254
-#: ../www/manager/openvz/CmdMenu.js:57 ../www/manager/openvz/CmdMenu.js:71
-#: ../www/manager/qemu/CreateWizard.js:113 ../www/manager/qemu/CmdMenu.js:57
-#: ../www/manager/qemu/CmdMenu.js:71 ../www/manager/qemu/CmdMenu.js:96
-#: ../www/manager/VNCConsole.js:306 ../www/manager/VNCConsole.js:318
-#: ../www/manager/VNCConsole.js:335 ../www/manager/VNCConsole.js:347
-#: ../www/manager/VNCConsole.js:441 ../www/manager/VNCConsole.js:453
+#: ../www/manager/openvz/CmdMenu.js:57 ../www/manager/openvz/CmdMenu.js:78
+#: ../www/manager/openvz/CmdMenu.js:92
+#: ../www/manager/openvz/CreateWizard.js:269
+#: ../www/manager/button/Button.js:45 ../www/manager/node/Config.js:42
+#: ../www/manager/node/Config.js:63 ../www/manager/qemu/CmdMenu.js:57
+#: ../www/manager/qemu/CmdMenu.js:77 ../www/manager/qemu/CmdMenu.js:91
+#: ../www/manager/qemu/CmdMenu.js:116 ../www/manager/qemu/CreateWizard.js:113
+#: ../www/manager/lxc/CmdMenu.js:57 ../www/manager/lxc/CmdMenu.js:78
+#: ../www/manager/lxc/CmdMenu.js:92 ../www/manager/lxc/CreateWizard.js:179
+#: ../www/manager/VNCConsole.js:354 ../www/manager/VNCConsole.js:366
+#: ../www/manager/VNCConsole.js:383 ../www/manager/VNCConsole.js:395
+#: ../www/manager/VNCConsole.js:489 ../www/manager/VNCConsole.js:501
+#: ../www/manager/window/Restore.js:105
 msgid "Confirm"
 msgstr "Baieztatu"
 
 #: ../www/manager/openvz/CreateWizard.js:123 ../www/manager/dc/UserEdit.js:36
-#: ../www/manager/dc/UserView.js:23
+#: ../www/manager/dc/UserView.js:23 ../www/manager/lxc/CreateWizard.js:120
 msgid "Confirm password"
 msgstr "Pasahitza baieztatu"
 
-#: ../www/manager/Utils.js:565 ../www/manager/Utils.js:616
-#: ../www/manager/Utils.js:618 ../www/manager/Utils.js:620
-#: ../www/manager/Utils.js:622 ../www/manager/Utils.js:1248
+#: ../www/manager/Utils.js:374 ../www/manager/Utils.js:433
+#: ../www/manager/Utils.js:435 ../www/manager/Utils.js:437
+#: ../www/manager/Utils.js:439 ../www/manager/Utils.js:1083
 msgid "Connection error"
 msgstr "Konexio errorea"
 
-#: ../www/manager/Workspace.js:111 ../www/manager/button/ConsoleButton.js:53
-#: ../www/manager/Utils.js:693 ../www/manager/Utils.js:694
-#: ../www/manager/openvz/CmdMenu.js:81 ../www/manager/qemu/CmdMenu.js:112
-#: ../www/manager/VNCConsole.js:363
+#: ../www/manager/openvz/CmdMenu.js:102 ../www/manager/Utils.js:514
+#: ../www/manager/Utils.js:515 ../www/manager/button/ConsoleButton.js:45
+#: ../www/manager/Workspace.js:111 ../www/manager/node/Config.js:193
+#: ../www/manager/qemu/CmdMenu.js:132 ../www/manager/qemu/Config.js:184
+#: ../www/manager/lxc/CmdMenu.js:102 ../www/manager/lxc/Config.js:167
+#: ../www/manager/VNCConsole.js:411
 msgid "Console"
 msgstr "Kontsola"
 
 #: ../www/manager/dc/OptionView.js:61 ../www/manager/dc/OptionView.js:67
-#: ../www/manager/dc/OptionView.js:109
+#: ../www/manager/dc/OptionView.js:135
 #, fuzzy
 msgid "Console Viewer"
 msgstr "Kontsola"
 
-#: ../www/manager/openvz/Config.js:117
+#: ../www/manager/lxc/Options.js:101 ../www/manager/lxc/Options.js:105
+#: ../www/manager/lxc/Options.js:117
+#, fuzzy
+msgid "Console mode"
+msgstr "Kontsola"
+
+#: ../www/manager/Utils.js:726
+#, fuzzy
+msgid "Container"
+msgstr "OpenVZ Kontainer"
+
+#: ../www/manager/Utils.js:724
+#, fuzzy
+msgid "Container template"
+msgstr "Txantiloira bihurtu"
+
+#: ../www/manager/openvz/Config.js:117 ../www/manager/lxc/Config.js:117
 msgid "Container {0} on node {1}"
 msgstr "{0} kontainerra {1} nodo-an"
 
-#: ../www/manager/storage/Browser.js:37
-#: ../www/manager/storage/GlusterFsEdit.js:128
+#: ../www/manager/dc/StorageView.js:214 ../www/manager/storage/DirEdit.js:46
 #: ../www/manager/storage/ContentView.js:188
-#: ../www/manager/storage/DirEdit.js:46
 #: ../www/manager/storage/StatusView.js:30
-#: ../www/manager/storage/NFSEdit.js:131 ../www/manager/dc/StorageView.js:200
+#: ../www/manager/storage/ZFSPoolEdit.js:96
+#: ../www/manager/storage/NFSEdit.js:131 ../www/manager/storage/RBDEdit.js:70
+#: ../www/manager/storage/LVMEdit.js:191 ../www/manager/storage/Browser.js:37
+#: ../www/manager/storage/GlusterFsEdit.js:136
 msgid "Content"
 msgstr "Edukia"
 
-#: ../www/manager/Utils.js:706 ../www/manager/qemu/CmdMenu.js:92
+#: ../www/manager/Utils.js:527 ../www/manager/qemu/CmdMenu.js:112
 msgid "Convert to template"
 msgstr "Txantiloira bihurtu"
 
-#: ../www/manager/Utils.js:734
+#: ../www/manager/Utils.js:560
 msgid "Copy data"
 msgstr "Datuak kopiatu"
 
@@ -375,13 +440,14 @@ msgstr "Datuak kopiatu"
 msgid "Cores"
 msgstr "Nukleoak"
 
-#: ../www/manager/window/Edit.js:198 ../www/manager/Utils.js:700
-#: ../www/manager/Utils.js:714 ../www/manager/Utils.js:730
-#: ../www/manager/Utils.js:732 ../www/manager/Utils.js:1092
-#: ../www/manager/node/NetworkView.js:135 ../www/manager/panel/IPSet.js:95
+#: ../www/manager/Utils.js:521 ../www/manager/Utils.js:535
+#: ../www/manager/Utils.js:556 ../www/manager/Utils.js:558
+#: ../www/manager/Utils.js:922 ../www/manager/dc/PoolView.js:68
 #: ../www/manager/dc/GroupView.js:68 ../www/manager/dc/SecurityGroups.js:134
-#: ../www/manager/dc/PoolView.js:68 ../www/manager/ceph/Monitor.js:118
-#: ../www/manager/ceph/Pool.js:98 ../www/manager/ceph/Disks.js:38
+#: ../www/manager/node/NetworkView.js:135 ../www/manager/panel/IPSet.js:95
+#: ../www/manager/ha/Groups.js:69 ../www/manager/ceph/Disks.js:38
+#: ../www/manager/ceph/Pool.js:98 ../www/manager/ceph/Monitor.js:118
+#: ../www/manager/window/Edit.js:198
 msgid "Create"
 msgstr "Sortu"
 
@@ -397,22 +463,30 @@ msgstr "VM Sortu"
 msgid "Crush RuleSet"
 msgstr ""
 
-#: ../www/manager/openvz/Config.js:139 ../www/manager/node/Config.js:84
-#: ../www/manager/node/DNSEdit.js:44
+#: ../www/manager/lxc/Network.js:196 ../www/manager/lxc/Network.js:255
+msgid "DHCP"
+msgstr ""
+
+#: ../www/manager/openvz/Config.js:139 ../www/manager/node/DNSEdit.js:44
+#: ../www/manager/node/Config.js:145 ../www/manager/lxc/Config.js:139
+#: ../www/manager/lxc/CreateWizard.js:175
 msgid "DNS"
 msgstr "DNS"
 
-#: ../www/manager/openvz/CreateWizard.js:216 ../www/manager/openvz/DNS.js:42
-#: ../www/manager/openvz/DNS.js:46 ../www/manager/openvz/DNS.js:50
+#: ../www/manager/openvz/DNS.js:42 ../www/manager/openvz/DNS.js:46
+#: ../www/manager/openvz/DNS.js:50 ../www/manager/openvz/CreateWizard.js:231
+#: ../www/manager/lxc/DNS.js:43 ../www/manager/lxc/DNS.js:176
 msgid "DNS domain"
 msgstr "DNS domeinua"
 
-#: ../www/manager/openvz/CreateWizard.js:235
-#: ../www/manager/openvz/CreateWizard.js:244 ../www/manager/openvz/DNS.js:56
-#: ../www/manager/openvz/DNS.js:60 ../www/manager/openvz/DNS.js:64
-#: ../www/manager/node/DNSEdit.js:22 ../www/manager/node/DNSEdit.js:29
-#: ../www/manager/node/DNSEdit.js:36 ../www/manager/node/DNSView.js:26
-#: ../www/manager/node/DNSView.js:27 ../www/manager/node/DNSView.js:28
+#: ../www/manager/openvz/DNS.js:56 ../www/manager/openvz/DNS.js:60
+#: ../www/manager/openvz/DNS.js:64 ../www/manager/openvz/CreateWizard.js:250
+#: ../www/manager/openvz/CreateWizard.js:259 ../www/manager/node/DNSEdit.js:22
+#: ../www/manager/node/DNSEdit.js:29 ../www/manager/node/DNSEdit.js:36
+#: ../www/manager/node/DNSView.js:26 ../www/manager/node/DNSView.js:27
+#: ../www/manager/node/DNSView.js:28 ../www/manager/lxc/DNS.js:62
+#: ../www/manager/lxc/DNS.js:71 ../www/manager/lxc/DNS.js:80
+#: ../www/manager/lxc/DNS.js:187
 msgid "DNS server"
 msgstr "DNS zerbitzaria"
 
@@ -421,20 +495,21 @@ msgid "Datacenter"
 msgstr "Datu Zentroa"
 
 #: ../www/manager/qemu/SnapshotTree.js:261
+#: ../www/manager/lxc/SnapshotTree.js:261
 msgid "Date"
 msgstr ""
 
-#: ../www/manager/dc/Backup.js:141 ../www/manager/dc/Backup.js:405
+#: ../www/manager/dc/Backup.js:141 ../www/manager/dc/Backup.js:427
 msgid "Day of week"
 msgstr "Asteko eguna"
 
-#: ../www/manager/form/Boolean.js:10 ../www/manager/grid/FirewallOptions.js:67
-#: ../www/manager/Utils.js:885 ../www/manager/dc/AuthEdit.js:79
-#: ../www/manager/dc/AuthEdit.js:103
+#: ../www/manager/Utils.js:713 ../www/manager/dc/AuthEdit.js:84
+#: ../www/manager/dc/AuthEdit.js:111 ../www/manager/form/Boolean.js:10
+#: ../www/manager/grid/FirewallOptions.js:67 ../www/manager/lxc/Options.js:86
 msgid "Default"
 msgstr "Lehenetsi"
 
-#: ../www/manager/Utils.js:699
+#: ../www/manager/Utils.js:520 ../www/manager/Utils.js:548
 msgid "Delete Snapshot"
 msgstr "Snapshot-a Ezabatu"
 
@@ -442,13 +517,13 @@ msgstr "Snapshot-a Ezabatu"
 msgid "Delete source"
 msgstr "Iturria ezabatu"
 
-#: ../www/manager/data/ResourceStore.js:49
-#: ../www/manager/form/IPProtocolSelector.js:86
-#: ../www/manager/storage/ContentView.js:60
-#: ../www/manager/grid/FirewallRules.js:37 ../www/manager/node/APT.js:182
-#: ../www/manager/node/ServiceView.js:130 ../www/manager/node/Tasks.js:147
-#: ../www/manager/qemu/Snapshot.js:100 ../www/manager/qemu/SnapshotTree.js:275
-#: ../www/manager/dc/Tasks.js:97
+#: ../www/manager/dc/Tasks.js:103 ../www/manager/form/IPProtocolSelector.js:86
+#: ../www/manager/grid/FirewallRules.js:37 ../www/manager/node/Tasks.js:147
+#: ../www/manager/node/APT.js:182 ../www/manager/node/ServiceView.js:139
+#: ../www/manager/data/ResourceStore.js:50
+#: ../www/manager/qemu/SnapshotTree.js:275 ../www/manager/qemu/Snapshot.js:100
+#: ../www/manager/lxc/SnapshotTree.js:275 ../www/manager/lxc/Snapshot.js:91
+#: ../www/manager/storage/ContentView.js:60 ../www/manager/ha/Resources.js:131
 msgid "Description"
 msgstr "Deskribapena"
 
@@ -463,8 +538,8 @@ msgstr ""
 msgid "Destination"
 msgstr "Deskribapena"
 
-#: ../www/manager/Utils.js:702 ../www/manager/Utils.js:716
-#: ../www/manager/Utils.js:731 ../www/manager/Utils.js:733
+#: ../www/manager/Utils.js:523 ../www/manager/Utils.js:537
+#: ../www/manager/Utils.js:557 ../www/manager/Utils.js:559
 msgid "Destroy"
 msgstr "Erraustu"
 
@@ -482,40 +557,57 @@ msgstr "Zerbitzua"
 msgid "Direction"
 msgstr "Direktorioa"
 
-#: ../www/manager/storage/DirEdit.js:38 ../www/manager/Utils.js:893
+#: ../www/manager/Utils.js:721 ../www/manager/storage/DirEdit.js:38
 msgid "Directory"
 msgstr "Direktorioa"
 
+#: ../www/manager/qemu/HDEdit.js:233
+msgid "Discard"
+msgstr ""
+
+#: ../www/manager/qemu/NetworkEdit.js:164
+msgid "Disconnect"
+msgstr ""
+
+#: ../www/manager/Utils.js:109
+#: ../www/manager/form/HotplugFeatureSelector.js:49
 #: ../www/manager/qemu/HDMove.js:56 ../www/manager/qemu/HDResize.js:40
-#: ../www/manager/ceph/OSD.js:29
+#: ../www/manager/lxc/MPResize.js:43 ../www/manager/ceph/OSD.js:29
 msgid "Disk"
 msgstr "Disko"
 
 #: ../www/manager/openvz/Summary.js:88 ../www/manager/qemu/Summary.js:83
+#: ../www/manager/lxc/Summary.js:88
 msgid "Disk IO"
 msgstr "Disko IO"
 
-#: ../www/manager/qemu/HardwareView.js:308
+#: ../www/manager/qemu/HardwareView.js:356
 msgid "Disk Throttle"
 msgstr ""
 
-#: ../www/manager/Utils.js:894 ../www/manager/qemu/HDEdit.js:112
-#: ../www/manager/qemu/HDEdit.js:133 ../www/manager/qemu/HDEdit.js:198
+#: ../www/manager/Utils.js:722 ../www/manager/qemu/HDEdit.js:126
+#: ../www/manager/qemu/HDEdit.js:147 ../www/manager/qemu/HDEdit.js:213
 msgid "Disk image"
 msgstr "Disko irudia"
 
-#: ../www/manager/data/ResourceStore.js:99
+#: ../www/manager/openvz/RessourceView.js:51
 #: ../www/manager/openvz/RessourceEdit.js:46
-#: ../www/manager/openvz/RessourceView.js:51 ../www/manager/qemu/HDEdit.js:145
+#: ../www/manager/data/ResourceStore.js:100 ../www/manager/qemu/HDEdit.js:159
+#: ../www/manager/lxc/CreateWizard.js:157
 msgid "Disk size"
 msgstr "Disko tamaina"
 
-#: ../www/manager/data/ResourceStore.js:92
+#: ../www/manager/data/ResourceStore.js:93
 msgid "Disk usage"
 msgstr "Disko erabilera"
 
-#: ../www/manager/qemu/HardwareView.js:88
+#: ../www/manager/ceph/Config.js:120
+#, fuzzy
+msgid "Disks"
+msgstr "Disko"
+
 #: ../www/manager/qemu/DisplayEdit.js:33
+#: ../www/manager/qemu/HardwareView.js:112
 msgid "Display"
 msgstr "Pantaila"
 
@@ -524,39 +616,64 @@ msgstr "Pantaila"
 msgid "Do not use any media"
 msgstr "Edozein proxy ez erabili"
 
-#: ../www/manager/dc/OptionView.js:13 ../www/manager/dc/OptionView.js:81
+#: ../www/manager/dc/OptionView.js:13 ../www/manager/dc/OptionView.js:106
 msgid "Do not use any proxy"
 msgstr "Edozein proxy ez erabili"
 
-#: ../www/manager/qemu/CmdMenu.js:95
+#: ../www/manager/qemu/CmdMenu.js:115
 msgid "Do you really want to convert VM {0} into a template?"
 msgstr "Ziur zaude {0} VMa txantiloira bihurtu nahi duzula?"
 
-#: ../www/manager/qemu/Config.js:81 ../www/manager/VNCConsole.js:334
+#: ../www/manager/qemu/Config.js:83 ../www/manager/VNCConsole.js:382
 msgid "Do you really want to reset VM {0}?"
 msgstr "Ziur zaude {0} VM berrabiarazi nahi duzula? "
 
-#: ../www/manager/node/Config.js:35
+#: ../www/manager/node/Config.js:96
 msgid "Do you really want to restart node {0}?"
 msgstr "Ziur zaude {0} nodo-a berrabiarazi nahi duzula? "
 
-#: ../www/manager/openvz/Config.js:68 ../www/manager/openvz/CmdMenu.js:56
-#: ../www/manager/qemu/Config.js:90 ../www/manager/qemu/CmdMenu.js:56
-#: ../www/manager/VNCConsole.js:305 ../www/manager/VNCConsole.js:440
+#: ../www/manager/openvz/CmdMenu.js:77 ../www/manager/lxc/CmdMenu.js:77
+#, fuzzy
+msgid "Do you really want to shutdown CT {0}?"
+msgstr "Ziur zaude {0} VM-a itzali nahi duzula? "
+
+#: ../www/manager/openvz/Config.js:68 ../www/manager/qemu/CmdMenu.js:76
+#: ../www/manager/qemu/Config.js:92 ../www/manager/lxc/Config.js:68
+#: ../www/manager/VNCConsole.js:353 ../www/manager/VNCConsole.js:488
 msgid "Do you really want to shutdown VM {0}?"
 msgstr "Ziur zaude {0} VM-a itzali nahi duzula? "
 
-#: ../www/manager/node/Config.js:44
+#: ../www/manager/node/Config.js:105
 msgid "Do you really want to shutdown node {0}?"
 msgstr "Ziur zaude {0} nodo-a amatatu nahi duzula? "
 
-#: ../www/manager/openvz/Config.js:59 ../www/manager/openvz/CmdMenu.js:70
-#: ../www/manager/qemu/Config.js:59 ../www/manager/qemu/CmdMenu.js:70
-#: ../www/manager/VNCConsole.js:317 ../www/manager/VNCConsole.js:452
+#: ../www/manager/node/Config.js:41
+#, fuzzy
+msgid "Do you really want to start all Vms on  node {0}?"
+msgstr "Ziur zaude {0} nodo-a berrabiarazi nahi duzula? "
+
+#: ../www/manager/openvz/CmdMenu.js:91 ../www/manager/lxc/CmdMenu.js:91
+#, fuzzy
+msgid "Do you really want to stop CT {0}?"
+msgstr "Ziur zaude {0} VM-a gelditu nahi duzula? "
+
+#: ../www/manager/openvz/Config.js:59 ../www/manager/qemu/CmdMenu.js:90
+#: ../www/manager/qemu/Config.js:61 ../www/manager/lxc/Config.js:59
+#: ../www/manager/VNCConsole.js:365 ../www/manager/VNCConsole.js:500
 msgid "Do you really want to stop VM {0}?"
 msgstr "Ziur zaude {0} VM-a gelditu nahi duzula? "
 
-#: ../www/manager/VNCConsole.js:346
+#: ../www/manager/node/Config.js:62
+#, fuzzy
+msgid "Do you really want to stop all Vms on  node {0}?"
+msgstr "Ziur zaude {0} nodo-a amatatu nahi duzula? "
+
+#: ../www/manager/openvz/CmdMenu.js:56 ../www/manager/lxc/CmdMenu.js:56
+#, fuzzy
+msgid "Do you really want to suspend CT {0}?"
+msgstr "Ziur zaude {0} VM-a eseki nahi duzula? "
+
+#: ../www/manager/qemu/CmdMenu.js:56 ../www/manager/VNCConsole.js:394
 msgid "Do you really want to suspend VM {0}?"
 msgstr "Ziur zaude {0} VM-a eseki nahi duzula? "
 
@@ -564,7 +681,7 @@ msgstr "Ziur zaude {0} VM-a eseki nahi duzula? "
 msgid "Domain"
 msgstr "Domeinua"
 
-#: ../www/manager/storage/ContentView.js:105 ../www/manager/Utils.js:736
+#: ../www/manager/Utils.js:562 ../www/manager/storage/ContentView.js:105
 msgid "Download"
 msgstr "Deskargatu"
 
@@ -572,36 +689,55 @@ msgstr "Deskargatu"
 msgid "E-Mail"
 msgstr "Posta Elektronikoa"
 
-#: ../www/manager/grid/FirewallOptions.js:199
+#: ../www/manager/openvz/DNS.js:103 ../www/manager/openvz/Options.js:139
+#: ../www/manager/openvz/RessourceView.js:92
+#: ../www/manager/openvz/Network.js:337 ../www/manager/Utils.js:925
+#: ../www/manager/dc/OptionView.js:175 ../www/manager/dc/PoolView.js:60
+#: ../www/manager/dc/UserView.js:124 ../www/manager/dc/AuthView.js:38
+#: ../www/manager/dc/GroupView.js:60 ../www/manager/dc/Backup.js:359
+#: ../www/manager/dc/StorageView.js:66 ../www/manager/dc/SecurityGroups.js:127
 #: ../www/manager/grid/FirewallAliases.js:128
-#: ../www/manager/grid/FirewallRules.js:536 ../www/manager/Utils.js:1095
-#: ../www/manager/openvz/Network.js:337
-#: ../www/manager/openvz/RessourceView.js:92 ../www/manager/openvz/DNS.js:103
-#: ../www/manager/openvz/Options.js:139 ../www/manager/node/NetworkView.js:66
-#: ../www/manager/node/DNSView.js:32 ../www/manager/node/TimeView.js:43
-#: ../www/manager/panel/IPSet.js:88 ../www/manager/panel/IPSet.js:322
-#: ../www/manager/qemu/HardwareView.js:266 ../www/manager/qemu/Snapshot.js:131
-#: ../www/manager/qemu/Options.js:283 ../www/manager/qemu/SnapshotTree.js:131
-#: ../www/manager/dc/StorageView.js:63 ../www/manager/dc/GroupView.js:60
-#: ../www/manager/dc/AuthView.js:42 ../www/manager/dc/SecurityGroups.js:127
-#: ../www/manager/dc/OptionView.js:138 ../www/manager/dc/UserView.js:124
-#: ../www/manager/dc/PoolView.js:60 ../www/manager/dc/Backup.js:344
-#: ../www/manager/dc/HAConfig.js:232
+#: ../www/manager/grid/FirewallOptions.js:199
+#: ../www/manager/grid/FirewallRules.js:536
+#: ../www/manager/node/NetworkView.js:66 ../www/manager/node/TimeView.js:43
+#: ../www/manager/node/DNSView.js:32 ../www/manager/qemu/Options.js:300
+#: ../www/manager/qemu/SnapshotTree.js:131 ../www/manager/qemu/Snapshot.js:131
+#: ../www/manager/qemu/HardwareView.js:335 ../www/manager/lxc/DNS.js:239
+#: ../www/manager/lxc/Options.js:181 ../www/manager/lxc/Resources.js:142
+#: ../www/manager/lxc/SnapshotTree.js:131 ../www/manager/lxc/Snapshot.js:122
+#: ../www/manager/lxc/Network.js:439 ../www/manager/panel/IPSet.js:88
+#: ../www/manager/panel/IPSet.js:322 ../www/manager/ha/Groups.js:54
+#: ../www/manager/ha/Resources.js:80
 msgid "Edit"
 msgstr "Editatu"
 
-#: ../www/manager/storage/GlusterFsEdit.js:148
-#: ../www/manager/storage/RBDEdit.js:67
-#: ../www/manager/storage/SheepdogEdit.js:51
-#: ../www/manager/storage/LVMEdit.js:203 ../www/manager/storage/DirEdit.js:57
-#: ../www/manager/storage/IScsiEdit.js:143
-#: ../www/manager/storage/ZFSEdit.js:81 ../www/manager/storage/NFSEdit.js:151
+#: ../www/manager/dc/OptionView.js:84 ../www/manager/dc/OptionView.js:92
+#: ../www/manager/dc/OptionView.js:141
+msgid "Email from address"
+msgstr ""
+
+#: ../www/manager/dc/Backup.js:165
+msgid "Email notification"
+msgstr ""
+
+#: ../www/manager/dc/Backup.js:185 ../www/manager/dc/StorageView.js:240
 #: ../www/manager/grid/FirewallRules.js:160
 #: ../www/manager/grid/FirewallRules.js:346
 #: ../www/manager/grid/FirewallRules.js:623
-#: ../www/manager/dc/StorageView.js:226
+#: ../www/manager/storage/DirEdit.js:57
+#: ../www/manager/storage/ZFSPoolEdit.js:108
+#: ../www/manager/storage/IScsiEdit.js:143
+#: ../www/manager/storage/NFSEdit.js:151 ../www/manager/storage/RBDEdit.js:65
+#: ../www/manager/storage/LVMEdit.js:213 ../www/manager/storage/ZFSEdit.js:81
+#: ../www/manager/storage/GlusterFsEdit.js:156
+#: ../www/manager/storage/SheepdogEdit.js:51
 msgid "Enable"
 msgstr "Gaitu"
+
+#: ../www/manager/lxc/Options.js:55 ../www/manager/lxc/Options.js:60
+#: ../www/manager/lxc/Options.js:68
+msgid "Enable /dev/console"
+msgstr ""
 
 #: ../www/manager/grid/FirewallOptions.js:119
 #, fuzzy
@@ -614,13 +750,20 @@ msgstr "Gaitu"
 msgid "Enable Firewall"
 msgstr ""
 
-#: ../www/manager/storage/StatusView.js:20 ../www/manager/qemu/Options.js:120
-#: ../www/manager/qemu/Options.js:138 ../www/manager/qemu/Options.js:162
+#: ../www/manager/qemu/ProcessorEdit.js:43
+#, fuzzy
+msgid "Enable numa"
+msgstr "Gaitu"
+
 #: ../www/manager/dc/UserEdit.js:97 ../www/manager/dc/UserView.js:199
+#: ../www/manager/dc/Backup.js:408 ../www/manager/qemu/Options.js:120
+#: ../www/manager/qemu/Options.js:155 ../www/manager/qemu/Options.js:179
+#: ../www/manager/qemu/Options.js:254 ../www/manager/lxc/Options.js:134
+#: ../www/manager/storage/StatusView.js:20
 msgid "Enabled"
 msgstr "Gaituta"
 
-#: ../www/manager/node/Tasks.js:129 ../www/manager/dc/Tasks.js:69
+#: ../www/manager/dc/Tasks.js:75 ../www/manager/node/Tasks.js:129
 msgid "End Time"
 msgstr "Amaiera Ordua"
 
@@ -632,63 +775,66 @@ msgstr "Zure pasahitza sartu"
 msgid "Enter your user name"
 msgstr "Zure erabiltzaile izena sartu"
 
-#: ../www/manager/Utils.js:735
+#: ../www/manager/Utils.js:561
 msgid "Erase data"
 msgstr "Datuak ezabatu"
 
-#: ../www/manager/window/Restore.js:64 ../www/manager/window/LoginWindow.js:16
-#: ../www/manager/window/Edit.js:111 ../www/manager/window/Edit.js:156
-#: ../www/manager/window/Migrate.js:14 ../www/manager/window/TaskViewer.js:156
+#: ../www/manager/openvz/CmdMenu.js:25
+#: ../www/manager/openvz/CreateWizard.js:328
+#: ../www/manager/openvz/Network.js:204 ../www/manager/openvz/Network.js:310
+#: ../www/manager/Utils.js:488 ../www/manager/Utils.js:711
+#: ../www/manager/Workspace.js:169 ../www/manager/dc/Support.js:49
+#: ../www/manager/dc/PoolView.js:40 ../www/manager/dc/UserView.js:104
+#: ../www/manager/dc/AuthView.js:66 ../www/manager/dc/ACLView.js:176
+#: ../www/manager/dc/GroupView.js:40 ../www/manager/dc/Backup.js:379
+#: ../www/manager/dc/StorageView.js:89 ../www/manager/dc/SecurityGroups.js:157
+#: ../www/manager/grid/FirewallAliases.js:159
+#: ../www/manager/grid/FirewallRules.js:433
+#: ../www/manager/grid/FirewallRules.js:460
+#: ../www/manager/grid/FirewallRules.js:481
+#: ../www/manager/grid/PoolMembers.js:133 ../www/manager/node/APT.js:58
+#: ../www/manager/node/APT.js:122 ../www/manager/node/ServiceView.js:42
+#: ../www/manager/node/NetworkEdit.js:309 ../www/manager/node/Config.js:27
+#: ../www/manager/node/NetworkView.js:33 ../www/manager/node/NetworkView.js:92
+#: ../www/manager/node/NetworkView.js:212 ../www/manager/node/Summary.js:38
+#: ../www/manager/node/Subscription.js:106
+#: ../www/manager/qemu/NetworkEdit.js:210 ../www/manager/qemu/HDEdit.js:291
+#: ../www/manager/qemu/HDThrottle.js:201
+#: ../www/manager/qemu/TemplateMenu.js:27
+#: ../www/manager/qemu/SnapshotTree.js:163
+#: ../www/manager/qemu/SnapshotTree.js:199 ../www/manager/qemu/Snapshot.js:19
+#: ../www/manager/qemu/Snapshot.js:39 ../www/manager/qemu/Snapshot.js:183
+#: ../www/manager/qemu/Smbios1Edit.js:106
+#: ../www/manager/qemu/CreateWizard.js:163 ../www/manager/qemu/HDResize.js:16
+#: ../www/manager/lxc/CmdMenu.js:25 ../www/manager/lxc/MPResize.js:16
+#: ../www/manager/lxc/SnapshotTree.js:163
+#: ../www/manager/lxc/SnapshotTree.js:199 ../www/manager/lxc/Snapshot.js:19
+#: ../www/manager/lxc/Snapshot.js:39 ../www/manager/lxc/Snapshot.js:174
+#: ../www/manager/lxc/CreateWizard.js:238 ../www/manager/lxc/Network.js:341
+#: ../www/manager/lxc/Network.js:412 ../www/manager/panel/NotesView.js:11
+#: ../www/manager/panel/IPSet.js:138 ../www/manager/panel/IPSet.js:359
 #: ../www/manager/storage/ContentView.js:117
 #: ../www/manager/storage/ContentView.js:213
 #: ../www/manager/storage/ContentView.js:267
 #: ../www/manager/storage/ContentView.js:271
 #: ../www/manager/storage/ContentView.js:280
-#: ../www/manager/storage/ContentView.js:420 ../www/manager/Workspace.js:169
-#: ../www/manager/grid/PoolMembers.js:133
-#: ../www/manager/grid/FirewallAliases.js:159
-#: ../www/manager/grid/FirewallRules.js:433
-#: ../www/manager/grid/FirewallRules.js:460
-#: ../www/manager/grid/FirewallRules.js:481 ../www/manager/Utils.js:667
-#: ../www/manager/Utils.js:883 ../www/manager/openvz/Network.js:204
-#: ../www/manager/openvz/Network.js:310
-#: ../www/manager/openvz/CreateWizard.js:313
-#: ../www/manager/openvz/CmdMenu.js:25 ../www/manager/node/APT.js:58
-#: ../www/manager/node/APT.js:122 ../www/manager/node/NetworkView.js:33
-#: ../www/manager/node/NetworkView.js:92
-#: ../www/manager/node/NetworkView.js:212 ../www/manager/node/Config.js:27
-#: ../www/manager/node/NetworkEdit.js:260
-#: ../www/manager/node/ServiceView.js:33
-#: ../www/manager/node/Subscription.js:103 ../www/manager/node/Summary.js:38
-#: ../www/manager/panel/NotesView.js:11 ../www/manager/panel/IPSet.js:138
-#: ../www/manager/panel/IPSet.js:359 ../www/manager/qemu/Smbios1Edit.js:106
-#: ../www/manager/qemu/HDEdit.js:264 ../www/manager/qemu/NetworkEdit.js:194
-#: ../www/manager/qemu/HDResize.js:16 ../www/manager/qemu/CreateWizard.js:163
-#: ../www/manager/qemu/Snapshot.js:19 ../www/manager/qemu/Snapshot.js:39
-#: ../www/manager/qemu/Snapshot.js:183 ../www/manager/qemu/TemplateMenu.js:27
-#: ../www/manager/qemu/HDThrottle.js:201
-#: ../www/manager/qemu/SnapshotTree.js:163
-#: ../www/manager/qemu/SnapshotTree.js:199 ../www/manager/VNCConsole.js:241
-#: ../www/manager/dc/StorageView.js:86 ../www/manager/dc/GroupView.js:40
-#: ../www/manager/dc/AuthView.js:73 ../www/manager/dc/SecurityGroups.js:157
-#: ../www/manager/dc/Support.js:49 ../www/manager/dc/UserView.js:104
-#: ../www/manager/dc/PoolView.js:40 ../www/manager/dc/ACLView.js:176
-#: ../www/manager/dc/Backup.js:364 ../www/manager/dc/HAConfig.js:138
-#: ../www/manager/dc/HAConfig.js:159 ../www/manager/dc/HAConfig.js:181
-#: ../www/manager/dc/HAConfig.js:252 ../www/manager/ceph/Monitor.js:81
+#: ../www/manager/storage/ContentView.js:420 ../www/manager/ha/Groups.js:47
+#: ../www/manager/ha/Resources.js:73 ../www/manager/ceph/OSD.js:137
+#: ../www/manager/ceph/OSD.js:159 ../www/manager/ceph/Pool.js:130
+#: ../www/manager/ceph/Config.js:12 ../www/manager/ceph/Monitor.js:81
 #: ../www/manager/ceph/Monitor.js:94 ../www/manager/ceph/Monitor.js:135
-#: ../www/manager/ceph/Monitor.js:149 ../www/manager/ceph/Config.js:12
-#: ../www/manager/ceph/Pool.js:130 ../www/manager/ceph/Crush.js:12
-#: ../www/manager/ceph/OSD.js:137 ../www/manager/ceph/OSD.js:159
+#: ../www/manager/ceph/Monitor.js:149 ../www/manager/ceph/Crush.js:12
+#: ../www/manager/VNCConsole.js:289 ../www/manager/window/Edit.js:111
+#: ../www/manager/window/Edit.js:156 ../www/manager/window/Restore.js:64
+#: ../www/manager/window/LoginWindow.js:16 ../www/manager/window/Migrate.js:14
+#: ../www/manager/window/TaskViewer.js:156
 msgid "Error"
 msgstr "Errorea"
 
-#: ../www/manager/dc/Summary.js:56
-msgid "Estranged"
-msgstr "Atala"
-
-#: ../www/manager/Utils.js:55 ../www/manager/Utils.js:61
-#: ../www/manager/Utils.js:68 ../www/manager/Utils.js:99
+#: ../www/manager/Toolkit.js:13 ../www/manager/Toolkit.js:19
+#: ../www/manager/Toolkit.js:25 ../www/manager/Toolkit.js:31
+#: ../www/manager/Toolkit.js:37 ../www/manager/Toolkit.js:43
+#: ../www/manager/Toolkit.js:50 ../www/manager/Toolkit.js:86
 msgid "Example"
 msgstr "Adibidea"
 
@@ -708,11 +854,7 @@ msgstr "Iraungi"
 msgid "Failcnt"
 msgstr "Failcnt"
 
-#: ../www/manager/dc/HAConfig.js:179
-msgid "Failover Domain"
-msgstr "Failover Domeinua"
-
-#: ../www/manager/dc/AuthEdit.js:93
+#: ../www/manager/dc/AuthEdit.js:101
 msgid "Fallback Server"
 msgstr "Erreserba Zerbitzaria"
 
@@ -720,13 +862,20 @@ msgstr "Erreserba Zerbitzaria"
 msgid "Family"
 msgstr ""
 
+#: ../www/manager/ha/Config.js:28
+msgid "Fencing"
+msgstr ""
+
 #: ../www/manager/window/Wizard.js:114
 msgid "Finish"
 msgstr "Bukatuta"
 
-#: ../www/manager/openvz/Network.js:92 ../www/manager/openvz/Config.js:175
-#: ../www/manager/node/Config.js:147 ../www/manager/qemu/Config.js:184
-#: ../www/manager/qemu/NetworkEdit.js:102 ../www/manager/dc/Config.js:88
+#: ../www/manager/openvz/Config.js:175
+#: ../www/manager/openvz/CreateWizard.js:202
+#: ../www/manager/openvz/Network.js:92 ../www/manager/dc/Config.js:89
+#: ../www/manager/node/Config.js:180 ../www/manager/qemu/NetworkEdit.js:104
+#: ../www/manager/qemu/Config.js:197 ../www/manager/lxc/Config.js:188
+#: ../www/manager/lxc/Network.js:147 ../www/manager/lxc/Network.js:490
 msgid "Firewall"
 msgstr ""
 
@@ -738,16 +887,16 @@ msgstr "Izena"
 msgid "Folder View"
 msgstr "Karpeta Ikuspegia"
 
-#: ../www/manager/Utils.js:562
+#: ../www/manager/Utils.js:371
 msgid "Form fields may not be submitted with invalid values"
 msgstr "Inprimakiaren eremuek ezin dituzte baliogabeko baliorik izan"
 
 #: ../www/manager/form/FileSelector.js:58
-#: ../www/manager/storage/ContentView.js:457
-#: ../www/manager/grid/BackupView.js:164 ../www/manager/Utils.js:73
-#: ../www/manager/Utils.js:78 ../www/manager/Utils.js:83
-#: ../www/manager/Utils.js:89 ../www/manager/qemu/HDMove.js:96
-#: ../www/manager/qemu/HDEdit.js:124 ../www/manager/qemu/Clone.js:217
+#: ../www/manager/grid/BackupView.js:189 ../www/manager/qemu/Clone.js:218
+#: ../www/manager/qemu/HDMove.js:96 ../www/manager/qemu/HDEdit.js:138
+#: ../www/manager/Toolkit.js:55 ../www/manager/Toolkit.js:60
+#: ../www/manager/Toolkit.js:65 ../www/manager/Toolkit.js:71
+#: ../www/manager/storage/ContentView.js:478
 msgid "Format"
 msgstr "Formatua"
 
@@ -756,18 +905,21 @@ msgstr "Formatua"
 msgid "Freeze CPU at startup"
 msgstr "PUZa izoztu abiatzerakoan"
 
-#: ../www/manager/qemu/Clone.js:140
+#: ../www/manager/qemu/Clone.js:141
 msgid "Full Clone"
 msgstr "Klonazio Osoa"
 
+#: ../www/manager/node/NetworkEdit.js:241
+#: ../www/manager/node/NetworkEdit.js:282
+#: ../www/manager/node/NetworkView.js:287 ../www/manager/lxc/Network.js:218
+#: ../www/manager/lxc/Network.js:285 ../www/manager/lxc/Network.js:520
 #: ../www/manager/storage/SheepdogEdit.js:40
-#: ../www/manager/node/NetworkView.js:277
-#: ../www/manager/node/NetworkEdit.js:233
 msgid "Gateway"
 msgstr "Atebidea"
 
 #: ../www/manager/openvz/CreateWizard.js:60
 #: ../www/manager/qemu/CreateWizard.js:44
+#: ../www/manager/lxc/CreateWizard.js:58
 msgid "General"
 msgstr "Orokorra"
 
@@ -775,10 +927,13 @@ msgstr "Orokorra"
 msgid "Graphic card"
 msgstr "Pantaila egokigailua "
 
-#: ../www/manager/form/GroupSelector.js:22 ../www/manager/dc/GroupEdit.js:22
-#: ../www/manager/dc/UserEdit.js:85 ../www/manager/dc/SecurityGroups.js:166
-#: ../www/manager/dc/SecurityGroups.js:169 ../www/manager/dc/ACLView.js:26
-#: ../www/manager/dc/ACLView.js:113
+#: ../www/manager/dc/UserEdit.js:85 ../www/manager/dc/ACLView.js:26
+#: ../www/manager/dc/ACLView.js:113 ../www/manager/dc/GroupEdit.js:22
+#: ../www/manager/dc/SecurityGroups.js:166
+#: ../www/manager/dc/SecurityGroups.js:169
+#: ../www/manager/form/GroupSelector.js:22
+#: ../www/manager/ha/GroupSelector.js:24 ../www/manager/ha/Groups.js:80
+#: ../www/manager/ha/Resources.js:122 ../www/manager/ha/ResourceEdit.js:52
 msgid "Group"
 msgstr "Taldea"
 
@@ -786,43 +941,40 @@ msgstr "Taldea"
 msgid "Group Permission"
 msgstr "Talde Baimenak"
 
-#: ../www/manager/dc/Config.js:58
+#: ../www/manager/dc/Config.js:58 ../www/manager/ha/Config.js:23
 msgid "Groups"
 msgstr "Taldeak"
 
-#: ../www/manager/dc/Summary.js:239
-msgid "HA Service Status"
-msgstr "HA Zerbitzuaren Egoera"
-
-#: ../www/manager/dc/HAConfig.js:21 ../www/manager/dc/HAConfig.js:171
-msgid "HA managed VM/CT"
-msgstr "HA-k kudeatutako VM/CT"
+#: ../www/manager/ha/GroupEdit.js:90
+#, fuzzy
+msgid "HA Group"
+msgstr "Taldea"
 
 #: ../www/manager/node/StatusView.js:51
 msgid "HD space"
 msgstr "Diskoren leku librea"
 
 #: ../www/manager/dc/OptionView.js:8 ../www/manager/dc/OptionView.js:16
-#: ../www/manager/dc/OptionView.js:98
+#: ../www/manager/dc/OptionView.js:124
 msgid "HTTP proxy"
 msgstr "HTTP proxy-a"
 
-#: ../www/manager/qemu/HDEdit.js:248 ../www/manager/qemu/HDEdit.js:250
-#: ../www/manager/qemu/CreateWizard.js:29
-#: ../www/manager/qemu/HardwareView.js:113
-#: ../www/manager/qemu/HardwareView.js:124
-#: ../www/manager/qemu/HardwareView.js:135
-#: ../www/manager/qemu/HardwareView.js:146
-#: ../www/manager/qemu/HardwareView.js:371
+#: ../www/manager/qemu/HDEdit.js:275 ../www/manager/qemu/HDEdit.js:277
 #: ../www/manager/qemu/HDThrottle.js:188
+#: ../www/manager/qemu/HardwareView.js:153
+#: ../www/manager/qemu/HardwareView.js:164
+#: ../www/manager/qemu/HardwareView.js:175
+#: ../www/manager/qemu/HardwareView.js:186
+#: ../www/manager/qemu/HardwareView.js:470
+#: ../www/manager/qemu/CreateWizard.js:29
 msgid "Hard Disk"
 msgstr "Disko Gogorra"
 
-#: ../www/manager/qemu/Config.js:138
+#: ../www/manager/qemu/Config.js:140
 msgid "Hardware"
 msgstr "Hardware"
 
-#: ../www/manager/node/NetworkEdit.js:101
+#: ../www/manager/node/NetworkEdit.js:109
 msgid "Hash policy"
 msgstr ""
 
@@ -852,21 +1004,31 @@ msgstr "Bolumen Taldea"
 msgid "Host ifname"
 msgstr "Anfitrioi ifname"
 
-#: ../www/manager/openvz/CreateWizard.js:89 ../www/manager/openvz/DNS.js:26
-#: ../www/manager/openvz/DNS.js:29 ../www/manager/openvz/DNS.js:35
+#: ../www/manager/openvz/DNS.js:26 ../www/manager/openvz/DNS.js:29
+#: ../www/manager/openvz/DNS.js:35 ../www/manager/openvz/CreateWizard.js:89
+#: ../www/manager/lxc/DNS.js:160 ../www/manager/lxc/DNS.js:163
+#: ../www/manager/lxc/DNS.js:169 ../www/manager/lxc/CreateWizard.js:87
 msgid "Hostname"
 msgstr "Host Izena"
+
+#: ../www/manager/qemu/Options.js:125 ../www/manager/qemu/Options.js:130
+#: ../www/manager/qemu/Options.js:136
+msgid "Hotplug"
+msgstr ""
+
+#: ../www/manager/lxc/Network.js:82 ../www/manager/lxc/Network.js:475
+msgid "ID"
+msgstr ""
 
 #: ../www/manager/node/StatusView.js:47
 msgid "IO delay"
 msgstr "IO atzerapena"
 
+#: ../www/manager/openvz/CreateWizard.js:176
 #: ../www/manager/openvz/Network.js:147 ../www/manager/openvz/Network.js:153
 #: ../www/manager/openvz/Network.js:170 ../www/manager/openvz/Network.js:360
-#: ../www/manager/openvz/Network.js:403
-#: ../www/manager/openvz/CreateWizard.js:176
-#: ../www/manager/node/NetworkView.js:267
-#: ../www/manager/node/NetworkEdit.js:201
+#: ../www/manager/openvz/Network.js:403 ../www/manager/node/NetworkEdit.js:209
+#: ../www/manager/node/NetworkView.js:267 ../www/manager/lxc/Network.js:506
 msgid "IP address"
 msgstr "IP helbidea"
 
@@ -877,11 +1039,32 @@ msgstr "IP helbidea"
 msgid "IP/CIDR"
 msgstr ""
 
+#: ../www/manager/lxc/Network.js:178 ../www/manager/lxc/Network.js:218
+msgid "IPv4"
+msgstr ""
+
+#: ../www/manager/lxc/Network.js:210
+msgid "IPv4/CIDR"
+msgstr ""
+
+#: ../www/manager/lxc/Network.js:237 ../www/manager/lxc/Network.js:285
+msgid "IPv6"
+msgstr ""
+
+#: ../www/manager/node/NetworkEdit.js:248
+#, fuzzy
+msgid "IPv6 address"
+msgstr "IP helbidea"
+
+#: ../www/manager/lxc/Network.js:277
+msgid "IPv6/CIDR"
+msgstr ""
+
 #: ../www/manager/qemu/CDEdit.js:103
 msgid "ISO Image"
 msgstr "ISO Irudia"
 
-#: ../www/manager/Utils.js:897
+#: ../www/manager/Utils.js:725
 msgid "ISO image"
 msgstr "ISO irudia"
 
@@ -910,15 +1093,23 @@ msgstr ""
 msgid "Interface"
 msgstr ""
 
+#: ../www/manager/qemu/HDEdit.js:239
+msgid "Iothread"
+msgstr ""
+
 #: ../www/manager/ceph/OSD.js:37
 msgid "Journal Disk"
+msgstr ""
+
+#: ../www/manager/storage/RBDEdit.js:80
+msgid "KRBD"
 msgstr ""
 
 #: ../www/manager/node/StatusView.js:50
 msgid "KSM sharing"
 msgstr "KSM partekatua"
 
-#: ../www/manager/qemu/Options.js:149 ../www/manager/qemu/Options.js:154
+#: ../www/manager/qemu/Options.js:166 ../www/manager/qemu/Options.js:171
 msgid "KVM hardware virtualization"
 msgstr "KVM hardware birtualizazioa"
 
@@ -926,20 +1117,30 @@ msgstr "KVM hardware birtualizazioa"
 msgid "Kernel version"
 msgstr "Kernel bertsioa"
 
+#: ../www/manager/qemu/Snapshot.js:110 ../www/manager/lxc/Snapshot.js:101
+msgid "Key"
+msgstr ""
+
 #: ../www/manager/dc/UserEdit.js:133
 msgid "Key IDs"
 msgstr ""
 
-#: ../www/manager/qemu/HardwareView.js:80
-#: ../www/manager/qemu/KeyboardEdit.js:8
-#: ../www/manager/qemu/KeyboardEdit.js:13 ../www/manager/dc/OptionView.js:33
-#: ../www/manager/dc/OptionView.js:38 ../www/manager/dc/OptionView.js:92
+#: ../www/manager/dc/OptionView.js:33 ../www/manager/dc/OptionView.js:38
+#: ../www/manager/dc/OptionView.js:118 ../www/manager/qemu/KeyboardEdit.js:8
+#: ../www/manager/qemu/KeyboardEdit.js:13
+#: ../www/manager/qemu/HardwareView.js:104
 msgid "Keyboard Layout"
 msgstr "Teklatuaren Antolamendua"
 
-#: ../www/manager/dc/AuthView.js:95 ../www/manager/dc/AuthEdit.js:49
+#: ../www/manager/dc/AuthView.js:88 ../www/manager/dc/AuthEdit.js:49
 msgid "LDAP Server"
 msgstr "LDAP Zerbitzaria"
+
+#: ../www/manager/tree/ResourceTree.js:25
+#: ../www/manager/lxc/CreateWizard.js:54
+#, fuzzy
+msgid "LXC Container"
+msgstr "OpenVZ Kontainer"
 
 #: ../www/manager/window/LoginWindow.js:123
 msgid "Language"
@@ -953,14 +1154,6 @@ msgstr "Abizenak"
 msgid "Last checked"
 msgstr "Azken egiaztapena"
 
-#: ../www/manager/dc/Summary.js:178
-msgid "Last owner"
-msgstr "Azken jabea"
-
-#: ../www/manager/dc/Summary.js:172
-msgid "Last transition"
-msgstr "Azken trantsizio"
-
 #: ../www/manager/ceph/OSD.js:329
 msgid "Latency (ms)"
 msgstr ""
@@ -969,7 +1162,7 @@ msgstr ""
 msgid "Limit"
 msgstr "Muga"
 
-#: ../www/manager/qemu/Clone.js:142
+#: ../www/manager/qemu/Clone.js:143
 msgid "Linked Clone"
 msgstr "Lotutako Klonazioa"
 
@@ -977,9 +1170,14 @@ msgstr "Lotutako Klonazioa"
 msgid "Load average"
 msgstr "Batez besteko karga"
 
-#: ../www/manager/Utils.js:1218
+#: ../www/manager/Utils.js:1053
 msgid "Loading..."
 msgstr "Kargatzen..."
+
+#: ../www/manager/ceph/Config.js:139
+#, fuzzy
+msgid "Log"
+msgstr "Sartu"
 
 #: ../www/manager/window/LoginWindow.js:139
 msgid "Login"
@@ -994,7 +1192,8 @@ msgid "Logout"
 msgstr "Deskonektatu"
 
 #: ../www/manager/openvz/Network.js:71 ../www/manager/openvz/Network.js:414
-#: ../www/manager/qemu/NetworkEdit.js:136
+#: ../www/manager/qemu/NetworkEdit.js:138 ../www/manager/lxc/Network.js:126
+#: ../www/manager/lxc/Network.js:501
 msgid "MAC address"
 msgstr "MAC helbidea"
 
@@ -1010,6 +1209,7 @@ msgid "Macro"
 msgstr ""
 
 #: ../www/manager/openvz/StatusView.js:68 ../www/manager/qemu/StatusView.js:50
+#: ../www/manager/lxc/StatusView.js:68
 msgid "Managed by HA"
 msgstr "HAak Kudeatua"
 
@@ -1017,8 +1217,8 @@ msgstr "HAak Kudeatua"
 msgid "Manufacturer"
 msgstr ""
 
-#: ../www/manager/storage/GlusterFsEdit.js:152
 #: ../www/manager/storage/DirEdit.js:67 ../www/manager/storage/NFSEdit.js:155
+#: ../www/manager/storage/GlusterFsEdit.js:160
 msgid "Max Backups"
 msgstr "Gehienezko Backup-ak"
 
@@ -1026,7 +1226,7 @@ msgstr "Gehienezko Backup-ak"
 msgid "Maxheld"
 msgstr "Maxheld"
 
-#: ../www/manager/qemu/MemoryEdit.js:87
+#: ../www/manager/qemu/MemoryEdit.js:80
 msgid "Maximum memory"
 msgstr "Gehienezko Memoria"
 
@@ -1034,22 +1234,31 @@ msgstr "Gehienezko Memoria"
 msgid "Members"
 msgstr "Kideak"
 
-#: ../www/manager/openvz/RessourceEdit.js:20
 #: ../www/manager/openvz/RessourceView.js:29
-#: ../www/manager/qemu/MemoryEdit.js:61 ../www/manager/qemu/MemoryEdit.js:149
-#: ../www/manager/qemu/CreateWizard.js:109
-#: ../www/manager/qemu/HardwareView.js:42
+#: ../www/manager/openvz/RessourceEdit.js:20 ../www/manager/Utils.js:115
+#: ../www/manager/form/HotplugFeatureSelector.js:52
+#: ../www/manager/qemu/MemoryEdit.js:57 ../www/manager/qemu/MemoryEdit.js:154
+#: ../www/manager/qemu/HardwareView.js:45
+#: ../www/manager/qemu/CreateWizard.js:109 ../www/manager/lxc/Resources.js:40
+#: ../www/manager/lxc/CreateWizard.js:169
+#: ../www/manager/lxc/ResourceEdit.js:10
 msgid "Memory"
 msgstr "Memoria"
 
-#: ../www/manager/data/ResourceStore.js:114
+#: ../www/manager/lxc/ResourceEdit.js:97
+#, fuzzy
+msgid "Memory (MB)"
+msgstr "Memoria"
+
+#: ../www/manager/data/ResourceStore.js:115
 msgid "Memory size"
 msgstr "Memoria tamaina"
 
-#: ../www/manager/data/ResourceStore.js:107
-#: ../www/manager/form/NodeSelector.js:50 ../www/manager/openvz/Summary.js:74
-#: ../www/manager/openvz/StatusView.js:63 ../www/manager/node/Summary.js:120
-#: ../www/manager/qemu/Summary.js:69 ../www/manager/qemu/StatusView.js:47
+#: ../www/manager/openvz/StatusView.js:63 ../www/manager/openvz/Summary.js:74
+#: ../www/manager/form/NodeSelector.js:49 ../www/manager/node/Summary.js:120
+#: ../www/manager/data/ResourceStore.js:108
+#: ../www/manager/qemu/StatusView.js:47 ../www/manager/qemu/Summary.js:69
+#: ../www/manager/lxc/StatusView.js:63 ../www/manager/lxc/Summary.js:74
 msgid "Memory usage"
 msgstr "Memoriaren erabilera"
 
@@ -1057,99 +1266,127 @@ msgstr "Memoriaren erabilera"
 msgid "Message"
 msgstr "Mezua"
 
+#: ../www/manager/openvz/CmdMenu.js:41 ../www/manager/openvz/Config.js:75
+#: ../www/manager/Utils.js:524 ../www/manager/Utils.js:538
+#: ../www/manager/Utils.js:549 ../www/manager/qemu/CmdMenu.js:41
+#: ../www/manager/qemu/TemplateMenu.js:36 ../www/manager/qemu/Config.js:68
+#: ../www/manager/lxc/CmdMenu.js:41 ../www/manager/lxc/Config.js:75
 #: ../www/manager/window/Migrate.js:79 ../www/manager/window/Migrate.js:87
-#: ../www/manager/Utils.js:703 ../www/manager/Utils.js:717
-#: ../www/manager/Utils.js:723 ../www/manager/openvz/Config.js:75
-#: ../www/manager/openvz/CmdMenu.js:41 ../www/manager/qemu/Config.js:66
-#: ../www/manager/qemu/TemplateMenu.js:36 ../www/manager/qemu/CmdMenu.js:41
 msgid "Migrate"
 msgstr "Migrazioa"
+
+#: ../www/manager/node/Config.js:80
+#, fuzzy
+msgid "Migrate All VMs"
+msgstr "MigraciÃ³n"
+
+#: ../www/manager/Utils.js:567
+#, fuzzy
+msgid "Migrate all VMs and Containers"
+msgstr "VM eta Kontainer guztiak abiatu"
 
 #: ../www/manager/ceph/Pool.js:37
 #, fuzzy
 msgid "Min. Size"
 msgstr "Tamaina"
 
-#: ../www/manager/qemu/MemoryEdit.js:110
+#: ../www/manager/qemu/MemoryEdit.js:102
 msgid "Minimum memory"
 msgstr "Gutxieneko memoria"
 
-#: ../www/manager/window/Backup.js:41 ../www/manager/node/NetworkEdit.js:109
-#: ../www/manager/node/NetworkEdit.js:183 ../www/manager/qemu/Clone.js:146
-#: ../www/manager/dc/Backup.js:172
+#: ../www/manager/dc/Backup.js:179 ../www/manager/node/NetworkEdit.js:117
+#: ../www/manager/node/NetworkEdit.js:191 ../www/manager/qemu/Clone.js:147
+#: ../www/manager/window/Backup.js:41
 msgid "Mode"
 msgstr "Modua"
 
-#: ../www/manager/qemu/NetworkEdit.js:129 ../www/manager/ceph/Disks.js:94
+#: ../www/manager/qemu/NetworkEdit.js:131 ../www/manager/ceph/Disks.js:94
 msgid "Model"
 msgstr "Modeloa"
 
-#: ../www/manager/qemu/Config.js:158
+#: ../www/manager/qemu/Config.js:160 ../www/manager/ceph/Config.js:115
 msgid "Monitor"
 msgstr "Monitorea"
 
-#: ../www/manager/storage/RBDEdit.js:48
+#: ../www/manager/storage/RBDEdit.js:46
 msgid "Monitor Host"
 msgstr "Anfitrioi Monitorea"
 
-#: ../www/manager/Utils.js:720
+#: ../www/manager/node/Config.js:33
+msgid "More"
+msgstr ""
+
+#: ../www/manager/Utils.js:541
 msgid "Mount"
 msgstr "Muntatu"
 
-#: ../www/manager/Utils.js:705 ../www/manager/qemu/HDMove.js:130
-#: ../www/manager/qemu/HDMove.js:132 ../www/manager/qemu/HardwareView.js:294
+#: ../www/manager/lxc/Resources.js:89
+#, fuzzy
+msgid "Mount Point"
+msgstr "Muntatu"
+
+#: ../www/manager/Utils.js:526 ../www/manager/qemu/HDMove.js:130
+#: ../www/manager/qemu/HDMove.js:132 ../www/manager/qemu/HardwareView.js:349
 msgid "Move disk"
 msgstr "Diskoa mugitu"
 
-#: ../www/manager/qemu/NetworkEdit.js:111
+#: ../www/manager/qemu/NetworkEdit.js:156
+msgid "Multiqueues"
+msgstr ""
+
+#: ../www/manager/qemu/NetworkEdit.js:113
 msgid "NAT mode"
 msgstr "NAT modua"
 
-#: ../www/manager/data/ResourceStore.js:86
-#: ../www/manager/form/StorageSelector.js:76
+#: ../www/manager/openvz/StatusView.js:58 ../www/manager/openvz/Network.js:58
+#: ../www/manager/openvz/Network.js:403 ../www/manager/dc/RoleView.js:40
+#: ../www/manager/dc/PoolEdit.js:28 ../www/manager/dc/PoolView.js:90
+#: ../www/manager/dc/UserView.js:213 ../www/manager/dc/GroupView.js:90
+#: ../www/manager/dc/GroupEdit.js:28 ../www/manager/dc/Backup.js:102
+#: ../www/manager/dc/SecurityGroups.js:24 ../www/manager/dc/Summary.js:38
 #: ../www/manager/form/FileSelector.js:52
-#: ../www/manager/form/UserSelector.js:34
 #: ../www/manager/form/IPRefSelector.js:59
-#: ../www/manager/storage/ContentView.js:450
-#: ../www/manager/grid/ObjectGrid.js:93
+#: ../www/manager/form/UserSelector.js:34
+#: ../www/manager/form/StorageSelector.js:76
 #: ../www/manager/grid/FirewallAliases.js:26
 #: ../www/manager/grid/FirewallAliases.js:172
-#: ../www/manager/grid/BackupView.js:157 ../www/manager/openvz/Network.js:58
-#: ../www/manager/openvz/Network.js:403 ../www/manager/openvz/StatusView.js:58
+#: ../www/manager/grid/BackupView.js:182 ../www/manager/grid/ObjectGrid.js:93
+#: ../www/manager/node/ServiceView.js:127
+#: ../www/manager/node/NetworkEdit.js:178
 #: ../www/manager/node/NetworkView.js:229
-#: ../www/manager/node/NetworkEdit.js:170
-#: ../www/manager/node/ServiceView.js:118 ../www/manager/panel/IPSet.js:72
-#: ../www/manager/panel/IPSet.js:107 ../www/manager/qemu/CreateWizard.js:73
-#: ../www/manager/qemu/Snapshot.js:73 ../www/manager/qemu/Options.js:26
+#: ../www/manager/data/ResourceStore.js:87 ../www/manager/qemu/Clone.js:191
+#: ../www/manager/qemu/StatusView.js:43 ../www/manager/qemu/Options.js:26
 #: ../www/manager/qemu/Options.js:29 ../www/manager/qemu/Options.js:35
-#: ../www/manager/qemu/Clone.js:190 ../www/manager/qemu/StatusView.js:43
-#: ../www/manager/qemu/SnapshotTree.js:237 ../www/manager/dc/GroupView.js:90
-#: ../www/manager/dc/GroupEdit.js:28 ../www/manager/dc/SecurityGroups.js:24
-#: ../www/manager/dc/PoolEdit.js:28 ../www/manager/dc/UserView.js:213
-#: ../www/manager/dc/PoolView.js:90 ../www/manager/dc/RoleView.js:40
-#: ../www/manager/dc/Backup.js:102 ../www/manager/dc/Summary.js:30
-#: ../www/manager/dc/Summary.js:148 ../www/manager/ceph/Monitor.js:162
-#: ../www/manager/ceph/Pool.js:22 ../www/manager/ceph/Pool.js:144
+#: ../www/manager/qemu/SnapshotTree.js:237 ../www/manager/qemu/Snapshot.js:73
+#: ../www/manager/qemu/CreateWizard.js:73 ../www/manager/lxc/StatusView.js:58
+#: ../www/manager/lxc/SnapshotTree.js:237 ../www/manager/lxc/Snapshot.js:73
+#: ../www/manager/lxc/Network.js:105 ../www/manager/lxc/Network.js:480
+#: ../www/manager/panel/IPSet.js:72 ../www/manager/panel/IPSet.js:107
+#: ../www/manager/storage/ContentView.js:471 ../www/manager/ceph/Pool.js:22
+#: ../www/manager/ceph/Pool.js:144 ../www/manager/ceph/Monitor.js:162
 msgid "Name"
 msgstr "Izena"
 
-#: ../www/manager/openvz/Network.js:171 ../www/manager/openvz/Config.js:134
-#: ../www/manager/openvz/CreateWizard.js:153 ../www/manager/node/Config.js:79
-#: ../www/manager/qemu/CreateWizard.js:35
-#: ../www/manager/qemu/BootOrderEdit.js:74
+#: ../www/manager/openvz/Config.js:134
+#: ../www/manager/openvz/CreateWizard.js:153
+#: ../www/manager/openvz/Network.js:171 ../www/manager/Utils.js:111
+#: ../www/manager/form/HotplugFeatureSelector.js:50
+#: ../www/manager/node/Config.js:140 ../www/manager/qemu/BootOrderEdit.js:74
+#: ../www/manager/qemu/CreateWizard.js:35 ../www/manager/lxc/Config.js:134
+#: ../www/manager/lxc/CreateWizard.js:47
 msgid "Network"
 msgstr "Sarea"
 
-#: ../www/manager/Utils.js:319 ../www/manager/openvz/Network.js:47
-#: ../www/manager/openvz/Network.js:172 ../www/manager/openvz/Network.js:374
-#: ../www/manager/qemu/NetworkEdit.js:180
-#: ../www/manager/qemu/HardwareView.js:157
-#: ../www/manager/qemu/HardwareView.js:397
+#: ../www/manager/openvz/Network.js:47 ../www/manager/openvz/Network.js:172
+#: ../www/manager/openvz/Network.js:374 ../www/manager/Utils.js:127
+#: ../www/manager/qemu/NetworkEdit.js:196
+#: ../www/manager/qemu/HardwareView.js:197
+#: ../www/manager/qemu/HardwareView.js:496 ../www/manager/lxc/Network.js:318
 msgid "Network Device"
 msgstr "Sare Gailua"
 
 #: ../www/manager/openvz/Summary.js:81 ../www/manager/node/Summary.js:126
-#: ../www/manager/qemu/Summary.js:76
+#: ../www/manager/qemu/Summary.js:76 ../www/manager/lxc/Summary.js:81
 msgid "Network traffic"
 msgstr "Sare trafikoa"
 
@@ -1157,11 +1394,15 @@ msgstr "Sare trafikoa"
 msgid "Next"
 msgstr "Hurrengoa"
 
-#: ../www/manager/form/Boolean.js:12 ../www/manager/Utils.js:882
+#: ../www/manager/node/Subscription.js:79
+msgid "Next due date"
+msgstr ""
+
+#: ../www/manager/Utils.js:709 ../www/manager/form/Boolean.js:12
 msgid "No"
 msgstr "Ez"
 
-#: ../www/manager/qemu/HDEdit.js:212
+#: ../www/manager/qemu/HDEdit.js:227
 msgid "No backup"
 msgstr "Backup barik"
 
@@ -1171,20 +1412,21 @@ msgid "No cache"
 msgstr "Cache barik"
 
 #: ../www/manager/node/NetworkView.js:41
-#: ../www/manager/node/NetworkView.js:299
+#: ../www/manager/node/NetworkView.js:318
 msgid "No changes"
 msgstr "Aldaketa barik"
 
-#: ../www/manager/qemu/NetworkEdit.js:121
+#: ../www/manager/qemu/NetworkEdit.js:123
 msgid "No network device"
 msgstr "Sare gailu barik"
 
-#: ../www/manager/storage/GlusterFsEdit.js:139
-#: ../www/manager/storage/RBDEdit.js:77
-#: ../www/manager/storage/SheepdogEdit.js:61
-#: ../www/manager/storage/LVMEdit.js:194 ../www/manager/storage/DirEdit.js:82
+#: ../www/manager/storage/DirEdit.js:82
+#: ../www/manager/storage/ZFSPoolEdit.js:125
 #: ../www/manager/storage/IScsiEdit.js:134
-#: ../www/manager/storage/ZFSEdit.js:121 ../www/manager/storage/NFSEdit.js:142
+#: ../www/manager/storage/NFSEdit.js:142 ../www/manager/storage/RBDEdit.js:90
+#: ../www/manager/storage/LVMEdit.js:204 ../www/manager/storage/ZFSEdit.js:121
+#: ../www/manager/storage/GlusterFsEdit.js:147
+#: ../www/manager/storage/SheepdogEdit.js:61
 msgid "No restrictions"
 msgstr "Murrizketa barik"
 
@@ -1192,18 +1434,18 @@ msgstr "Murrizketa barik"
 msgid "No updates available."
 msgstr "Ez dago eguneratzerik erabilgarri."
 
-#: ../www/manager/Utils.js:674
+#: ../www/manager/Utils.js:495
 msgid "No valid subscription"
 msgstr "Baliogabeko harpidetza"
 
-#: ../www/manager/data/ResourceStore.js:182
-#: ../www/manager/window/TaskViewer.js:125
-#: ../www/manager/form/NodeSelector.js:43
-#: ../www/manager/openvz/CreateWizard.js:65 ../www/manager/node/Config.js:60
-#: ../www/manager/node/Tasks.js:137 ../www/manager/qemu/CreateWizard.js:50
+#: ../www/manager/openvz/CreateWizard.js:65 ../www/manager/dc/Tasks.js:93
 #: ../www/manager/dc/Log.js:50 ../www/manager/dc/Backup.js:87
-#: ../www/manager/dc/Backup.js:115 ../www/manager/dc/Backup.js:393
-#: ../www/manager/dc/Tasks.js:87
+#: ../www/manager/dc/Backup.js:115 ../www/manager/dc/Backup.js:415
+#: ../www/manager/form/NodeSelector.js:42 ../www/manager/node/Tasks.js:137
+#: ../www/manager/node/Config.js:121 ../www/manager/data/ResourceStore.js:183
+#: ../www/manager/qemu/CreateWizard.js:50
+#: ../www/manager/lxc/CreateWizard.js:63
+#: ../www/manager/window/TaskViewer.js:125
 msgid "Node"
 msgstr "Nodo-a"
 
@@ -1211,17 +1453,19 @@ msgstr "Nodo-a"
 msgid "Node list"
 msgstr "Nodo-en zerrenda"
 
-#: ../www/manager/storage/GlusterFsEdit.js:137
-#: ../www/manager/storage/RBDEdit.js:75
-#: ../www/manager/storage/SheepdogEdit.js:59
-#: ../www/manager/storage/LVMEdit.js:192 ../www/manager/storage/DirEdit.js:80
+#: ../www/manager/dc/Summary.js:121 ../www/manager/storage/DirEdit.js:80
+#: ../www/manager/storage/ZFSPoolEdit.js:123
 #: ../www/manager/storage/IScsiEdit.js:132
-#: ../www/manager/storage/ZFSEdit.js:119 ../www/manager/storage/NFSEdit.js:140
-#: ../www/manager/dc/Summary.js:247
+#: ../www/manager/storage/NFSEdit.js:140 ../www/manager/storage/RBDEdit.js:88
+#: ../www/manager/storage/LVMEdit.js:202 ../www/manager/storage/ZFSEdit.js:119
+#: ../www/manager/storage/GlusterFsEdit.js:145
+#: ../www/manager/storage/SheepdogEdit.js:59
+#: ../www/manager/ha/GroupSelector.js:30 ../www/manager/ha/Groups.js:100
+#: ../www/manager/ha/GroupEdit.js:32
 msgid "Nodes"
 msgstr "Nodo-ak"
 
-#: ../www/manager/window/NotesEdit.js:8 ../www/manager/panel/NotesView.js:45
+#: ../www/manager/panel/NotesView.js:45 ../www/manager/window/NotesEdit.js:8
 msgid "Notes"
 msgstr "Oharrak"
 
@@ -1238,7 +1482,7 @@ msgstr ""
 msgid "OS"
 msgstr "SE"
 
-#: ../www/manager/qemu/Options.js:65
+#: ../www/manager/qemu/Options.js:65 ../www/manager/lxc/Options.js:47
 msgid "OS Type"
 msgstr "SE mota"
 
@@ -1246,14 +1490,18 @@ msgstr "SE mota"
 msgid "OTP"
 msgstr ""
 
-#: ../www/manager/node/NetworkEdit.js:69 ../www/manager/node/NetworkEdit.js:90
-#: ../www/manager/node/NetworkEdit.js:146
+#: ../www/manager/node/NetworkEdit.js:77 ../www/manager/node/NetworkEdit.js:98
+#: ../www/manager/node/NetworkEdit.js:154
 #, fuzzy
 msgid "OVS options"
 msgstr "Aukerak"
 
-#: ../www/manager/data/ResourceStore.js:36 ../www/manager/window/Migrate.js:71
-#: ../www/manager/dc/Summary.js:42
+#: ../www/manager/form/EmailNotificationSelector.js:10
+msgid "On failure only"
+msgstr ""
+
+#: ../www/manager/dc/Summary.js:50 ../www/manager/data/ResourceStore.js:36
+#: ../www/manager/window/Migrate.js:71
 msgid "Online"
 msgstr "Online"
 
@@ -1261,21 +1509,17 @@ msgstr "Online"
 msgid "Only Errors"
 msgstr "Erroreak Bakarrik"
 
-#: ../www/manager/tree/ResourceTree.js:25 ../www/manager/Utils.js:898
 #: ../www/manager/openvz/CreateWizard.js:56
 msgid "OpenVZ Container"
 msgstr "OpenVZ Kontainer"
 
-#: ../www/manager/Utils.js:896
-msgid "OpenVZ template"
-msgstr "OpenVZ txantiloi"
-
-#: ../www/manager/openvz/Config.js:144 ../www/manager/qemu/Config.js:143
-#: ../www/manager/dc/Config.js:26
+#: ../www/manager/openvz/Config.js:144 ../www/manager/dc/Config.js:26
+#: ../www/manager/qemu/Config.js:145 ../www/manager/lxc/Config.js:144
+#: ../www/manager/panel/Firewall.js:72
 msgid "Options"
 msgstr "Aukerak"
 
-#: ../www/manager/Utils.js:296 ../www/manager/Utils.js:309
+#: ../www/manager/Utils.js:78 ../www/manager/Utils.js:91
 #: ../www/manager/qemu/OSTypeEdit.js:44
 msgid "Other OS types"
 msgstr "Beste SE motak"
@@ -1291,15 +1535,11 @@ msgstr "Irteera"
 msgid "Output Policy"
 msgstr "Irteera"
 
-#: ../www/manager/dc/Summary.js:154
-msgid "Owner"
-msgstr "Jabea"
-
 #: ../www/manager/node/StatusView.js:52
 msgid "PVE Manager version"
 msgstr "PVE Manager bertsioa"
 
-#: ../www/manager/storage/ContentView.js:50 ../www/manager/node/APT.js:159
+#: ../www/manager/node/APT.js:159 ../www/manager/storage/ContentView.js:50
 msgid "Package"
 msgstr "Paketea"
 
@@ -1307,10 +1547,10 @@ msgstr "Paketea"
 msgid "Package versions"
 msgstr "Pakete Bertsioak"
 
-#: ../www/manager/window/LoginWindow.js:94
 #: ../www/manager/openvz/CreateWizard.js:108 ../www/manager/dc/UserEdit.js:46
 #: ../www/manager/dc/UserView.js:31 ../www/manager/dc/UserView.js:38
-#: ../www/manager/dc/UserView.js:134
+#: ../www/manager/dc/UserView.js:134 ../www/manager/lxc/CreateWizard.js:105
+#: ../www/manager/window/LoginWindow.js:94
 msgid "Password"
 msgstr "Pasahitza"
 
@@ -1319,39 +1559,45 @@ msgid "Passwords does not match"
 msgstr "Pasahitzak ez dute bat egiten "
 
 #: ../www/manager/dc/ACLView.js:17 ../www/manager/dc/ACLView.js:129
+#: ../www/manager/dc/StorageView.js:221
 msgid "Path"
 msgstr "Kokalekua"
 
-#: ../www/manager/node/NetworkView.js:293 ../www/manager/dc/HAConfig.js:266
+#: ../www/manager/node/NetworkView.js:312
 msgid "Pending changes"
 msgstr "Zain dauden aldaketak"
 
-#: ../www/manager/pool/Config.js:30 ../www/manager/storage/Browser.js:45
-#: ../www/manager/openvz/Config.js:187 ../www/manager/qemu/Config.js:196
-#: ../www/manager/dc/Config.js:68
+#: ../www/manager/openvz/Config.js:187 ../www/manager/pool/Config.js:30
+#: ../www/manager/dc/Config.js:68 ../www/manager/qemu/Config.js:209
+#: ../www/manager/lxc/Config.js:200 ../www/manager/storage/Browser.js:45
 msgid "Permissions"
 msgstr "Baimenak"
 
-#: ../www/manager/node/NetworkView.js:294
+#: ../www/manager/node/NetworkView.js:313
 msgid "Please reboot to activate changes"
 msgstr "Mesedez berrabiarazi aldaketak gauzatzeko"
 
-#: ../www/manager/window/LoginWindow.js:11
-#: ../www/manager/window/LoginWindow.js:131 ../www/manager/Utils.js:583
+#: ../www/manager/Utils.js:392 ../www/manager/window/LoginWindow.js:11
+#: ../www/manager/window/LoginWindow.js:131
 msgid "Please wait..."
 msgstr "Mesedez itxaron..."
 
-#: ../www/manager/data/ResourceStore.js:196
-#: ../www/manager/form/PoolSelector.js:22 ../www/manager/storage/RBDEdit.js:40
-#: ../www/manager/storage/ZFSEdit.js:46 ../www/manager/dc/PoolEdit.js:22
+#: ../www/manager/dc/PoolEdit.js:22 ../www/manager/form/PoolSelector.js:22
+#: ../www/manager/data/ResourceStore.js:197
+#: ../www/manager/storage/RBDEdit.js:38 ../www/manager/storage/ZFSEdit.js:46
 msgid "Pool"
 msgstr "Taldea"
 
-#: ../www/manager/dc/Config.js:63
+#: ../www/manager/form/ViewSelector.js:25
+#, fuzzy
+msgid "Pool View"
+msgstr "Karpeta Ikuspegia"
+
+#: ../www/manager/dc/Config.js:63 ../www/manager/ceph/Config.js:130
 msgid "Pools"
 msgstr "Taldeak"
 
-#: ../www/manager/dc/AuthEdit.js:100
+#: ../www/manager/dc/AuthEdit.js:108
 msgid "Port"
 msgstr "Portua"
 
@@ -1363,7 +1609,11 @@ msgstr "Ataria"
 msgid "Ports/Slaves"
 msgstr "Portuak/Esklaboak"
 
-#: ../www/manager/Utils.js:290
+#: ../www/manager/node/NetworkEdit.js:255
+msgid "Prefix length"
+msgstr ""
+
+#: ../www/manager/Utils.js:72
 msgid "Premium"
 msgstr "Premium"
 
@@ -1376,8 +1626,8 @@ msgid "Process ID"
 msgstr "Prozesu IDa"
 
 #: ../www/manager/openvz/RessourceView.js:45
-#: ../www/manager/qemu/HardwareView.js:58
-#: ../www/manager/qemu/ProcessorEdit.js:71
+#: ../www/manager/qemu/ProcessorEdit.js:78
+#: ../www/manager/qemu/HardwareView.js:61
 msgid "Processors"
 msgstr "Prozesadoreak"
 
@@ -1403,6 +1653,10 @@ msgstr "Proxmox VE Saioaren Hasiera"
 msgid "QEMU image format"
 msgstr "QEMU irudi formatua"
 
+#: ../www/manager/dc/Summary.js:97
+msgid "Quorate"
+msgstr ""
+
 #: ../www/manager/ceph/Monitor.js:178
 msgid "Quorum"
 msgstr ""
@@ -1418,6 +1672,7 @@ msgid "Quota UGID limit"
 msgstr "Quota UGID muga"
 
 #: ../www/manager/qemu/SnapshotTree.js:249
+#: ../www/manager/lxc/SnapshotTree.js:249
 msgid "RAM"
 msgstr "RAM"
 
@@ -1430,7 +1685,7 @@ msgstr "RAM erabilera"
 msgid "RTC start date"
 msgstr "RTC abio data"
 
-#: ../www/manager/qemu/NetworkEdit.js:144
+#: ../www/manager/qemu/NetworkEdit.js:146
 msgid "Rate limit"
 msgstr "Abiadura muga"
 
@@ -1447,38 +1702,42 @@ msgstr "Irakurketa muga"
 msgid "Read max burst"
 msgstr "Idazketa muga"
 
-#: ../www/manager/form/RealmComboBox.js:24 ../www/manager/dc/AuthView.js:120
 #: ../www/manager/dc/UserEdit.js:141 ../www/manager/dc/UserView.js:192
-#: ../www/manager/dc/AuthEdit.js:29
+#: ../www/manager/dc/AuthView.js:113 ../www/manager/dc/AuthEdit.js:29
+#: ../www/manager/form/RealmComboBox.js:23
 msgid "Realm"
 msgstr "Realm"
 
-#: ../www/manager/node/APT.js:75 ../www/manager/VNCConsole.js:370
-#: ../www/manager/VNCConsole.js:464 ../www/manager/VNCConsole.js:506
+#: ../www/manager/node/APT.js:75 ../www/manager/VNCConsole.js:418
+#: ../www/manager/VNCConsole.js:512 ../www/manager/VNCConsole.js:554
 msgid "Refresh"
 msgstr "Freskatu"
 
-#: ../www/manager/Utils.js:729 ../www/manager/VNCConsole.js:378
-#: ../www/manager/VNCConsole.js:472 ../www/manager/VNCConsole.js:517
-#: ../www/manager/ceph/OSD.js:231
+#: ../www/manager/Utils.js:555 ../www/manager/ceph/OSD.js:231
+#: ../www/manager/VNCConsole.js:426 ../www/manager/VNCConsole.js:520
+#: ../www/manager/VNCConsole.js:565
 msgid "Reload"
 msgstr "Birkargatu"
 
-#: ../www/manager/window/Edit.js:198 ../www/manager/storage/ContentView.js:401
-#: ../www/manager/grid/PoolMembers.js:107
+#: ../www/manager/openvz/Config.js:88 ../www/manager/openvz/Network.js:266
+#: ../www/manager/dc/PoolView.js:24 ../www/manager/dc/UserView.js:80
+#: ../www/manager/dc/AuthView.js:45 ../www/manager/dc/ACLView.js:149
+#: ../www/manager/dc/GroupView.js:24 ../www/manager/dc/Backup.js:366
+#: ../www/manager/dc/StorageView.js:73 ../www/manager/dc/SecurityGroups.js:144
 #: ../www/manager/grid/FirewallAliases.js:146
+#: ../www/manager/grid/BackupView.js:141
 #: ../www/manager/grid/FirewallRules.js:573
-#: ../www/manager/grid/BackupView.js:116 ../www/manager/openvz/Network.js:266
-#: ../www/manager/openvz/Config.js:88 ../www/manager/node/NetworkView.js:72
-#: ../www/manager/panel/IPSet.js:125 ../www/manager/panel/IPSet.js:345
-#: ../www/manager/qemu/Config.js:97 ../www/manager/qemu/HardwareView.js:322
-#: ../www/manager/qemu/SnapshotTree.js:175 ../www/manager/dc/StorageView.js:70
-#: ../www/manager/dc/GroupView.js:24 ../www/manager/dc/AuthView.js:52
-#: ../www/manager/dc/SecurityGroups.js:144 ../www/manager/dc/UserView.js:80
-#: ../www/manager/dc/PoolView.js:24 ../www/manager/dc/ACLView.js:149
-#: ../www/manager/dc/Backup.js:351 ../www/manager/dc/HAConfig.js:238
-#: ../www/manager/ceph/Monitor.js:128 ../www/manager/ceph/Pool.js:108
+#: ../www/manager/grid/PoolMembers.js:107
+#: ../www/manager/node/NetworkView.js:72
+#: ../www/manager/qemu/SnapshotTree.js:175 ../www/manager/qemu/Config.js:99
+#: ../www/manager/qemu/HardwareView.js:368
+#: ../www/manager/lxc/SnapshotTree.js:175 ../www/manager/lxc/Config.js:88
+#: ../www/manager/lxc/Network.js:392 ../www/manager/panel/IPSet.js:125
+#: ../www/manager/panel/IPSet.js:345 ../www/manager/storage/ContentView.js:401
+#: ../www/manager/ha/Groups.js:33 ../www/manager/ha/Resources.js:59
 #: ../www/manager/ceph/OSD.js:71 ../www/manager/ceph/OSD.js:189
+#: ../www/manager/ceph/Pool.js:108 ../www/manager/ceph/Monitor.js:128
+#: ../www/manager/window/Edit.js:198
 msgid "Remove"
 msgstr "Ezabatu"
 
@@ -1487,13 +1746,14 @@ msgstr "Ezabatu"
 msgid "Remove Partitions"
 msgstr "Murrizketa barik"
 
-#: ../www/manager/Utils.js:709 ../www/manager/qemu/Config.js:79
-#: ../www/manager/VNCConsole.js:332
+#: ../www/manager/Utils.js:530 ../www/manager/qemu/Config.js:81
+#: ../www/manager/VNCConsole.js:380
 msgid "Reset"
 msgstr "Reset"
 
-#: ../www/manager/qemu/HDResize.js:72 ../www/manager/qemu/HDResize.js:74
-#: ../www/manager/qemu/HardwareView.js:280
+#: ../www/manager/qemu/HardwareView.js:342 ../www/manager/qemu/HDResize.js:72
+#: ../www/manager/qemu/HDResize.js:74 ../www/manager/lxc/MPResize.js:75
+#: ../www/manager/lxc/MPResize.js:77 ../www/manager/lxc/Resources.js:156
 msgid "Resize disk"
 msgstr "Diskoren tamaina aldatu"
 
@@ -1501,31 +1761,29 @@ msgstr "Diskoren tamaina aldatu"
 msgid "Resource"
 msgstr "Baliabideak"
 
-#: ../www/manager/tree/ResourceTree.js:13 ../www/manager/pool/Config.js:14
-#: ../www/manager/openvz/CreateWizard.js:97
-#: ../www/manager/qemu/CreateWizard.js:80 ../www/manager/qemu/Clone.js:226
+#: ../www/manager/tree/ResourceTree.js:13
+#: ../www/manager/openvz/CreateWizard.js:97 ../www/manager/pool/Config.js:14
+#: ../www/manager/qemu/Clone.js:227 ../www/manager/qemu/CreateWizard.js:80
+#: ../www/manager/lxc/CreateWizard.js:95
 msgid "Resource Pool"
 msgstr "Baliabide Taldea"
 
-#: ../www/manager/openvz/RessourceEdit.js:73
 #: ../www/manager/openvz/Config.js:129
 #: ../www/manager/openvz/CreateWizard.js:149
+#: ../www/manager/openvz/RessourceEdit.js:73 ../www/manager/lxc/DNS.js:108
+#: ../www/manager/lxc/Config.js:129 ../www/manager/ha/Config.js:18
 msgid "Resources"
 msgstr "Baliabideak"
 
-#: ../www/manager/Utils.js:728 ../www/manager/node/Config.js:33
-#: ../www/manager/node/ServiceView.js:65
+#: ../www/manager/Utils.js:554 ../www/manager/node/ServiceView.js:74
+#: ../www/manager/node/Config.js:94
 msgid "Restart"
 msgstr "Berrabiarazi"
 
-#: ../www/manager/dc/Summary.js:166
-msgid "Restarts"
-msgstr "Berrabiaratzeak"
-
-#: ../www/manager/window/Restore.js:79
+#: ../www/manager/Utils.js:522 ../www/manager/Utils.js:536
+#: ../www/manager/grid/BackupView.js:119
 #: ../www/manager/storage/ContentView.js:373
-#: ../www/manager/grid/BackupView.js:94 ../www/manager/Utils.js:701
-#: ../www/manager/Utils.js:715
+#: ../www/manager/window/Restore.js:79
 msgid "Restore"
 msgstr "Berrezarri"
 
@@ -1537,17 +1795,24 @@ msgstr "CT berrezarri"
 msgid "Restore VM"
 msgstr "VM berrezarri"
 
-#: ../www/manager/Utils.js:712 ../www/manager/qemu/Config.js:40
-#: ../www/manager/VNCConsole.js:356
+#: ../www/manager/openvz/CmdMenu.js:67 ../www/manager/Utils.js:533
+#: ../www/manager/Utils.js:545 ../www/manager/qemu/CmdMenu.js:66
+#: ../www/manager/qemu/Config.js:42 ../www/manager/lxc/CmdMenu.js:67
+#: ../www/manager/VNCConsole.js:404
 msgid "Resume"
 msgstr "Berriz Hasi"
 
-#: ../www/manager/node/NetworkView.js:202 ../www/manager/dc/HAConfig.js:145
+#: ../www/manager/qemu/Options.js:306 ../www/manager/qemu/HardwareView.js:400
+#, fuzzy
+msgid "Revert"
+msgstr "inoiz ez"
+
+#: ../www/manager/node/NetworkView.js:202
 msgid "Revert changes"
 msgstr "Aldaketak leheneratu"
 
-#: ../www/manager/form/RoleSelector.js:21 ../www/manager/dc/ACLView.js:43
-#: ../www/manager/dc/ACLView.js:120
+#: ../www/manager/dc/ACLView.js:43 ../www/manager/dc/ACLView.js:120
+#: ../www/manager/form/RoleSelector.js:21
 msgid "Role"
 msgstr "Rol-a"
 
@@ -1555,20 +1820,27 @@ msgstr "Rol-a"
 msgid "Roles"
 msgstr "Rol-ak"
 
-#: ../www/manager/Utils.js:698 ../www/manager/qemu/SnapshotTree.js:139
+#: ../www/manager/Utils.js:519 ../www/manager/Utils.js:547
+#: ../www/manager/qemu/SnapshotTree.js:139
+#: ../www/manager/lxc/SnapshotTree.js:139
 msgid "Rollback"
 msgstr "Rollback"
+
+#: ../www/manager/lxc/Resources.js:78 ../www/manager/lxc/CreateWizard.js:146
+#, fuzzy
+msgid "Root Disk"
+msgstr "Disko"
 
 #: ../www/manager/grid/FirewallRules.js:264
 #: ../www/manager/grid/FirewallRules.js:360
 msgid "Rule"
 msgstr ""
 
-#: ../www/manager/dc/SecurityGroups.js:204
+#: ../www/manager/dc/SecurityGroups.js:204 ../www/manager/panel/Firewall.js:29
 msgid "Rules"
 msgstr ""
 
-#: ../www/manager/qemu/ScsiHwEdit.js:8 ../www/manager/qemu/Options.js:143
+#: ../www/manager/qemu/ScsiHwEdit.js:8 ../www/manager/qemu/Options.js:160
 msgid "SCSI Controller Type"
 msgstr "SCSI Kontrolatzaile Mota"
 
@@ -1576,7 +1848,11 @@ msgstr "SCSI Kontrolatzaile Mota"
 msgid "SKU"
 msgstr ""
 
-#: ../www/manager/qemu/Smbios1Edit.js:91 ../www/manager/qemu/Options.js:237
+#: ../www/manager/lxc/Network.js:263
+msgid "SLAAC"
+msgstr ""
+
+#: ../www/manager/qemu/Options.js:237 ../www/manager/qemu/Smbios1Edit.js:91
 msgid "SMBIOS settings (type1)"
 msgstr ""
 
@@ -1589,13 +1865,16 @@ msgstr "NÃºmero mÃ¡ximo de ficheros"
 msgid "SWAP usage"
 msgstr "SWAP erabilera"
 
-#: ../www/manager/storage/LVMEdit.js:28 ../www/manager/storage/IScsiEdit.js:49
-#: ../www/manager/storage/NFSEdit.js:49
+#: ../www/manager/storage/ZFSPoolEdit.js:28
+#: ../www/manager/storage/IScsiEdit.js:49 ../www/manager/storage/NFSEdit.js:49
+#: ../www/manager/storage/LVMEdit.js:28
 msgid "Scanning..."
 msgstr "Eskaneatzen..."
 
+#: ../www/manager/grid/BackupView.js:83
 #: ../www/manager/grid/ResourceGrid.js:167
 #: ../www/manager/grid/ResourceGrid.js:174
+#: ../www/manager/storage/ContentView.js:448
 msgid "Search"
 msgstr "Bilatu"
 
@@ -1603,11 +1882,17 @@ msgstr "Bilatu"
 msgid "Search domain"
 msgstr "Bilaketa domeinua"
 
+#: ../www/manager/storage/GlusterFsEdit.js:120
+#, fuzzy
+msgid "Second Server"
+msgstr "Zerbitzaria"
+
+#: ../www/manager/dc/SecurityGroups.js:36
+#: ../www/manager/dc/SecurityGroups.js:38
 #: ../www/manager/form/SecurityGroupSelector.js:29
 #: ../www/manager/grid/FirewallRules.js:321
 #: ../www/manager/grid/FirewallRules.js:559
-#: ../www/manager/dc/SecurityGroups.js:36
-#: ../www/manager/dc/SecurityGroups.js:38
+#: ../www/manager/panel/Firewall.js:40
 msgid "Security Group"
 msgstr ""
 
@@ -1615,7 +1900,7 @@ msgstr ""
 msgid "Select File..."
 msgstr "Fitxategia Aukeratu..."
 
-#: ../www/manager/dc/Backup.js:423
+#: ../www/manager/dc/Backup.js:445
 msgid "Selection"
 msgstr "Hautaketa"
 
@@ -1627,22 +1912,26 @@ msgstr "Hautaketa modua"
 msgid "Send email to"
 msgstr "Posta elektronikoa bidali "
 
+#: ../www/manager/dc/OptionView.js:89 ../www/manager/dc/OptionView.js:107
+msgid "Send emails from root@$hostname"
+msgstr ""
+
 #: ../www/manager/qemu/Smbios1Edit.js:58 ../www/manager/ceph/Disks.js:100
 #: ../www/manager/ceph/Disks.js:176
 msgid "Serial"
 msgstr ""
 
-#: ../www/manager/Utils.js:397 ../www/manager/Utils.js:398
-#: ../www/manager/Utils.js:399 ../www/manager/Utils.js:400
+#: ../www/manager/Utils.js:208 ../www/manager/Utils.js:209
+#: ../www/manager/Utils.js:210 ../www/manager/Utils.js:211
 msgid "Serial terminal"
 msgstr "Serial kontsola"
 
+#: ../www/manager/dc/AuthEdit.js:95 ../www/manager/storage/NFSEdit.js:106
 #: ../www/manager/storage/GlusterFsEdit.js:103
-#: ../www/manager/storage/NFSEdit.js:106 ../www/manager/dc/AuthEdit.js:87
 msgid "Server"
 msgstr "Zerbitzaria"
 
-#: ../www/manager/dc/Summary.js:63
+#: ../www/manager/dc/Summary.js:64
 msgid "Server Address"
 msgstr "Zerbitzari Helbidea"
 
@@ -1666,12 +1955,13 @@ msgstr "Zerbitzariaren ordua"
 msgid "Service"
 msgstr "Zerbitzua"
 
-#: ../www/manager/node/Config.js:74 ../www/manager/dc/Summary.js:69
+#: ../www/manager/node/Config.js:135
 msgid "Services"
 msgstr "Zerbitzuak"
 
-#: ../www/manager/openvz/CreateWizard.js:258
-#: ../www/manager/qemu/CreateWizard.js:117 ../www/manager/qemu/Snapshot.js:105
+#: ../www/manager/openvz/CreateWizard.js:273
+#: ../www/manager/qemu/Snapshot.js:105 ../www/manager/qemu/CreateWizard.js:117
+#: ../www/manager/lxc/Snapshot.js:96 ../www/manager/lxc/CreateWizard.js:183
 msgid "Settings"
 msgstr "Ezarpenak"
 
@@ -1679,26 +1969,27 @@ msgstr "Ezarpenak"
 msgid "Severity"
 msgstr "Gogortasuna"
 
-#: ../www/manager/storage/LVMEdit.js:209 ../www/manager/storage/DirEdit.js:63
+#: ../www/manager/dc/StorageView.js:233 ../www/manager/storage/DirEdit.js:63
 #: ../www/manager/storage/StatusView.js:40
-#: ../www/manager/dc/StorageView.js:219
+#: ../www/manager/storage/LVMEdit.js:219
 msgid "Shared"
 msgstr "Partekatuta"
 
-#: ../www/manager/qemu/MemoryEdit.js:123
+#: ../www/manager/qemu/MemoryEdit.js:115
 msgid "Shares"
 msgstr "Partekatua"
 
-#: ../www/manager/Utils.js:695 ../www/manager/Utils.js:696
-#: ../www/manager/node/Config.js:52 ../www/manager/VNCConsole.js:523
+#: ../www/manager/Utils.js:516 ../www/manager/Utils.js:517
+#: ../www/manager/node/Config.js:113 ../www/manager/VNCConsole.js:571
 msgid "Shell"
 msgstr "Shell"
 
-#: ../www/manager/Utils.js:710 ../www/manager/Utils.js:722
-#: ../www/manager/openvz/Config.js:66 ../www/manager/openvz/CmdMenu.js:53
-#: ../www/manager/node/Config.js:42 ../www/manager/qemu/Config.js:88
-#: ../www/manager/qemu/CmdMenu.js:53 ../www/manager/VNCConsole.js:303
-#: ../www/manager/VNCConsole.js:438
+#: ../www/manager/openvz/CmdMenu.js:74 ../www/manager/openvz/Config.js:66
+#: ../www/manager/Utils.js:531 ../www/manager/Utils.js:543
+#: ../www/manager/node/Config.js:103 ../www/manager/qemu/CmdMenu.js:73
+#: ../www/manager/qemu/Config.js:90 ../www/manager/lxc/CmdMenu.js:74
+#: ../www/manager/lxc/Config.js:66 ../www/manager/VNCConsole.js:351
+#: ../www/manager/VNCConsole.js:486
 msgid "Shutdown"
 msgstr "Amatatu"
 
@@ -1707,30 +1998,32 @@ msgid "Shutdown timeout"
 msgstr "Amatatze itxarote denbora"
 
 #: ../www/manager/form/FileSelector.js:63
-#: ../www/manager/storage/ContentView.js:462
-#: ../www/manager/storage/StatusView.js:45
-#: ../www/manager/grid/BackupView.js:169 ../www/manager/ceph/Pool.js:28
-#: ../www/manager/ceph/Pool.js:150 ../www/manager/ceph/Disks.js:80
-#: ../www/manager/ceph/Disks.js:169
+#: ../www/manager/grid/BackupView.js:194
+#: ../www/manager/storage/ContentView.js:483
+#: ../www/manager/storage/StatusView.js:45 ../www/manager/ceph/Disks.js:80
+#: ../www/manager/ceph/Disks.js:169 ../www/manager/ceph/Pool.js:28
+#: ../www/manager/ceph/Pool.js:150
 msgid "Size"
 msgstr "Tamaina"
 
-#: ../www/manager/qemu/HDResize.js:52
+#: ../www/manager/qemu/HDResize.js:52 ../www/manager/lxc/MPResize.js:55
 msgid "Size Increment"
 msgstr "Gehikuntza Tamaina"
 
-#: ../www/manager/node/NetworkEdit.js:96
-#: ../www/manager/node/NetworkEdit.js:191
+#: ../www/manager/node/NetworkEdit.js:104
+#: ../www/manager/node/NetworkEdit.js:199
 msgid "Slaves"
 msgstr "Esklaboak"
 
+#: ../www/manager/Utils.js:518 ../www/manager/Utils.js:546
 #: ../www/manager/form/SnapshotSelector.js:51
-#: ../www/manager/form/BackupModeSelector.js:9 ../www/manager/Utils.js:697
-#: ../www/manager/qemu/Snapshot.js:131 ../www/manager/qemu/Clone.js:162
+#: ../www/manager/form/BackupModeSelector.js:9
+#: ../www/manager/qemu/Clone.js:163 ../www/manager/qemu/Snapshot.js:131
+#: ../www/manager/lxc/Snapshot.js:122
 msgid "Snapshot"
 msgstr "Snapshot"
 
-#: ../www/manager/qemu/Config.js:174
+#: ../www/manager/qemu/Config.js:176 ../www/manager/lxc/Config.js:178
 msgid "Snapshots"
 msgstr "Snapshots-ak"
 
@@ -1738,14 +2031,14 @@ msgstr "Snapshots-ak"
 msgid "Socket"
 msgstr "Socket"
 
-#: ../www/manager/node/Subscription.js:72 ../www/manager/node/StatusView.js:14
+#: ../www/manager/node/StatusView.js:14 ../www/manager/node/Subscription.js:72
 #: ../www/manager/qemu/ProcessorEdit.js:15
 msgid "Sockets"
 msgstr "Sockets-ak"
 
-#: ../www/manager/window/Restore.js:41
 #: ../www/manager/grid/FirewallRules.js:138
 #: ../www/manager/grid/FirewallRules.js:679
+#: ../www/manager/window/Restore.js:41
 msgid "Source"
 msgstr "Jatorria"
 
@@ -1755,46 +2048,53 @@ msgstr "Jatorria"
 msgid "Source port"
 msgstr "Jatorria"
 
-#: ../www/manager/dc/Summary.js:134
+#: ../www/manager/dc/Summary.js:25
 msgid "Standalone node - no cluster defined"
 msgstr "Nodo autonomoa - ez da cluster definitu"
 
-#: ../www/manager/Utils.js:289
+#: ../www/manager/Utils.js:71
 msgid "Standard"
 msgstr "Estandar"
 
-#: ../www/manager/Utils.js:390
+#: ../www/manager/Utils.js:201
 msgid "Standard VGA"
 msgstr "VGA Estandarra"
 
-#: ../www/manager/Utils.js:707 ../www/manager/Utils.js:718
-#: ../www/manager/Utils.js:724 ../www/manager/Utils.js:726
-#: ../www/manager/openvz/Config.js:40 ../www/manager/openvz/CmdMenu.js:34
-#: ../www/manager/node/ServiceView.js:49 ../www/manager/qemu/Config.js:49
-#: ../www/manager/qemu/CmdMenu.js:34 ../www/manager/VNCConsole.js:297
-#: ../www/manager/VNCConsole.js:432 ../www/manager/ceph/Monitor.js:100
-#: ../www/manager/ceph/OSD.js:165
+#: ../www/manager/openvz/CmdMenu.js:34 ../www/manager/openvz/Config.js:40
+#: ../www/manager/Utils.js:528 ../www/manager/Utils.js:539
+#: ../www/manager/Utils.js:550 ../www/manager/Utils.js:552
+#: ../www/manager/node/ServiceView.js:58 ../www/manager/qemu/CmdMenu.js:34
+#: ../www/manager/qemu/Config.js:51 ../www/manager/lxc/CmdMenu.js:34
+#: ../www/manager/lxc/Config.js:40 ../www/manager/ceph/OSD.js:165
+#: ../www/manager/ceph/Monitor.js:100 ../www/manager/VNCConsole.js:345
+#: ../www/manager/VNCConsole.js:480
 msgid "Start"
 msgstr "Hasi"
 
-#: ../www/manager/window/TaskViewer.js:133 ../www/manager/node/Tasks.js:121
-#: ../www/manager/dc/Backup.js:148 ../www/manager/dc/Backup.js:411
-#: ../www/manager/dc/Tasks.js:61
+#: ../www/manager/node/Config.js:38
+msgid "Start All VMs"
+msgstr ""
+
+#: ../www/manager/dc/Tasks.js:67 ../www/manager/dc/Backup.js:148
+#: ../www/manager/dc/Backup.js:433 ../www/manager/node/Tasks.js:121
+#: ../www/manager/window/TaskViewer.js:133
 msgid "Start Time"
 msgstr "Hasi Ordua"
 
-#: ../www/manager/Utils.js:739
+#: ../www/manager/Utils.js:565
 msgid "Start all VMs and Containers"
 msgstr "VM eta Kontainer guztiak abiatu"
 
 #: ../www/manager/openvz/Options.js:26 ../www/manager/openvz/Options.js:31
 #: ../www/manager/openvz/Options.js:37 ../www/manager/qemu/Options.js:41
 #: ../www/manager/qemu/Options.js:46 ../www/manager/qemu/Options.js:53
+#: ../www/manager/lxc/Options.js:24 ../www/manager/lxc/Options.js:29
+#: ../www/manager/lxc/Options.js:35
 msgid "Start at boot"
 msgstr "Abiatzean hasi "
 
 #: ../www/manager/qemu/StartupEdit.js:34 ../www/manager/qemu/StartupEdit.js:67
-#: ../www/manager/qemu/Options.js:58
+#: ../www/manager/qemu/Options.js:58 ../www/manager/lxc/Options.js:40
 msgid "Start/Shutdown order"
 msgstr "Piztu/Itzali Agintea"
 
@@ -1802,45 +2102,62 @@ msgstr "Piztu/Itzali Agintea"
 msgid "Startup delay"
 msgstr "Abio atzerapena"
 
-#: ../www/manager/pool/StatusView.js:21
-#: ../www/manager/window/TaskViewer.js:101
+#: ../www/manager/ha/Resources.js:113
+#, fuzzy
+msgid "State"
+msgstr "Egoera"
+
+#: ../www/manager/lxc/Network.js:182 ../www/manager/lxc/Network.js:241
+#, fuzzy
+msgid "Static"
+msgstr "Egoera"
+
+#: ../www/manager/openvz/StatusView.js:59 ../www/manager/openvz/Summary.js:29
+#: ../www/manager/pool/StatusView.js:21 ../www/manager/dc/Tasks.js:109
+#: ../www/manager/dc/Backup.js:91 ../www/manager/node/Tasks.js:153
+#: ../www/manager/node/ServiceView.js:133 ../www/manager/node/Summary.js:81
+#: ../www/manager/node/Subscription.js:62 ../www/manager/qemu/StatusView.js:44
+#: ../www/manager/qemu/SnapshotTree.js:261 ../www/manager/qemu/Summary.js:29
+#: ../www/manager/lxc/StatusView.js:59 ../www/manager/lxc/SnapshotTree.js:261
+#: ../www/manager/lxc/Summary.js:29 ../www/manager/storage/StatusView.js:62
+#: ../www/manager/ha/StatusView.js:53 ../www/manager/ha/Config.js:13
+#: ../www/manager/ceph/Config.js:105 ../www/manager/window/TaskViewer.js:101
 #: ../www/manager/window/TaskViewer.js:174
-#: ../www/manager/storage/StatusView.js:67 ../www/manager/openvz/Summary.js:29
-#: ../www/manager/openvz/StatusView.js:59
-#: ../www/manager/node/ServiceView.js:124
-#: ../www/manager/node/Subscription.js:62 ../www/manager/node/Tasks.js:153
-#: ../www/manager/node/Summary.js:81 ../www/manager/qemu/Summary.js:29
-#: ../www/manager/qemu/StatusView.js:44
-#: ../www/manager/qemu/SnapshotTree.js:261 ../www/manager/dc/Backup.js:91
-#: ../www/manager/dc/Tasks.js:103 ../www/manager/dc/Summary.js:160
 msgid "Status"
 msgstr "Egoera"
 
-#: ../www/manager/window/TaskViewer.js:162
+#: ../www/manager/openvz/CmdMenu.js:88 ../www/manager/openvz/Config.js:57
+#: ../www/manager/Utils.js:529 ../www/manager/Utils.js:540
+#: ../www/manager/Utils.js:551 ../www/manager/Utils.js:553
+#: ../www/manager/form/BackupModeSelector.js:11
+#: ../www/manager/node/ServiceView.js:66 ../www/manager/qemu/CmdMenu.js:87
+#: ../www/manager/qemu/Config.js:59 ../www/manager/lxc/CmdMenu.js:88
+#: ../www/manager/lxc/Config.js:57 ../www/manager/ceph/OSD.js:171
+#: ../www/manager/ceph/Monitor.js:109 ../www/manager/VNCConsole.js:363
+#: ../www/manager/VNCConsole.js:498 ../www/manager/window/TaskViewer.js:162
 #: ../www/manager/window/TaskViewer.js:168
-#: ../www/manager/form/BackupModeSelector.js:11 ../www/manager/Utils.js:708
-#: ../www/manager/Utils.js:719 ../www/manager/Utils.js:725
-#: ../www/manager/Utils.js:727 ../www/manager/openvz/Config.js:57
-#: ../www/manager/openvz/CmdMenu.js:67 ../www/manager/node/ServiceView.js:57
-#: ../www/manager/qemu/Config.js:57 ../www/manager/qemu/CmdMenu.js:67
-#: ../www/manager/VNCConsole.js:315 ../www/manager/VNCConsole.js:450
-#: ../www/manager/ceph/Monitor.js:109 ../www/manager/ceph/OSD.js:171
 msgid "Stop"
 msgstr "Gelditu"
 
-#: ../www/manager/Utils.js:740
+#: ../www/manager/node/Config.js:59
+msgid "Stop All VMs"
+msgstr ""
+
+#: ../www/manager/Utils.js:566
 msgid "Stop all VMs and Containers"
 msgstr "VM eta Kontainer guztiak amatatu"
 
-#: ../www/manager/data/ResourceStore.js:189
-#: ../www/manager/window/Restore.js:25 ../www/manager/window/Backup.js:25
-#: ../www/manager/grid/PoolMembers.js:52 ../www/manager/grid/PoolMembers.js:61
-#: ../www/manager/grid/PoolMembers.js:157 ../www/manager/grid/BackupView.js:67
+#: ../www/manager/openvz/Options.js:46
 #: ../www/manager/openvz/CreateWizard.js:20
-#: ../www/manager/openvz/CreateWizard.js:35
-#: ../www/manager/openvz/Options.js:46 ../www/manager/qemu/CDEdit.js:111
-#: ../www/manager/qemu/HDEdit.js:152 ../www/manager/dc/Config.js:35
-#: ../www/manager/dc/Backup.js:59 ../www/manager/dc/Backup.js:417
+#: ../www/manager/openvz/CreateWizard.js:35 ../www/manager/dc/Config.js:35
+#: ../www/manager/dc/Backup.js:59 ../www/manager/dc/Backup.js:439
+#: ../www/manager/grid/BackupView.js:71 ../www/manager/grid/PoolMembers.js:52
+#: ../www/manager/grid/PoolMembers.js:61
+#: ../www/manager/grid/PoolMembers.js:157
+#: ../www/manager/data/ResourceStore.js:190 ../www/manager/qemu/HDEdit.js:166
+#: ../www/manager/qemu/CDEdit.js:111 ../www/manager/lxc/CreateWizard.js:20
+#: ../www/manager/lxc/CreateWizard.js:35 ../www/manager/window/Restore.js:25
+#: ../www/manager/window/Backup.js:25
 msgid "Storage"
 msgstr "Biltegiratze"
 
@@ -1856,12 +2173,12 @@ msgstr "Biltegiratzeen Zerrenda"
 msgid "Storage {0} on node {1}"
 msgstr "{0} biltegiratzea {1} nodo-an"
 
-#: ../www/manager/node/NetworkView.js:272
-#: ../www/manager/node/NetworkEdit.js:208
+#: ../www/manager/node/NetworkEdit.js:216
+#: ../www/manager/node/NetworkView.js:282
 msgid "Subnet mask"
 msgstr "Subnet maskara"
 
-#: ../www/manager/node/Config.js:136
+#: ../www/manager/node/Config.js:211
 msgid "Subscription"
 msgstr "Harpidetza"
 
@@ -1870,28 +2187,37 @@ msgstr "Harpidetza"
 msgid "Subscription Key"
 msgstr "Harpidetza Giltza"
 
-#: ../www/manager/Utils.js:536
+#: ../www/manager/Utils.js:345
 msgid "Successful"
 msgstr "Arrakastatsua"
 
-#: ../www/manager/pool/Config.js:18 ../www/manager/storage/Browser.js:22
-#: ../www/manager/openvz/Config.js:124 ../www/manager/node/Config.js:69
-#: ../www/manager/qemu/Config.js:133 ../www/manager/dc/Config.js:20
+#: ../www/manager/openvz/Config.js:124 ../www/manager/pool/Config.js:18
+#: ../www/manager/dc/Config.js:20 ../www/manager/node/Config.js:130
+#: ../www/manager/qemu/Config.js:135 ../www/manager/lxc/Config.js:124
+#: ../www/manager/storage/Browser.js:22
 msgid "Summary"
 msgstr "Laburpena"
 
-#: ../www/manager/dc/Config.js:98 ../www/manager/dc/Summary.js:49
+#: ../www/manager/dc/Config.js:99 ../www/manager/dc/Summary.js:57
 msgid "Support"
 msgstr "Euskarria"
 
-#: ../www/manager/form/BackupModeSelector.js:10 ../www/manager/Utils.js:711
-#: ../www/manager/VNCConsole.js:344
+#: ../www/manager/openvz/CmdMenu.js:53 ../www/manager/Utils.js:532
+#: ../www/manager/Utils.js:544 ../www/manager/form/BackupModeSelector.js:10
+#: ../www/manager/qemu/CmdMenu.js:53 ../www/manager/lxc/CmdMenu.js:53
+#: ../www/manager/VNCConsole.js:392
 msgid "Suspend"
 msgstr "Eseki"
 
-#: ../www/manager/openvz/RessourceEdit.js:31
 #: ../www/manager/openvz/RessourceView.js:37
+#: ../www/manager/openvz/RessourceEdit.js:31
+#: ../www/manager/lxc/Resources.js:50
 msgid "Swap"
+msgstr "Swap"
+
+#: ../www/manager/lxc/ResourceEdit.js:108
+#, fuzzy
+msgid "Swap (MB)"
 msgstr "Swap"
 
 #: ../www/manager/Workspace.js:157
@@ -1903,20 +2229,26 @@ msgstr "Sistema berrikuntza {0} nodo-an"
 msgid "TCP flags filter"
 msgstr "NÃºmero mÃ¡ximo de ficheros"
 
-#: ../www/manager/dc/AuthView.js:132
+#: ../www/manager/dc/AuthView.js:125 ../www/manager/dc/AuthEdit.js:130
 msgid "TFA"
 msgstr ""
 
-#: ../www/manager/qemu/Snapshot.js:142 ../www/manager/qemu/Snapshot.js:144
-#: ../www/manager/qemu/SnapshotTree.js:212
+#: ../www/manager/lxc/Options.js:73 ../www/manager/lxc/Options.js:77
+#: ../www/manager/lxc/Options.js:85
+msgid "TTY count"
+msgstr ""
+
+#: ../www/manager/qemu/SnapshotTree.js:212 ../www/manager/qemu/Snapshot.js:142
+#: ../www/manager/qemu/Snapshot.js:144 ../www/manager/lxc/SnapshotTree.js:212
+#: ../www/manager/lxc/Snapshot.js:133 ../www/manager/lxc/Snapshot.js:135
 msgid "Take Snapshot"
 msgstr "Snapshot Hartu"
 
-#: ../www/manager/storage/ZFSEdit.js:62
+#: ../www/manager/dc/StorageView.js:221 ../www/manager/storage/ZFSEdit.js:62
 msgid "Target"
 msgstr "Helburu"
 
-#: ../www/manager/qemu/HDMove.js:65 ../www/manager/qemu/Clone.js:197
+#: ../www/manager/qemu/Clone.js:198 ../www/manager/qemu/HDMove.js:65
 msgid "Target Storage"
 msgstr "Helburu Biltegiratze"
 
@@ -1925,12 +2257,12 @@ msgstr "Helburu Biltegiratze"
 msgid "Target group"
 msgstr "Nodo helburua"
 
-#: ../www/manager/window/Migrate.js:61 ../www/manager/qemu/Clone.js:132
+#: ../www/manager/qemu/Clone.js:133 ../www/manager/window/Migrate.js:61
 msgid "Target node"
 msgstr "Nodo helburua"
 
-#: ../www/manager/openvz/Config.js:149 ../www/manager/node/Config.js:117
-#: ../www/manager/qemu/Config.js:148
+#: ../www/manager/openvz/Config.js:149 ../www/manager/node/Config.js:170
+#: ../www/manager/qemu/Config.js:150 ../www/manager/lxc/Config.js:149
 msgid "Task History"
 msgstr "Ataza Historia"
 
@@ -1942,10 +2274,12 @@ msgstr "Ataza mota"
 msgid "Tasks"
 msgstr "Lanak"
 
-#: ../www/manager/data/ResourceStore.js:168
+#: ../www/manager/openvz/Options.js:42
 #: ../www/manager/openvz/CreateWizard.js:29
 #: ../www/manager/openvz/CreateWizard.js:144
-#: ../www/manager/openvz/Options.js:42
+#: ../www/manager/data/ResourceStore.js:169
+#: ../www/manager/lxc/CreateWizard.js:29
+#: ../www/manager/lxc/CreateWizard.js:141
 msgid "Template"
 msgstr "Txantiloia"
 
@@ -1954,6 +2288,7 @@ msgstr "Txantiloia"
 msgid "Templates"
 msgstr "Txantiloiak"
 
+#: ../www/manager/storage/ZFSPoolEdit.js:115
 #: ../www/manager/storage/ZFSEdit.js:96
 msgid "Thin provision"
 msgstr ""
@@ -1966,12 +2301,17 @@ msgstr "VM ID horrek ez da existitzen"
 msgid "This VM ID is already in use"
 msgstr "VM ID horrek dagoeneko erabiltzen ari da"
 
-#: ../www/manager/Utils.js:104
+#: ../www/manager/Toolkit.js:97
+msgid ""
+"This field should be an e-mail address in the format \"user@example.com\""
+msgstr ""
+
+#: ../www/manager/Toolkit.js:91
 msgid "This is not a valid DNS name"
 msgstr "Ez da baliozko DNS izena"
 
-#: ../www/manager/grid/BackupView.js:123
-#: ../www/manager/qemu/HardwareView.js:330 ../www/manager/ceph/Pool.js:114
+#: ../www/manager/grid/BackupView.js:148
+#: ../www/manager/qemu/HardwareView.js:376 ../www/manager/ceph/Pool.js:114
 msgid "This will permanently erase all image data."
 msgstr "Irudiaren datu guztiak ezabatuko dira."
 
@@ -1979,7 +2319,7 @@ msgstr "Irudiaren datu guztiak ezabatuko dira."
 msgid "This will permanently erase current VM data."
 msgstr "Une honetako VM-ko datuak betiko ezabatuko dira."
 
-#: ../www/manager/node/Config.js:89 ../www/manager/dc/Log.js:42
+#: ../www/manager/dc/Log.js:42 ../www/manager/node/Config.js:150
 msgid "Time"
 msgstr "Ordua"
 
@@ -1988,59 +2328,65 @@ msgstr "Ordua"
 msgid "Time zone"
 msgstr "Ordu-zona"
 
-#: ../www/manager/qemu/Snapshot.js:83
+#: ../www/manager/qemu/Snapshot.js:83 ../www/manager/lxc/Snapshot.js:83
 msgid "Timestamp"
 msgstr "Denbora Marka"
 
-#: ../www/manager/Utils.js:891 ../www/manager/ceph/Pool.js:184
-#: ../www/manager/ceph/OSD.js:315
+#: ../www/manager/Utils.js:719 ../www/manager/ceph/OSD.js:315
+#: ../www/manager/ceph/Pool.js:184
 msgid "Total"
 msgstr "Guztizko"
 
-#: ../www/manager/data/ResourceStore.js:136
+#: ../www/manager/data/ResourceStore.js:137
 msgid "Total Disk Read"
 msgstr "Guztizko Disko Irakurketa"
 
-#: ../www/manager/data/ResourceStore.js:144
+#: ../www/manager/data/ResourceStore.js:145
 msgid "Total Disk Write"
 msgstr "Guztizko Disko Idazketa"
 
-#: ../www/manager/data/ResourceStore.js:152
+#: ../www/manager/data/ResourceStore.js:153
 msgid "Total NetIn"
 msgstr "Guztizko NetIn"
 
-#: ../www/manager/data/ResourceStore.js:160
+#: ../www/manager/data/ResourceStore.js:161
 msgid "Total NetOut"
 msgstr "Guztizko NetOut"
 
-#: ../www/manager/qemu/ProcessorEdit.js:53
+#: ../www/manager/qemu/ProcessorEdit.js:60
 msgid "Total cores"
 msgstr "Guztizko Nukleoak"
 
-#: ../www/manager/data/ResourceStore.js:21
-#: ../www/manager/form/StorageSelector.js:82
+#: ../www/manager/openvz/Network.js:397 ../www/manager/dc/AuthView.js:119
+#: ../www/manager/dc/Backup.js:107 ../www/manager/dc/StorageView.js:207
 #: ../www/manager/form/IPRefSelector.js:50
-#: ../www/manager/storage/ContentView.js:45
-#: ../www/manager/storage/StatusView.js:35
+#: ../www/manager/form/StorageSelector.js:82
 #: ../www/manager/grid/FirewallRules.js:641
-#: ../www/manager/openvz/Network.js:397 ../www/manager/node/NetworkView.js:235
-#: ../www/manager/node/Subscription.js:56 ../www/manager/qemu/ScsiHwEdit.js:13
-#: ../www/manager/qemu/ProcessorEdit.js:49
-#: ../www/manager/dc/StorageView.js:193 ../www/manager/dc/AuthView.js:126
-#: ../www/manager/dc/Backup.js:107
+#: ../www/manager/node/NetworkView.js:235
+#: ../www/manager/node/Subscription.js:56
+#: ../www/manager/data/ResourceStore.js:21
+#: ../www/manager/qemu/ScsiHwEdit.js:13
+#: ../www/manager/qemu/ProcessorEdit.js:56
+#: ../www/manager/storage/ContentView.js:45
+#: ../www/manager/storage/StatusView.js:35 ../www/manager/ha/StatusView.js:48
 msgid "Type"
 msgstr "Mota"
+
+#: ../www/manager/Utils.js:113
+#: ../www/manager/form/HotplugFeatureSelector.js:51
+msgid "USB"
+msgstr ""
 
 #: ../www/manager/dc/Support.js:50
 msgid "Unable to load subscription status"
 msgstr "Ezin izan da harpidetza egoera kargatu"
 
-#: ../www/manager/qemu/HDEdit.js:264 ../www/manager/qemu/HDThrottle.js:201
+#: ../www/manager/qemu/HDEdit.js:291 ../www/manager/qemu/HDThrottle.js:201
 #, fuzzy
 msgid "Unable to parse drive options"
 msgstr "Ezin izan da harpidetza egoera kargatu"
 
-#: ../www/manager/qemu/NetworkEdit.js:194
+#: ../www/manager/qemu/NetworkEdit.js:210
 msgid "Unable to parse network options"
 msgstr ""
 
@@ -2053,32 +2399,33 @@ msgstr "Ezin izan da harpidetza egoera kargatu"
 msgid "Unique task ID"
 msgstr "Ataza ID bakarra"
 
-#: ../www/manager/Utils.js:884
+#: ../www/manager/Utils.js:712
 msgid "Unknown"
 msgstr "Ezezaguna"
 
-#: ../www/manager/Utils.js:539
+#: ../www/manager/Utils.js:348
 msgid "Unknown error"
 msgstr "Errore ezezaguna"
 
-#: ../www/manager/Utils.js:721 ../www/manager/openvz/Config.js:48
+#: ../www/manager/openvz/Config.js:48 ../www/manager/Utils.js:542
+#: ../www/manager/lxc/Config.js:48
 msgid "Unmount"
 msgstr "Desmuntatu"
 
-#: ../www/manager/qemu/HDEdit.js:246 ../www/manager/qemu/HardwareView.js:165
-#: ../www/manager/qemu/HDThrottle.js:186
+#: ../www/manager/qemu/HDEdit.js:273 ../www/manager/qemu/HDThrottle.js:186
+#: ../www/manager/qemu/HardwareView.js:205
 msgid "Unused Disk"
 msgstr "Erabili gabeko diskoa"
 
-#: ../www/manager/qemu/Snapshot.js:133
+#: ../www/manager/qemu/Snapshot.js:133 ../www/manager/lxc/Snapshot.js:124
 msgid "Update"
 msgstr "Eguneratu"
 
-#: ../www/manager/Utils.js:738
+#: ../www/manager/Utils.js:564
 msgid "Update package database"
 msgstr "Eguneratu pakete datu basea"
 
-#: ../www/manager/node/Config.js:154
+#: ../www/manager/node/Config.js:187
 msgid "Updates"
 msgstr "Eguneraketak"
 
@@ -2093,7 +2440,7 @@ msgid "Upload"
 msgstr "Igo"
 
 #: ../www/manager/node/Subscription.js:8
-#: ../www/manager/node/Subscription.js:85
+#: ../www/manager/node/Subscription.js:88
 msgid "Upload Subscription Key"
 msgstr "Harpidetza Giltza Igo"
 
@@ -2101,9 +2448,9 @@ msgstr "Harpidetza Giltza Igo"
 msgid "Uploading file..."
 msgstr "Fitxategia igotzen..."
 
-#: ../www/manager/data/ResourceStore.js:175
 #: ../www/manager/openvz/StatusView.js:67 ../www/manager/node/StatusView.js:43
-#: ../www/manager/qemu/StatusView.js:49
+#: ../www/manager/data/ResourceStore.js:176
+#: ../www/manager/qemu/StatusView.js:49 ../www/manager/lxc/StatusView.js:67
 msgid "Uptime"
 msgstr "Jarduera Denbora"
 
@@ -2119,7 +2466,7 @@ msgstr "CD/DVD disko irudi fitxeroa (ISO) erabili"
 msgid "Use LUNs directly"
 msgstr "Zuzenean LUN-ak erabili "
 
-#: ../www/manager/qemu/MemoryEdit.js:40
+#: ../www/manager/qemu/MemoryEdit.js:39
 msgid "Use fixed size memory"
 msgstr "Memoria finkoa erabili"
 
@@ -2136,13 +2483,13 @@ msgstr "CD/DVD gailu fisiko erabili"
 msgid "Use tablet for pointer"
 msgstr "Tablet-a erabili erakusle moduan"
 
-#: ../www/manager/storage/StatusView.js:50 ../www/manager/Utils.js:892
-#: ../www/manager/ceph/Pool.js:171 ../www/manager/ceph/OSD.js:300
+#: ../www/manager/Utils.js:720 ../www/manager/storage/StatusView.js:50
+#: ../www/manager/ceph/OSD.js:300 ../www/manager/ceph/Pool.js:171
 msgid "Used"
 msgstr "Erabilita"
 
-#: ../www/manager/form/UserSelector.js:28 ../www/manager/dc/UserEdit.js:178
-#: ../www/manager/dc/ACLView.js:33 ../www/manager/dc/ACLView.js:113
+#: ../www/manager/dc/UserEdit.js:178 ../www/manager/dc/ACLView.js:33
+#: ../www/manager/dc/ACLView.js:113 ../www/manager/form/UserSelector.js:28
 msgid "User"
 msgstr "Erabiltzaile"
 
@@ -2154,12 +2501,12 @@ msgstr "Erabiltzailea Izen Atributua"
 msgid "User Permission"
 msgstr "Erabiltzaile Baimena"
 
+#: ../www/manager/dc/Tasks.js:98 ../www/manager/dc/Log.js:65
+#: ../www/manager/dc/UserEdit.js:74 ../www/manager/dc/UserView.js:185
+#: ../www/manager/node/Tasks.js:93 ../www/manager/node/Tasks.js:142
+#: ../www/manager/storage/RBDEdit.js:54
 #: ../www/manager/window/LoginWindow.js:71
 #: ../www/manager/window/TaskViewer.js:121
-#: ../www/manager/storage/RBDEdit.js:56 ../www/manager/node/Tasks.js:93
-#: ../www/manager/node/Tasks.js:142 ../www/manager/dc/UserEdit.js:74
-#: ../www/manager/dc/Log.js:65 ../www/manager/dc/UserView.js:185
-#: ../www/manager/dc/Tasks.js:92
 msgid "User name"
 msgstr "Erabiltzaile Izena"
 
@@ -2171,11 +2518,21 @@ msgstr "Erabiltzaile quotak desgaituta."
 msgid "Users"
 msgstr "Erabiltzaileak"
 
-#: ../www/manager/form/VLanField.js:9
+#: ../www/manager/form/VLanField.js:9 ../www/manager/lxc/Network.js:496
 msgid "VLAN Tag"
 msgstr "VLAN Etiketa"
 
-#: ../www/manager/Utils.js:391
+#: ../www/manager/ha/ResourceEdit.js:99
+#, fuzzy
+msgid "VM Resource"
+msgstr "Baliabideak"
+
+#: ../www/manager/qemu/Options.js:242 ../www/manager/qemu/Options.js:247
+#, fuzzy
+msgid "VM protection"
+msgstr "Direktorioa"
+
+#: ../www/manager/Utils.js:202
 msgid "VMWare compatible"
 msgstr "VMware bateragarri"
 
@@ -2183,24 +2540,30 @@ msgstr "VMware bateragarri"
 msgid "VMware image format"
 msgstr "VMware irudi formatua"
 
-#: ../www/manager/openvz/StatusView.js:65
+#: ../www/manager/openvz/StatusView.js:65 ../www/manager/lxc/StatusView.js:65
 msgid "VSwap usage"
 msgstr "VSwap erabilera"
 
-#: ../www/manager/Utils.js:895
+#: ../www/manager/Utils.js:723
 msgid "VZDump backup file"
 msgstr "VZDump backup irudia"
 
-#: ../www/manager/grid/ObjectGrid.js:100
+#: ../www/manager/grid/ObjectGrid.js:100 ../www/manager/qemu/Snapshot.js:111
+#: ../www/manager/lxc/Snapshot.js:102
 msgid "Value"
 msgstr "Balioa"
+
+#: ../www/manager/qemu/CPUOptions.js:40
+msgid "Vcpus"
+msgstr ""
 
 #: ../www/manager/ceph/Disks.js:88
 msgid "Vendor"
 msgstr ""
 
-#: ../www/manager/storage/ContentView.js:55 ../www/manager/Workspace.js:263
-#: ../www/manager/node/APT.js:165 ../www/manager/qemu/Smbios1Edit.js:52
+#: ../www/manager/Workspace.js:263 ../www/manager/node/APT.js:165
+#: ../www/manager/qemu/Smbios1Edit.js:52
+#: ../www/manager/storage/ContentView.js:55
 msgid "Version"
 msgstr "Bertsioa"
 
@@ -2215,9 +2578,13 @@ msgstr "Ikusi"
 msgid "Virtual Machine"
 msgstr "Makina Birtuala"
 
-#: ../www/manager/qemu/Config.js:126
+#: ../www/manager/qemu/Config.js:128
 msgid "Virtual Machine {0} on node {1}"
 msgstr "{0} makina birtuala  {1} nodo-an"
+
+#: ../www/manager/node/NetworkEdit.js:60
+msgid "Vlan Aware"
+msgstr ""
 
 #: ../www/manager/storage/LVMEdit.js:133 ../www/manager/storage/LVMEdit.js:140
 msgid "Volume group"
@@ -2237,11 +2604,12 @@ msgstr "Idazketa muga"
 msgid "Write max burst"
 msgstr "Idazketa muga"
 
-#: ../www/manager/form/Boolean.js:11 ../www/manager/Utils.js:881
+#: ../www/manager/Utils.js:708 ../www/manager/form/Boolean.js:11
 msgid "Yes"
 msgstr "Bai"
 
 #: ../www/manager/qemu/SnapshotTree.js:280
+#: ../www/manager/lxc/SnapshotTree.js:280
 msgid "You are here!"
 msgstr "Hemen Zaude!"
 
@@ -2249,15 +2617,21 @@ msgstr "Hemen Zaude!"
 msgid "You are logged in as {0}"
 msgstr "{0} bezala saioa hasi duzu"
 
+#: ../www/manager/storage/ZFSPoolEdit.js:80
+#: ../www/manager/storage/ZFSPoolEdit.js:88
+#, fuzzy
+msgid "ZFS Pool"
+msgstr "Taldea"
+
 #: ../www/manager/node/APT.js:168
 msgid "current"
 msgstr "oraingo"
 
-#: ../www/manager/Utils.js:887
+#: ../www/manager/Utils.js:715
 msgid "day"
 msgstr "eguna"
 
-#: ../www/manager/Utils.js:886
+#: ../www/manager/Utils.js:714
 msgid "days"
 msgstr "egunak"
 
@@ -2266,6 +2640,16 @@ msgstr "egunak"
 #, fuzzy
 msgid "default"
 msgstr "Lehenetsi"
+
+#: ../www/manager/Utils.js:104
+#, fuzzy
+msgid "disabled"
+msgstr "Gaituta"
+
+#: ../www/manager/ha/ResourceEdit.js:59
+#, fuzzy
+msgid "enable"
+msgstr "Gaitu"
 
 #: ../www/manager/form/CompressionSelector.js:10
 msgid "fast"
@@ -2279,11 +2663,11 @@ msgstr "ona"
 msgid "iSCSI Provider"
 msgstr ""
 
-#: ../www/manager/data/ResourceStore.js:129
+#: ../www/manager/data/ResourceStore.js:130
 msgid "maxcpu"
 msgstr "maxcpu"
 
-#: ../www/manager/Utils.js:890
+#: ../www/manager/Utils.js:718
 msgid "never"
 msgstr "inoiz ez"
 
@@ -2291,11 +2675,16 @@ msgstr "inoiz ez"
 msgid "new"
 msgstr "berria"
 
+#: ../www/manager/ha/Groups.js:93 ../www/manager/ha/GroupEdit.js:50
+#, fuzzy
+msgid "nofailback"
+msgstr "Rollback"
+
 #: ../www/manager/panel/IPSet.js:229
 msgid "nomatch"
 msgstr ""
 
-#: ../www/manager/form/CompressionSelector.js:9
+#: ../www/manager/Utils.js:710
 msgid "none"
 msgstr "bat ere ez"
 
@@ -2303,7 +2692,12 @@ msgstr "bat ere ez"
 msgid "paravirtualized"
 msgstr "parabirtualizatua"
 
-#: ../www/manager/Utils.js:888
+#: ../www/manager/ha/Groups.js:86 ../www/manager/ha/GroupEdit.js:44
+#, fuzzy
+msgid "restricted"
+msgstr "Murrizketa barik"
+
+#: ../www/manager/Utils.js:716
 msgid "running"
 msgstr "exekutatzen"
 
@@ -2311,18 +2705,33 @@ msgstr "exekutatzen"
 msgid "seconds"
 msgstr "segunduak"
 
-#: ../www/manager/Utils.js:889
+#: ../www/manager/Utils.js:717
 msgid "stopped"
 msgstr "geldituta"
 
 #: ../www/manager/qemu/HDThrottle.js:75 ../www/manager/qemu/HDThrottle.js:98
 #: ../www/manager/qemu/HDThrottle.js:120 ../www/manager/qemu/HDThrottle.js:142
+#: ../www/manager/qemu/CPUOptions.js:53 ../www/manager/lxc/Resources.js:67
 msgid "unlimited"
 msgstr "mugagabe"
 
 #: ../www/manager/form/CacheTypeSelector.js:13
 msgid "unsafe"
 msgstr "ez seguru"
+
+#: ../www/manager/lxc/DNS.js:44 ../www/manager/lxc/DNS.js:183
+#: ../www/manager/lxc/DNS.js:194
+msgid "use host settings"
+msgstr ""
+
+#~ msgid "Activate"
+#~ msgstr "Aktibatu"
+
+#~ msgid "Are you sure you want to activate your changes"
+#~ msgstr "Ziur zaude aldaketak aktibatu nahi dituzula?"
+
+#~ msgid "Are you sure you want to revert your changes"
+#~ msgstr "Ziur zaude zure aldaketak leheneratu nahi dituzula?"
 
 #, fuzzy
 #~ msgid "CPU usage %"
@@ -2340,9 +2749,17 @@ msgstr "ez seguru"
 #~ msgid "Confirmation"
 #~ msgstr "ConfirmaciÃ³n"
 
-#, fuzzy
-#~ msgid "Container"
-#~ msgstr "OpenVZ Kontainer"
+#~ msgid "Estranged"
+#~ msgstr "Atala"
+
+#~ msgid "Failover Domain"
+#~ msgstr "Failover Domeinua"
+
+#~ msgid "HA Service Status"
+#~ msgstr "HA Zerbitzuaren Egoera"
+
+#~ msgid "HA managed VM/CT"
+#~ msgstr "HA-k kudeatutako VM/CT"
 
 #, fuzzy
 #~ msgid "Images"
@@ -2352,12 +2769,23 @@ msgstr "ez seguru"
 #~ msgid "Keyboard"
 #~ msgstr "Teclado"
 
-#, fuzzy
-#~ msgid "Migrate VM"
-#~ msgstr "MigraciÃ³n"
+#~ msgid "Last owner"
+#~ msgstr "Azken jabea"
+
+#~ msgid "Last transition"
+#~ msgstr "Azken trantsizio"
+
+#~ msgid "OpenVZ template"
+#~ msgstr "OpenVZ txantiloi"
+
+#~ msgid "Owner"
+#~ msgstr "Jabea"
 
 #~ msgid "Propietario"
 #~ msgstr "PropriÃ©taire"
+
+#~ msgid "Restarts"
+#~ msgstr "Berrabiaratzeak"
 
 #, fuzzy
 #~ msgid "Spice Console"
