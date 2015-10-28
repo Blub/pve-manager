@@ -1,0 +1,2298 @@
+# Galician translation for pve-manager
+# Copyright (C) 2015 Proxmox Server Solutions GmbH
+# This file is distributed under the same license as the pve-manager package.
+# Proxmox Support Team <support@proxmox.com>, 2015.
+# Diego Blanco Girón <diego.blanco@treitos.com>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pve-manager 2.0\n"
+"Report-Msgid-Bugs-To: <support@proxmox.com>\n"
+"POT-Creation-Date: Mon Jul 14 11:06:02 2014\n"
+"PO-Revision-Date: 2015-10-22 16:28+0200\n"
+"Last-Translator: Diego Blanco Girón <diego.blanco@treitos.com>\n"
+"Language-Team: Galego <diego.blanco@treitos.com>\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Gtranslator 2.91.6\n"
+
+#: ../www/manager/qemu/Options.js:125 ../www/manager/qemu/Options.js:130
+msgid "ACPI support"
+msgstr "Soporte ACPI"
+
+#: ../www/manager/storage/ContentView.js:227
+msgid "Abort"
+msgstr "Abortar"
+
+#: ../www/manager/grid/FirewallRules.js:102
+#: ../www/manager/grid/FirewallRules.js:649
+msgid "Action"
+msgstr "Acción"
+
+#: ../www/manager/dc/HAConfig.js:124
+msgid "Activate"
+msgstr "Activar"
+
+#: ../www/manager/form/BridgeSelector.js:55
+#: ../www/manager/storage/StatusView.js:25
+#: ../www/manager/node/NetworkView.js:243
+msgid "Active"
+msgstr "Activo"
+
+#: ../www/manager/dc/AuthView.js:85 ../www/manager/dc/AuthEdit.js:37
+msgid "Active Directory Server"
+msgstr "Servidor 'Active Directory'"
+
+#: ../www/manager/window/Edit.js:198 ../www/manager/grid/PoolMembers.js:144
+#: ../www/manager/grid/FirewallAliases.js:135
+#: ../www/manager/grid/FirewallRules.js:543 ../www/manager/Utils.js:1090
+#: ../www/manager/openvz/Network.js:356 ../www/manager/panel/IPSet.js:329
+#: ../www/manager/qemu/HardwareView.js:367
+#: ../www/manager/dc/StorageView.js:101 ../www/manager/dc/AuthView.js:81
+#: ../www/manager/dc/UserView.js:148 ../www/manager/dc/ACLView.js:190
+#: ../www/manager/dc/Backup.js:381 ../www/manager/dc/HAConfig.js:166
+msgid "Add"
+msgstr "Engadir"
+
+#: ../www/manager/ceph/Monitor.js:185
+msgid "Address"
+msgstr "Enderezo"
+
+#: ../www/manager/grid/FirewallAliases.js:48
+msgid "Alias"
+msgstr "Alcume"
+
+#: ../www/manager/grid/FirewallAliases.js:73
+msgid "Aliases"
+msgstr "Alcumes"
+
+#: ../www/manager/storage/GlusterFsEdit.js:138
+#: ../www/manager/storage/RBDEdit.js:76
+#: ../www/manager/storage/SheepdogEdit.js:60
+#: ../www/manager/storage/LVMEdit.js:193 ../www/manager/storage/DirEdit.js:81
+#: ../www/manager/storage/IScsiEdit.js:133
+#: ../www/manager/storage/ZFSEdit.js:120 ../www/manager/storage/NFSEdit.js:141
+#: ../www/manager/dc/Backup.js:30 ../www/manager/dc/Backup.js:119
+#: ../www/manager/dc/Backup.js:310
+msgid "All"
+msgstr "Todos"
+
+#: ../www/manager/dc/Backup.js:311
+msgid "All except {0}"
+msgstr "Todos agás {0}"
+
+#: ../www/manager/Utils.js:94
+msgid "Allowed characters"
+msgstr "Caracteres permitidos"
+
+#: ../www/manager/dc/HAConfig.js:127
+msgid "Are you sure you want to activate your changes"
+msgstr "De seguro que queres activares os teus cambios"
+
+#: ../www/manager/StateProvider.js:161
+msgid "Are you sure you want to navigate away from this page?"
+msgstr "De seguro que queres saíres desta páxina?"
+
+#: ../www/manager/openvz/Config.js:91 ../www/manager/qemu/Config.js:100
+msgid ""
+"Are you sure you want to remove VM {0}? This will permanently erase all VM "
+"data."
+msgstr "De seguro que queres eliminares a MV {0}"
+
+#: ../www/manager/storage/ContentView.js:405
+#: ../www/manager/grid/PoolMembers.js:111
+#: ../www/manager/grid/BackupView.js:121 ../www/manager/openvz/Network.js:279
+#: ../www/manager/qemu/HardwareView.js:327
+#: ../www/manager/qemu/SnapshotTree.js:179 ../www/manager/dc/StorageView.js:74
+#: ../www/manager/dc/GroupView.js:28 ../www/manager/dc/AuthView.js:56
+#: ../www/manager/dc/UserView.js:90 ../www/manager/dc/PoolView.js:28
+#: ../www/manager/ceph/Pool.js:112
+msgid "Are you sure you want to remove entry {0}"
+msgstr "De seguro que queres eliminares a entrada {0}"
+
+#: ../www/manager/dc/ACLView.js:152 ../www/manager/dc/Backup.js:354
+msgid "Are you sure you want to remove this entry"
+msgstr "De seguro que queres eliminares esta entrada"
+
+#: ../www/manager/window/Restore.js:103
+msgid "Are you sure you want to restore this VM?"
+msgstr "De seguro que queres restaurares esta MV?"
+
+#: ../www/manager/dc/HAConfig.js:148
+msgid "Are you sure you want to revert your changes"
+msgstr "De seguro que queres restaurares os teus cambios"
+
+#: ../www/manager/qemu/SnapshotTree.js:144
+msgid "Are you sure you want to rollback to snapshot {0}"
+msgstr "De seguro que queres restaurares a instantánea {0}"
+
+#: ../www/manager/dc/Config.js:78
+msgid "Authentication"
+msgstr "Identificación"
+
+#: ../www/manager/qemu/MemoryEdit.js:70
+msgid "Automatically allocate memory within this range"
+msgstr "Aloxar memoria automáticamente neste intervalo"
+
+#: ../www/manager/node/NetworkView.js:253
+#: ../www/manager/node/NetworkEdit.js:48 ../www/manager/dc/HAConfig.js:35
+msgid "Autostart"
+msgstr "Autoarranque"
+
+#: ../www/manager/form/StorageSelector.js:87
+#: ../www/manager/storage/StatusView.js:60
+msgid "Avail"
+msgstr "Dispoñibel"
+
+#: ../www/manager/window/Wizard.js:70
+msgid "Back"
+msgstr "Voltar"
+
+#: ../www/manager/window/Backup.js:57 ../www/manager/window/Backup.js:91
+#: ../www/manager/Utils.js:737 ../www/manager/openvz/Config.js:165
+#: ../www/manager/qemu/Config.js:166 ../www/manager/dc/Config.js:43
+msgid "Backup"
+msgstr "Copia de seguranza"
+
+#: ../www/manager/dc/Backup.js:266
+msgid "Backup Job"
+msgstr "Traballo de copia de seguranza"
+
+#: ../www/manager/grid/BackupView.js:81
+msgid "Backup now"
+msgstr "Realizar copia de seguranza agora"
+
+#: ../www/manager/openvz/BeanCounterGrid.js:69
+msgid "Barrier"
+msgstr "Barreira"
+
+#: ../www/manager/dc/AuthEdit.js:54
+msgid "Base Domain Name"
+msgstr "Nome de dominio base"
+
+#: ../www/manager/storage/LVMEdit.js:157
+msgid "Base storage"
+msgstr "Almacenamento base"
+
+#: ../www/manager/storage/LVMEdit.js:150
+msgid "Base volume"
+msgstr "Volume base"
+
+#: ../www/manager/Utils.js:288
+msgid "Basic"
+msgstr "Básico"
+
+#: ../www/manager/storage/ZFSEdit.js:54
+msgid "Block Size"
+msgstr "Tamaño de bloque"
+
+#: ../www/manager/qemu/BootOrderEdit.js:114
+#: ../www/manager/qemu/BootOrderEdit.js:122
+#: ../www/manager/qemu/BootOrderEdit.js:130
+msgid "Boot device"
+msgstr "Dispositivo de arranque"
+
+#: ../www/manager/qemu/BootOrderEdit.js:184 ../www/manager/qemu/Options.js:74
+msgid "Boot order"
+msgstr "Orde de arranque"
+
+#: ../www/manager/form/BridgeSelector.js:49
+#: ../www/manager/openvz/Network.js:81 ../www/manager/openvz/Network.js:409
+#: ../www/manager/openvz/CreateWizard.js:48
+#: ../www/manager/qemu/NetworkEdit.js:65
+msgid "Bridge"
+msgstr "Ponte"
+
+#: ../www/manager/node/NetworkEdit.js:58 ../www/manager/node/NetworkEdit.js:64
+msgid "Bridge ports"
+msgstr "Portos da ponte"
+
+#: ../www/manager/openvz/CreateWizard.js:186
+#: ../www/manager/qemu/NetworkEdit.js:78
+msgid "Bridged mode"
+msgstr "Modo ponte"
+
+#: ../www/manager/form/ControllerSelector.js:60
+msgid "Bus/Device"
+msgstr "Bus/Dispositivo"
+
+#: ../www/manager/qemu/CreateWizard.js:20
+msgid "CD/DVD"
+msgstr "CD/DVD"
+
+#: ../www/manager/qemu/HardwareView.js:114
+#: ../www/manager/qemu/HardwareView.js:125
+#: ../www/manager/qemu/HardwareView.js:136
+#: ../www/manager/qemu/HardwareView.js:147
+#: ../www/manager/qemu/HardwareView.js:384
+msgid "CD/DVD Drive"
+msgstr "Dispositivo CD/DVD"
+
+#: ../www/manager/qemu/CreateWizard.js:104
+msgid "CPU"
+msgstr "CPU"
+
+#: ../www/manager/openvz/Options.js:50 ../www/manager/openvz/Options.js:54
+#: ../www/manager/openvz/Options.js:58 ../www/manager/qemu/Options.js:167
+#: ../www/manager/qemu/Options.js:171 ../www/manager/qemu/Options.js:175
+msgid "CPU units"
+msgstr "Unidades de CPU"
+
+#: ../www/manager/data/ResourceStore.js:122
+#: ../www/manager/form/NodeSelector.js:57 ../www/manager/openvz/Summary.js:67
+#: ../www/manager/openvz/StatusView.js:61 ../www/manager/node/Summary.js:108
+#: ../www/manager/node/StatusView.js:46 ../www/manager/qemu/Summary.js:62
+#: ../www/manager/qemu/StatusView.js:45
+msgid "CPU usage"
+msgstr "Uso da CPU"
+
+#: ../www/manager/openvz/RessourceEdit.js:56
+#: ../www/manager/node/StatusView.js:45
+msgid "CPUs"
+msgstr "CPUs"
+
+#: ../www/manager/qemu/HDEdit.js:207
+msgid "Cache"
+msgstr "Caché"
+
+#: ../www/manager/form/StorageSelector.js:93
+msgid "Capacity"
+msgstr "Capacidade"
+
+#: ../www/manager/node/APT.js:104 ../www/manager/node/APT.js:133
+msgid "Changelog"
+msgstr "Rexistro de cambios"
+
+#: ../www/manager/node/Subscription.js:95
+msgid "Check"
+msgstr "Comprobar"
+
+#: ../www/manager/Utils.js:704 ../www/manager/qemu/TemplateMenu.js:48
+#: ../www/manager/qemu/CmdMenu.js:81 ../www/manager/qemu/Clone.js:267
+msgid "Clone"
+msgstr "Clonar"
+
+#: ../www/manager/panel/StatusPanel.js:36
+msgid "Cluster log"
+msgstr "Rexistro do cluster"
+
+#: ../www/manager/pool/StatusView.js:15
+#: ../www/manager/form/SecurityGroupSelector.js:35
+#: ../www/manager/form/UserSelector.js:42
+#: ../www/manager/form/GroupSelector.js:29
+#: ../www/manager/form/PoolSelector.js:29
+#: ../www/manager/form/IPRefSelector.js:65
+#: ../www/manager/grid/FirewallAliases.js:38
+#: ../www/manager/grid/FirewallAliases.js:174
+#: ../www/manager/grid/FirewallRules.js:219
+#: ../www/manager/grid/FirewallRules.js:354
+#: ../www/manager/grid/FirewallRules.js:719 ../www/manager/panel/IPSet.js:79
+#: ../www/manager/panel/IPSet.js:114 ../www/manager/panel/IPSet.js:151
+#: ../www/manager/panel/IPSet.js:237 ../www/manager/panel/IPSet.js:404
+#: ../www/manager/dc/GroupView.js:96 ../www/manager/dc/GroupEdit.js:35
+#: ../www/manager/dc/AuthView.js:139 ../www/manager/dc/UserEdit.js:128
+#: ../www/manager/dc/SecurityGroups.js:31
+#: ../www/manager/dc/SecurityGroups.js:170 ../www/manager/dc/PoolEdit.js:35
+#: ../www/manager/dc/UserView.js:221 ../www/manager/dc/PoolView.js:96
+#: ../www/manager/dc/AuthEdit.js:74
+msgid "Comment"
+msgstr "Comentario"
+
+#: ../www/manager/Utils.js:287
+msgid "Community"
+msgstr "Comunidade"
+
+#: ../www/manager/window/Backup.js:49 ../www/manager/dc/Backup.js:165
+msgid "Compression"
+msgstr "Compresión"
+
+#: ../www/manager/Utils.js:713
+msgid "Configure"
+msgstr "Configurar"
+
+#: ../www/manager/window/Restore.js:105 ../www/manager/button/Button.js:45
+#: ../www/manager/openvz/CreateWizard.js:254
+#: ../www/manager/openvz/CmdMenu.js:57 ../www/manager/openvz/CmdMenu.js:71
+#: ../www/manager/qemu/CreateWizard.js:113 ../www/manager/qemu/CmdMenu.js:57
+#: ../www/manager/qemu/CmdMenu.js:71 ../www/manager/qemu/CmdMenu.js:96
+#: ../www/manager/VNCConsole.js:306 ../www/manager/VNCConsole.js:318
+#: ../www/manager/VNCConsole.js:335 ../www/manager/VNCConsole.js:347
+#: ../www/manager/VNCConsole.js:441 ../www/manager/VNCConsole.js:453
+msgid "Confirm"
+msgstr "Confirmar"
+
+#: ../www/manager/openvz/CreateWizard.js:123 ../www/manager/dc/UserEdit.js:36
+#: ../www/manager/dc/UserView.js:23
+msgid "Confirm password"
+msgstr "Confirmar contrasinal"
+
+#: ../www/manager/Utils.js:565 ../www/manager/Utils.js:616
+#: ../www/manager/Utils.js:618 ../www/manager/Utils.js:620
+#: ../www/manager/Utils.js:622 ../www/manager/Utils.js:1248
+msgid "Connection error"
+msgstr "Erro de conexión"
+
+#: ../www/manager/Workspace.js:111 ../www/manager/button/ConsoleButton.js:53
+#: ../www/manager/Utils.js:693 ../www/manager/Utils.js:694
+#: ../www/manager/openvz/CmdMenu.js:81 ../www/manager/qemu/CmdMenu.js:112
+#: ../www/manager/VNCConsole.js:363
+msgid "Console"
+msgstr "Consola"
+
+#: ../www/manager/dc/OptionView.js:61 ../www/manager/dc/OptionView.js:67
+#: ../www/manager/dc/OptionView.js:109
+msgid "Console Viewer"
+msgstr "Visor de consola"
+
+#: ../www/manager/openvz/Config.js:117
+msgid "Container {0} on node {1}"
+msgstr "Contedor {0} no nodo {1}"
+
+#: ../www/manager/storage/Browser.js:37
+#: ../www/manager/storage/GlusterFsEdit.js:128
+#: ../www/manager/storage/ContentView.js:188
+#: ../www/manager/storage/DirEdit.js:46
+#: ../www/manager/storage/StatusView.js:30
+#: ../www/manager/storage/NFSEdit.js:131 ../www/manager/dc/StorageView.js:200
+msgid "Content"
+msgstr "Contido"
+
+#: ../www/manager/Utils.js:706 ../www/manager/qemu/CmdMenu.js:92
+msgid "Convert to template"
+msgstr "Converter en modelo"
+
+#: ../www/manager/Utils.js:734
+msgid "Copy data"
+msgstr "Copiar datos"
+
+#: ../www/manager/qemu/ProcessorEdit.js:31
+msgid "Cores"
+msgstr "Núcleos"
+
+#: ../www/manager/window/Edit.js:198 ../www/manager/Utils.js:700
+#: ../www/manager/Utils.js:714 ../www/manager/Utils.js:730
+#: ../www/manager/Utils.js:732 ../www/manager/Utils.js:1092
+#: ../www/manager/node/NetworkView.js:135 ../www/manager/panel/IPSet.js:95
+#: ../www/manager/dc/GroupView.js:68 ../www/manager/dc/SecurityGroups.js:134
+#: ../www/manager/dc/PoolView.js:68 ../www/manager/ceph/Monitor.js:118
+#: ../www/manager/ceph/Pool.js:98 ../www/manager/ceph/Disks.js:38
+msgid "Create"
+msgstr "Crear"
+
+#: ../www/manager/Workspace.js:342
+msgid "Create CT"
+msgstr "Crear CT"
+
+#: ../www/manager/Workspace.js:330
+msgid "Create VM"
+msgstr "Crear MV"
+
+#: ../www/manager/ceph/Pool.js:46
+msgid "Crush RuleSet"
+msgstr "Esmagar xogo de regras"
+
+#: ../www/manager/openvz/Config.js:139 ../www/manager/node/Config.js:84
+#: ../www/manager/node/DNSEdit.js:44
+msgid "DNS"
+msgstr "DNS"
+
+#: ../www/manager/openvz/CreateWizard.js:216 ../www/manager/openvz/DNS.js:42
+#: ../www/manager/openvz/DNS.js:46 ../www/manager/openvz/DNS.js:50
+msgid "DNS domain"
+msgstr "Dominio DNS"
+
+#: ../www/manager/openvz/CreateWizard.js:235
+#: ../www/manager/openvz/CreateWizard.js:244 ../www/manager/openvz/DNS.js:56
+#: ../www/manager/openvz/DNS.js:60 ../www/manager/openvz/DNS.js:64
+#: ../www/manager/node/DNSEdit.js:22 ../www/manager/node/DNSEdit.js:29
+#: ../www/manager/node/DNSEdit.js:36 ../www/manager/node/DNSView.js:26
+#: ../www/manager/node/DNSView.js:27 ../www/manager/node/DNSView.js:28
+msgid "DNS server"
+msgstr "Servidor DNS"
+
+#: ../www/manager/tree/ResourceTree.js:189 ../www/manager/dc/Config.js:13
+msgid "Datacenter"
+msgstr "Centro de datos"
+
+#: ../www/manager/qemu/SnapshotTree.js:261
+msgid "Date"
+msgstr "Data"
+
+#: ../www/manager/dc/Backup.js:141 ../www/manager/dc/Backup.js:405
+msgid "Day of week"
+msgstr "Día da semana"
+
+#: ../www/manager/form/Boolean.js:10 ../www/manager/grid/FirewallOptions.js:67
+#: ../www/manager/Utils.js:885 ../www/manager/dc/AuthEdit.js:79
+#: ../www/manager/dc/AuthEdit.js:103
+msgid "Default"
+msgstr "Padrón"
+
+#: ../www/manager/Utils.js:699
+msgid "Delete Snapshot"
+msgstr "Eliminar instantánea"
+
+#: ../www/manager/qemu/HDMove.js:110
+msgid "Delete source"
+msgstr "Eliminar orixe"
+
+#: ../www/manager/data/ResourceStore.js:49
+#: ../www/manager/form/IPProtocolSelector.js:86
+#: ../www/manager/storage/ContentView.js:60
+#: ../www/manager/grid/FirewallRules.js:37 ../www/manager/node/APT.js:182
+#: ../www/manager/node/ServiceView.js:130 ../www/manager/node/Tasks.js:147
+#: ../www/manager/qemu/Snapshot.js:100 ../www/manager/qemu/SnapshotTree.js:275
+#: ../www/manager/dc/Tasks.js:97
+msgid "Description"
+msgstr "Descrición"
+
+#: ../www/manager/grid/FirewallRules.js:210
+#: ../www/manager/grid/FirewallRules.js:703
+msgid "Dest. port"
+msgstr "Porto de destino"
+
+#: ../www/manager/grid/FirewallRules.js:148
+#: ../www/manager/grid/FirewallRules.js:687
+msgid "Destination"
+msgstr "Destino"
+
+#: ../www/manager/Utils.js:702 ../www/manager/Utils.js:716
+#: ../www/manager/Utils.js:731 ../www/manager/Utils.js:733
+msgid "Destroy"
+msgstr "Destruir"
+
+#: ../www/manager/window/TaskViewer.js:61
+msgid "Details"
+msgstr "Detalles"
+
+#: ../www/manager/ceph/Disks.js:62 ../www/manager/ceph/Disks.js:163
+msgid "Device"
+msgstr "Dispositivo"
+
+#: ../www/manager/grid/FirewallRules.js:94
+msgid "Direction"
+msgstr "Dirección"
+
+#: ../www/manager/storage/DirEdit.js:38 ../www/manager/Utils.js:893
+msgid "Directory"
+msgstr "Directorio"
+
+#: ../www/manager/qemu/HDMove.js:56 ../www/manager/qemu/HDResize.js:40
+#: ../www/manager/ceph/OSD.js:29
+msgid "Disk"
+msgstr "Disco"
+
+#: ../www/manager/openvz/Summary.js:88 ../www/manager/qemu/Summary.js:83
+msgid "Disk IO"
+msgstr "E/S de Disco"
+
+#: ../www/manager/qemu/HardwareView.js:308
+msgid "Disk Throttle"
+msgstr "Regulador de Disco"
+
+#: ../www/manager/Utils.js:894 ../www/manager/qemu/HDEdit.js:112
+#: ../www/manager/qemu/HDEdit.js:133 ../www/manager/qemu/HDEdit.js:198
+msgid "Disk image"
+msgstr "Imaxe de Disco"
+
+#: ../www/manager/data/ResourceStore.js:99
+#: ../www/manager/openvz/RessourceEdit.js:46
+#: ../www/manager/openvz/RessourceView.js:51 ../www/manager/qemu/HDEdit.js:145
+msgid "Disk size"
+msgstr "Tamaño de Disco"
+
+#: ../www/manager/data/ResourceStore.js:92
+msgid "Disk usage"
+msgstr "Uso do Disco"
+
+#: ../www/manager/qemu/HardwareView.js:88
+#: ../www/manager/qemu/DisplayEdit.js:33
+msgid "Display"
+msgstr "Vídeo"
+
+#: ../www/manager/qemu/CDEdit.js:137
+msgid "Do not use any media"
+msgstr "Non empregar medio ningún"
+
+#: ../www/manager/dc/OptionView.js:13 ../www/manager/dc/OptionView.js:81
+msgid "Do not use any proxy"
+msgstr "Non empregar proxy ningún"
+
+#: ../www/manager/qemu/CmdMenu.js:95
+msgid "Do you really want to convert VM {0} into a template?"
+msgstr "De seguro que queres converteres a MV {0} nun modelo?"
+
+#: ../www/manager/qemu/Config.js:81 ../www/manager/VNCConsole.js:334
+msgid "Do you really want to reset VM {0}?"
+msgstr "De seguro que queres reiniciares a MV {0}?"
+
+#: ../www/manager/node/Config.js:35
+msgid "Do you really want to restart node {0}?"
+msgstr "De seguro que queres reiniciares o nodo {0}?"
+
+#: ../www/manager/openvz/Config.js:68 ../www/manager/openvz/CmdMenu.js:56
+#: ../www/manager/qemu/Config.js:90 ../www/manager/qemu/CmdMenu.js:56
+#: ../www/manager/VNCConsole.js:305 ../www/manager/VNCConsole.js:440
+msgid "Do you really want to shutdown VM {0}?"
+msgstr "De seguro que queres apagares a MV {0}?"
+
+#: ../www/manager/node/Config.js:44
+msgid "Do you really want to shutdown node {0}?"
+msgstr "De seguro que queres apagares o nodo {0}?"
+
+#: ../www/manager/openvz/Config.js:59 ../www/manager/openvz/CmdMenu.js:70
+#: ../www/manager/qemu/Config.js:59 ../www/manager/qemu/CmdMenu.js:70
+#: ../www/manager/VNCConsole.js:317 ../www/manager/VNCConsole.js:452
+msgid "Do you really want to stop VM {0}?"
+msgstr "De seguro que queres parares a MV {0}?"
+
+#: ../www/manager/VNCConsole.js:346
+msgid "Do you really want to suspend VM {0}?"
+msgstr "De seguro que queres suspenderes a MV {0}?"
+
+#: ../www/manager/dc/AuthEdit.js:42
+msgid "Domain"
+msgstr "Dominio"
+
+#: ../www/manager/storage/ContentView.js:105 ../www/manager/Utils.js:736
+msgid "Download"
+msgstr "Descarga"
+
+#: ../www/manager/dc/UserEdit.js:119
+msgid "E-Mail"
+msgstr "Correo-e"
+
+#: ../www/manager/grid/FirewallOptions.js:199
+#: ../www/manager/grid/FirewallAliases.js:128
+#: ../www/manager/grid/FirewallRules.js:536 ../www/manager/Utils.js:1095
+#: ../www/manager/openvz/Network.js:337
+#: ../www/manager/openvz/RessourceView.js:92 ../www/manager/openvz/DNS.js:103
+#: ../www/manager/openvz/Options.js:139 ../www/manager/node/NetworkView.js:66
+#: ../www/manager/node/DNSView.js:32 ../www/manager/node/TimeView.js:43
+#: ../www/manager/panel/IPSet.js:88 ../www/manager/panel/IPSet.js:322
+#: ../www/manager/qemu/HardwareView.js:266 ../www/manager/qemu/Snapshot.js:131
+#: ../www/manager/qemu/Options.js:283 ../www/manager/qemu/SnapshotTree.js:131
+#: ../www/manager/dc/StorageView.js:63 ../www/manager/dc/GroupView.js:60
+#: ../www/manager/dc/AuthView.js:42 ../www/manager/dc/SecurityGroups.js:127
+#: ../www/manager/dc/OptionView.js:138 ../www/manager/dc/UserView.js:124
+#: ../www/manager/dc/PoolView.js:60 ../www/manager/dc/Backup.js:344
+#: ../www/manager/dc/HAConfig.js:232
+msgid "Edit"
+msgstr "Editar"
+
+#: ../www/manager/storage/GlusterFsEdit.js:148
+#: ../www/manager/storage/RBDEdit.js:67
+#: ../www/manager/storage/SheepdogEdit.js:51
+#: ../www/manager/storage/LVMEdit.js:203 ../www/manager/storage/DirEdit.js:57
+#: ../www/manager/storage/IScsiEdit.js:143
+#: ../www/manager/storage/ZFSEdit.js:81 ../www/manager/storage/NFSEdit.js:151
+#: ../www/manager/grid/FirewallRules.js:160
+#: ../www/manager/grid/FirewallRules.js:346
+#: ../www/manager/grid/FirewallRules.js:623
+#: ../www/manager/dc/StorageView.js:226
+msgid "Enable"
+msgstr "Activar"
+
+#: ../www/manager/grid/FirewallOptions.js:119
+msgid "Enable DHCP"
+msgstr "Activar DHCP"
+
+#: ../www/manager/grid/FirewallOptions.js:107
+#: ../www/manager/grid/FirewallOptions.js:118
+#: ../www/manager/grid/FirewallOptions.js:124
+msgid "Enable Firewall"
+msgstr "Activar Cortafogos"
+
+#: ../www/manager/storage/StatusView.js:20 ../www/manager/qemu/Options.js:120
+#: ../www/manager/qemu/Options.js:138 ../www/manager/qemu/Options.js:162
+#: ../www/manager/dc/UserEdit.js:97 ../www/manager/dc/UserView.js:199
+msgid "Enabled"
+msgstr "Activado"
+
+#: ../www/manager/node/Tasks.js:129 ../www/manager/dc/Tasks.js:69
+msgid "End Time"
+msgstr "Hora de remate"
+
+#: ../www/manager/window/LoginWindow.js:96
+msgid "Enter your password"
+msgstr "Introduce contrasinal"
+
+#: ../www/manager/window/LoginWindow.js:73
+msgid "Enter your user name"
+msgstr "Introduce usuario"
+
+#: ../www/manager/Utils.js:735
+msgid "Erase data"
+msgstr "Borrar datos"
+
+#: ../www/manager/window/Restore.js:64 ../www/manager/window/LoginWindow.js:16
+#: ../www/manager/window/Edit.js:111 ../www/manager/window/Edit.js:156
+#: ../www/manager/window/Migrate.js:14 ../www/manager/window/TaskViewer.js:156
+#: ../www/manager/storage/ContentView.js:117
+#: ../www/manager/storage/ContentView.js:213
+#: ../www/manager/storage/ContentView.js:267
+#: ../www/manager/storage/ContentView.js:271
+#: ../www/manager/storage/ContentView.js:280
+#: ../www/manager/storage/ContentView.js:420 ../www/manager/Workspace.js:169
+#: ../www/manager/grid/PoolMembers.js:133
+#: ../www/manager/grid/FirewallAliases.js:159
+#: ../www/manager/grid/FirewallRules.js:433
+#: ../www/manager/grid/FirewallRules.js:460
+#: ../www/manager/grid/FirewallRules.js:481 ../www/manager/Utils.js:667
+#: ../www/manager/Utils.js:883 ../www/manager/openvz/Network.js:204
+#: ../www/manager/openvz/Network.js:310
+#: ../www/manager/openvz/CreateWizard.js:313
+#: ../www/manager/openvz/CmdMenu.js:25 ../www/manager/node/APT.js:58
+#: ../www/manager/node/APT.js:122 ../www/manager/node/NetworkView.js:33
+#: ../www/manager/node/NetworkView.js:92
+#: ../www/manager/node/NetworkView.js:212 ../www/manager/node/Config.js:27
+#: ../www/manager/node/NetworkEdit.js:260
+#: ../www/manager/node/ServiceView.js:33
+#: ../www/manager/node/Subscription.js:103 ../www/manager/node/Summary.js:38
+#: ../www/manager/panel/NotesView.js:11 ../www/manager/panel/IPSet.js:138
+#: ../www/manager/panel/IPSet.js:359 ../www/manager/qemu/Smbios1Edit.js:106
+#: ../www/manager/qemu/HDEdit.js:264 ../www/manager/qemu/NetworkEdit.js:194
+#: ../www/manager/qemu/HDResize.js:16 ../www/manager/qemu/CreateWizard.js:163
+#: ../www/manager/qemu/Snapshot.js:19 ../www/manager/qemu/Snapshot.js:39
+#: ../www/manager/qemu/Snapshot.js:183 ../www/manager/qemu/TemplateMenu.js:27
+#: ../www/manager/qemu/HDThrottle.js:201
+#: ../www/manager/qemu/SnapshotTree.js:163
+#: ../www/manager/qemu/SnapshotTree.js:199 ../www/manager/VNCConsole.js:241
+#: ../www/manager/dc/StorageView.js:86 ../www/manager/dc/GroupView.js:40
+#: ../www/manager/dc/AuthView.js:73 ../www/manager/dc/SecurityGroups.js:157
+#: ../www/manager/dc/Support.js:49 ../www/manager/dc/UserView.js:104
+#: ../www/manager/dc/PoolView.js:40 ../www/manager/dc/ACLView.js:176
+#: ../www/manager/dc/Backup.js:364 ../www/manager/dc/HAConfig.js:138
+#: ../www/manager/dc/HAConfig.js:159 ../www/manager/dc/HAConfig.js:181
+#: ../www/manager/dc/HAConfig.js:252 ../www/manager/ceph/Monitor.js:81
+#: ../www/manager/ceph/Monitor.js:94 ../www/manager/ceph/Monitor.js:135
+#: ../www/manager/ceph/Monitor.js:149 ../www/manager/ceph/Config.js:12
+#: ../www/manager/ceph/Pool.js:130 ../www/manager/ceph/Crush.js:12
+#: ../www/manager/ceph/OSD.js:137 ../www/manager/ceph/OSD.js:159
+msgid "Error"
+msgstr "Erro"
+
+#: ../www/manager/dc/Summary.js:56
+msgid "Estranged"
+msgstr "Separado"
+
+#: ../www/manager/Utils.js:55 ../www/manager/Utils.js:61
+#: ../www/manager/Utils.js:68 ../www/manager/Utils.js:99
+msgid "Example"
+msgstr "Exemplo"
+
+#: ../www/manager/dc/Backup.js:31
+msgid "Exclude selected VMs"
+msgstr "Excluír MVs seleccionadas"
+
+#: ../www/manager/storage/LVMEdit.js:48
+msgid "Existing volume groups"
+msgstr "Grupos de Volumes existentes"
+
+#: ../www/manager/dc/UserEdit.js:93 ../www/manager/dc/UserView.js:206
+msgid "Expire"
+msgstr "Expira"
+
+#: ../www/manager/openvz/BeanCounterGrid.js:81
+msgid "Failcnt"
+msgstr "Nº Fallas"
+
+#: ../www/manager/dc/HAConfig.js:179
+msgid "Failover Domain"
+msgstr "Dominio de respaldo"
+
+#: ../www/manager/dc/AuthEdit.js:93
+msgid "Fallback Server"
+msgstr "Servidor de respaldo"
+
+#: ../www/manager/qemu/Smbios1Edit.js:70
+msgid "Family"
+msgstr "Familia"
+
+#: ../www/manager/window/Wizard.js:114
+msgid "Finish"
+msgstr "Rematar"
+
+#: ../www/manager/openvz/Network.js:92 ../www/manager/openvz/Config.js:175
+#: ../www/manager/node/Config.js:147 ../www/manager/qemu/Config.js:184
+#: ../www/manager/qemu/NetworkEdit.js:102 ../www/manager/dc/Config.js:88
+msgid "Firewall"
+msgstr "Cortafogos"
+
+#: ../www/manager/dc/UserEdit.js:109
+msgid "First Name"
+msgstr "Nome"
+
+#: ../www/manager/form/ViewSelector.js:14
+msgid "Folder View"
+msgstr "Vista de cartafoles"
+
+#: ../www/manager/Utils.js:562
+msgid "Form fields may not be submitted with invalid values"
+msgstr "Os campos do formulario non poden seren enviados con valores inválidos"
+
+#: ../www/manager/form/FileSelector.js:58
+#: ../www/manager/storage/ContentView.js:457
+#: ../www/manager/grid/BackupView.js:164 ../www/manager/Utils.js:73
+#: ../www/manager/Utils.js:78 ../www/manager/Utils.js:83
+#: ../www/manager/Utils.js:89 ../www/manager/qemu/HDMove.js:96
+#: ../www/manager/qemu/HDEdit.js:124 ../www/manager/qemu/Clone.js:217
+msgid "Format"
+msgstr "Formato"
+
+#: ../www/manager/qemu/Options.js:184 ../www/manager/qemu/Options.js:189
+#: ../www/manager/qemu/Options.js:197
+msgid "Freeze CPU at startup"
+msgstr "Conxelar CPU no arranque"
+
+#: ../www/manager/qemu/Clone.js:140
+msgid "Full Clone"
+msgstr "Clonado completo"
+
+#: ../www/manager/storage/SheepdogEdit.js:40
+#: ../www/manager/node/NetworkView.js:277
+#: ../www/manager/node/NetworkEdit.js:233
+msgid "Gateway"
+msgstr "Pasarela"
+
+#: ../www/manager/openvz/CreateWizard.js:60
+#: ../www/manager/qemu/CreateWizard.js:44
+msgid "General"
+msgstr "Xeral"
+
+#: ../www/manager/qemu/DisplayEdit.js:28
+msgid "Graphic card"
+msgstr "Tarxeta gráfica"
+
+#: ../www/manager/form/GroupSelector.js:22 ../www/manager/dc/GroupEdit.js:22
+#: ../www/manager/dc/UserEdit.js:85 ../www/manager/dc/SecurityGroups.js:166
+#: ../www/manager/dc/SecurityGroups.js:169 ../www/manager/dc/ACLView.js:26
+#: ../www/manager/dc/ACLView.js:113
+msgid "Group"
+msgstr "Grupo"
+
+#: ../www/manager/dc/ACLView.js:22 ../www/manager/dc/ACLView.js:194
+msgid "Group Permission"
+msgstr "Permiso do grupo"
+
+#: ../www/manager/dc/Config.js:58
+msgid "Groups"
+msgstr "Grupos"
+
+#: ../www/manager/dc/Summary.js:239
+msgid "HA Service Status"
+msgstr "Estado do servizo de HA"
+
+#: ../www/manager/dc/HAConfig.js:21 ../www/manager/dc/HAConfig.js:171
+msgid "HA managed VM/CT"
+msgstr "MV/CT xestionado en HA"
+
+#: ../www/manager/node/StatusView.js:51
+msgid "HD space"
+msgstr "Espazo en disco"
+
+#: ../www/manager/dc/OptionView.js:8 ../www/manager/dc/OptionView.js:16
+#: ../www/manager/dc/OptionView.js:98
+msgid "HTTP proxy"
+msgstr "Proxy HTTP"
+
+#: ../www/manager/qemu/HDEdit.js:248 ../www/manager/qemu/HDEdit.js:250
+#: ../www/manager/qemu/CreateWizard.js:29
+#: ../www/manager/qemu/HardwareView.js:113
+#: ../www/manager/qemu/HardwareView.js:124
+#: ../www/manager/qemu/HardwareView.js:135
+#: ../www/manager/qemu/HardwareView.js:146
+#: ../www/manager/qemu/HardwareView.js:371
+#: ../www/manager/qemu/HDThrottle.js:188
+msgid "Hard Disk"
+msgstr "Disco Duro"
+
+#: ../www/manager/qemu/Config.js:138
+msgid "Hardware"
+msgstr "Hardware"
+
+#: ../www/manager/node/NetworkEdit.js:101
+msgid "Hash policy"
+msgstr "Política do Hash"
+
+#: ../www/manager/openvz/BeanCounterGrid.js:57
+msgid "Held"
+msgstr "Coutado"
+
+#: ../www/manager/ceph/Monitor.js:34 ../www/manager/ceph/Monitor.js:169
+msgid "Host"
+msgstr "Servidor"
+
+#: ../www/manager/openvz/Network.js:107 ../www/manager/openvz/Network.js:424
+msgid "Host MAC address"
+msgstr "Enderezo MAC do servidor"
+
+#: ../www/manager/openvz/Network.js:99
+msgid "Host device name"
+msgstr "Nome de dispositivo do servidor"
+
+#: ../www/manager/storage/ZFSEdit.js:110
+msgid "Host group"
+msgstr "Grupo de servidores"
+
+#: ../www/manager/openvz/Network.js:419
+msgid "Host ifname"
+msgstr "Interface do servidor"
+
+#: ../www/manager/openvz/CreateWizard.js:89 ../www/manager/openvz/DNS.js:26
+#: ../www/manager/openvz/DNS.js:29 ../www/manager/openvz/DNS.js:35
+msgid "Hostname"
+msgstr "Nome do servidor"
+
+#: ../www/manager/node/StatusView.js:47
+msgid "IO delay"
+msgstr "Retraso da E/S"
+
+#: ../www/manager/openvz/Network.js:147 ../www/manager/openvz/Network.js:153
+#: ../www/manager/openvz/Network.js:170 ../www/manager/openvz/Network.js:360
+#: ../www/manager/openvz/Network.js:403
+#: ../www/manager/openvz/CreateWizard.js:176
+#: ../www/manager/node/NetworkView.js:267
+#: ../www/manager/node/NetworkEdit.js:201
+msgid "IP address"
+msgstr "Enderezo IP"
+
+#: ../www/manager/grid/FirewallAliases.js:32
+#: ../www/manager/grid/FirewallAliases.js:173
+#: ../www/manager/panel/IPSet.js:207 ../www/manager/panel/IPSet.js:215
+#: ../www/manager/panel/IPSet.js:243 ../www/manager/panel/IPSet.js:392
+msgid "IP/CIDR"
+msgstr "IP/CIDR"
+
+#: ../www/manager/qemu/CDEdit.js:103
+msgid "ISO Image"
+msgstr "Imaxe ISO"
+
+#: ../www/manager/Utils.js:897
+msgid "ISO image"
+msgstr "Imaxe ISO"
+
+#: ../www/manager/qemu/Snapshot.js:92
+msgid "Include RAM"
+msgstr "Incluír RAM"
+
+#: ../www/manager/dc/Backup.js:29
+msgid "Include selected VMs"
+msgstr "Incluír MVs seleccionadas"
+
+#: ../www/manager/grid/FirewallOptions.js:129
+#: ../www/manager/grid/FirewallOptions.js:134
+#: ../www/manager/grid/FirewallOptions.js:139
+msgid "Input Policy"
+msgstr "Política de entrada"
+
+#: ../www/manager/grid/FirewallRules.js:558
+msgid "Insert"
+msgstr "Inserir"
+
+#: ../www/manager/grid/FirewallRules.js:113
+#: ../www/manager/grid/FirewallRules.js:332
+#: ../www/manager/grid/FirewallRules.js:668
+msgid "Interface"
+msgstr "Interface"
+
+#: ../www/manager/ceph/OSD.js:37
+msgid "Journal Disk"
+msgstr "Disco de 'Journal'"
+
+#: ../www/manager/node/StatusView.js:50
+msgid "KSM sharing"
+msgstr "Compartir KSM"
+
+#: ../www/manager/qemu/Options.js:149 ../www/manager/qemu/Options.js:154
+msgid "KVM hardware virtualization"
+msgstr "Virtualización hardware KVM"
+
+#: ../www/manager/node/StatusView.js:53
+msgid "Kernel version"
+msgstr "Versión do kernel"
+
+#: ../www/manager/dc/UserEdit.js:133
+msgid "Key IDs"
+msgstr "IDs chave"
+
+#: ../www/manager/qemu/HardwareView.js:80
+#: ../www/manager/qemu/KeyboardEdit.js:8
+#: ../www/manager/qemu/KeyboardEdit.js:13 ../www/manager/dc/OptionView.js:33
+#: ../www/manager/dc/OptionView.js:38 ../www/manager/dc/OptionView.js:92
+msgid "Keyboard Layout"
+msgstr "Esquema de teclado"
+
+#: ../www/manager/dc/AuthView.js:95 ../www/manager/dc/AuthEdit.js:49
+msgid "LDAP Server"
+msgstr "Servidor LDAP"
+
+#: ../www/manager/window/LoginWindow.js:123
+msgid "Language"
+msgstr "Idioma"
+
+#: ../www/manager/dc/UserEdit.js:114
+msgid "Last Name"
+msgstr "Apelidos"
+
+#: ../www/manager/node/Subscription.js:75
+msgid "Last checked"
+msgstr "Última comprobación"
+
+#: ../www/manager/dc/Summary.js:178
+msgid "Last owner"
+msgstr "Último dono"
+
+#: ../www/manager/dc/Summary.js:172
+msgid "Last transition"
+msgstr "Última transición"
+
+#: ../www/manager/ceph/OSD.js:329
+msgid "Latency (ms)"
+msgstr "Latencia (ms)"
+
+#: ../www/manager/openvz/BeanCounterGrid.js:75
+msgid "Limit"
+msgstr "Limiar"
+
+#: ../www/manager/qemu/Clone.js:142
+msgid "Linked Clone"
+msgstr "Clon Ligado"
+
+#: ../www/manager/node/StatusView.js:44
+msgid "Load average"
+msgstr "Carga media"
+
+#: ../www/manager/Utils.js:1218
+msgid "Loading..."
+msgstr "Carregando..."
+
+#: ../www/manager/window/LoginWindow.js:139
+msgid "Login"
+msgstr "Iniciar sesión"
+
+#: ../www/manager/window/LoginWindow.js:17
+msgid "Login failed. Please try again"
+msgstr "Fallou o inicio de sesión. Téntao de novo."
+
+#: ../www/manager/Workspace.js:398
+msgid "Logout"
+msgstr "Saír"
+
+#: ../www/manager/openvz/Network.js:71 ../www/manager/openvz/Network.js:414
+#: ../www/manager/qemu/NetworkEdit.js:136
+msgid "MAC address"
+msgstr "Enderezo MAC"
+
+#: ../www/manager/grid/FirewallOptions.js:120
+msgid "MAC filter"
+msgstr "Filtro MAC"
+
+#: ../www/manager/grid/FirewallRules.js:31
+#: ../www/manager/grid/FirewallRules.js:166
+#: ../www/manager/grid/FirewallRules.js:657
+msgid "Macro"
+msgstr "Macro"
+
+#: ../www/manager/openvz/StatusView.js:68 ../www/manager/qemu/StatusView.js:50
+msgid "Managed by HA"
+msgstr "Xestionado por HA"
+
+#: ../www/manager/qemu/Smbios1Edit.js:40
+msgid "Manufacturer"
+msgstr "Fabricante"
+
+#: ../www/manager/storage/GlusterFsEdit.js:152
+#: ../www/manager/storage/DirEdit.js:67 ../www/manager/storage/NFSEdit.js:155
+msgid "Max Backups"
+msgstr "Máximas copias de seguranza"
+
+#: ../www/manager/openvz/BeanCounterGrid.js:63
+msgid "Maxheld"
+msgstr ""
+
+#: ../www/manager/qemu/MemoryEdit.js:87
+msgid "Maximum memory"
+msgstr "Memoria máxima"
+
+#: ../www/manager/pool/Config.js:23
+msgid "Members"
+msgstr "Membros"
+
+#: ../www/manager/openvz/RessourceEdit.js:20
+#: ../www/manager/openvz/RessourceView.js:29
+#: ../www/manager/qemu/MemoryEdit.js:61 ../www/manager/qemu/MemoryEdit.js:149
+#: ../www/manager/qemu/CreateWizard.js:109
+#: ../www/manager/qemu/HardwareView.js:42
+msgid "Memory"
+msgstr "Memoria"
+
+#: ../www/manager/data/ResourceStore.js:114
+msgid "Memory size"
+msgstr "Tamaño da memoria"
+
+#: ../www/manager/data/ResourceStore.js:107
+#: ../www/manager/form/NodeSelector.js:50 ../www/manager/openvz/Summary.js:74
+#: ../www/manager/openvz/StatusView.js:63 ../www/manager/node/Summary.js:120
+#: ../www/manager/qemu/Summary.js:69 ../www/manager/qemu/StatusView.js:47
+msgid "Memory usage"
+msgstr "Uso da memoria"
+
+#: ../www/manager/dc/Log.js:76
+msgid "Message"
+msgstr "Mensaxe"
+
+#: ../www/manager/window/Migrate.js:79 ../www/manager/window/Migrate.js:87
+#: ../www/manager/Utils.js:703 ../www/manager/Utils.js:717
+#: ../www/manager/Utils.js:723 ../www/manager/openvz/Config.js:75
+#: ../www/manager/openvz/CmdMenu.js:41 ../www/manager/qemu/Config.js:66
+#: ../www/manager/qemu/TemplateMenu.js:36 ../www/manager/qemu/CmdMenu.js:41
+msgid "Migrate"
+msgstr "Migrar"
+
+#: ../www/manager/ceph/Pool.js:37
+msgid "Min. Size"
+msgstr "Tamaño Min."
+
+#: ../www/manager/qemu/MemoryEdit.js:110
+msgid "Minimum memory"
+msgstr "Memoria mínima"
+
+#: ../www/manager/window/Backup.js:41 ../www/manager/node/NetworkEdit.js:109
+#: ../www/manager/node/NetworkEdit.js:183 ../www/manager/qemu/Clone.js:146
+#: ../www/manager/dc/Backup.js:172
+msgid "Mode"
+msgstr "Modo"
+
+#: ../www/manager/qemu/NetworkEdit.js:129 ../www/manager/ceph/Disks.js:94
+msgid "Model"
+msgstr "Modelo"
+
+#: ../www/manager/qemu/Config.js:158
+msgid "Monitor"
+msgstr "Monitor"
+
+#: ../www/manager/storage/RBDEdit.js:48
+msgid "Monitor Host"
+msgstr "Monitorizar Servidor"
+
+#: ../www/manager/Utils.js:720
+msgid "Mount"
+msgstr "Montar"
+
+#: ../www/manager/Utils.js:705 ../www/manager/qemu/HDMove.js:130
+#: ../www/manager/qemu/HDMove.js:132 ../www/manager/qemu/HardwareView.js:294
+msgid "Move disk"
+msgstr "Mover disco"
+
+#: ../www/manager/qemu/NetworkEdit.js:111
+msgid "NAT mode"
+msgstr "Modo NAT"
+
+#: ../www/manager/data/ResourceStore.js:86
+#: ../www/manager/form/StorageSelector.js:76
+#: ../www/manager/form/FileSelector.js:52
+#: ../www/manager/form/UserSelector.js:34
+#: ../www/manager/form/IPRefSelector.js:59
+#: ../www/manager/storage/ContentView.js:450
+#: ../www/manager/grid/ObjectGrid.js:93
+#: ../www/manager/grid/FirewallAliases.js:26
+#: ../www/manager/grid/FirewallAliases.js:172
+#: ../www/manager/grid/BackupView.js:157 ../www/manager/openvz/Network.js:58
+#: ../www/manager/openvz/Network.js:403 ../www/manager/openvz/StatusView.js:58
+#: ../www/manager/node/NetworkView.js:229
+#: ../www/manager/node/NetworkEdit.js:170
+#: ../www/manager/node/ServiceView.js:118 ../www/manager/panel/IPSet.js:72
+#: ../www/manager/panel/IPSet.js:107 ../www/manager/qemu/CreateWizard.js:73
+#: ../www/manager/qemu/Snapshot.js:73 ../www/manager/qemu/Options.js:26
+#: ../www/manager/qemu/Options.js:29 ../www/manager/qemu/Options.js:35
+#: ../www/manager/qemu/Clone.js:190 ../www/manager/qemu/StatusView.js:43
+#: ../www/manager/qemu/SnapshotTree.js:237 ../www/manager/dc/GroupView.js:90
+#: ../www/manager/dc/GroupEdit.js:28 ../www/manager/dc/SecurityGroups.js:24
+#: ../www/manager/dc/PoolEdit.js:28 ../www/manager/dc/UserView.js:213
+#: ../www/manager/dc/PoolView.js:90 ../www/manager/dc/RoleView.js:40
+#: ../www/manager/dc/Backup.js:102 ../www/manager/dc/Summary.js:30
+#: ../www/manager/dc/Summary.js:148 ../www/manager/ceph/Monitor.js:162
+#: ../www/manager/ceph/Pool.js:22 ../www/manager/ceph/Pool.js:144
+msgid "Name"
+msgstr "Nome"
+
+#: ../www/manager/openvz/Network.js:171 ../www/manager/openvz/Config.js:134
+#: ../www/manager/openvz/CreateWizard.js:153 ../www/manager/node/Config.js:79
+#: ../www/manager/qemu/CreateWizard.js:35
+#: ../www/manager/qemu/BootOrderEdit.js:74
+msgid "Network"
+msgstr "Rede"
+
+#: ../www/manager/Utils.js:319 ../www/manager/openvz/Network.js:47
+#: ../www/manager/openvz/Network.js:172 ../www/manager/openvz/Network.js:374
+#: ../www/manager/qemu/NetworkEdit.js:180
+#: ../www/manager/qemu/HardwareView.js:157
+#: ../www/manager/qemu/HardwareView.js:397
+msgid "Network Device"
+msgstr "Dispositivo de Rede"
+
+#: ../www/manager/openvz/Summary.js:81 ../www/manager/node/Summary.js:126
+#: ../www/manager/qemu/Summary.js:76
+msgid "Network traffic"
+msgstr "Tráfico de Rede"
+
+#: ../www/manager/window/Wizard.js:90
+msgid "Next"
+msgstr "Seguinte"
+
+#: ../www/manager/form/Boolean.js:12 ../www/manager/Utils.js:882
+msgid "No"
+msgstr "Non"
+
+#: ../www/manager/qemu/HDEdit.js:212
+msgid "No backup"
+msgstr "Sen copia de seguranza"
+
+#: ../www/manager/form/CacheTypeSelector.js:9
+#: ../www/manager/form/CacheTypeSelector.js:14
+msgid "No cache"
+msgstr "Sen caché"
+
+#: ../www/manager/node/NetworkView.js:41
+#: ../www/manager/node/NetworkView.js:299
+msgid "No changes"
+msgstr "Sen cambios"
+
+#: ../www/manager/qemu/NetworkEdit.js:121
+msgid "No network device"
+msgstr "Sen dispositivo de rede"
+
+#: ../www/manager/storage/GlusterFsEdit.js:139
+#: ../www/manager/storage/RBDEdit.js:77
+#: ../www/manager/storage/SheepdogEdit.js:61
+#: ../www/manager/storage/LVMEdit.js:194 ../www/manager/storage/DirEdit.js:82
+#: ../www/manager/storage/IScsiEdit.js:134
+#: ../www/manager/storage/ZFSEdit.js:121 ../www/manager/storage/NFSEdit.js:142
+msgid "No restrictions"
+msgstr "Sen restriccións"
+
+#: ../www/manager/node/APT.js:153
+msgid "No updates available."
+msgstr "Sen actualizacións dispoñibeis"
+
+#: ../www/manager/Utils.js:674
+msgid "No valid subscription"
+msgstr "Sen subscricións válidas"
+
+#: ../www/manager/data/ResourceStore.js:182
+#: ../www/manager/window/TaskViewer.js:125
+#: ../www/manager/form/NodeSelector.js:43
+#: ../www/manager/openvz/CreateWizard.js:65 ../www/manager/node/Config.js:60
+#: ../www/manager/node/Tasks.js:137 ../www/manager/qemu/CreateWizard.js:50
+#: ../www/manager/dc/Log.js:50 ../www/manager/dc/Backup.js:87
+#: ../www/manager/dc/Backup.js:115 ../www/manager/dc/Backup.js:393
+#: ../www/manager/dc/Tasks.js:87
+msgid "Node"
+msgstr "Nodo"
+
+#: ../www/manager/tree/ResourceTree.js:9
+msgid "Node list"
+msgstr "Listaxe dos Nodos"
+
+#: ../www/manager/storage/GlusterFsEdit.js:137
+#: ../www/manager/storage/RBDEdit.js:75
+#: ../www/manager/storage/SheepdogEdit.js:59
+#: ../www/manager/storage/LVMEdit.js:192 ../www/manager/storage/DirEdit.js:80
+#: ../www/manager/storage/IScsiEdit.js:132
+#: ../www/manager/storage/ZFSEdit.js:119 ../www/manager/storage/NFSEdit.js:140
+#: ../www/manager/dc/Summary.js:247
+msgid "Nodes"
+msgstr "Nodos"
+
+#: ../www/manager/window/NotesEdit.js:8 ../www/manager/panel/NotesView.js:45
+msgid "Notes"
+msgstr "Notas"
+
+#: ../www/manager/form/IPProtocolSelector.js:79
+msgid "Number"
+msgstr "Número"
+
+#: ../www/manager/window/Edit.js:198
+msgid "OK"
+msgstr "Ben"
+
+#: ../www/manager/qemu/CreateWizard.js:97
+msgid "OS"
+msgstr "SO"
+
+#: ../www/manager/qemu/Options.js:65
+msgid "OS Type"
+msgstr "Tipo de SO"
+
+#: ../www/manager/window/LoginWindow.js:38
+msgid "OTP"
+msgstr ""
+
+#: ../www/manager/node/NetworkEdit.js:69 ../www/manager/node/NetworkEdit.js:90
+#: ../www/manager/node/NetworkEdit.js:146
+msgid "OVS options"
+msgstr "Opcións de OVS"
+
+#: ../www/manager/data/ResourceStore.js:36 ../www/manager/window/Migrate.js:71
+#: ../www/manager/dc/Summary.js:42
+msgid "Online"
+msgstr "En liña"
+
+#: ../www/manager/node/Tasks.js:105
+msgid "Only Errors"
+msgstr "Só erros"
+
+#: ../www/manager/tree/ResourceTree.js:25 ../www/manager/Utils.js:898
+#: ../www/manager/openvz/CreateWizard.js:56
+msgid "OpenVZ Container"
+msgstr "Contedor OpenVZ"
+
+#: ../www/manager/Utils.js:896
+msgid "OpenVZ template"
+msgstr "Modelo OpenVZ"
+
+#: ../www/manager/openvz/Config.js:144 ../www/manager/qemu/Config.js:143
+#: ../www/manager/dc/Config.js:26
+msgid "Options"
+msgstr "Opcións"
+
+#: ../www/manager/Utils.js:296 ../www/manager/Utils.js:309
+#: ../www/manager/qemu/OSTypeEdit.js:44
+msgid "Other OS types"
+msgstr "Outros tipos de SO"
+
+#: ../www/manager/window/TaskViewer.js:183
+msgid "Output"
+msgstr "Saída"
+
+#: ../www/manager/grid/FirewallOptions.js:145
+#: ../www/manager/grid/FirewallOptions.js:150
+#: ../www/manager/grid/FirewallOptions.js:155
+msgid "Output Policy"
+msgstr "Política de saída"
+
+#: ../www/manager/dc/Summary.js:154
+msgid "Owner"
+msgstr "Dono"
+
+#: ../www/manager/node/StatusView.js:52
+msgid "PVE Manager version"
+msgstr "Versión do PVE Manager"
+
+#: ../www/manager/storage/ContentView.js:50 ../www/manager/node/APT.js:159
+msgid "Package"
+msgstr "Paquete"
+
+#: ../www/manager/node/Summary.js:24 ../www/manager/node/Summary.js:90
+msgid "Package versions"
+msgstr "Versións do paquete"
+
+#: ../www/manager/window/LoginWindow.js:94
+#: ../www/manager/openvz/CreateWizard.js:108 ../www/manager/dc/UserEdit.js:46
+#: ../www/manager/dc/UserView.js:31 ../www/manager/dc/UserView.js:38
+#: ../www/manager/dc/UserView.js:134
+msgid "Password"
+msgstr "Contrasinal"
+
+#: ../www/manager/dc/UserEdit.js:29 ../www/manager/dc/UserView.js:16
+msgid "Passwords does not match"
+msgstr "Contrasinais discordantes"
+
+#: ../www/manager/dc/ACLView.js:17 ../www/manager/dc/ACLView.js:129
+msgid "Path"
+msgstr "Rota"
+
+#: ../www/manager/node/NetworkView.js:293 ../www/manager/dc/HAConfig.js:266
+msgid "Pending changes"
+msgstr "Cambios pendentes"
+
+#: ../www/manager/pool/Config.js:30 ../www/manager/storage/Browser.js:45
+#: ../www/manager/openvz/Config.js:187 ../www/manager/qemu/Config.js:196
+#: ../www/manager/dc/Config.js:68
+msgid "Permissions"
+msgstr "Permisos"
+
+#: ../www/manager/node/NetworkView.js:294
+msgid "Please reboot to activate changes"
+msgstr "Reinicie para activar os cambios"
+
+#: ../www/manager/window/LoginWindow.js:11
+#: ../www/manager/window/LoginWindow.js:131 ../www/manager/Utils.js:583
+msgid "Please wait..."
+msgstr "Agarda se fas o favor..."
+
+#: ../www/manager/data/ResourceStore.js:196
+#: ../www/manager/form/PoolSelector.js:22 ../www/manager/storage/RBDEdit.js:40
+#: ../www/manager/storage/ZFSEdit.js:46 ../www/manager/dc/PoolEdit.js:22
+msgid "Pool"
+msgstr "Grupo Virtual"
+
+#: ../www/manager/dc/Config.js:63
+msgid "Pools"
+msgstr "Grupos Virtuais"
+
+#: ../www/manager/dc/AuthEdit.js:100
+msgid "Port"
+msgstr "Porto"
+
+#: ../www/manager/storage/ZFSEdit.js:38
+msgid "Portal"
+msgstr "Portal"
+
+#: ../www/manager/node/NetworkView.js:262
+msgid "Ports/Slaves"
+msgstr "Portos/Escravos"
+
+#: ../www/manager/Utils.js:290
+msgid "Premium"
+msgstr "Premium"
+
+#: ../www/manager/dc/RoleView.js:47
+msgid "Privileges"
+msgstr "Privilexios"
+
+#: ../www/manager/window/TaskViewer.js:129
+msgid "Process ID"
+msgstr "ID do Proceso"
+
+#: ../www/manager/openvz/RessourceView.js:45
+#: ../www/manager/qemu/HardwareView.js:58
+#: ../www/manager/qemu/ProcessorEdit.js:71
+msgid "Processors"
+msgstr "Procesadores"
+
+#: ../www/manager/qemu/Smbios1Edit.js:46
+msgid "Product"
+msgstr "Produto"
+
+#: ../www/manager/dc/ACLView.js:51 ../www/manager/dc/ACLView.js:135
+msgid "Propagate"
+msgstr "Propagar"
+
+#: ../www/manager/form/IPProtocolSelector.js:72
+#: ../www/manager/grid/FirewallRules.js:191
+#: ../www/manager/grid/FirewallRules.js:695
+msgid "Protocol"
+msgstr "Protocolo"
+
+#: ../www/manager/window/LoginWindow.js:52
+msgid "Proxmox VE Login"
+msgstr "Inicio de sesión PVE"
+
+#: ../www/manager/form/DiskFormatSelector.js:10
+msgid "QEMU image format"
+msgstr "Formato da imaxe QEMU"
+
+#: ../www/manager/ceph/Monitor.js:178
+msgid "Quorum"
+msgstr "Quorum"
+
+#: ../www/manager/openvz/Options.js:89 ../www/manager/openvz/Options.js:93
+#: ../www/manager/openvz/Options.js:101
+msgid "Quota Grace period"
+msgstr "Período de graza da cuota"
+
+#: ../www/manager/openvz/Options.js:66 ../www/manager/openvz/Options.js:76
+#: ../www/manager/openvz/Options.js:82
+msgid "Quota UGID limit"
+msgstr "Límite da cuota para UGID"
+
+#: ../www/manager/qemu/SnapshotTree.js:249
+msgid "RAM"
+msgstr "RAM"
+
+#: ../www/manager/node/StatusView.js:48
+msgid "RAM usage"
+msgstr "Uso da RAM"
+
+#: ../www/manager/qemu/Options.js:220 ../www/manager/qemu/Options.js:224
+#: ../www/manager/qemu/Options.js:230
+msgid "RTC start date"
+msgstr "Data de comezo do RTC"
+
+#: ../www/manager/qemu/NetworkEdit.js:144
+msgid "Rate limit"
+msgstr "Límite do ratio"
+
+#: ../www/manager/form/DiskFormatSelector.js:9
+msgid "Raw disk image"
+msgstr "Imaxe de disco en crú"
+
+#: ../www/manager/qemu/HDThrottle.js:73 ../www/manager/qemu/HDThrottle.js:118
+msgid "Read limit"
+msgstr "Límite de lectura"
+
+#: ../www/manager/qemu/HDThrottle.js:84 ../www/manager/qemu/HDThrottle.js:129
+msgid "Read max burst"
+msgstr "Máxima ráfaga de lectura"
+
+#: ../www/manager/form/RealmComboBox.js:24 ../www/manager/dc/AuthView.js:120
+#: ../www/manager/dc/UserEdit.js:141 ../www/manager/dc/UserView.js:192
+#: ../www/manager/dc/AuthEdit.js:29
+msgid "Realm"
+msgstr "Dominio"
+
+#: ../www/manager/node/APT.js:75 ../www/manager/VNCConsole.js:370
+#: ../www/manager/VNCConsole.js:464 ../www/manager/VNCConsole.js:506
+msgid "Refresh"
+msgstr "Actualizar"
+
+#: ../www/manager/Utils.js:729 ../www/manager/VNCConsole.js:378
+#: ../www/manager/VNCConsole.js:472 ../www/manager/VNCConsole.js:517
+#: ../www/manager/ceph/OSD.js:231
+msgid "Reload"
+msgstr "Recarregar"
+
+#: ../www/manager/window/Edit.js:198 ../www/manager/storage/ContentView.js:401
+#: ../www/manager/grid/PoolMembers.js:107
+#: ../www/manager/grid/FirewallAliases.js:146
+#: ../www/manager/grid/FirewallRules.js:573
+#: ../www/manager/grid/BackupView.js:116 ../www/manager/openvz/Network.js:266
+#: ../www/manager/openvz/Config.js:88 ../www/manager/node/NetworkView.js:72
+#: ../www/manager/panel/IPSet.js:125 ../www/manager/panel/IPSet.js:345
+#: ../www/manager/qemu/Config.js:97 ../www/manager/qemu/HardwareView.js:322
+#: ../www/manager/qemu/SnapshotTree.js:175 ../www/manager/dc/StorageView.js:70
+#: ../www/manager/dc/GroupView.js:24 ../www/manager/dc/AuthView.js:52
+#: ../www/manager/dc/SecurityGroups.js:144 ../www/manager/dc/UserView.js:80
+#: ../www/manager/dc/PoolView.js:24 ../www/manager/dc/ACLView.js:149
+#: ../www/manager/dc/Backup.js:351 ../www/manager/dc/HAConfig.js:238
+#: ../www/manager/ceph/Monitor.js:128 ../www/manager/ceph/Pool.js:108
+#: ../www/manager/ceph/OSD.js:71 ../www/manager/ceph/OSD.js:189
+msgid "Remove"
+msgstr "Eliminar"
+
+#: ../www/manager/ceph/OSD.js:82
+msgid "Remove Partitions"
+msgstr "Eliminar particións"
+
+#: ../www/manager/Utils.js:709 ../www/manager/qemu/Config.js:79
+#: ../www/manager/VNCConsole.js:332
+msgid "Reset"
+msgstr "Reiniciar"
+
+#: ../www/manager/qemu/HDResize.js:72 ../www/manager/qemu/HDResize.js:74
+#: ../www/manager/qemu/HardwareView.js:280
+msgid "Resize disk"
+msgstr "Mudar tamaño de disco"
+
+#: ../www/manager/openvz/BeanCounterGrid.js:52
+msgid "Resource"
+msgstr "Recurso"
+
+#: ../www/manager/tree/ResourceTree.js:13 ../www/manager/pool/Config.js:14
+#: ../www/manager/openvz/CreateWizard.js:97
+#: ../www/manager/qemu/CreateWizard.js:80 ../www/manager/qemu/Clone.js:226
+msgid "Resource Pool"
+msgstr "Grupo Virtual"
+
+#: ../www/manager/openvz/RessourceEdit.js:73
+#: ../www/manager/openvz/Config.js:129
+#: ../www/manager/openvz/CreateWizard.js:149
+msgid "Resources"
+msgstr "Recursos"
+
+#: ../www/manager/Utils.js:728 ../www/manager/node/Config.js:33
+#: ../www/manager/node/ServiceView.js:65
+msgid "Restart"
+msgstr "Reiniciar"
+
+#: ../www/manager/dc/Summary.js:166
+msgid "Restarts"
+msgstr "Reinicios"
+
+#: ../www/manager/window/Restore.js:79
+#: ../www/manager/storage/ContentView.js:373
+#: ../www/manager/grid/BackupView.js:94 ../www/manager/Utils.js:701
+#: ../www/manager/Utils.js:715
+msgid "Restore"
+msgstr "Restaurar"
+
+#: ../www/manager/window/Restore.js:121
+msgid "Restore CT"
+msgstr "Restaurar CT"
+
+#: ../www/manager/window/Restore.js:122
+msgid "Restore VM"
+msgstr "Restaurar MV"
+
+#: ../www/manager/Utils.js:712 ../www/manager/qemu/Config.js:40
+#: ../www/manager/VNCConsole.js:356
+msgid "Resume"
+msgstr "Continuar"
+
+#: ../www/manager/node/NetworkView.js:202 ../www/manager/dc/HAConfig.js:145
+msgid "Revert changes"
+msgstr "Desfacer cambios"
+
+#: ../www/manager/form/RoleSelector.js:21 ../www/manager/dc/ACLView.js:43
+#: ../www/manager/dc/ACLView.js:120
+msgid "Role"
+msgstr "Rol"
+
+#: ../www/manager/dc/Config.js:73
+msgid "Roles"
+msgstr "Roles"
+
+#: ../www/manager/Utils.js:698 ../www/manager/qemu/SnapshotTree.js:139
+msgid "Rollback"
+msgstr "Desfacer"
+
+#: ../www/manager/grid/FirewallRules.js:264
+#: ../www/manager/grid/FirewallRules.js:360
+msgid "Rule"
+msgstr "Regra"
+
+#: ../www/manager/dc/SecurityGroups.js:204
+msgid "Rules"
+msgstr "Regras"
+
+#: ../www/manager/qemu/ScsiHwEdit.js:8 ../www/manager/qemu/Options.js:143
+msgid "SCSI Controller Type"
+msgstr "Tipo de controlador SCSI"
+
+#: ../www/manager/qemu/Smbios1Edit.js:64
+msgid "SKU"
+msgstr "SKU"
+
+#: ../www/manager/qemu/Smbios1Edit.js:91 ../www/manager/qemu/Options.js:237
+msgid "SMBIOS settings (type1)"
+msgstr "Configuracións SMBIOS (tipo1)"
+
+#: ../www/manager/grid/FirewallOptions.js:108
+msgid "SMURFS filter"
+msgstr "Filtro SMURFS"
+
+#: ../www/manager/node/StatusView.js:49
+msgid "SWAP usage"
+msgstr "Uso da SWAP"
+
+#: ../www/manager/storage/LVMEdit.js:28 ../www/manager/storage/IScsiEdit.js:49
+#: ../www/manager/storage/NFSEdit.js:49
+msgid "Scanning..."
+msgstr "Escaneando..."
+
+#: ../www/manager/grid/ResourceGrid.js:167
+#: ../www/manager/grid/ResourceGrid.js:174
+msgid "Search"
+msgstr "Procurar"
+
+#: ../www/manager/node/DNSEdit.js:16
+msgid "Search domain"
+msgstr "Dominio de procura"
+
+#: ../www/manager/form/SecurityGroupSelector.js:29
+#: ../www/manager/grid/FirewallRules.js:321
+#: ../www/manager/grid/FirewallRules.js:559
+#: ../www/manager/dc/SecurityGroups.js:36
+#: ../www/manager/dc/SecurityGroups.js:38
+msgid "Security Group"
+msgstr "Grupo de seguranza"
+
+#: ../www/manager/storage/ContentView.js:195
+msgid "Select File..."
+msgstr "Escolle arquivo..."
+
+#: ../www/manager/dc/Backup.js:423
+msgid "Selection"
+msgstr "Selección"
+
+#: ../www/manager/dc/Backup.js:33
+msgid "Selection mode"
+msgstr "Modo de selección"
+
+#: ../www/manager/dc/Backup.js:160
+msgid "Send email to"
+msgstr "Enviar correo a"
+
+#: ../www/manager/qemu/Smbios1Edit.js:58 ../www/manager/ceph/Disks.js:100
+#: ../www/manager/ceph/Disks.js:176
+msgid "Serial"
+msgstr "Serie"
+
+#: ../www/manager/Utils.js:397 ../www/manager/Utils.js:398
+#: ../www/manager/Utils.js:399 ../www/manager/Utils.js:400
+msgid "Serial terminal"
+msgstr "Terminal en serie"
+
+#: ../www/manager/storage/GlusterFsEdit.js:103
+#: ../www/manager/storage/NFSEdit.js:106 ../www/manager/dc/AuthEdit.js:87
+msgid "Server"
+msgstr "Servidor"
+
+#: ../www/manager/dc/Summary.js:63
+msgid "Server Address"
+msgstr "Enderezo do Servidor"
+
+#: ../www/manager/node/Subscription.js:69
+msgid "Server ID"
+msgstr "ID do Servidor"
+
+#: ../www/manager/form/ViewSelector.js:10
+msgid "Server View"
+msgstr "Ver Servidor"
+
+#: ../www/manager/node/Summary.js:114
+msgid "Server load"
+msgstr "Carga do Servidor"
+
+#: ../www/manager/node/TimeView.js:36
+msgid "Server time"
+msgstr "Hora do Servidor"
+
+#: ../www/manager/dc/Log.js:55
+msgid "Service"
+msgstr "Servizo"
+
+#: ../www/manager/node/Config.js:74 ../www/manager/dc/Summary.js:69
+msgid "Services"
+msgstr "Servizos"
+
+#: ../www/manager/openvz/CreateWizard.js:258
+#: ../www/manager/qemu/CreateWizard.js:117 ../www/manager/qemu/Snapshot.js:105
+msgid "Settings"
+msgstr "Configuracións"
+
+#: ../www/manager/dc/Log.js:70
+msgid "Severity"
+msgstr "Gravidade"
+
+#: ../www/manager/storage/LVMEdit.js:209 ../www/manager/storage/DirEdit.js:63
+#: ../www/manager/storage/StatusView.js:40
+#: ../www/manager/dc/StorageView.js:219
+msgid "Shared"
+msgstr "Compartidos"
+
+#: ../www/manager/qemu/MemoryEdit.js:123
+msgid "Shares"
+msgstr "Partillas"
+
+#: ../www/manager/Utils.js:695 ../www/manager/Utils.js:696
+#: ../www/manager/node/Config.js:52 ../www/manager/VNCConsole.js:523
+msgid "Shell"
+msgstr "Consola"
+
+#: ../www/manager/Utils.js:710 ../www/manager/Utils.js:722
+#: ../www/manager/openvz/Config.js:66 ../www/manager/openvz/CmdMenu.js:53
+#: ../www/manager/node/Config.js:42 ../www/manager/qemu/Config.js:88
+#: ../www/manager/qemu/CmdMenu.js:53 ../www/manager/VNCConsole.js:303
+#: ../www/manager/VNCConsole.js:438
+msgid "Shutdown"
+msgstr "Apagar"
+
+#: ../www/manager/qemu/StartupEdit.js:48
+msgid "Shutdown timeout"
+msgstr "Tempo de Apagado"
+
+#: ../www/manager/form/FileSelector.js:63
+#: ../www/manager/storage/ContentView.js:462
+#: ../www/manager/storage/StatusView.js:45
+#: ../www/manager/grid/BackupView.js:169 ../www/manager/ceph/Pool.js:28
+#: ../www/manager/ceph/Pool.js:150 ../www/manager/ceph/Disks.js:80
+#: ../www/manager/ceph/Disks.js:169
+msgid "Size"
+msgstr "Tamaño"
+
+#: ../www/manager/qemu/HDResize.js:52
+msgid "Size Increment"
+msgstr "Incremento do Tamaño"
+
+#: ../www/manager/node/NetworkEdit.js:96
+#: ../www/manager/node/NetworkEdit.js:191
+msgid "Slaves"
+msgstr "Escravos"
+
+#: ../www/manager/form/SnapshotSelector.js:51
+#: ../www/manager/form/BackupModeSelector.js:9 ../www/manager/Utils.js:697
+#: ../www/manager/qemu/Snapshot.js:131 ../www/manager/qemu/Clone.js:162
+msgid "Snapshot"
+msgstr "Instantánea"
+
+#: ../www/manager/qemu/Config.js:174
+msgid "Snapshots"
+msgstr "Instantáneas"
+
+#: ../www/manager/node/StatusView.js:13
+msgid "Socket"
+msgstr "Socket"
+
+#: ../www/manager/node/Subscription.js:72 ../www/manager/node/StatusView.js:14
+#: ../www/manager/qemu/ProcessorEdit.js:15
+msgid "Sockets"
+msgstr "Sockets"
+
+#: ../www/manager/window/Restore.js:41
+#: ../www/manager/grid/FirewallRules.js:138
+#: ../www/manager/grid/FirewallRules.js:679
+msgid "Source"
+msgstr "Orixe"
+
+#: ../www/manager/grid/FirewallRules.js:203
+#: ../www/manager/grid/FirewallRules.js:711
+msgid "Source port"
+msgstr "Porto Orixe"
+
+#: ../www/manager/dc/Summary.js:134
+msgid "Standalone node - no cluster defined"
+msgstr "Nodo illado - sen cluster definido"
+
+#: ../www/manager/Utils.js:289
+msgid "Standard"
+msgstr "Estándar"
+
+#: ../www/manager/Utils.js:390
+msgid "Standard VGA"
+msgstr "VGA Estándar"
+
+#: ../www/manager/Utils.js:707 ../www/manager/Utils.js:718
+#: ../www/manager/Utils.js:724 ../www/manager/Utils.js:726
+#: ../www/manager/openvz/Config.js:40 ../www/manager/openvz/CmdMenu.js:34
+#: ../www/manager/node/ServiceView.js:49 ../www/manager/qemu/Config.js:49
+#: ../www/manager/qemu/CmdMenu.js:34 ../www/manager/VNCConsole.js:297
+#: ../www/manager/VNCConsole.js:432 ../www/manager/ceph/Monitor.js:100
+#: ../www/manager/ceph/OSD.js:165
+msgid "Start"
+msgstr "Arrancar"
+
+#: ../www/manager/window/TaskViewer.js:133 ../www/manager/node/Tasks.js:121
+#: ../www/manager/dc/Backup.js:148 ../www/manager/dc/Backup.js:411
+#: ../www/manager/dc/Tasks.js:61
+msgid "Start Time"
+msgstr "Hora de comezo"
+
+#: ../www/manager/Utils.js:739
+msgid "Start all VMs and Containers"
+msgstr "Arrancar tódalas MVs e CTs"
+
+#: ../www/manager/openvz/Options.js:26 ../www/manager/openvz/Options.js:31
+#: ../www/manager/openvz/Options.js:37 ../www/manager/qemu/Options.js:41
+#: ../www/manager/qemu/Options.js:46 ../www/manager/qemu/Options.js:53
+msgid "Start at boot"
+msgstr "Arrancar no inicio"
+
+#: ../www/manager/qemu/StartupEdit.js:34 ../www/manager/qemu/StartupEdit.js:67
+#: ../www/manager/qemu/Options.js:58
+msgid "Start/Shutdown order"
+msgstr "Orde de Arranque/Apagado"
+
+#: ../www/manager/qemu/StartupEdit.js:41
+msgid "Startup delay"
+msgstr "Retraso de arranque"
+
+#: ../www/manager/pool/StatusView.js:21
+#: ../www/manager/window/TaskViewer.js:101
+#: ../www/manager/window/TaskViewer.js:174
+#: ../www/manager/storage/StatusView.js:67 ../www/manager/openvz/Summary.js:29
+#: ../www/manager/openvz/StatusView.js:59
+#: ../www/manager/node/ServiceView.js:124
+#: ../www/manager/node/Subscription.js:62 ../www/manager/node/Tasks.js:153
+#: ../www/manager/node/Summary.js:81 ../www/manager/qemu/Summary.js:29
+#: ../www/manager/qemu/StatusView.js:44
+#: ../www/manager/qemu/SnapshotTree.js:261 ../www/manager/dc/Backup.js:91
+#: ../www/manager/dc/Tasks.js:103 ../www/manager/dc/Summary.js:160
+msgid "Status"
+msgstr "Estado"
+
+#: ../www/manager/window/TaskViewer.js:162
+#: ../www/manager/window/TaskViewer.js:168
+#: ../www/manager/form/BackupModeSelector.js:11 ../www/manager/Utils.js:708
+#: ../www/manager/Utils.js:719 ../www/manager/Utils.js:725
+#: ../www/manager/Utils.js:727 ../www/manager/openvz/Config.js:57
+#: ../www/manager/openvz/CmdMenu.js:67 ../www/manager/node/ServiceView.js:57
+#: ../www/manager/qemu/Config.js:57 ../www/manager/qemu/CmdMenu.js:67
+#: ../www/manager/VNCConsole.js:315 ../www/manager/VNCConsole.js:450
+#: ../www/manager/ceph/Monitor.js:109 ../www/manager/ceph/OSD.js:171
+msgid "Stop"
+msgstr "Parar"
+
+#: ../www/manager/Utils.js:740
+msgid "Stop all VMs and Containers"
+msgstr "Parar tódalas MVs e CTs"
+
+#: ../www/manager/data/ResourceStore.js:189
+#: ../www/manager/window/Restore.js:25 ../www/manager/window/Backup.js:25
+#: ../www/manager/grid/PoolMembers.js:52 ../www/manager/grid/PoolMembers.js:61
+#: ../www/manager/grid/PoolMembers.js:157 ../www/manager/grid/BackupView.js:67
+#: ../www/manager/openvz/CreateWizard.js:20
+#: ../www/manager/openvz/CreateWizard.js:35
+#: ../www/manager/openvz/Options.js:46 ../www/manager/qemu/CDEdit.js:111
+#: ../www/manager/qemu/HDEdit.js:152 ../www/manager/dc/Config.js:35
+#: ../www/manager/dc/Backup.js:59 ../www/manager/dc/Backup.js:417
+msgid "Storage"
+msgstr "Almacenamento"
+
+#: ../www/manager/form/ViewSelector.js:18
+msgid "Storage View"
+msgstr "Vista do Almacenamento"
+
+#: ../www/manager/tree/ResourceTree.js:17
+msgid "Storage list"
+msgstr "Listaxe do Almacenamento"
+
+#: ../www/manager/storage/Browser.js:29
+msgid "Storage {0} on node {1}"
+msgstr "Almacenamento {0} no nodo {1}"
+
+#: ../www/manager/node/NetworkView.js:272
+#: ../www/manager/node/NetworkEdit.js:208
+msgid "Subnet mask"
+msgstr "Máscara de subrede"
+
+#: ../www/manager/node/Config.js:136
+msgid "Subscription"
+msgstr "Suscrición"
+
+#: ../www/manager/node/Subscription.js:14
+#: ../www/manager/node/Subscription.js:59
+msgid "Subscription Key"
+msgstr "Chave de Suscrición"
+
+#: ../www/manager/Utils.js:536
+msgid "Successful"
+msgstr "Éxito"
+
+#: ../www/manager/pool/Config.js:18 ../www/manager/storage/Browser.js:22
+#: ../www/manager/openvz/Config.js:124 ../www/manager/node/Config.js:69
+#: ../www/manager/qemu/Config.js:133 ../www/manager/dc/Config.js:20
+msgid "Summary"
+msgstr "Resumo"
+
+#: ../www/manager/dc/Config.js:98 ../www/manager/dc/Summary.js:49
+msgid "Support"
+msgstr "Soporte"
+
+#: ../www/manager/form/BackupModeSelector.js:10 ../www/manager/Utils.js:711
+#: ../www/manager/VNCConsole.js:344
+msgid "Suspend"
+msgstr "Suspender"
+
+#: ../www/manager/openvz/RessourceEdit.js:31
+#: ../www/manager/openvz/RessourceView.js:37
+msgid "Swap"
+msgstr "Swap"
+
+#: ../www/manager/Workspace.js:157
+msgid "System upgrade on node {0}"
+msgstr "Actualización de sistema no nodo {0}"
+
+#: ../www/manager/grid/FirewallOptions.js:109
+msgid "TCP flags filter"
+msgstr "Filtro por 'flags' TCP"
+
+#: ../www/manager/dc/AuthView.js:132
+msgid "TFA"
+msgstr "TFA"
+
+#: ../www/manager/qemu/Snapshot.js:142 ../www/manager/qemu/Snapshot.js:144
+#: ../www/manager/qemu/SnapshotTree.js:212
+msgid "Take Snapshot"
+msgstr "Crear Instantánea"
+
+#: ../www/manager/storage/ZFSEdit.js:62
+msgid "Target"
+msgstr "Obxectivo"
+
+#: ../www/manager/qemu/HDMove.js:65 ../www/manager/qemu/Clone.js:197
+msgid "Target Storage"
+msgstr "Almacenamento obxectivo"
+
+#: ../www/manager/storage/ZFSEdit.js:70
+msgid "Target group"
+msgstr "Grupo obxectivo"
+
+#: ../www/manager/window/Migrate.js:61 ../www/manager/qemu/Clone.js:132
+msgid "Target node"
+msgstr "Nodo obxectivo"
+
+#: ../www/manager/openvz/Config.js:149 ../www/manager/node/Config.js:117
+#: ../www/manager/qemu/Config.js:148
+msgid "Task History"
+msgstr "Historial de tarefas"
+
+#: ../www/manager/window/TaskViewer.js:117
+msgid "Task type"
+msgstr "Tipo de tarefa"
+
+#: ../www/manager/panel/StatusPanel.js:31
+msgid "Tasks"
+msgstr "Tarefas"
+
+#: ../www/manager/data/ResourceStore.js:168
+#: ../www/manager/openvz/CreateWizard.js:29
+#: ../www/manager/openvz/CreateWizard.js:144
+#: ../www/manager/openvz/Options.js:42
+msgid "Template"
+msgstr "Modelo"
+
+#: ../www/manager/storage/ContentView.js:133
+#: ../www/manager/storage/ContentView.js:426
+msgid "Templates"
+msgstr "Modelos"
+
+#: ../www/manager/storage/ZFSEdit.js:96
+msgid "Thin provision"
+msgstr "Provisionamento 'thin'"
+
+#: ../www/manager/form/VMIDSelector.js:31
+msgid "This VM ID does not exists"
+msgstr "O ID da MV non existe"
+
+#: ../www/manager/form/VMIDSelector.js:36
+msgid "This VM ID is already in use"
+msgstr "O ID da MV está en uso"
+
+#: ../www/manager/Utils.js:104
+msgid "This is not a valid DNS name"
+msgstr "Nome DNS non válido"
+
+#: ../www/manager/grid/BackupView.js:123
+#: ../www/manager/qemu/HardwareView.js:330 ../www/manager/ceph/Pool.js:114
+msgid "This will permanently erase all image data."
+msgstr "Isto eliminará permanentemente os datos da imaxe."
+
+#: ../www/manager/window/Restore.js:104
+msgid "This will permanently erase current VM data."
+msgstr "Isto eliminará permanentemente os datos da MV actual."
+
+#: ../www/manager/node/Config.js:89 ../www/manager/dc/Log.js:42
+msgid "Time"
+msgstr "Hora"
+
+#: ../www/manager/node/TimeEdit.js:14 ../www/manager/node/TimeEdit.js:22
+#: ../www/manager/node/TimeView.js:32
+msgid "Time zone"
+msgstr "Zona horaria"
+
+#: ../www/manager/qemu/Snapshot.js:83
+msgid "Timestamp"
+msgstr "Marca temporal"
+
+#: ../www/manager/Utils.js:891 ../www/manager/ceph/Pool.js:184
+#: ../www/manager/ceph/OSD.js:315
+msgid "Total"
+msgstr "Total"
+
+#: ../www/manager/data/ResourceStore.js:136
+msgid "Total Disk Read"
+msgstr "Lectura de Disco Total"
+
+#: ../www/manager/data/ResourceStore.js:144
+msgid "Total Disk Write"
+msgstr "Escritura de Disco Total"
+
+#: ../www/manager/data/ResourceStore.js:152
+msgid "Total NetIn"
+msgstr "Entrada de Rede Total"
+
+#: ../www/manager/data/ResourceStore.js:160
+msgid "Total NetOut"
+msgstr "Saída de Rede Total"
+
+#: ../www/manager/qemu/ProcessorEdit.js:53
+msgid "Total cores"
+msgstr "Totla de núcleos"
+
+#: ../www/manager/data/ResourceStore.js:21
+#: ../www/manager/form/StorageSelector.js:82
+#: ../www/manager/form/IPRefSelector.js:50
+#: ../www/manager/storage/ContentView.js:45
+#: ../www/manager/storage/StatusView.js:35
+#: ../www/manager/grid/FirewallRules.js:641
+#: ../www/manager/openvz/Network.js:397 ../www/manager/node/NetworkView.js:235
+#: ../www/manager/node/Subscription.js:56 ../www/manager/qemu/ScsiHwEdit.js:13
+#: ../www/manager/qemu/ProcessorEdit.js:49
+#: ../www/manager/dc/StorageView.js:193 ../www/manager/dc/AuthView.js:126
+#: ../www/manager/dc/Backup.js:107
+msgid "Type"
+msgstr "Tipo"
+
+#: ../www/manager/dc/Support.js:50
+msgid "Unable to load subscription status"
+msgstr "Imposibel carregar o estado da suscrición"
+
+#: ../www/manager/qemu/HDEdit.js:264 ../www/manager/qemu/HDThrottle.js:201
+msgid "Unable to parse drive options"
+msgstr "Imposibel recoñecer as opcións de disco"
+
+#: ../www/manager/qemu/NetworkEdit.js:194
+msgid "Unable to parse network options"
+msgstr "Imposibel recoñecer as opcións de rede"
+
+#: ../www/manager/qemu/Smbios1Edit.js:106
+msgid "Unable to parse smbios options"
+msgstr "Imposibel recoñecer as opcións de smbios"
+
+#: ../www/manager/window/TaskViewer.js:138
+msgid "Unique task ID"
+msgstr "ID único de tarefa"
+
+#: ../www/manager/Utils.js:884
+msgid "Unknown"
+msgstr "Descoñecido"
+
+#: ../www/manager/Utils.js:539
+msgid "Unknown error"
+msgstr "Erro descoñecido"
+
+#: ../www/manager/Utils.js:721 ../www/manager/openvz/Config.js:48
+msgid "Unmount"
+msgstr "Desmontar"
+
+#: ../www/manager/qemu/HDEdit.js:246 ../www/manager/qemu/HardwareView.js:165
+#: ../www/manager/qemu/HDThrottle.js:186
+msgid "Unused Disk"
+msgstr "Disco non usado"
+
+#: ../www/manager/qemu/Snapshot.js:133
+msgid "Update"
+msgstr "Actualizar"
+
+#: ../www/manager/Utils.js:738
+msgid "Update package database"
+msgstr "Actualizar catálogo de paquetes"
+
+#: ../www/manager/node/Config.js:154
+msgid "Updates"
+msgstr "Actualizacións"
+
+#: ../www/manager/node/APT.js:83
+msgid "Upgrade"
+msgstr "Actualizar"
+
+#: ../www/manager/storage/ContentView.js:235
+#: ../www/manager/storage/ContentView.js:302
+#: ../www/manager/storage/ContentView.js:437
+msgid "Upload"
+msgstr "Subida"
+
+#: ../www/manager/node/Subscription.js:8
+#: ../www/manager/node/Subscription.js:85
+msgid "Upload Subscription Key"
+msgstr "Enviar Chave de Suscrición"
+
+#: ../www/manager/storage/ContentView.js:207
+msgid "Uploading file..."
+msgstr "Subindo arquivo..."
+
+#: ../www/manager/data/ResourceStore.js:175
+#: ../www/manager/openvz/StatusView.js:67 ../www/manager/node/StatusView.js:43
+#: ../www/manager/qemu/StatusView.js:49
+msgid "Uptime"
+msgstr "En Pé"
+
+#: ../www/manager/storage/Summary.js:44 ../www/manager/ceph/Disks.js:68
+msgid "Usage"
+msgstr "Uso"
+
+#: ../www/manager/qemu/CDEdit.js:85
+msgid "Use CD/DVD disc image file (iso)"
+msgstr "Empregar imaxe de disco .iso"
+
+#: ../www/manager/storage/IScsiEdit.js:149
+msgid "Use LUNs directly"
+msgstr "Usar directamente as LUNs"
+
+#: ../www/manager/qemu/MemoryEdit.js:40
+msgid "Use fixed size memory"
+msgstr "Usar tamaño fixo de memoria"
+
+#: ../www/manager/qemu/Options.js:202 ../www/manager/qemu/Options.js:207
+#: ../www/manager/qemu/Options.js:215
+msgid "Use local time for RTC"
+msgstr "Usar hora local para RTC"
+
+#: ../www/manager/qemu/CDEdit.js:130
+msgid "Use physical CD/DVD Drive"
+msgstr "Usar un lector de CD/DVD físico"
+
+#: ../www/manager/qemu/Options.js:107 ../www/manager/qemu/Options.js:112
+msgid "Use tablet for pointer"
+msgstr "Usar tableta para o punteiro"
+
+#: ../www/manager/storage/StatusView.js:50 ../www/manager/Utils.js:892
+#: ../www/manager/ceph/Pool.js:171 ../www/manager/ceph/OSD.js:300
+msgid "Used"
+msgstr "En uso"
+
+#: ../www/manager/form/UserSelector.js:28 ../www/manager/dc/UserEdit.js:178
+#: ../www/manager/dc/ACLView.js:33 ../www/manager/dc/ACLView.js:113
+msgid "User"
+msgstr "Usuario"
+
+#: ../www/manager/dc/AuthEdit.js:63
+msgid "User Attribute Name"
+msgstr "Atributo de nome de usuario"
+
+#: ../www/manager/dc/ACLView.js:29 ../www/manager/dc/ACLView.js:205
+msgid "User Permission"
+msgstr "Permiso de usuario"
+
+#: ../www/manager/window/LoginWindow.js:71
+#: ../www/manager/window/TaskViewer.js:121
+#: ../www/manager/storage/RBDEdit.js:56 ../www/manager/node/Tasks.js:93
+#: ../www/manager/node/Tasks.js:142 ../www/manager/dc/UserEdit.js:74
+#: ../www/manager/dc/Log.js:65 ../www/manager/dc/UserView.js:185
+#: ../www/manager/dc/Tasks.js:92
+msgid "User name"
+msgstr "Nome de usuario"
+
+#: ../www/manager/openvz/Options.js:22
+msgid "User quotas disabled."
+msgstr "Cuotas de usuario desactivadas"
+
+#: ../www/manager/dc/Config.js:50
+msgid "Users"
+msgstr "Usuarios"
+
+#: ../www/manager/form/VLanField.js:9
+msgid "VLAN Tag"
+msgstr "Etiqueta da VLAN"
+
+#: ../www/manager/Utils.js:391
+msgid "VMWare compatible"
+msgstr "Compatibel con VMWare"
+
+#: ../www/manager/form/DiskFormatSelector.js:11
+msgid "VMware image format"
+msgstr "Formato de imaxe de VMWare"
+
+#: ../www/manager/openvz/StatusView.js:65
+msgid "VSwap usage"
+msgstr "Uso de VSwap"
+
+#: ../www/manager/Utils.js:895
+msgid "VZDump backup file"
+msgstr "Arquivo de emborcado de VZDump"
+
+#: ../www/manager/grid/ObjectGrid.js:100
+msgid "Value"
+msgstr "Valor"
+
+#: ../www/manager/ceph/Disks.js:88
+msgid "Vendor"
+msgstr "Vendedor"
+
+#: ../www/manager/storage/ContentView.js:55 ../www/manager/Workspace.js:263
+#: ../www/manager/node/APT.js:165 ../www/manager/qemu/Smbios1Edit.js:52
+msgid "Version"
+msgstr "Versión"
+
+#: ../www/manager/node/Tasks.js:68
+msgid "View"
+msgstr "Vista"
+
+#: ../www/manager/tree/ResourceTree.js:21
+#: ../www/manager/grid/PoolMembers.js:18
+#: ../www/manager/grid/PoolMembers.js:148
+#: ../www/manager/qemu/CreateWizard.js:40
+msgid "Virtual Machine"
+msgstr "Máquina Virtual"
+
+#: ../www/manager/qemu/Config.js:126
+msgid "Virtual Machine {0} on node {1}"
+msgstr "Máquina Virtual {0} no nodo {1}"
+
+#: ../www/manager/storage/LVMEdit.js:133 ../www/manager/storage/LVMEdit.js:140
+msgid "Volume group"
+msgstr "Grupo de Volumes"
+
+#: ../www/manager/storage/ZFSEdit.js:103
+msgid "Write cache"
+msgstr "Caché de escritura"
+
+#: ../www/manager/qemu/HDThrottle.js:96 ../www/manager/qemu/HDThrottle.js:140
+msgid "Write limit"
+msgstr "Límite de escritura"
+
+#: ../www/manager/qemu/HDThrottle.js:107 ../www/manager/qemu/HDThrottle.js:151
+msgid "Write max burst"
+msgstr "Máxima ráfaga de escritura"
+
+#: ../www/manager/form/Boolean.js:11 ../www/manager/Utils.js:881
+msgid "Yes"
+msgstr "Si"
+
+#: ../www/manager/qemu/SnapshotTree.js:280
+msgid "You are here!"
+msgstr "Estás aquí!"
+
+#: ../www/manager/Workspace.js:247
+msgid "You are logged in as {0}"
+msgstr "Estas rexistrado como {0}"
+
+#: ../www/manager/node/APT.js:168
+msgid "current"
+msgstr "actual"
+
+#: ../www/manager/Utils.js:887
+msgid "day"
+msgstr "día"
+
+#: ../www/manager/Utils.js:886
+msgid "days"
+msgstr "días"
+
+#: ../www/manager/qemu/HDThrottle.js:86 ../www/manager/qemu/HDThrottle.js:109
+#: ../www/manager/qemu/HDThrottle.js:131 ../www/manager/qemu/HDThrottle.js:153
+msgid "default"
+msgstr "padrón"
+
+#: ../www/manager/form/CompressionSelector.js:10
+msgid "fast"
+msgstr "rápido"
+
+#: ../www/manager/form/CompressionSelector.js:11
+msgid "good"
+msgstr "bo"
+
+#: ../www/manager/storage/ZFSEdit.js:88
+msgid "iSCSI Provider"
+msgstr "Provedor iSCSI"
+
+#: ../www/manager/data/ResourceStore.js:129
+msgid "maxcpu"
+msgstr ""
+
+#: ../www/manager/Utils.js:890
+msgid "never"
+msgstr "nunca"
+
+#: ../www/manager/node/APT.js:174
+msgid "new"
+msgstr "novo"
+
+#: ../www/manager/panel/IPSet.js:229
+msgid "nomatch"
+msgstr ""
+
+#: ../www/manager/form/CompressionSelector.js:9
+msgid "none"
+msgstr "ningún"
+
+#: ../www/manager/form/NetworkCardSelector.js:10
+msgid "paravirtualized"
+msgstr "paravirtualizado"
+
+#: ../www/manager/Utils.js:888
+msgid "running"
+msgstr "correndo"
+
+#: ../www/manager/openvz/Options.js:94
+msgid "seconds"
+msgstr "segundos"
+
+#: ../www/manager/Utils.js:889
+msgid "stopped"
+msgstr "parado"
+
+#: ../www/manager/qemu/HDThrottle.js:75 ../www/manager/qemu/HDThrottle.js:98
+#: ../www/manager/qemu/HDThrottle.js:120 ../www/manager/qemu/HDThrottle.js:142
+msgid "unlimited"
+msgstr "sen límites"
+
+#: ../www/manager/form/CacheTypeSelector.js:13
+msgid "unsafe"
+msgstr "inseguro"
