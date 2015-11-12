@@ -11,7 +11,7 @@ EXTDATA=	\
 
 EXT_THEME=	\
 	extjs/build/classic/theme-classic	\
-	extjs/build/classic/theme-neptune	\
+	extjs/build/classic/theme-triton	\
 
 all: ${EXTDATA}
 
