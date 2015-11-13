@@ -1,6 +1,8 @@
 include ../../defines.mk
 
 EXTJSDIR=ext-6.0.0
+
+# wget http://cdn.sencha.com/ext/gpl/ext-6.0.0-gpl.zip
 EXTJSSRC=${EXTJSDIR}-gpl.zip
 
 EXTDATA=	\
@@ -10,15 +12,6 @@ EXTDATA=	\
 EXT_THEME=	\
 	extjs/build/classic/theme-classic	\
 	extjs/build/classic/theme-neptune	\
-
-${EXTDATA}: ${EXTJSSRC}
-	rm -rf ${EXTJSDIR} extjs
-	unzip -x ${EXTJSSRC}
-	mv ${EXTJSDIR} extjs
-	touch ${EXTDATA}
-
-${EXTJSSRC}:
-	wget http://cdn.sencha.com/ext/gpl/ext-6.0.0-gpl.zip
 
 all: ${EXTDATA}
 
@@ -36,5 +29,5 @@ distclean: clean
 
 .PHONY: clean
 clean:
-	rm -rf *~ ${EXTJSDIR} extjs
+	rm -rf *~
 
