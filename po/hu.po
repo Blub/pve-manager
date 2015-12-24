@@ -1,0 +1,2660 @@
+# Hungarian translations for pve-manager package.
+# Copyright (C) 2011-2015 Proxmox Server Solutions GmbH
+# This file is distributed under the same license as the pve-manager package.
+# Proxmox Support Team <support@proxmox.com>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pve-manager 2.0\n"
+"Report-Msgid-Bugs-To: <support@proxmox.com>\n"
+"POT-Creation-Date: Wed Oct 28 12:45:25 2015\n"
+"PO-Revision-Date: 2015-12-22 21:06+0200\n"
+"Last-Translator: István <pongracz.istvan@startit.hu>\n"
+"Language-Team: Hungarian <support@proxmox.com>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.1.6\n"
+
+#: ../www/manager/qemu/Options.js:142 ../www/manager/qemu/Options.js:147
+msgid "ACPI support"
+msgstr "ACPI támogatás"
+
+#: ../www/manager/storage/ContentView.js:227
+msgid "Abort"
+msgstr "Megszakít"
+
+#: ../www/manager/grid/FirewallRules.js:102
+#: ../www/manager/grid/FirewallRules.js:649
+msgid "Action"
+msgstr "Művelet"
+
+#: ../www/manager/form/BridgeSelector.js:55
+#: ../www/manager/node/NetworkView.js:243
+#: ../www/manager/storage/StatusView.js:25
+msgid "Active"
+msgstr "Aktív"
+
+#: ../www/manager/dc/AuthView.js:78 ../www/manager/dc/AuthEdit.js:37
+msgid "Active Directory Server"
+msgstr "Active Directory Server"
+
+#: ../www/manager/openvz/Network.js:356 ../www/manager/Utils.js:920
+#: ../www/manager/dc/UserView.js:148 ../www/manager/dc/AuthView.js:74
+#: ../www/manager/dc/ACLView.js:190 ../www/manager/dc/Backup.js:396
+#: ../www/manager/dc/StorageView.js:104
+#: ../www/manager/grid/FirewallAliases.js:135
+#: ../www/manager/grid/FirewallRules.js:543
+#: ../www/manager/grid/PoolMembers.js:144
+#: ../www/manager/qemu/HardwareView.js:466 ../www/manager/lxc/Network.js:457
+#: ../www/manager/panel/IPSet.js:329 ../www/manager/ha/Resources.js:95
+#: ../www/manager/window/Edit.js:198
+msgid "Add"
+msgstr "Új"
+
+#: ../www/manager/ceph/Monitor.js:185
+msgid "Address"
+msgstr "Cím"
+
+#: ../www/manager/grid/FirewallAliases.js:48
+#: ../www/manager/grid/FirewallAliases.js:73
+msgid "Alias"
+msgstr "Alias"
+
+#: ../www/manager/dc/Backup.js:30 ../www/manager/dc/Backup.js:119
+#: ../www/manager/dc/Backup.js:325 ../www/manager/storage/DirEdit.js:81
+#: ../www/manager/storage/ZFSPoolEdit.js:124
+#: ../www/manager/storage/IScsiEdit.js:133
+#: ../www/manager/storage/NFSEdit.js:141 ../www/manager/storage/RBDEdit.js:89
+#: ../www/manager/storage/LVMEdit.js:203 ../www/manager/storage/ZFSEdit.js:120
+#: ../www/manager/storage/GlusterFsEdit.js:146
+#: ../www/manager/storage/SheepdogEdit.js:60
+msgid "All"
+msgstr "Összes"
+
+#: ../www/manager/dc/Backup.js:326
+msgid "All except {0}"
+msgstr "Összes, kivéve {0}"
+
+#: ../www/manager/Toolkit.js:76 ../www/manager/Toolkit.js:81
+msgid "Allowed characters"
+msgstr "Engedélyezett karakterek"
+
+#: ../www/manager/form/EmailNotificationSelector.js:9
+msgid "Always"
+msgstr "Mindig"
+
+#: ../www/manager/lxc/Options.js:51
+msgid "Architecture"
+msgstr "Architektúra"
+
+#: ../www/manager/StateProvider.js:161
+msgid "Are you sure you want to navigate away from this page?"
+msgstr "Biztos benne, hogy elhagyja ezt az oldalt?"
+
+#: ../www/manager/openvz/Config.js:91 ../www/manager/qemu/Config.js:102
+#: ../www/manager/lxc/Config.js:91
+msgid ""
+"Are you sure you want to remove VM {0}? This will permanently erase all VM "
+"data."
+msgstr ""
+"Biztos benne, hogy törölni akarja a {0} VM-et? Ez a művelet "
+"visszavonhatatlanul törli a VM összes adatát."
+
+#: ../www/manager/openvz/Network.js:279 ../www/manager/dc/PoolView.js:28
+#: ../www/manager/dc/UserView.js:90 ../www/manager/dc/AuthView.js:49
+#: ../www/manager/dc/GroupView.js:28 ../www/manager/dc/StorageView.js:77
+#: ../www/manager/grid/BackupView.js:146
+#: ../www/manager/grid/PoolMembers.js:111
+#: ../www/manager/qemu/SnapshotTree.js:179
+#: ../www/manager/qemu/HardwareView.js:373
+#: ../www/manager/lxc/SnapshotTree.js:179 ../www/manager/lxc/Network.js:399
+#: ../www/manager/storage/ContentView.js:405 ../www/manager/ceph/Pool.js:112
+msgid "Are you sure you want to remove entry {0}"
+msgstr "Biztos benne, hogy eltávolítja a következő bejegyzést {0}"
+
+#: ../www/manager/dc/ACLView.js:152 ../www/manager/dc/Backup.js:369
+msgid "Are you sure you want to remove this entry"
+msgstr "Biztos benne, hogy eltávolítja ezt a bejegyzést"
+
+#: ../www/manager/window/Restore.js:103
+msgid "Are you sure you want to restore this VM?"
+msgstr "Biztos benne, hogy helyreállítja ezt a VM-et?"
+
+#: ../www/manager/qemu/SnapshotTree.js:144
+#: ../www/manager/lxc/SnapshotTree.js:144
+msgid "Are you sure you want to rollback to snapshot {0}"
+msgstr "Biztos benne, hogy visszaáll erre a pillanatképre {0}"
+
+#: ../www/manager/dc/Config.js:78
+msgid "Authentication"
+msgstr "Hitelesítés"
+
+#: ../www/manager/qemu/MemoryEdit.js:65
+msgid "Automatically allocate memory within this range"
+msgstr "Automatikusan foglal memóriát ebben a tartományban"
+
+#: ../www/manager/node/NetworkEdit.js:50
+#: ../www/manager/node/NetworkView.js:253
+msgid "Autostart"
+msgstr "Automata indítás"
+
+#: ../www/manager/form/StorageSelector.js:87
+#: ../www/manager/storage/StatusView.js:55
+msgid "Avail"
+msgstr "Elérhető"
+
+#: ../www/manager/window/Wizard.js:70
+msgid "Back"
+msgstr "Vissza"
+
+#: ../www/manager/openvz/Config.js:165 ../www/manager/Utils.js:563
+#: ../www/manager/dc/Config.js:43 ../www/manager/qemu/Config.js:168
+#: ../www/manager/lxc/Config.js:159 ../www/manager/window/Backup.js:57
+#: ../www/manager/window/Backup.js:91
+msgid "Backup"
+msgstr "Biztonsági mentés"
+
+#: ../www/manager/dc/Backup.js:281
+msgid "Backup Job"
+msgstr "Biztonsági mentés feladat"
+
+#: ../www/manager/grid/BackupView.js:106
+msgid "Backup now"
+msgstr "Mentés azonnal"
+
+#: ../www/manager/openvz/BeanCounterGrid.js:69
+msgid "Barrier"
+msgstr "Barrier"
+
+#: ../www/manager/dc/AuthEdit.js:54
+msgid "Base Domain Name"
+msgstr "Alap tartománynév"
+
+#: ../www/manager/storage/LVMEdit.js:157
+msgid "Base storage"
+msgstr "Alap tároló"
+
+#: ../www/manager/storage/LVMEdit.js:150
+msgid "Base volume"
+msgstr "Alapkötet"
+
+#: ../www/manager/Utils.js:70
+msgid "Basic"
+msgstr "Alapvető"
+
+#: ../www/manager/storage/ZFSEdit.js:54
+msgid "Block Size"
+msgstr "Blokk méret"
+
+#: ../www/manager/qemu/BootOrderEdit.js:114
+#: ../www/manager/qemu/BootOrderEdit.js:122
+#: ../www/manager/qemu/BootOrderEdit.js:130
+msgid "Boot device"
+msgstr "Boot eszköz"
+
+#: ../www/manager/qemu/Options.js:74 ../www/manager/qemu/BootOrderEdit.js:184
+msgid "Boot order"
+msgstr "Boot sorrend"
+
+#: ../www/manager/openvz/CreateWizard.js:48
+#: ../www/manager/openvz/Network.js:81 ../www/manager/openvz/Network.js:409
+#: ../www/manager/form/BridgeSelector.js:49
+#: ../www/manager/qemu/NetworkEdit.js:67 ../www/manager/lxc/Network.js:136
+#: ../www/manager/lxc/Network.js:485
+msgid "Bridge"
+msgstr "Bridge"
+
+#: ../www/manager/node/NetworkEdit.js:66 ../www/manager/node/NetworkEdit.js:72
+msgid "Bridge ports"
+msgstr "Bridge portok"
+
+#: ../www/manager/openvz/CreateWizard.js:186
+#: ../www/manager/qemu/NetworkEdit.js:80
+msgid "Bridged mode"
+msgstr "Bridge mód"
+
+#: ../www/manager/form/ControllerSelector.js:60
+msgid "Bus/Device"
+msgstr "Busz/Eszköz"
+
+#: ../www/manager/qemu/CreateWizard.js:20
+msgid "CD/DVD"
+msgstr "CD/DVD"
+
+#: ../www/manager/qemu/HardwareView.js:154
+#: ../www/manager/qemu/HardwareView.js:165
+#: ../www/manager/qemu/HardwareView.js:176
+#: ../www/manager/qemu/HardwareView.js:187
+#: ../www/manager/qemu/HardwareView.js:483
+msgid "CD/DVD Drive"
+msgstr "CD/DVD meghajtó"
+
+#: ../www/manager/Utils.js:117
+#: ../www/manager/form/HotplugFeatureSelector.js:53
+#: ../www/manager/qemu/CreateWizard.js:104
+#: ../www/manager/lxc/CreateWizard.js:164
+#: ../www/manager/lxc/ResourceEdit.js:28
+msgid "CPU"
+msgstr "CPU"
+
+#: ../www/manager/qemu/CPUOptions.js:83
+msgid "CPU Options"
+msgstr "CPU opciók"
+
+#: ../www/manager/qemu/CPUOptions.js:51 ../www/manager/lxc/Resources.js:60
+#: ../www/manager/lxc/ResourceEdit.js:54
+msgid "CPU limit"
+msgstr "CPU limit"
+
+#: ../www/manager/qemu/HardwareView.js:363
+msgid "CPU options"
+msgstr "CPU opciók"
+
+#: ../www/manager/openvz/Options.js:50 ../www/manager/openvz/Options.js:54
+#: ../www/manager/openvz/Options.js:58 ../www/manager/qemu/CPUOptions.js:58
+#: ../www/manager/lxc/Resources.js:71 ../www/manager/lxc/ResourceEdit.js:61
+msgid "CPU units"
+msgstr "CPU egységek"
+
+#: ../www/manager/openvz/StatusView.js:61 ../www/manager/openvz/Summary.js:67
+#: ../www/manager/form/NodeSelector.js:56 ../www/manager/node/StatusView.js:46
+#: ../www/manager/node/Summary.js:108 ../www/manager/data/ResourceStore.js:123
+#: ../www/manager/qemu/StatusView.js:45 ../www/manager/qemu/Summary.js:62
+#: ../www/manager/lxc/StatusView.js:61 ../www/manager/lxc/Summary.js:67
+msgid "CPU usage"
+msgstr "CPU használat"
+
+#: ../www/manager/openvz/RessourceEdit.js:56
+#: ../www/manager/node/StatusView.js:45
+msgid "CPUs"
+msgstr "CPU-k"
+
+#: ../www/manager/lxc/Options.js:122 ../www/manager/lxc/Options.js:127
+msgid "CT protection"
+msgstr "CT védelem"
+
+#: ../www/manager/qemu/HDEdit.js:222
+msgid "Cache"
+msgstr "Gyorstár"
+
+#: ../www/manager/form/StorageSelector.js:93
+msgid "Capacity"
+msgstr "Kapacitás"
+
+#: ../www/manager/node/APT.js:104 ../www/manager/node/APT.js:133
+msgid "Changelog"
+msgstr "Változásnapló"
+
+#: ../www/manager/node/Subscription.js:98
+msgid "Check"
+msgstr "Ellenőriz"
+
+#: ../www/manager/Utils.js:525 ../www/manager/qemu/CmdMenu.js:101
+#: ../www/manager/qemu/Clone.js:268 ../www/manager/qemu/TemplateMenu.js:48
+msgid "Clone"
+msgstr "Klón"
+
+#: ../www/manager/dc/Summary.js:96
+msgid "Cluster"
+msgstr "Klaszter"
+
+#: ../www/manager/panel/StatusPanel.js:36
+msgid "Cluster log"
+msgstr "Klaszter napló"
+
+#: ../www/manager/ha/Fencing.js:29
+msgid "Command"
+msgstr "Parancs"
+
+#: ../www/manager/pool/StatusView.js:15 ../www/manager/dc/UserEdit.js:128
+#: ../www/manager/dc/PoolEdit.js:35 ../www/manager/dc/PoolView.js:96
+#: ../www/manager/dc/UserView.js:221 ../www/manager/dc/AuthView.js:132
+#: ../www/manager/dc/GroupView.js:96 ../www/manager/dc/GroupEdit.js:35
+#: ../www/manager/dc/SecurityGroups.js:31
+#: ../www/manager/dc/SecurityGroups.js:170 ../www/manager/dc/AuthEdit.js:202
+#: ../www/manager/form/SecurityGroupSelector.js:35
+#: ../www/manager/form/PoolSelector.js:29
+#: ../www/manager/form/GroupSelector.js:29
+#: ../www/manager/form/IPRefSelector.js:65
+#: ../www/manager/form/UserSelector.js:42
+#: ../www/manager/grid/FirewallAliases.js:38
+#: ../www/manager/grid/FirewallAliases.js:174
+#: ../www/manager/grid/FirewallRules.js:219
+#: ../www/manager/grid/FirewallRules.js:354
+#: ../www/manager/grid/FirewallRules.js:719 ../www/manager/panel/IPSet.js:79
+#: ../www/manager/panel/IPSet.js:114 ../www/manager/panel/IPSet.js:151
+#: ../www/manager/panel/IPSet.js:237 ../www/manager/panel/IPSet.js:404
+#: ../www/manager/ha/GroupSelector.js:36 ../www/manager/ha/Groups.js:106
+#: ../www/manager/ha/GroupEdit.js:58 ../www/manager/ha/ResourceEdit.js:67
+msgid "Comment"
+msgstr "Megjegyzés"
+
+#: ../www/manager/Utils.js:69
+msgid "Community"
+msgstr "Közösség"
+
+#: ../www/manager/dc/Backup.js:172 ../www/manager/window/Backup.js:49
+msgid "Compression"
+msgstr "Tömörítés"
+
+#: ../www/manager/ceph/Config.js:110
+msgid "Config"
+msgstr "Konfiguráció"
+
+#: ../www/manager/Utils.js:534
+msgid "Configure"
+msgstr "Konfigurál"
+
+#: ../www/manager/openvz/CmdMenu.js:57 ../www/manager/openvz/CmdMenu.js:78
+#: ../www/manager/openvz/CmdMenu.js:92
+#: ../www/manager/openvz/CreateWizard.js:269
+#: ../www/manager/button/Button.js:45 ../www/manager/node/Config.js:42
+#: ../www/manager/node/Config.js:63 ../www/manager/qemu/CmdMenu.js:57
+#: ../www/manager/qemu/CmdMenu.js:77 ../www/manager/qemu/CmdMenu.js:91
+#: ../www/manager/qemu/CmdMenu.js:116 ../www/manager/qemu/CreateWizard.js:113
+#: ../www/manager/lxc/CmdMenu.js:57 ../www/manager/lxc/CmdMenu.js:78
+#: ../www/manager/lxc/CmdMenu.js:92 ../www/manager/lxc/CreateWizard.js:179
+#: ../www/manager/VNCConsole.js:354 ../www/manager/VNCConsole.js:366
+#: ../www/manager/VNCConsole.js:383 ../www/manager/VNCConsole.js:395
+#: ../www/manager/VNCConsole.js:489 ../www/manager/VNCConsole.js:501
+#: ../www/manager/window/Restore.js:105
+msgid "Confirm"
+msgstr "Megerősít"
+
+#: ../www/manager/openvz/CreateWizard.js:123 ../www/manager/dc/UserEdit.js:36
+#: ../www/manager/dc/UserView.js:23 ../www/manager/lxc/CreateWizard.js:120
+msgid "Confirm password"
+msgstr "Jelszó megerősítése"
+
+#: ../www/manager/Utils.js:374 ../www/manager/Utils.js:433
+#: ../www/manager/Utils.js:435 ../www/manager/Utils.js:437
+#: ../www/manager/Utils.js:439 ../www/manager/Utils.js:1083
+msgid "Connection error"
+msgstr "Kapcsolódási hiba"
+
+#: ../www/manager/openvz/CmdMenu.js:102 ../www/manager/Utils.js:514
+#: ../www/manager/Utils.js:515 ../www/manager/button/ConsoleButton.js:45
+#: ../www/manager/Workspace.js:111 ../www/manager/node/Config.js:193
+#: ../www/manager/qemu/CmdMenu.js:132 ../www/manager/qemu/Config.js:184
+#: ../www/manager/lxc/CmdMenu.js:102 ../www/manager/lxc/Config.js:167
+#: ../www/manager/VNCConsole.js:411
+msgid "Console"
+msgstr "Konzol"
+
+#: ../www/manager/dc/OptionView.js:61 ../www/manager/dc/OptionView.js:67
+#: ../www/manager/dc/OptionView.js:135
+msgid "Console Viewer"
+msgstr "Konzol megjelenítő"
+
+#: ../www/manager/lxc/Options.js:101 ../www/manager/lxc/Options.js:105
+#: ../www/manager/lxc/Options.js:117
+msgid "Console mode"
+msgstr "Konzol mód"
+
+#: ../www/manager/Utils.js:726
+msgid "Container"
+msgstr "Konténer"
+
+#: ../www/manager/Utils.js:724
+msgid "Container template"
+msgstr "Konténer sablon"
+
+#: ../www/manager/openvz/Config.js:117 ../www/manager/lxc/Config.js:117
+msgid "Container {0} on node {1}"
+msgstr "{0} konténer a {1} csomóponton"
+
+#: ../www/manager/dc/StorageView.js:214 ../www/manager/storage/DirEdit.js:46
+#: ../www/manager/storage/ContentView.js:188
+#: ../www/manager/storage/StatusView.js:30
+#: ../www/manager/storage/ZFSPoolEdit.js:96
+#: ../www/manager/storage/NFSEdit.js:131 ../www/manager/storage/RBDEdit.js:70
+#: ../www/manager/storage/LVMEdit.js:191 ../www/manager/storage/Browser.js:37
+#: ../www/manager/storage/GlusterFsEdit.js:136
+msgid "Content"
+msgstr "Tartalom"
+
+#: ../www/manager/Utils.js:527 ../www/manager/qemu/CmdMenu.js:112
+msgid "Convert to template"
+msgstr "Sablonná alakít"
+
+#: ../www/manager/Utils.js:560
+msgid "Copy data"
+msgstr "Adat másolása"
+
+#: ../www/manager/qemu/ProcessorEdit.js:31
+msgid "Cores"
+msgstr "Mag"
+
+#: ../www/manager/Utils.js:521 ../www/manager/Utils.js:535
+#: ../www/manager/Utils.js:556 ../www/manager/Utils.js:558
+#: ../www/manager/Utils.js:922 ../www/manager/dc/PoolView.js:68
+#: ../www/manager/dc/GroupView.js:68 ../www/manager/dc/SecurityGroups.js:134
+#: ../www/manager/node/NetworkView.js:135 ../www/manager/panel/IPSet.js:95
+#: ../www/manager/ha/Groups.js:69 ../www/manager/ceph/Disks.js:38
+#: ../www/manager/ceph/Pool.js:98 ../www/manager/ceph/Monitor.js:118
+#: ../www/manager/window/Edit.js:198
+msgid "Create"
+msgstr "Létrehoz"
+
+#: ../www/manager/Workspace.js:342
+msgid "Create CT"
+msgstr "CT létrehozása"
+
+#: ../www/manager/Workspace.js:330
+msgid "Create VM"
+msgstr "VM létrehozása"
+
+#: ../www/manager/ceph/Pool.js:46
+msgid "Crush RuleSet"
+msgstr "RuleSet törése"
+
+#: ../www/manager/lxc/Network.js:196 ../www/manager/lxc/Network.js:255
+msgid "DHCP"
+msgstr "DHCP"
+
+#: ../www/manager/openvz/Config.js:139 ../www/manager/node/DNSEdit.js:44
+#: ../www/manager/node/Config.js:145 ../www/manager/lxc/Config.js:139
+#: ../www/manager/lxc/CreateWizard.js:175
+msgid "DNS"
+msgstr "DNS"
+
+#: ../www/manager/openvz/DNS.js:42 ../www/manager/openvz/DNS.js:46
+#: ../www/manager/openvz/DNS.js:50 ../www/manager/openvz/CreateWizard.js:231
+#: ../www/manager/lxc/DNS.js:43 ../www/manager/lxc/DNS.js:176
+msgid "DNS domain"
+msgstr "DNS tartomány"
+
+#: ../www/manager/openvz/DNS.js:56 ../www/manager/openvz/DNS.js:60
+#: ../www/manager/openvz/DNS.js:64 ../www/manager/openvz/CreateWizard.js:250
+#: ../www/manager/openvz/CreateWizard.js:259 ../www/manager/node/DNSEdit.js:22
+#: ../www/manager/node/DNSEdit.js:29 ../www/manager/node/DNSEdit.js:36
+#: ../www/manager/node/DNSView.js:26 ../www/manager/node/DNSView.js:27
+#: ../www/manager/node/DNSView.js:28 ../www/manager/lxc/DNS.js:62
+#: ../www/manager/lxc/DNS.js:71 ../www/manager/lxc/DNS.js:80
+#: ../www/manager/lxc/DNS.js:187
+msgid "DNS server"
+msgstr "DNS szerver"
+
+#: ../www/manager/tree/ResourceTree.js:189 ../www/manager/dc/Config.js:13
+msgid "Datacenter"
+msgstr "Adatközpont"
+
+#: ../www/manager/qemu/SnapshotTree.js:261
+#: ../www/manager/lxc/SnapshotTree.js:261
+msgid "Date"
+msgstr "Dátum"
+
+#: ../www/manager/dc/Backup.js:141 ../www/manager/dc/Backup.js:427
+msgid "Day of week"
+msgstr "Hét napja"
+
+#: ../www/manager/Utils.js:713 ../www/manager/dc/AuthEdit.js:84
+#: ../www/manager/dc/AuthEdit.js:111 ../www/manager/form/Boolean.js:10
+#: ../www/manager/grid/FirewallOptions.js:67 ../www/manager/lxc/Options.js:86
+msgid "Default"
+msgstr "Alapértelmezett"
+
+#: ../www/manager/Utils.js:520 ../www/manager/Utils.js:548
+msgid "Delete Snapshot"
+msgstr "Pillanatkép törlése"
+
+#: ../www/manager/qemu/HDMove.js:110
+msgid "Delete source"
+msgstr "Forrás törlése"
+
+#: ../www/manager/dc/Tasks.js:103 ../www/manager/form/IPProtocolSelector.js:86
+#: ../www/manager/grid/FirewallRules.js:37 ../www/manager/node/Tasks.js:147
+#: ../www/manager/node/APT.js:182 ../www/manager/node/ServiceView.js:139
+#: ../www/manager/data/ResourceStore.js:50
+#: ../www/manager/qemu/SnapshotTree.js:275 ../www/manager/qemu/Snapshot.js:100
+#: ../www/manager/lxc/SnapshotTree.js:275 ../www/manager/lxc/Snapshot.js:91
+#: ../www/manager/storage/ContentView.js:60 ../www/manager/ha/Resources.js:131
+msgid "Description"
+msgstr "Leírás"
+
+#: ../www/manager/grid/FirewallRules.js:210
+#: ../www/manager/grid/FirewallRules.js:703
+msgid "Dest. port"
+msgstr "Cél port"
+
+#: ../www/manager/grid/FirewallRules.js:148
+#: ../www/manager/grid/FirewallRules.js:687
+msgid "Destination"
+msgstr "Cél"
+
+#: ../www/manager/Utils.js:523 ../www/manager/Utils.js:537
+#: ../www/manager/Utils.js:557 ../www/manager/Utils.js:559
+msgid "Destroy"
+msgstr "Törlés"
+
+#: ../www/manager/window/TaskViewer.js:61
+msgid "Details"
+msgstr "Részletek"
+
+#: ../www/manager/ceph/Disks.js:62 ../www/manager/ceph/Disks.js:163
+msgid "Device"
+msgstr "Eszköz"
+
+#: ../www/manager/grid/FirewallRules.js:94
+msgid "Direction"
+msgstr "Irány"
+
+#: ../www/manager/Utils.js:721 ../www/manager/storage/DirEdit.js:38
+msgid "Directory"
+msgstr "Könyvtár"
+
+#: ../www/manager/qemu/HDEdit.js:233
+msgid "Discard"
+msgstr "Elvet"
+
+#: ../www/manager/qemu/NetworkEdit.js:164
+msgid "Disconnect"
+msgstr "Szétkapcsol"
+
+#: ../www/manager/Utils.js:109
+#: ../www/manager/form/HotplugFeatureSelector.js:49
+#: ../www/manager/qemu/HDMove.js:56 ../www/manager/qemu/HDResize.js:40
+#: ../www/manager/lxc/MPResize.js:43 ../www/manager/ceph/OSD.js:29
+msgid "Disk"
+msgstr "Lemez"
+
+#: ../www/manager/openvz/Summary.js:88 ../www/manager/qemu/Summary.js:83
+#: ../www/manager/lxc/Summary.js:88
+msgid "Disk IO"
+msgstr "Lemez IO"
+
+#: ../www/manager/qemu/HardwareView.js:356
+msgid "Disk Throttle"
+msgstr "Lemez visszafogás"
+
+#: ../www/manager/Utils.js:722 ../www/manager/qemu/HDEdit.js:126
+#: ../www/manager/qemu/HDEdit.js:147 ../www/manager/qemu/HDEdit.js:213
+msgid "Disk image"
+msgstr "Lemez képfájl"
+
+#: ../www/manager/openvz/RessourceView.js:51
+#: ../www/manager/openvz/RessourceEdit.js:46
+#: ../www/manager/data/ResourceStore.js:100 ../www/manager/qemu/HDEdit.js:159
+#: ../www/manager/lxc/CreateWizard.js:157
+msgid "Disk size"
+msgstr "Lemez méret"
+
+#: ../www/manager/data/ResourceStore.js:93
+msgid "Disk usage"
+msgstr "Lemez használat"
+
+#: ../www/manager/ceph/Config.js:120
+msgid "Disks"
+msgstr "Lemezek"
+
+#: ../www/manager/qemu/DisplayEdit.js:33
+#: ../www/manager/qemu/HardwareView.js:112
+msgid "Display"
+msgstr "Kijelző"
+
+#: ../www/manager/qemu/CDEdit.js:137
+msgid "Do not use any media"
+msgstr "Nem használj semmilyen médiát"
+
+#: ../www/manager/dc/OptionView.js:13 ../www/manager/dc/OptionView.js:106
+msgid "Do not use any proxy"
+msgstr "Ne használj proxy-t"
+
+#: ../www/manager/qemu/CmdMenu.js:115
+msgid "Do you really want to convert VM {0} into a template?"
+msgstr "Biztos benne, hogy a {0} VM-et sablonná konvertálja?"
+
+#: ../www/manager/qemu/Config.js:83 ../www/manager/VNCConsole.js:382
+msgid "Do you really want to reset VM {0}?"
+msgstr "Biztos benne, hogy a {0} VM-et alapállapotba állítja?"
+
+#: ../www/manager/node/Config.js:96
+msgid "Do you really want to restart node {0}?"
+msgstr "Biztos benne, hogy a {0} csomópontot újraindítja?"
+
+#: ../www/manager/openvz/CmdMenu.js:77 ../www/manager/lxc/CmdMenu.js:77
+msgid "Do you really want to shutdown CT {0}?"
+msgstr "Biztos benne, hogy a {0} CT-t leállítja?"
+
+#: ../www/manager/openvz/Config.js:68 ../www/manager/qemu/CmdMenu.js:76
+#: ../www/manager/qemu/Config.js:92 ../www/manager/lxc/Config.js:68
+#: ../www/manager/VNCConsole.js:353 ../www/manager/VNCConsole.js:488
+msgid "Do you really want to shutdown VM {0}?"
+msgstr "Biztos benne, hogy a {0} VM-et leállítja?"
+
+#: ../www/manager/node/Config.js:105
+msgid "Do you really want to shutdown node {0}?"
+msgstr "Biztos benne, hogy a {0} csomópontot leállítja?"
+
+#: ../www/manager/node/Config.js:41
+msgid "Do you really want to start all Vms on  node {0}?"
+msgstr "Biztos benne, hogy az összes VM-et elindítja a {0} csomóponton?"
+
+#: ../www/manager/openvz/CmdMenu.js:91 ../www/manager/lxc/CmdMenu.js:91
+msgid "Do you really want to stop CT {0}?"
+msgstr "Biztos benne, hogy a {0} CT-t megállítja?"
+
+#: ../www/manager/openvz/Config.js:59 ../www/manager/qemu/CmdMenu.js:90
+#: ../www/manager/qemu/Config.js:61 ../www/manager/lxc/Config.js:59
+#: ../www/manager/VNCConsole.js:365 ../www/manager/VNCConsole.js:500
+msgid "Do you really want to stop VM {0}?"
+msgstr "Biztos benne, hogy a {0} VM-et megállítja?"
+
+#: ../www/manager/node/Config.js:62
+msgid "Do you really want to stop all Vms on  node {0}?"
+msgstr "Biztos benne, hogy az összes VM-et megállítja a {0} csomóponton?"
+
+#: ../www/manager/openvz/CmdMenu.js:56 ../www/manager/lxc/CmdMenu.js:56
+msgid "Do you really want to suspend CT {0}?"
+msgstr "Biztos benne, hogy a {0} CT futását felfüggeszti?"
+
+#: ../www/manager/qemu/CmdMenu.js:56 ../www/manager/VNCConsole.js:394
+msgid "Do you really want to suspend VM {0}?"
+msgstr "Biztos benne, hogy a {0} VM futását felfüggeszti?"
+
+#: ../www/manager/dc/AuthEdit.js:42
+msgid "Domain"
+msgstr "Tartomány"
+
+#: ../www/manager/Utils.js:562 ../www/manager/storage/ContentView.js:105
+msgid "Download"
+msgstr "Letöltés"
+
+#: ../www/manager/dc/UserEdit.js:119
+msgid "E-Mail"
+msgstr "E-mail"
+
+#: ../www/manager/openvz/DNS.js:103 ../www/manager/openvz/Options.js:139
+#: ../www/manager/openvz/RessourceView.js:92
+#: ../www/manager/openvz/Network.js:337 ../www/manager/Utils.js:925
+#: ../www/manager/dc/OptionView.js:175 ../www/manager/dc/PoolView.js:60
+#: ../www/manager/dc/UserView.js:124 ../www/manager/dc/AuthView.js:38
+#: ../www/manager/dc/GroupView.js:60 ../www/manager/dc/Backup.js:359
+#: ../www/manager/dc/StorageView.js:66 ../www/manager/dc/SecurityGroups.js:127
+#: ../www/manager/grid/FirewallAliases.js:128
+#: ../www/manager/grid/FirewallOptions.js:199
+#: ../www/manager/grid/FirewallRules.js:536
+#: ../www/manager/node/NetworkView.js:66 ../www/manager/node/TimeView.js:43
+#: ../www/manager/node/DNSView.js:32 ../www/manager/qemu/Options.js:300
+#: ../www/manager/qemu/SnapshotTree.js:131 ../www/manager/qemu/Snapshot.js:131
+#: ../www/manager/qemu/HardwareView.js:335 ../www/manager/lxc/DNS.js:239
+#: ../www/manager/lxc/Options.js:181 ../www/manager/lxc/Resources.js:142
+#: ../www/manager/lxc/SnapshotTree.js:131 ../www/manager/lxc/Snapshot.js:122
+#: ../www/manager/lxc/Network.js:439 ../www/manager/panel/IPSet.js:88
+#: ../www/manager/panel/IPSet.js:322 ../www/manager/ha/Groups.js:54
+#: ../www/manager/ha/Resources.js:80
+msgid "Edit"
+msgstr "Szerkeszt"
+
+#: ../www/manager/dc/OptionView.js:84 ../www/manager/dc/OptionView.js:92
+#: ../www/manager/dc/OptionView.js:141
+msgid "Email from address"
+msgstr "Feladó emailcíme"
+
+#: ../www/manager/dc/Backup.js:165
+msgid "Email notification"
+msgstr "Email értesítés"
+
+#: ../www/manager/dc/Backup.js:185 ../www/manager/dc/StorageView.js:240
+#: ../www/manager/grid/FirewallRules.js:160
+#: ../www/manager/grid/FirewallRules.js:346
+#: ../www/manager/grid/FirewallRules.js:623
+#: ../www/manager/storage/DirEdit.js:57
+#: ../www/manager/storage/ZFSPoolEdit.js:108
+#: ../www/manager/storage/IScsiEdit.js:143
+#: ../www/manager/storage/NFSEdit.js:151 ../www/manager/storage/RBDEdit.js:65
+#: ../www/manager/storage/LVMEdit.js:213 ../www/manager/storage/ZFSEdit.js:81
+#: ../www/manager/storage/GlusterFsEdit.js:156
+#: ../www/manager/storage/SheepdogEdit.js:51
+msgid "Enable"
+msgstr "Engedélyez"
+
+#: ../www/manager/lxc/Options.js:55 ../www/manager/lxc/Options.js:60
+#: ../www/manager/lxc/Options.js:68
+msgid "Enable /dev/console"
+msgstr "/dev/console engedélyezése"
+
+#: ../www/manager/grid/FirewallOptions.js:119
+msgid "Enable DHCP"
+msgstr "DHCP engedélyezése"
+
+#: ../www/manager/grid/FirewallOptions.js:107
+#: ../www/manager/grid/FirewallOptions.js:118
+#: ../www/manager/grid/FirewallOptions.js:124
+msgid "Enable Firewall"
+msgstr "Tűzfal engedélyezése"
+
+#: ../www/manager/qemu/ProcessorEdit.js:43
+msgid "Enable numa"
+msgstr "Numa engedélyezése"
+
+#: ../www/manager/dc/UserEdit.js:97 ../www/manager/dc/UserView.js:199
+#: ../www/manager/dc/Backup.js:408 ../www/manager/qemu/Options.js:120
+#: ../www/manager/qemu/Options.js:155 ../www/manager/qemu/Options.js:179
+#: ../www/manager/qemu/Options.js:254 ../www/manager/lxc/Options.js:134
+#: ../www/manager/storage/StatusView.js:20
+msgid "Enabled"
+msgstr "Engedélyezve"
+
+#: ../www/manager/dc/Tasks.js:75 ../www/manager/node/Tasks.js:129
+msgid "End Time"
+msgstr "Befejezési idő"
+
+#: ../www/manager/window/LoginWindow.js:96
+msgid "Enter your password"
+msgstr "Adja meg a jelszavát"
+
+#: ../www/manager/window/LoginWindow.js:73
+msgid "Enter your user name"
+msgstr "Adja meg a felhasználónevét"
+
+#: ../www/manager/Utils.js:561
+msgid "Erase data"
+msgstr "Adat törlése"
+
+#: ../www/manager/openvz/CmdMenu.js:25
+#: ../www/manager/openvz/CreateWizard.js:328
+#: ../www/manager/openvz/Network.js:204 ../www/manager/openvz/Network.js:310
+#: ../www/manager/Utils.js:488 ../www/manager/Utils.js:711
+#: ../www/manager/Workspace.js:169 ../www/manager/dc/Support.js:49
+#: ../www/manager/dc/PoolView.js:40 ../www/manager/dc/UserView.js:104
+#: ../www/manager/dc/AuthView.js:66 ../www/manager/dc/ACLView.js:176
+#: ../www/manager/dc/GroupView.js:40 ../www/manager/dc/Backup.js:379
+#: ../www/manager/dc/StorageView.js:89 ../www/manager/dc/SecurityGroups.js:157
+#: ../www/manager/grid/FirewallAliases.js:159
+#: ../www/manager/grid/FirewallRules.js:433
+#: ../www/manager/grid/FirewallRules.js:460
+#: ../www/manager/grid/FirewallRules.js:481
+#: ../www/manager/grid/PoolMembers.js:133 ../www/manager/node/APT.js:58
+#: ../www/manager/node/APT.js:122 ../www/manager/node/ServiceView.js:42
+#: ../www/manager/node/NetworkEdit.js:309 ../www/manager/node/Config.js:27
+#: ../www/manager/node/NetworkView.js:33 ../www/manager/node/NetworkView.js:92
+#: ../www/manager/node/NetworkView.js:212 ../www/manager/node/Summary.js:38
+#: ../www/manager/node/Subscription.js:106
+#: ../www/manager/qemu/NetworkEdit.js:210 ../www/manager/qemu/HDEdit.js:291
+#: ../www/manager/qemu/HDThrottle.js:201
+#: ../www/manager/qemu/TemplateMenu.js:27
+#: ../www/manager/qemu/SnapshotTree.js:163
+#: ../www/manager/qemu/SnapshotTree.js:199 ../www/manager/qemu/Snapshot.js:19
+#: ../www/manager/qemu/Snapshot.js:39 ../www/manager/qemu/Snapshot.js:183
+#: ../www/manager/qemu/Smbios1Edit.js:106
+#: ../www/manager/qemu/CreateWizard.js:163 ../www/manager/qemu/HDResize.js:16
+#: ../www/manager/lxc/CmdMenu.js:25 ../www/manager/lxc/MPResize.js:16
+#: ../www/manager/lxc/SnapshotTree.js:163
+#: ../www/manager/lxc/SnapshotTree.js:199 ../www/manager/lxc/Snapshot.js:19
+#: ../www/manager/lxc/Snapshot.js:39 ../www/manager/lxc/Snapshot.js:174
+#: ../www/manager/lxc/CreateWizard.js:238 ../www/manager/lxc/Network.js:341
+#: ../www/manager/lxc/Network.js:412 ../www/manager/panel/NotesView.js:11
+#: ../www/manager/panel/IPSet.js:138 ../www/manager/panel/IPSet.js:359
+#: ../www/manager/storage/ContentView.js:117
+#: ../www/manager/storage/ContentView.js:213
+#: ../www/manager/storage/ContentView.js:267
+#: ../www/manager/storage/ContentView.js:271
+#: ../www/manager/storage/ContentView.js:280
+#: ../www/manager/storage/ContentView.js:420 ../www/manager/ha/Groups.js:47
+#: ../www/manager/ha/Resources.js:73 ../www/manager/ceph/OSD.js:137
+#: ../www/manager/ceph/OSD.js:159 ../www/manager/ceph/Pool.js:130
+#: ../www/manager/ceph/Config.js:12 ../www/manager/ceph/Monitor.js:81
+#: ../www/manager/ceph/Monitor.js:94 ../www/manager/ceph/Monitor.js:135
+#: ../www/manager/ceph/Monitor.js:149 ../www/manager/ceph/Crush.js:12
+#: ../www/manager/VNCConsole.js:289 ../www/manager/window/Edit.js:111
+#: ../www/manager/window/Edit.js:156 ../www/manager/window/Restore.js:64
+#: ../www/manager/window/LoginWindow.js:16 ../www/manager/window/Migrate.js:14
+#: ../www/manager/window/TaskViewer.js:156
+msgid "Error"
+msgstr "Hiba"
+
+#: ../www/manager/Toolkit.js:13 ../www/manager/Toolkit.js:19
+#: ../www/manager/Toolkit.js:25 ../www/manager/Toolkit.js:31
+#: ../www/manager/Toolkit.js:37 ../www/manager/Toolkit.js:43
+#: ../www/manager/Toolkit.js:50 ../www/manager/Toolkit.js:86
+msgid "Example"
+msgstr "Példa"
+
+#: ../www/manager/dc/Backup.js:31
+msgid "Exclude selected VMs"
+msgstr "Kiválasztott VM-e kizárása"
+
+#: ../www/manager/storage/LVMEdit.js:48
+msgid "Existing volume groups"
+msgstr "Létező kötetcsoportok"
+
+#: ../www/manager/dc/UserEdit.js:93 ../www/manager/dc/UserView.js:206
+msgid "Expire"
+msgstr "Lejárat"
+
+#: ../www/manager/openvz/BeanCounterGrid.js:81
+msgid "Failcnt"
+msgstr "Hibaszámláló"
+
+#: ../www/manager/dc/AuthEdit.js:101
+msgid "Fallback Server"
+msgstr "Fallback szerver"
+
+#: ../www/manager/qemu/Smbios1Edit.js:70
+msgid "Family"
+msgstr "Család"
+
+#: ../www/manager/ha/Config.js:28
+msgid "Fencing"
+msgstr "Elkerítés"
+
+#: ../www/manager/window/Wizard.js:114
+msgid "Finish"
+msgstr "Befejez"
+
+#: ../www/manager/openvz/Config.js:175
+#: ../www/manager/openvz/CreateWizard.js:202
+#: ../www/manager/openvz/Network.js:92 ../www/manager/dc/Config.js:89
+#: ../www/manager/node/Config.js:180 ../www/manager/qemu/NetworkEdit.js:104
+#: ../www/manager/qemu/Config.js:197 ../www/manager/lxc/Config.js:188
+#: ../www/manager/lxc/Network.js:147 ../www/manager/lxc/Network.js:490
+msgid "Firewall"
+msgstr "Tűzfal"
+
+#: ../www/manager/dc/UserEdit.js:109
+msgid "First Name"
+msgstr "Keresztnév"
+
+#: ../www/manager/form/ViewSelector.js:14
+msgid "Folder View"
+msgstr "Mappa nézet"
+
+#: ../www/manager/Utils.js:371
+msgid "Form fields may not be submitted with invalid values"
+msgstr "Az űrlap mezői nem küldhetőek el érvénytelen értékekkel"
+
+#: ../www/manager/form/FileSelector.js:58
+#: ../www/manager/grid/BackupView.js:189 ../www/manager/qemu/Clone.js:218
+#: ../www/manager/qemu/HDMove.js:96 ../www/manager/qemu/HDEdit.js:138
+#: ../www/manager/Toolkit.js:55 ../www/manager/Toolkit.js:60
+#: ../www/manager/Toolkit.js:65 ../www/manager/Toolkit.js:71
+#: ../www/manager/storage/ContentView.js:478
+msgid "Format"
+msgstr "Formátum"
+
+#: ../www/manager/qemu/Options.js:184 ../www/manager/qemu/Options.js:189
+#: ../www/manager/qemu/Options.js:197
+msgid "Freeze CPU at startup"
+msgstr "CPU fagyasztása indításkor"
+
+#: ../www/manager/qemu/Clone.js:141
+msgid "Full Clone"
+msgstr "Teljes klón"
+
+#: ../www/manager/node/NetworkEdit.js:241
+#: ../www/manager/node/NetworkEdit.js:282
+#: ../www/manager/node/NetworkView.js:287 ../www/manager/lxc/Network.js:218
+#: ../www/manager/lxc/Network.js:285 ../www/manager/lxc/Network.js:520
+#: ../www/manager/storage/SheepdogEdit.js:40
+msgid "Gateway"
+msgstr "Átjáró"
+
+#: ../www/manager/openvz/CreateWizard.js:60
+#: ../www/manager/qemu/CreateWizard.js:44
+#: ../www/manager/lxc/CreateWizard.js:58
+msgid "General"
+msgstr "Általános"
+
+#: ../www/manager/qemu/DisplayEdit.js:28
+msgid "Graphic card"
+msgstr "Grafikus kártya"
+
+#: ../www/manager/dc/UserEdit.js:85 ../www/manager/dc/ACLView.js:26
+#: ../www/manager/dc/ACLView.js:113 ../www/manager/dc/GroupEdit.js:22
+#: ../www/manager/dc/SecurityGroups.js:166
+#: ../www/manager/dc/SecurityGroups.js:169
+#: ../www/manager/form/GroupSelector.js:22
+#: ../www/manager/ha/GroupSelector.js:24 ../www/manager/ha/Groups.js:80
+#: ../www/manager/ha/Resources.js:122 ../www/manager/ha/ResourceEdit.js:52
+msgid "Group"
+msgstr "Csoport"
+
+#: ../www/manager/dc/ACLView.js:22 ../www/manager/dc/ACLView.js:194
+msgid "Group Permission"
+msgstr "Csoport jogosultságok"
+
+#: ../www/manager/dc/Config.js:58 ../www/manager/ha/Config.js:23
+msgid "Groups"
+msgstr "Csoportok"
+
+#: ../www/manager/ha/GroupEdit.js:90
+msgid "HA Group"
+msgstr "HA csoport"
+
+#: ../www/manager/node/StatusView.js:51
+msgid "HD space"
+msgstr "HD hely"
+
+#: ../www/manager/dc/OptionView.js:8 ../www/manager/dc/OptionView.js:16
+#: ../www/manager/dc/OptionView.js:124
+msgid "HTTP proxy"
+msgstr "HTTP proxy"
+
+#: ../www/manager/qemu/HDEdit.js:275 ../www/manager/qemu/HDEdit.js:277
+#: ../www/manager/qemu/HDThrottle.js:188
+#: ../www/manager/qemu/HardwareView.js:153
+#: ../www/manager/qemu/HardwareView.js:164
+#: ../www/manager/qemu/HardwareView.js:175
+#: ../www/manager/qemu/HardwareView.js:186
+#: ../www/manager/qemu/HardwareView.js:470
+#: ../www/manager/qemu/CreateWizard.js:29
+msgid "Hard Disk"
+msgstr "Merevlemez"
+
+#: ../www/manager/qemu/Config.js:140
+msgid "Hardware"
+msgstr "Hardver"
+
+#: ../www/manager/node/NetworkEdit.js:109
+msgid "Hash policy"
+msgstr "Hash szabály"
+
+#: ../www/manager/openvz/BeanCounterGrid.js:57
+msgid "Held"
+msgstr "Tartva"
+
+#: ../www/manager/ceph/Monitor.js:34 ../www/manager/ceph/Monitor.js:169
+msgid "Host"
+msgstr "Hoszt"
+
+#: ../www/manager/openvz/Network.js:107 ../www/manager/openvz/Network.js:424
+msgid "Host MAC address"
+msgstr "Hoszt MAC címe"
+
+#: ../www/manager/openvz/Network.js:99
+msgid "Host device name"
+msgstr "Hoszt eszköznév"
+
+#: ../www/manager/storage/ZFSEdit.js:110
+msgid "Host group"
+msgstr "Hoszt csoport"
+
+#: ../www/manager/openvz/Network.js:419
+msgid "Host ifname"
+msgstr "Hoszt if neve"
+
+#: ../www/manager/openvz/DNS.js:26 ../www/manager/openvz/DNS.js:29
+#: ../www/manager/openvz/DNS.js:35 ../www/manager/openvz/CreateWizard.js:89
+#: ../www/manager/lxc/DNS.js:160 ../www/manager/lxc/DNS.js:163
+#: ../www/manager/lxc/DNS.js:169 ../www/manager/lxc/CreateWizard.js:87
+msgid "Hostname"
+msgstr "Hosztnév"
+
+#: ../www/manager/qemu/Options.js:125 ../www/manager/qemu/Options.js:130
+#: ../www/manager/qemu/Options.js:136
+msgid "Hotplug"
+msgstr "Hotplug"
+
+#: ../www/manager/lxc/Network.js:82 ../www/manager/lxc/Network.js:475
+msgid "ID"
+msgstr "ID"
+
+#: ../www/manager/node/StatusView.js:47
+msgid "IO delay"
+msgstr "IO késleltetés"
+
+#: ../www/manager/openvz/CreateWizard.js:176
+#: ../www/manager/openvz/Network.js:147 ../www/manager/openvz/Network.js:153
+#: ../www/manager/openvz/Network.js:170 ../www/manager/openvz/Network.js:360
+#: ../www/manager/openvz/Network.js:403 ../www/manager/node/NetworkEdit.js:209
+#: ../www/manager/node/NetworkView.js:267 ../www/manager/lxc/Network.js:506
+msgid "IP address"
+msgstr "IP cím"
+
+#: ../www/manager/grid/FirewallAliases.js:32
+#: ../www/manager/grid/FirewallAliases.js:173
+#: ../www/manager/panel/IPSet.js:207 ../www/manager/panel/IPSet.js:215
+#: ../www/manager/panel/IPSet.js:243 ../www/manager/panel/IPSet.js:392
+msgid "IP/CIDR"
+msgstr "IP/CIDR"
+
+#: ../www/manager/lxc/Network.js:178 ../www/manager/lxc/Network.js:218
+msgid "IPv4"
+msgstr "IPv4"
+
+#: ../www/manager/lxc/Network.js:210
+msgid "IPv4/CIDR"
+msgstr "IPv4/CIDR"
+
+#: ../www/manager/lxc/Network.js:237 ../www/manager/lxc/Network.js:285
+msgid "IPv6"
+msgstr "IPv6"
+
+#: ../www/manager/node/NetworkEdit.js:248
+msgid "IPv6 address"
+msgstr "IPv6 cím"
+
+#: ../www/manager/lxc/Network.js:277
+msgid "IPv6/CIDR"
+msgstr "IPv6/CIDR"
+
+#: ../www/manager/qemu/CDEdit.js:103
+msgid "ISO Image"
+msgstr "ISO képfájl"
+
+#: ../www/manager/Utils.js:725
+msgid "ISO image"
+msgstr "ISO képfájl"
+
+#: ../www/manager/qemu/Snapshot.js:92
+msgid "Include RAM"
+msgstr "Memóriatartalommal"
+
+#: ../www/manager/dc/Backup.js:29
+msgid "Include selected VMs"
+msgstr "Kiválasztott VM-ekkel"
+
+#: ../www/manager/grid/FirewallOptions.js:129
+#: ../www/manager/grid/FirewallOptions.js:134
+#: ../www/manager/grid/FirewallOptions.js:139
+msgid "Input Policy"
+msgstr "Input Policy"
+
+#: ../www/manager/grid/FirewallRules.js:558
+msgid "Insert"
+msgstr "Beilleszt"
+
+#: ../www/manager/grid/FirewallRules.js:113
+#: ../www/manager/grid/FirewallRules.js:332
+#: ../www/manager/grid/FirewallRules.js:668
+msgid "Interface"
+msgstr "Interfész"
+
+#: ../www/manager/qemu/HDEdit.js:239
+msgid "Iothread"
+msgstr "Iothread"
+
+#: ../www/manager/ceph/OSD.js:37
+msgid "Journal Disk"
+msgstr "Journal lemez"
+
+#: ../www/manager/storage/RBDEdit.js:80
+msgid "KRBD"
+msgstr "KRBD"
+
+#: ../www/manager/node/StatusView.js:50
+msgid "KSM sharing"
+msgstr "KSM megosztás"
+
+#: ../www/manager/qemu/Options.js:166 ../www/manager/qemu/Options.js:171
+msgid "KVM hardware virtualization"
+msgstr "KVM hardver virtualizáció"
+
+#: ../www/manager/node/StatusView.js:53
+msgid "Kernel version"
+msgstr "Kernel verzió"
+
+#: ../www/manager/qemu/Snapshot.js:110 ../www/manager/lxc/Snapshot.js:101
+msgid "Key"
+msgstr "Kulcs"
+
+#: ../www/manager/dc/UserEdit.js:133
+msgid "Key IDs"
+msgstr "Kulcs ID"
+
+#: ../www/manager/dc/OptionView.js:33 ../www/manager/dc/OptionView.js:38
+#: ../www/manager/dc/OptionView.js:118 ../www/manager/qemu/KeyboardEdit.js:8
+#: ../www/manager/qemu/KeyboardEdit.js:13
+#: ../www/manager/qemu/HardwareView.js:104
+msgid "Keyboard Layout"
+msgstr "Billentyűzet kiosztás"
+
+#: ../www/manager/dc/AuthView.js:88 ../www/manager/dc/AuthEdit.js:49
+msgid "LDAP Server"
+msgstr "LDAP szerver"
+
+#: ../www/manager/tree/ResourceTree.js:25
+#: ../www/manager/lxc/CreateWizard.js:54
+msgid "LXC Container"
+msgstr "LXC konténer"
+
+#: ../www/manager/window/LoginWindow.js:123
+msgid "Language"
+msgstr "Nyelv"
+
+#: ../www/manager/dc/UserEdit.js:114
+msgid "Last Name"
+msgstr "Keresztnév"
+
+#: ../www/manager/node/Subscription.js:75
+msgid "Last checked"
+msgstr "Legutóbbi ellenőrzés"
+
+#: ../www/manager/ceph/OSD.js:329
+msgid "Latency (ms)"
+msgstr "Késleltetés (ms)"
+
+#: ../www/manager/openvz/BeanCounterGrid.js:75
+msgid "Limit"
+msgstr "Határ"
+
+#: ../www/manager/qemu/Clone.js:143
+msgid "Linked Clone"
+msgstr "Láncolt klón"
+
+#: ../www/manager/node/StatusView.js:44
+msgid "Load average"
+msgstr "Átlagos terhelés"
+
+#: ../www/manager/Utils.js:1053
+msgid "Loading..."
+msgstr "Betöltés..."
+
+#: ../www/manager/ceph/Config.js:139
+msgid "Log"
+msgstr "Napló"
+
+#: ../www/manager/window/LoginWindow.js:139
+msgid "Login"
+msgstr "Bejelentkezés"
+
+#: ../www/manager/window/LoginWindow.js:17
+msgid "Login failed. Please try again"
+msgstr "Sikertelen bejelentkezés. Kérjük próbálja újra"
+
+#: ../www/manager/Workspace.js:398
+msgid "Logout"
+msgstr "Kijelentkezés"
+
+#: ../www/manager/openvz/Network.js:71 ../www/manager/openvz/Network.js:414
+#: ../www/manager/qemu/NetworkEdit.js:138 ../www/manager/lxc/Network.js:126
+#: ../www/manager/lxc/Network.js:501
+msgid "MAC address"
+msgstr "MAC cím"
+
+#: ../www/manager/grid/FirewallOptions.js:120
+msgid "MAC filter"
+msgstr "MAC szűrő"
+
+#: ../www/manager/grid/FirewallRules.js:31
+#: ../www/manager/grid/FirewallRules.js:166
+#: ../www/manager/grid/FirewallRules.js:657
+msgid "Macro"
+msgstr "Makró"
+
+#: ../www/manager/openvz/StatusView.js:68 ../www/manager/qemu/StatusView.js:50
+#: ../www/manager/lxc/StatusView.js:68
+msgid "Managed by HA"
+msgstr "HA kezelésben"
+
+#: ../www/manager/qemu/Smbios1Edit.js:40
+msgid "Manufacturer"
+msgstr "Gyártó"
+
+#: ../www/manager/storage/DirEdit.js:67 ../www/manager/storage/NFSEdit.js:155
+#: ../www/manager/storage/GlusterFsEdit.js:160
+msgid "Max Backups"
+msgstr "Max biztonsági mentés"
+
+#: ../www/manager/openvz/BeanCounterGrid.js:63
+msgid "Maxheld"
+msgstr "Maxheld"
+
+#: ../www/manager/qemu/MemoryEdit.js:80
+msgid "Maximum memory"
+msgstr "Maximum memória"
+
+#: ../www/manager/pool/Config.js:23
+msgid "Members"
+msgstr "Tagok"
+
+#: ../www/manager/openvz/RessourceView.js:29
+#: ../www/manager/openvz/RessourceEdit.js:20 ../www/manager/Utils.js:115
+#: ../www/manager/form/HotplugFeatureSelector.js:52
+#: ../www/manager/qemu/MemoryEdit.js:57 ../www/manager/qemu/MemoryEdit.js:154
+#: ../www/manager/qemu/HardwareView.js:45
+#: ../www/manager/qemu/CreateWizard.js:109 ../www/manager/lxc/Resources.js:40
+#: ../www/manager/lxc/CreateWizard.js:169
+#: ../www/manager/lxc/ResourceEdit.js:10
+msgid "Memory"
+msgstr "Memória"
+
+#: ../www/manager/lxc/ResourceEdit.js:97
+msgid "Memory (MB)"
+msgstr "Memória (MB)"
+
+#: ../www/manager/data/ResourceStore.js:115
+msgid "Memory size"
+msgstr "Memória mérete"
+
+#: ../www/manager/openvz/StatusView.js:63 ../www/manager/openvz/Summary.js:74
+#: ../www/manager/form/NodeSelector.js:49 ../www/manager/node/Summary.js:120
+#: ../www/manager/data/ResourceStore.js:108
+#: ../www/manager/qemu/StatusView.js:47 ../www/manager/qemu/Summary.js:69
+#: ../www/manager/lxc/StatusView.js:63 ../www/manager/lxc/Summary.js:74
+msgid "Memory usage"
+msgstr "Memória használat"
+
+#: ../www/manager/dc/Log.js:76
+msgid "Message"
+msgstr "Üzenet"
+
+#: ../www/manager/openvz/CmdMenu.js:41 ../www/manager/openvz/Config.js:75
+#: ../www/manager/Utils.js:524 ../www/manager/Utils.js:538
+#: ../www/manager/Utils.js:549 ../www/manager/qemu/CmdMenu.js:41
+#: ../www/manager/qemu/TemplateMenu.js:36 ../www/manager/qemu/Config.js:68
+#: ../www/manager/lxc/CmdMenu.js:41 ../www/manager/lxc/Config.js:75
+#: ../www/manager/window/Migrate.js:79 ../www/manager/window/Migrate.js:87
+msgid "Migrate"
+msgstr "Migrálás"
+
+#: ../www/manager/node/Config.js:80
+msgid "Migrate All VMs"
+msgstr "Összes VM migrálása"
+
+#: ../www/manager/Utils.js:567
+msgid "Migrate all VMs and Containers"
+msgstr "Összes VM és konténer migrálása"
+
+#: ../www/manager/ceph/Pool.js:37
+msgid "Min. Size"
+msgstr "Min. méret"
+
+#: ../www/manager/qemu/MemoryEdit.js:102
+msgid "Minimum memory"
+msgstr "Minimum memória"
+
+#: ../www/manager/dc/Backup.js:179 ../www/manager/node/NetworkEdit.js:117
+#: ../www/manager/node/NetworkEdit.js:191 ../www/manager/qemu/Clone.js:147
+#: ../www/manager/window/Backup.js:41
+msgid "Mode"
+msgstr "Mód"
+
+#: ../www/manager/qemu/NetworkEdit.js:131 ../www/manager/ceph/Disks.js:94
+msgid "Model"
+msgstr "Modell"
+
+#: ../www/manager/qemu/Config.js:160 ../www/manager/ceph/Config.js:115
+msgid "Monitor"
+msgstr "Monitor"
+
+#: ../www/manager/storage/RBDEdit.js:46
+msgid "Monitor Host"
+msgstr "Hoszt monitorozása"
+
+#: ../www/manager/node/Config.js:33
+msgid "More"
+msgstr "Több"
+
+#: ../www/manager/Utils.js:541
+msgid "Mount"
+msgstr "Csatol"
+
+#: ../www/manager/lxc/Resources.js:89
+msgid "Mount Point"
+msgstr "Csatolási pont"
+
+#: ../www/manager/Utils.js:526 ../www/manager/qemu/HDMove.js:130
+#: ../www/manager/qemu/HDMove.js:132 ../www/manager/qemu/HardwareView.js:349
+msgid "Move disk"
+msgstr "Lemez mozgatása"
+
+#: ../www/manager/qemu/NetworkEdit.js:156
+msgid "Multiqueues"
+msgstr "Multiqueues"
+
+#: ../www/manager/qemu/NetworkEdit.js:113
+msgid "NAT mode"
+msgstr "NAT mód"
+
+#: ../www/manager/openvz/StatusView.js:58 ../www/manager/openvz/Network.js:58
+#: ../www/manager/openvz/Network.js:403 ../www/manager/dc/RoleView.js:40
+#: ../www/manager/dc/PoolEdit.js:28 ../www/manager/dc/PoolView.js:90
+#: ../www/manager/dc/UserView.js:213 ../www/manager/dc/GroupView.js:90
+#: ../www/manager/dc/GroupEdit.js:28 ../www/manager/dc/Backup.js:102
+#: ../www/manager/dc/SecurityGroups.js:24 ../www/manager/dc/Summary.js:38
+#: ../www/manager/form/FileSelector.js:52
+#: ../www/manager/form/IPRefSelector.js:59
+#: ../www/manager/form/UserSelector.js:34
+#: ../www/manager/form/StorageSelector.js:76
+#: ../www/manager/grid/FirewallAliases.js:26
+#: ../www/manager/grid/FirewallAliases.js:172
+#: ../www/manager/grid/BackupView.js:182 ../www/manager/grid/ObjectGrid.js:93
+#: ../www/manager/node/ServiceView.js:127
+#: ../www/manager/node/NetworkEdit.js:178
+#: ../www/manager/node/NetworkView.js:229
+#: ../www/manager/data/ResourceStore.js:87 ../www/manager/qemu/Clone.js:191
+#: ../www/manager/qemu/StatusView.js:43 ../www/manager/qemu/Options.js:26
+#: ../www/manager/qemu/Options.js:29 ../www/manager/qemu/Options.js:35
+#: ../www/manager/qemu/SnapshotTree.js:237 ../www/manager/qemu/Snapshot.js:73
+#: ../www/manager/qemu/CreateWizard.js:73 ../www/manager/lxc/StatusView.js:58
+#: ../www/manager/lxc/SnapshotTree.js:237 ../www/manager/lxc/Snapshot.js:73
+#: ../www/manager/lxc/Network.js:105 ../www/manager/lxc/Network.js:480
+#: ../www/manager/panel/IPSet.js:72 ../www/manager/panel/IPSet.js:107
+#: ../www/manager/storage/ContentView.js:471 ../www/manager/ceph/Pool.js:22
+#: ../www/manager/ceph/Pool.js:144 ../www/manager/ceph/Monitor.js:162
+msgid "Name"
+msgstr "Név"
+
+#: ../www/manager/openvz/Config.js:134
+#: ../www/manager/openvz/CreateWizard.js:153
+#: ../www/manager/openvz/Network.js:171 ../www/manager/Utils.js:111
+#: ../www/manager/form/HotplugFeatureSelector.js:50
+#: ../www/manager/node/Config.js:140 ../www/manager/qemu/BootOrderEdit.js:74
+#: ../www/manager/qemu/CreateWizard.js:35 ../www/manager/lxc/Config.js:134
+#: ../www/manager/lxc/CreateWizard.js:47
+msgid "Network"
+msgstr "Hálózat"
+
+#: ../www/manager/openvz/Network.js:47 ../www/manager/openvz/Network.js:172
+#: ../www/manager/openvz/Network.js:374 ../www/manager/Utils.js:127
+#: ../www/manager/qemu/NetworkEdit.js:196
+#: ../www/manager/qemu/HardwareView.js:197
+#: ../www/manager/qemu/HardwareView.js:496 ../www/manager/lxc/Network.js:318
+msgid "Network Device"
+msgstr "Hálózati eszköz"
+
+#: ../www/manager/openvz/Summary.js:81 ../www/manager/node/Summary.js:126
+#: ../www/manager/qemu/Summary.js:76 ../www/manager/lxc/Summary.js:81
+msgid "Network traffic"
+msgstr "Hálózati forgalom"
+
+#: ../www/manager/window/Wizard.js:90
+msgid "Next"
+msgstr "Következő"
+
+#: ../www/manager/node/Subscription.js:79
+msgid "Next due date"
+msgstr "Következő határidő"
+
+#: ../www/manager/Utils.js:709 ../www/manager/form/Boolean.js:12
+msgid "No"
+msgstr "Nem"
+
+#: ../www/manager/qemu/HDEdit.js:227
+msgid "No backup"
+msgstr "Nincs biztonsági mentés"
+
+#: ../www/manager/form/CacheTypeSelector.js:9
+#: ../www/manager/form/CacheTypeSelector.js:14
+msgid "No cache"
+msgstr "Nincs gyorstár"
+
+#: ../www/manager/node/NetworkView.js:41
+#: ../www/manager/node/NetworkView.js:318
+msgid "No changes"
+msgstr "Nincsenek változások"
+
+#: ../www/manager/qemu/NetworkEdit.js:123
+msgid "No network device"
+msgstr "Nincs hálózati eszköz"
+
+#: ../www/manager/storage/DirEdit.js:82
+#: ../www/manager/storage/ZFSPoolEdit.js:125
+#: ../www/manager/storage/IScsiEdit.js:134
+#: ../www/manager/storage/NFSEdit.js:142 ../www/manager/storage/RBDEdit.js:90
+#: ../www/manager/storage/LVMEdit.js:204 ../www/manager/storage/ZFSEdit.js:121
+#: ../www/manager/storage/GlusterFsEdit.js:147
+#: ../www/manager/storage/SheepdogEdit.js:61
+msgid "No restrictions"
+msgstr "Nincsenek megszorítások"
+
+#: ../www/manager/node/APT.js:153
+msgid "No updates available."
+msgstr "Nem érhető el frissítés."
+
+#: ../www/manager/Utils.js:495
+msgid "No valid subscription"
+msgstr "Nem található érvényes előfizetés"
+
+#: ../www/manager/openvz/CreateWizard.js:65 ../www/manager/dc/Tasks.js:93
+#: ../www/manager/dc/Log.js:50 ../www/manager/dc/Backup.js:87
+#: ../www/manager/dc/Backup.js:115 ../www/manager/dc/Backup.js:415
+#: ../www/manager/form/NodeSelector.js:42 ../www/manager/node/Tasks.js:137
+#: ../www/manager/node/Config.js:121 ../www/manager/data/ResourceStore.js:183
+#: ../www/manager/qemu/CreateWizard.js:50
+#: ../www/manager/lxc/CreateWizard.js:63
+#: ../www/manager/window/TaskViewer.js:125
+msgid "Node"
+msgstr "Csomópont"
+
+#: ../www/manager/tree/ResourceTree.js:9
+msgid "Node list"
+msgstr "Csomópont lista"
+
+#: ../www/manager/dc/Summary.js:121 ../www/manager/storage/DirEdit.js:80
+#: ../www/manager/storage/ZFSPoolEdit.js:123
+#: ../www/manager/storage/IScsiEdit.js:132
+#: ../www/manager/storage/NFSEdit.js:140 ../www/manager/storage/RBDEdit.js:88
+#: ../www/manager/storage/LVMEdit.js:202 ../www/manager/storage/ZFSEdit.js:119
+#: ../www/manager/storage/GlusterFsEdit.js:145
+#: ../www/manager/storage/SheepdogEdit.js:59
+#: ../www/manager/ha/GroupSelector.js:30 ../www/manager/ha/Groups.js:100
+#: ../www/manager/ha/GroupEdit.js:32
+msgid "Nodes"
+msgstr "Csomópontok"
+
+#: ../www/manager/panel/NotesView.js:45 ../www/manager/window/NotesEdit.js:8
+msgid "Notes"
+msgstr "Feljegyzések"
+
+#: ../www/manager/form/IPProtocolSelector.js:79
+msgid "Number"
+msgstr "Szám"
+
+#: ../www/manager/window/Edit.js:198
+msgid "OK"
+msgstr "OK"
+
+#: ../www/manager/qemu/CreateWizard.js:97
+msgid "OS"
+msgstr "OS"
+
+#: ../www/manager/qemu/Options.js:65 ../www/manager/lxc/Options.js:47
+msgid "OS Type"
+msgstr "OS típus"
+
+#: ../www/manager/window/LoginWindow.js:38
+msgid "OTP"
+msgstr "OTP"
+
+#: ../www/manager/node/NetworkEdit.js:77 ../www/manager/node/NetworkEdit.js:98
+#: ../www/manager/node/NetworkEdit.js:154
+msgid "OVS options"
+msgstr "OVS opciók"
+
+#: ../www/manager/form/EmailNotificationSelector.js:10
+msgid "On failure only"
+msgstr "Csak hiba esetén"
+
+#: ../www/manager/dc/Summary.js:50 ../www/manager/data/ResourceStore.js:36
+#: ../www/manager/window/Migrate.js:71
+msgid "Online"
+msgstr "Online"
+
+#: ../www/manager/node/Tasks.js:105
+msgid "Only Errors"
+msgstr "Csak hibák"
+
+#: ../www/manager/openvz/CreateWizard.js:56
+msgid "OpenVZ Container"
+msgstr "OpenVZ konténer"
+
+#: ../www/manager/openvz/Config.js:144 ../www/manager/dc/Config.js:26
+#: ../www/manager/qemu/Config.js:145 ../www/manager/lxc/Config.js:144
+#: ../www/manager/panel/Firewall.js:72
+msgid "Options"
+msgstr "Opciók"
+
+#: ../www/manager/Utils.js:78 ../www/manager/Utils.js:91
+#: ../www/manager/qemu/OSTypeEdit.js:44
+msgid "Other OS types"
+msgstr "Egyéb OS típus"
+
+#: ../www/manager/window/TaskViewer.js:183
+msgid "Output"
+msgstr "Kimenet"
+
+#: ../www/manager/grid/FirewallOptions.js:145
+#: ../www/manager/grid/FirewallOptions.js:150
+#: ../www/manager/grid/FirewallOptions.js:155
+msgid "Output Policy"
+msgstr "Output Policy"
+
+#: ../www/manager/node/StatusView.js:52
+msgid "PVE Manager version"
+msgstr "PVE Manager verzió"
+
+#: ../www/manager/node/APT.js:159 ../www/manager/storage/ContentView.js:50
+msgid "Package"
+msgstr "Csomag"
+
+#: ../www/manager/node/Summary.js:24 ../www/manager/node/Summary.js:90
+msgid "Package versions"
+msgstr "Csomag verziók"
+
+#: ../www/manager/openvz/CreateWizard.js:108 ../www/manager/dc/UserEdit.js:46
+#: ../www/manager/dc/UserView.js:31 ../www/manager/dc/UserView.js:38
+#: ../www/manager/dc/UserView.js:134 ../www/manager/lxc/CreateWizard.js:105
+#: ../www/manager/window/LoginWindow.js:94
+msgid "Password"
+msgstr "Jelszó"
+
+#: ../www/manager/dc/UserEdit.js:29 ../www/manager/dc/UserView.js:16
+msgid "Passwords does not match"
+msgstr "A jelszavak nem egyeznek"
+
+#: ../www/manager/dc/ACLView.js:17 ../www/manager/dc/ACLView.js:129
+#: ../www/manager/dc/StorageView.js:221
+msgid "Path"
+msgstr "Útvonal"
+
+#: ../www/manager/node/NetworkView.js:312
+msgid "Pending changes"
+msgstr "Függőben lévő változások"
+
+#: ../www/manager/openvz/Config.js:187 ../www/manager/pool/Config.js:30
+#: ../www/manager/dc/Config.js:68 ../www/manager/qemu/Config.js:209
+#: ../www/manager/lxc/Config.js:200 ../www/manager/storage/Browser.js:45
+msgid "Permissions"
+msgstr "Engedélyek"
+
+#: ../www/manager/node/NetworkView.js:313
+msgid "Please reboot to activate changes"
+msgstr "Kérem indítsa újra a változások érvényesítéséhez"
+
+#: ../www/manager/Utils.js:392 ../www/manager/window/LoginWindow.js:11
+#: ../www/manager/window/LoginWindow.js:131
+msgid "Please wait..."
+msgstr "Kérem várjon..."
+
+#: ../www/manager/dc/PoolEdit.js:22 ../www/manager/form/PoolSelector.js:22
+#: ../www/manager/data/ResourceStore.js:197
+#: ../www/manager/storage/RBDEdit.js:38 ../www/manager/storage/ZFSEdit.js:46
+msgid "Pool"
+msgstr "Pool"
+
+#: ../www/manager/form/ViewSelector.js:25
+msgid "Pool View"
+msgstr "Pool nézet"
+
+#: ../www/manager/dc/Config.js:63 ../www/manager/ceph/Config.js:130
+msgid "Pools"
+msgstr "Pool"
+
+#: ../www/manager/dc/AuthEdit.js:108
+msgid "Port"
+msgstr "Port"
+
+#: ../www/manager/storage/ZFSEdit.js:38
+msgid "Portal"
+msgstr "Portal"
+
+#: ../www/manager/node/NetworkView.js:262
+msgid "Ports/Slaves"
+msgstr "Ports/Slaves"
+
+#: ../www/manager/node/NetworkEdit.js:255
+msgid "Prefix length"
+msgstr "Előtag hossza"
+
+#: ../www/manager/Utils.js:72
+msgid "Premium"
+msgstr "Prémium"
+
+#: ../www/manager/dc/RoleView.js:47
+msgid "Privileges"
+msgstr "Privilégiumok"
+
+#: ../www/manager/window/TaskViewer.js:129
+msgid "Process ID"
+msgstr "Processz ID"
+
+#: ../www/manager/openvz/RessourceView.js:45
+#: ../www/manager/qemu/ProcessorEdit.js:78
+#: ../www/manager/qemu/HardwareView.js:61
+msgid "Processors"
+msgstr "Processzorok"
+
+#: ../www/manager/qemu/Smbios1Edit.js:46
+msgid "Product"
+msgstr "Termék"
+
+#: ../www/manager/dc/ACLView.js:51 ../www/manager/dc/ACLView.js:135
+msgid "Propagate"
+msgstr "Propagál"
+
+#: ../www/manager/form/IPProtocolSelector.js:72
+#: ../www/manager/grid/FirewallRules.js:191
+#: ../www/manager/grid/FirewallRules.js:695
+msgid "Protocol"
+msgstr "Protokoll"
+
+#: ../www/manager/window/LoginWindow.js:52
+msgid "Proxmox VE Login"
+msgstr "Proxmox VE bejelentkezés"
+
+#: ../www/manager/form/DiskFormatSelector.js:10
+msgid "QEMU image format"
+msgstr "QEMU képfájl formátuma"
+
+#: ../www/manager/dc/Summary.js:97
+msgid "Quorate"
+msgstr "Quorate"
+
+#: ../www/manager/ceph/Monitor.js:178
+msgid "Quorum"
+msgstr "Quorum"
+
+#: ../www/manager/openvz/Options.js:89 ../www/manager/openvz/Options.js:93
+#: ../www/manager/openvz/Options.js:101
+msgid "Quota Grace period"
+msgstr "Kvóta türelmi idő"
+
+#: ../www/manager/openvz/Options.js:66 ../www/manager/openvz/Options.js:76
+#: ../www/manager/openvz/Options.js:82
+msgid "Quota UGID limit"
+msgstr "Kvóta UGITlimit"
+
+#: ../www/manager/qemu/SnapshotTree.js:249
+#: ../www/manager/lxc/SnapshotTree.js:249
+msgid "RAM"
+msgstr "RAM"
+
+#: ../www/manager/node/StatusView.js:48
+msgid "RAM usage"
+msgstr "RAM használat"
+
+#: ../www/manager/qemu/Options.js:220 ../www/manager/qemu/Options.js:224
+#: ../www/manager/qemu/Options.js:230
+msgid "RTC start date"
+msgstr "RTC kezdési ideje"
+
+#: ../www/manager/qemu/NetworkEdit.js:146
+msgid "Rate limit"
+msgstr "Sebességhatár"
+
+#: ../www/manager/form/DiskFormatSelector.js:9
+msgid "Raw disk image"
+msgstr "Nyers lemezkép"
+
+#: ../www/manager/qemu/HDThrottle.js:73 ../www/manager/qemu/HDThrottle.js:118
+msgid "Read limit"
+msgstr "Olvasási határ"
+
+#: ../www/manager/qemu/HDThrottle.js:84 ../www/manager/qemu/HDThrottle.js:129
+msgid "Read max burst"
+msgstr "Olvasás max. löket"
+
+#: ../www/manager/dc/UserEdit.js:141 ../www/manager/dc/UserView.js:192
+#: ../www/manager/dc/AuthView.js:113 ../www/manager/dc/AuthEdit.js:29
+#: ../www/manager/form/RealmComboBox.js:23
+msgid "Realm"
+msgstr "Realm"
+
+#: ../www/manager/node/APT.js:75 ../www/manager/VNCConsole.js:418
+#: ../www/manager/VNCConsole.js:512 ../www/manager/VNCConsole.js:554
+msgid "Refresh"
+msgstr "Frissít"
+
+#: ../www/manager/Utils.js:555 ../www/manager/ceph/OSD.js:231
+#: ../www/manager/VNCConsole.js:426 ../www/manager/VNCConsole.js:520
+#: ../www/manager/VNCConsole.js:565
+msgid "Reload"
+msgstr "Újratölt"
+
+#: ../www/manager/openvz/Config.js:88 ../www/manager/openvz/Network.js:266
+#: ../www/manager/dc/PoolView.js:24 ../www/manager/dc/UserView.js:80
+#: ../www/manager/dc/AuthView.js:45 ../www/manager/dc/ACLView.js:149
+#: ../www/manager/dc/GroupView.js:24 ../www/manager/dc/Backup.js:366
+#: ../www/manager/dc/StorageView.js:73 ../www/manager/dc/SecurityGroups.js:144
+#: ../www/manager/grid/FirewallAliases.js:146
+#: ../www/manager/grid/BackupView.js:141
+#: ../www/manager/grid/FirewallRules.js:573
+#: ../www/manager/grid/PoolMembers.js:107
+#: ../www/manager/node/NetworkView.js:72
+#: ../www/manager/qemu/SnapshotTree.js:175 ../www/manager/qemu/Config.js:99
+#: ../www/manager/qemu/HardwareView.js:368
+#: ../www/manager/lxc/SnapshotTree.js:175 ../www/manager/lxc/Config.js:88
+#: ../www/manager/lxc/Network.js:392 ../www/manager/panel/IPSet.js:125
+#: ../www/manager/panel/IPSet.js:345 ../www/manager/storage/ContentView.js:401
+#: ../www/manager/ha/Groups.js:33 ../www/manager/ha/Resources.js:59
+#: ../www/manager/ceph/OSD.js:71 ../www/manager/ceph/OSD.js:189
+#: ../www/manager/ceph/Pool.js:108 ../www/manager/ceph/Monitor.js:128
+#: ../www/manager/window/Edit.js:198
+msgid "Remove"
+msgstr "Eltávolít"
+
+#: ../www/manager/ceph/OSD.js:82
+msgid "Remove Partitions"
+msgstr "Partíciók eltávolítása"
+
+#: ../www/manager/Utils.js:530 ../www/manager/qemu/Config.js:81
+#: ../www/manager/VNCConsole.js:380
+msgid "Reset"
+msgstr "Reset"
+
+#: ../www/manager/qemu/HardwareView.js:342 ../www/manager/qemu/HDResize.js:72
+#: ../www/manager/qemu/HDResize.js:74 ../www/manager/lxc/MPResize.js:75
+#: ../www/manager/lxc/MPResize.js:77 ../www/manager/lxc/Resources.js:156
+msgid "Resize disk"
+msgstr "Lemez átméretezése"
+
+#: ../www/manager/openvz/BeanCounterGrid.js:52
+msgid "Resource"
+msgstr "Erőforrás"
+
+#: ../www/manager/tree/ResourceTree.js:13
+#: ../www/manager/openvz/CreateWizard.js:97 ../www/manager/pool/Config.js:14
+#: ../www/manager/qemu/Clone.js:227 ../www/manager/qemu/CreateWizard.js:80
+#: ../www/manager/lxc/CreateWizard.js:95
+msgid "Resource Pool"
+msgstr "Erőforrás pool"
+
+#: ../www/manager/openvz/Config.js:129
+#: ../www/manager/openvz/CreateWizard.js:149
+#: ../www/manager/openvz/RessourceEdit.js:73 ../www/manager/lxc/DNS.js:108
+#: ../www/manager/lxc/Config.js:129 ../www/manager/ha/Config.js:18
+msgid "Resources"
+msgstr "Erőforrások"
+
+#: ../www/manager/Utils.js:554 ../www/manager/node/ServiceView.js:74
+#: ../www/manager/node/Config.js:94
+msgid "Restart"
+msgstr "Újraindít"
+
+#: ../www/manager/Utils.js:522 ../www/manager/Utils.js:536
+#: ../www/manager/grid/BackupView.js:119
+#: ../www/manager/storage/ContentView.js:373
+#: ../www/manager/window/Restore.js:79
+msgid "Restore"
+msgstr "Helyreállít"
+
+#: ../www/manager/window/Restore.js:121
+msgid "Restore CT"
+msgstr "CT helyreállítása"
+
+#: ../www/manager/window/Restore.js:122
+msgid "Restore VM"
+msgstr "VM helyreállítása"
+
+#: ../www/manager/openvz/CmdMenu.js:67 ../www/manager/Utils.js:533
+#: ../www/manager/Utils.js:545 ../www/manager/qemu/CmdMenu.js:66
+#: ../www/manager/qemu/Config.js:42 ../www/manager/lxc/CmdMenu.js:67
+#: ../www/manager/VNCConsole.js:404
+msgid "Resume"
+msgstr "Folytatás"
+
+#: ../www/manager/qemu/Options.js:306 ../www/manager/qemu/HardwareView.js:400
+msgid "Revert"
+msgstr "Visszaállít"
+
+#: ../www/manager/node/NetworkView.js:202
+msgid "Revert changes"
+msgstr "Változások visszaállítása"
+
+#: ../www/manager/dc/ACLView.js:43 ../www/manager/dc/ACLView.js:120
+#: ../www/manager/form/RoleSelector.js:21
+msgid "Role"
+msgstr "Szerep"
+
+#: ../www/manager/dc/Config.js:73
+msgid "Roles"
+msgstr "Szerepek"
+
+#: ../www/manager/Utils.js:519 ../www/manager/Utils.js:547
+#: ../www/manager/qemu/SnapshotTree.js:139
+#: ../www/manager/lxc/SnapshotTree.js:139
+msgid "Rollback"
+msgstr "Visszaállít"
+
+#: ../www/manager/lxc/Resources.js:78 ../www/manager/lxc/CreateWizard.js:146
+msgid "Root Disk"
+msgstr "Gyökér lemez"
+
+#: ../www/manager/grid/FirewallRules.js:264
+#: ../www/manager/grid/FirewallRules.js:360
+msgid "Rule"
+msgstr "Szabály"
+
+#: ../www/manager/dc/SecurityGroups.js:204 ../www/manager/panel/Firewall.js:29
+msgid "Rules"
+msgstr "Szabályok"
+
+#: ../www/manager/qemu/ScsiHwEdit.js:8 ../www/manager/qemu/Options.js:160
+msgid "SCSI Controller Type"
+msgstr "SCSI vezérlő típus"
+
+#: ../www/manager/qemu/Smbios1Edit.js:64
+msgid "SKU"
+msgstr "SKU"
+
+#: ../www/manager/lxc/Network.js:263
+msgid "SLAAC"
+msgstr "SLAAC"
+
+#: ../www/manager/qemu/Options.js:237 ../www/manager/qemu/Smbios1Edit.js:91
+msgid "SMBIOS settings (type1)"
+msgstr "SMBIOS beállítások (1. típus)"
+
+#: ../www/manager/grid/FirewallOptions.js:108
+msgid "SMURFS filter"
+msgstr "SMURFS szűrő"
+
+#: ../www/manager/node/StatusView.js:49
+msgid "SWAP usage"
+msgstr "SWAP használat"
+
+#: ../www/manager/storage/ZFSPoolEdit.js:28
+#: ../www/manager/storage/IScsiEdit.js:49 ../www/manager/storage/NFSEdit.js:49
+#: ../www/manager/storage/LVMEdit.js:28
+msgid "Scanning..."
+msgstr "Felderítés..."
+
+#: ../www/manager/grid/BackupView.js:83
+#: ../www/manager/grid/ResourceGrid.js:167
+#: ../www/manager/grid/ResourceGrid.js:174
+#: ../www/manager/storage/ContentView.js:448
+msgid "Search"
+msgstr "Keresés"
+
+#: ../www/manager/node/DNSEdit.js:16
+msgid "Search domain"
+msgstr "Tartomány keresés"
+
+#: ../www/manager/storage/GlusterFsEdit.js:120
+msgid "Second Server"
+msgstr "Másodlagos szerver"
+
+#: ../www/manager/dc/SecurityGroups.js:36
+#: ../www/manager/dc/SecurityGroups.js:38
+#: ../www/manager/form/SecurityGroupSelector.js:29
+#: ../www/manager/grid/FirewallRules.js:321
+#: ../www/manager/grid/FirewallRules.js:559
+#: ../www/manager/panel/Firewall.js:40
+msgid "Security Group"
+msgstr "Biztonsági csoport"
+
+#: ../www/manager/storage/ContentView.js:195
+msgid "Select File..."
+msgstr "Fájl kiválasztása..."
+
+#: ../www/manager/dc/Backup.js:445
+msgid "Selection"
+msgstr "Kijelölés"
+
+#: ../www/manager/dc/Backup.js:33
+msgid "Selection mode"
+msgstr "Kijelölés mód"
+
+#: ../www/manager/dc/Backup.js:160
+msgid "Send email to"
+msgstr "Email küldése ide"
+
+#: ../www/manager/dc/OptionView.js:89 ../www/manager/dc/OptionView.js:107
+msgid "Send emails from root@$hostname"
+msgstr "Email feladója root@$hostname"
+
+#: ../www/manager/qemu/Smbios1Edit.js:58 ../www/manager/ceph/Disks.js:100
+#: ../www/manager/ceph/Disks.js:176
+msgid "Serial"
+msgstr "Szériaszám"
+
+#: ../www/manager/Utils.js:208 ../www/manager/Utils.js:209
+#: ../www/manager/Utils.js:210 ../www/manager/Utils.js:211
+msgid "Serial terminal"
+msgstr "Soros terminál"
+
+#: ../www/manager/dc/AuthEdit.js:95 ../www/manager/storage/NFSEdit.js:106
+#: ../www/manager/storage/GlusterFsEdit.js:103
+msgid "Server"
+msgstr "Szerver"
+
+#: ../www/manager/dc/Summary.js:64
+msgid "Server Address"
+msgstr "Szerver címe"
+
+#: ../www/manager/node/Subscription.js:69
+msgid "Server ID"
+msgstr "Szerver ID"
+
+#: ../www/manager/form/ViewSelector.js:10
+msgid "Server View"
+msgstr "Szerver nézet"
+
+#: ../www/manager/node/Summary.js:114
+msgid "Server load"
+msgstr "Szerver terhelés"
+
+#: ../www/manager/node/TimeView.js:36
+msgid "Server time"
+msgstr "Szerver idő"
+
+#: ../www/manager/dc/Log.js:55
+msgid "Service"
+msgstr "Szolgáltatás"
+
+#: ../www/manager/node/Config.js:135
+msgid "Services"
+msgstr "Szolgáltatások"
+
+#: ../www/manager/openvz/CreateWizard.js:273
+#: ../www/manager/qemu/Snapshot.js:105 ../www/manager/qemu/CreateWizard.js:117
+#: ../www/manager/lxc/Snapshot.js:96 ../www/manager/lxc/CreateWizard.js:183
+msgid "Settings"
+msgstr "Beállítások"
+
+#: ../www/manager/dc/Log.js:70
+msgid "Severity"
+msgstr "Súlyosság"
+
+#: ../www/manager/dc/StorageView.js:233 ../www/manager/storage/DirEdit.js:63
+#: ../www/manager/storage/StatusView.js:40
+#: ../www/manager/storage/LVMEdit.js:219
+msgid "Shared"
+msgstr "Megosztott"
+
+#: ../www/manager/qemu/MemoryEdit.js:115
+msgid "Shares"
+msgstr "Megosztások"
+
+#: ../www/manager/Utils.js:516 ../www/manager/Utils.js:517
+#: ../www/manager/node/Config.js:113 ../www/manager/VNCConsole.js:571
+msgid "Shell"
+msgstr "Shell"
+
+#: ../www/manager/openvz/CmdMenu.js:74 ../www/manager/openvz/Config.js:66
+#: ../www/manager/Utils.js:531 ../www/manager/Utils.js:543
+#: ../www/manager/node/Config.js:103 ../www/manager/qemu/CmdMenu.js:73
+#: ../www/manager/qemu/Config.js:90 ../www/manager/lxc/CmdMenu.js:74
+#: ../www/manager/lxc/Config.js:66 ../www/manager/VNCConsole.js:351
+#: ../www/manager/VNCConsole.js:486
+msgid "Shutdown"
+msgstr "Leállítás"
+
+#: ../www/manager/qemu/StartupEdit.js:48
+msgid "Shutdown timeout"
+msgstr "Leállítás időtúllépés"
+
+#: ../www/manager/form/FileSelector.js:63
+#: ../www/manager/grid/BackupView.js:194
+#: ../www/manager/storage/ContentView.js:483
+#: ../www/manager/storage/StatusView.js:45 ../www/manager/ceph/Disks.js:80
+#: ../www/manager/ceph/Disks.js:169 ../www/manager/ceph/Pool.js:28
+#: ../www/manager/ceph/Pool.js:150
+msgid "Size"
+msgstr "Méret"
+
+#: ../www/manager/qemu/HDResize.js:52 ../www/manager/lxc/MPResize.js:55
+msgid "Size Increment"
+msgstr "Méret növelése"
+
+#: ../www/manager/node/NetworkEdit.js:104
+#: ../www/manager/node/NetworkEdit.js:199
+msgid "Slaves"
+msgstr "Slaves"
+
+#: ../www/manager/Utils.js:518 ../www/manager/Utils.js:546
+#: ../www/manager/form/SnapshotSelector.js:51
+#: ../www/manager/form/BackupModeSelector.js:9
+#: ../www/manager/qemu/Clone.js:163 ../www/manager/qemu/Snapshot.js:131
+#: ../www/manager/lxc/Snapshot.js:122
+msgid "Snapshot"
+msgstr "Pillanatkép"
+
+#: ../www/manager/qemu/Config.js:176 ../www/manager/lxc/Config.js:178
+msgid "Snapshots"
+msgstr "Pillanatképek"
+
+#: ../www/manager/node/StatusView.js:13
+msgid "Socket"
+msgstr "Socket"
+
+#: ../www/manager/node/StatusView.js:14 ../www/manager/node/Subscription.js:72
+#: ../www/manager/qemu/ProcessorEdit.js:15
+msgid "Sockets"
+msgstr "Sockets"
+
+#: ../www/manager/grid/FirewallRules.js:138
+#: ../www/manager/grid/FirewallRules.js:679
+#: ../www/manager/window/Restore.js:41
+msgid "Source"
+msgstr "Source"
+
+#: ../www/manager/grid/FirewallRules.js:203
+#: ../www/manager/grid/FirewallRules.js:711
+msgid "Source port"
+msgstr "Source port"
+
+#: ../www/manager/dc/Summary.js:25
+msgid "Standalone node - no cluster defined"
+msgstr "Önálló csomópont - nincs klaszter definiálva"
+
+#: ../www/manager/Utils.js:71
+msgid "Standard"
+msgstr "Szabványos"
+
+#: ../www/manager/Utils.js:201
+msgid "Standard VGA"
+msgstr "Szabványos VGA"
+
+#: ../www/manager/openvz/CmdMenu.js:34 ../www/manager/openvz/Config.js:40
+#: ../www/manager/Utils.js:528 ../www/manager/Utils.js:539
+#: ../www/manager/Utils.js:550 ../www/manager/Utils.js:552
+#: ../www/manager/node/ServiceView.js:58 ../www/manager/qemu/CmdMenu.js:34
+#: ../www/manager/qemu/Config.js:51 ../www/manager/lxc/CmdMenu.js:34
+#: ../www/manager/lxc/Config.js:40 ../www/manager/ceph/OSD.js:165
+#: ../www/manager/ceph/Monitor.js:100 ../www/manager/VNCConsole.js:345
+#: ../www/manager/VNCConsole.js:480
+msgid "Start"
+msgstr "Indítás"
+
+#: ../www/manager/node/Config.js:38
+msgid "Start All VMs"
+msgstr "Összes VM indítása"
+
+#: ../www/manager/dc/Tasks.js:67 ../www/manager/dc/Backup.js:148
+#: ../www/manager/dc/Backup.js:433 ../www/manager/node/Tasks.js:121
+#: ../www/manager/window/TaskViewer.js:133
+msgid "Start Time"
+msgstr "Kezdési idő"
+
+#: ../www/manager/Utils.js:565
+msgid "Start all VMs and Containers"
+msgstr "Összes VM és konténer indítása"
+
+#: ../www/manager/openvz/Options.js:26 ../www/manager/openvz/Options.js:31
+#: ../www/manager/openvz/Options.js:37 ../www/manager/qemu/Options.js:41
+#: ../www/manager/qemu/Options.js:46 ../www/manager/qemu/Options.js:53
+#: ../www/manager/lxc/Options.js:24 ../www/manager/lxc/Options.js:29
+#: ../www/manager/lxc/Options.js:35
+msgid "Start at boot"
+msgstr "Indítás betöltéskor"
+
+#: ../www/manager/qemu/StartupEdit.js:34 ../www/manager/qemu/StartupEdit.js:67
+#: ../www/manager/qemu/Options.js:58 ../www/manager/lxc/Options.js:40
+msgid "Start/Shutdown order"
+msgstr "Indítás/leállítás sorrend"
+
+#: ../www/manager/qemu/StartupEdit.js:41
+msgid "Startup delay"
+msgstr "Indítási késleltetés"
+
+#: ../www/manager/ha/Resources.js:113
+msgid "State"
+msgstr "Állapot"
+
+#: ../www/manager/lxc/Network.js:182 ../www/manager/lxc/Network.js:241
+msgid "Static"
+msgstr "Statikus"
+
+#: ../www/manager/openvz/StatusView.js:59 ../www/manager/openvz/Summary.js:29
+#: ../www/manager/pool/StatusView.js:21 ../www/manager/dc/Tasks.js:109
+#: ../www/manager/dc/Backup.js:91 ../www/manager/node/Tasks.js:153
+#: ../www/manager/node/ServiceView.js:133 ../www/manager/node/Summary.js:81
+#: ../www/manager/node/Subscription.js:62 ../www/manager/qemu/StatusView.js:44
+#: ../www/manager/qemu/SnapshotTree.js:261 ../www/manager/qemu/Summary.js:29
+#: ../www/manager/lxc/StatusView.js:59 ../www/manager/lxc/SnapshotTree.js:261
+#: ../www/manager/lxc/Summary.js:29 ../www/manager/storage/StatusView.js:62
+#: ../www/manager/ha/StatusView.js:53 ../www/manager/ha/Config.js:13
+#: ../www/manager/ceph/Config.js:105 ../www/manager/window/TaskViewer.js:101
+#: ../www/manager/window/TaskViewer.js:174
+msgid "Status"
+msgstr "Állapot"
+
+#: ../www/manager/openvz/CmdMenu.js:88 ../www/manager/openvz/Config.js:57
+#: ../www/manager/Utils.js:529 ../www/manager/Utils.js:540
+#: ../www/manager/Utils.js:551 ../www/manager/Utils.js:553
+#: ../www/manager/form/BackupModeSelector.js:11
+#: ../www/manager/node/ServiceView.js:66 ../www/manager/qemu/CmdMenu.js:87
+#: ../www/manager/qemu/Config.js:59 ../www/manager/lxc/CmdMenu.js:88
+#: ../www/manager/lxc/Config.js:57 ../www/manager/ceph/OSD.js:171
+#: ../www/manager/ceph/Monitor.js:109 ../www/manager/VNCConsole.js:363
+#: ../www/manager/VNCConsole.js:498 ../www/manager/window/TaskViewer.js:162
+#: ../www/manager/window/TaskViewer.js:168
+msgid "Stop"
+msgstr "Megállít"
+
+#: ../www/manager/node/Config.js:59
+msgid "Stop All VMs"
+msgstr "Összes VM megállítása"
+
+#: ../www/manager/Utils.js:566
+msgid "Stop all VMs and Containers"
+msgstr "Összes VM és konténer megállítása"
+
+#: ../www/manager/openvz/Options.js:46
+#: ../www/manager/openvz/CreateWizard.js:20
+#: ../www/manager/openvz/CreateWizard.js:35 ../www/manager/dc/Config.js:35
+#: ../www/manager/dc/Backup.js:59 ../www/manager/dc/Backup.js:439
+#: ../www/manager/grid/BackupView.js:71 ../www/manager/grid/PoolMembers.js:52
+#: ../www/manager/grid/PoolMembers.js:61
+#: ../www/manager/grid/PoolMembers.js:157
+#: ../www/manager/data/ResourceStore.js:190 ../www/manager/qemu/HDEdit.js:166
+#: ../www/manager/qemu/CDEdit.js:111 ../www/manager/lxc/CreateWizard.js:20
+#: ../www/manager/lxc/CreateWizard.js:35 ../www/manager/window/Restore.js:25
+#: ../www/manager/window/Backup.js:25
+msgid "Storage"
+msgstr "Tároló"
+
+#: ../www/manager/form/ViewSelector.js:18
+msgid "Storage View"
+msgstr "Tároló nézet"
+
+#: ../www/manager/tree/ResourceTree.js:17
+msgid "Storage list"
+msgstr "Tároló lista"
+
+#: ../www/manager/storage/Browser.js:29
+msgid "Storage {0} on node {1}"
+msgstr "{0} tároló a {1} csomóponton"
+
+#: ../www/manager/node/NetworkEdit.js:216
+#: ../www/manager/node/NetworkView.js:282
+msgid "Subnet mask"
+msgstr "Alhálózati maszk"
+
+#: ../www/manager/node/Config.js:211
+msgid "Subscription"
+msgstr "Előfizetés"
+
+#: ../www/manager/node/Subscription.js:14
+#: ../www/manager/node/Subscription.js:59
+msgid "Subscription Key"
+msgstr "Előfizetési kulcs"
+
+#: ../www/manager/Utils.js:345
+msgid "Successful"
+msgstr "Sikeres"
+
+#: ../www/manager/openvz/Config.js:124 ../www/manager/pool/Config.js:18
+#: ../www/manager/dc/Config.js:20 ../www/manager/node/Config.js:130
+#: ../www/manager/qemu/Config.js:135 ../www/manager/lxc/Config.js:124
+#: ../www/manager/storage/Browser.js:22
+msgid "Summary"
+msgstr "Összefoglaló"
+
+#: ../www/manager/dc/Config.js:99 ../www/manager/dc/Summary.js:57
+msgid "Support"
+msgstr "Támogatás"
+
+#: ../www/manager/openvz/CmdMenu.js:53 ../www/manager/Utils.js:532
+#: ../www/manager/Utils.js:544 ../www/manager/form/BackupModeSelector.js:10
+#: ../www/manager/qemu/CmdMenu.js:53 ../www/manager/lxc/CmdMenu.js:53
+#: ../www/manager/VNCConsole.js:392
+msgid "Suspend"
+msgstr "Felfüggeszt"
+
+#: ../www/manager/openvz/RessourceView.js:37
+#: ../www/manager/openvz/RessourceEdit.js:31
+#: ../www/manager/lxc/Resources.js:50
+msgid "Swap"
+msgstr "Swap"
+
+#: ../www/manager/lxc/ResourceEdit.js:108
+msgid "Swap (MB)"
+msgstr "Swap (MB)"
+
+#: ../www/manager/Workspace.js:157
+msgid "System upgrade on node {0}"
+msgstr "Rendszerfrissítés a {0} csomóponton"
+
+#: ../www/manager/grid/FirewallOptions.js:109
+msgid "TCP flags filter"
+msgstr "TCP flag szűrő"
+
+#: ../www/manager/dc/AuthView.js:125 ../www/manager/dc/AuthEdit.js:130
+msgid "TFA"
+msgstr "TFA"
+
+#: ../www/manager/lxc/Options.js:73 ../www/manager/lxc/Options.js:77
+#: ../www/manager/lxc/Options.js:85
+msgid "TTY count"
+msgstr "TTY számláló"
+
+#: ../www/manager/qemu/SnapshotTree.js:212 ../www/manager/qemu/Snapshot.js:142
+#: ../www/manager/qemu/Snapshot.js:144 ../www/manager/lxc/SnapshotTree.js:212
+#: ../www/manager/lxc/Snapshot.js:133 ../www/manager/lxc/Snapshot.js:135
+msgid "Take Snapshot"
+msgstr "Pillanatkép készítése"
+
+#: ../www/manager/dc/StorageView.js:221 ../www/manager/storage/ZFSEdit.js:62
+msgid "Target"
+msgstr "Cél"
+
+#: ../www/manager/qemu/Clone.js:198 ../www/manager/qemu/HDMove.js:65
+msgid "Target Storage"
+msgstr "Cél tároló"
+
+#: ../www/manager/storage/ZFSEdit.js:70
+msgid "Target group"
+msgstr "Cél csoport"
+
+#: ../www/manager/qemu/Clone.js:133 ../www/manager/window/Migrate.js:61
+msgid "Target node"
+msgstr "Cél csomópont"
+
+#: ../www/manager/openvz/Config.js:149 ../www/manager/node/Config.js:170
+#: ../www/manager/qemu/Config.js:150 ../www/manager/lxc/Config.js:149
+msgid "Task History"
+msgstr "Műveletnapló"
+
+#: ../www/manager/window/TaskViewer.js:117
+msgid "Task type"
+msgstr "Művelet típus"
+
+#: ../www/manager/panel/StatusPanel.js:31
+msgid "Tasks"
+msgstr "Műveletek"
+
+#: ../www/manager/openvz/Options.js:42
+#: ../www/manager/openvz/CreateWizard.js:29
+#: ../www/manager/openvz/CreateWizard.js:144
+#: ../www/manager/data/ResourceStore.js:169
+#: ../www/manager/lxc/CreateWizard.js:29
+#: ../www/manager/lxc/CreateWizard.js:141
+msgid "Template"
+msgstr "Sablon"
+
+#: ../www/manager/storage/ContentView.js:133
+#: ../www/manager/storage/ContentView.js:426
+msgid "Templates"
+msgstr "Sablonok"
+
+#: ../www/manager/storage/ZFSPoolEdit.js:115
+#: ../www/manager/storage/ZFSEdit.js:96
+msgid "Thin provision"
+msgstr "Thin provision"
+
+#: ../www/manager/form/VMIDSelector.js:31
+msgid "This VM ID does not exists"
+msgstr "Ez a VM ID nem létezik"
+
+#: ../www/manager/form/VMIDSelector.js:36
+msgid "This VM ID is already in use"
+msgstr "Ez a VM ID már használatban van"
+
+#: ../www/manager/Toolkit.js:97
+msgid ""
+"This field should be an e-mail address in the format \"user@example.com\""
+msgstr "Ez a mező email cím formátumú kell legyen \"felhasználó@example.com\""
+
+#: ../www/manager/Toolkit.js:91
+msgid "This is not a valid DNS name"
+msgstr "Ez nem egy érvényes DNS név"
+
+#: ../www/manager/grid/BackupView.js:148
+#: ../www/manager/qemu/HardwareView.js:376 ../www/manager/ceph/Pool.js:114
+msgid "This will permanently erase all image data."
+msgstr "Ez véglegesen eltávolítja az összes képfájl adatot."
+
+#: ../www/manager/window/Restore.js:104
+msgid "This will permanently erase current VM data."
+msgstr "Ez véglegesen eltávolítja az aktuális VM adatait."
+
+#: ../www/manager/dc/Log.js:42 ../www/manager/node/Config.js:150
+msgid "Time"
+msgstr "Idő"
+
+#: ../www/manager/node/TimeEdit.js:14 ../www/manager/node/TimeEdit.js:22
+#: ../www/manager/node/TimeView.js:32
+msgid "Time zone"
+msgstr "Időzóna"
+
+#: ../www/manager/qemu/Snapshot.js:83 ../www/manager/lxc/Snapshot.js:83
+msgid "Timestamp"
+msgstr "Időbélyeg"
+
+#: ../www/manager/Utils.js:719 ../www/manager/ceph/OSD.js:315
+#: ../www/manager/ceph/Pool.js:184
+msgid "Total"
+msgstr "Összes"
+
+#: ../www/manager/data/ResourceStore.js:137
+msgid "Total Disk Read"
+msgstr "Összes lemezolvasás"
+
+#: ../www/manager/data/ResourceStore.js:145
+msgid "Total Disk Write"
+msgstr "Össze lemezírás"
+
+#: ../www/manager/data/ResourceStore.js:153
+msgid "Total NetIn"
+msgstr "Összes hálózati be"
+
+#: ../www/manager/data/ResourceStore.js:161
+msgid "Total NetOut"
+msgstr "Össze hálózati ki"
+
+#: ../www/manager/qemu/ProcessorEdit.js:60
+msgid "Total cores"
+msgstr "Összes mag"
+
+#: ../www/manager/openvz/Network.js:397 ../www/manager/dc/AuthView.js:119
+#: ../www/manager/dc/Backup.js:107 ../www/manager/dc/StorageView.js:207
+#: ../www/manager/form/IPRefSelector.js:50
+#: ../www/manager/form/StorageSelector.js:82
+#: ../www/manager/grid/FirewallRules.js:641
+#: ../www/manager/node/NetworkView.js:235
+#: ../www/manager/node/Subscription.js:56
+#: ../www/manager/data/ResourceStore.js:21
+#: ../www/manager/qemu/ScsiHwEdit.js:13
+#: ../www/manager/qemu/ProcessorEdit.js:56
+#: ../www/manager/storage/ContentView.js:45
+#: ../www/manager/storage/StatusView.js:35 ../www/manager/ha/StatusView.js:48
+msgid "Type"
+msgstr "Típus"
+
+#: ../www/manager/Utils.js:113
+#: ../www/manager/form/HotplugFeatureSelector.js:51
+msgid "USB"
+msgstr "USB"
+
+#: ../www/manager/dc/Support.js:50
+msgid "Unable to load subscription status"
+msgstr "Nem lehetséges betölteni az előfizetés állapotát"
+
+#: ../www/manager/qemu/HDEdit.js:291 ../www/manager/qemu/HDThrottle.js:201
+msgid "Unable to parse drive options"
+msgstr "Nem lehetséges feldolgozni a meghajtó opciókat"
+
+#: ../www/manager/qemu/NetworkEdit.js:210
+msgid "Unable to parse network options"
+msgstr "Nem lehetséges feldolgozni a hálózati opciókat"
+
+#: ../www/manager/qemu/Smbios1Edit.js:106
+msgid "Unable to parse smbios options"
+msgstr "Nem lehetséges feldolgozni az smbios opciókat"
+
+#: ../www/manager/window/TaskViewer.js:138
+msgid "Unique task ID"
+msgstr "Egyedi művelet ID"
+
+#: ../www/manager/Utils.js:712
+msgid "Unknown"
+msgstr "Ismeretlen"
+
+#: ../www/manager/Utils.js:348
+msgid "Unknown error"
+msgstr "Ismeretlen hiba"
+
+#: ../www/manager/openvz/Config.js:48 ../www/manager/Utils.js:542
+#: ../www/manager/lxc/Config.js:48
+msgid "Unmount"
+msgstr "Lecsatolás"
+
+#: ../www/manager/qemu/HDEdit.js:273 ../www/manager/qemu/HDThrottle.js:186
+#: ../www/manager/qemu/HardwareView.js:205
+msgid "Unused Disk"
+msgstr "Használaton kívüli lemez"
+
+#: ../www/manager/qemu/Snapshot.js:133 ../www/manager/lxc/Snapshot.js:124
+msgid "Update"
+msgstr "Frissítés"
+
+#: ../www/manager/Utils.js:564
+msgid "Update package database"
+msgstr "Csomag adatbázis frissítése"
+
+#: ../www/manager/node/Config.js:187
+msgid "Updates"
+msgstr "Frissítések"
+
+#: ../www/manager/node/APT.js:83
+msgid "Upgrade"
+msgstr "Frissítés"
+
+#: ../www/manager/storage/ContentView.js:235
+#: ../www/manager/storage/ContentView.js:302
+#: ../www/manager/storage/ContentView.js:437
+msgid "Upload"
+msgstr "Feltöltés"
+
+#: ../www/manager/node/Subscription.js:8
+#: ../www/manager/node/Subscription.js:88
+msgid "Upload Subscription Key"
+msgstr "Előfizetői kulcs feltöltése"
+
+#: ../www/manager/storage/ContentView.js:207
+msgid "Uploading file..."
+msgstr "Fájl feltöltése..."
+
+#: ../www/manager/openvz/StatusView.js:67 ../www/manager/node/StatusView.js:43
+#: ../www/manager/data/ResourceStore.js:176
+#: ../www/manager/qemu/StatusView.js:49 ../www/manager/lxc/StatusView.js:67
+msgid "Uptime"
+msgstr "Működési idő"
+
+#: ../www/manager/storage/Summary.js:44 ../www/manager/ceph/Disks.js:68
+msgid "Usage"
+msgstr "Használat"
+
+#: ../www/manager/qemu/CDEdit.js:85
+msgid "Use CD/DVD disc image file (iso)"
+msgstr "CD/DVD lemez képfájl használata (iso)"
+
+#: ../www/manager/storage/IScsiEdit.js:149
+msgid "Use LUNs directly"
+msgstr "LUN direkt használata"
+
+#: ../www/manager/qemu/MemoryEdit.js:39
+msgid "Use fixed size memory"
+msgstr "Fix méretű memória használata"
+
+#: ../www/manager/qemu/Options.js:202 ../www/manager/qemu/Options.js:207
+#: ../www/manager/qemu/Options.js:215
+msgid "Use local time for RTC"
+msgstr "Helyi idő használata az RTC számára"
+
+#: ../www/manager/qemu/CDEdit.js:130
+msgid "Use physical CD/DVD Drive"
+msgstr "Fizikai CD/DVD meghajtó használata"
+
+#: ../www/manager/qemu/Options.js:107 ../www/manager/qemu/Options.js:112
+msgid "Use tablet for pointer"
+msgstr "Tablet mutatóeszköz használata"
+
+#: ../www/manager/Utils.js:720 ../www/manager/storage/StatusView.js:50
+#: ../www/manager/ceph/OSD.js:300 ../www/manager/ceph/Pool.js:171
+msgid "Used"
+msgstr "Használt"
+
+#: ../www/manager/dc/UserEdit.js:178 ../www/manager/dc/ACLView.js:33
+#: ../www/manager/dc/ACLView.js:113 ../www/manager/form/UserSelector.js:28
+msgid "User"
+msgstr "Felhasználó"
+
+#: ../www/manager/dc/AuthEdit.js:63
+msgid "User Attribute Name"
+msgstr "Felhasználói attribútum név"
+
+#: ../www/manager/dc/ACLView.js:29 ../www/manager/dc/ACLView.js:205
+msgid "User Permission"
+msgstr "Felhasználói jogosultságok"
+
+#: ../www/manager/dc/Tasks.js:98 ../www/manager/dc/Log.js:65
+#: ../www/manager/dc/UserEdit.js:74 ../www/manager/dc/UserView.js:185
+#: ../www/manager/node/Tasks.js:93 ../www/manager/node/Tasks.js:142
+#: ../www/manager/storage/RBDEdit.js:54
+#: ../www/manager/window/LoginWindow.js:71
+#: ../www/manager/window/TaskViewer.js:121
+msgid "User name"
+msgstr "Felhasználónév"
+
+#: ../www/manager/openvz/Options.js:22
+msgid "User quotas disabled."
+msgstr "Felhasználói kvóták letiltva."
+
+#: ../www/manager/dc/Config.js:50
+msgid "Users"
+msgstr "Felhasználók"
+
+#: ../www/manager/form/VLanField.js:9 ../www/manager/lxc/Network.js:496
+msgid "VLAN Tag"
+msgstr "VLAN Tag"
+
+#: ../www/manager/ha/ResourceEdit.js:99
+msgid "VM Resource"
+msgstr "VM erőforrás"
+
+#: ../www/manager/qemu/Options.js:242 ../www/manager/qemu/Options.js:247
+msgid "VM protection"
+msgstr "VM védelem"
+
+#: ../www/manager/Utils.js:202
+msgid "VMWare compatible"
+msgstr "VMWare kompatibilis"
+
+#: ../www/manager/form/DiskFormatSelector.js:11
+msgid "VMware image format"
+msgstr "VMWare képfájl formátum"
+
+#: ../www/manager/openvz/StatusView.js:65 ../www/manager/lxc/StatusView.js:65
+msgid "VSwap usage"
+msgstr "VSwap használat"
+
+#: ../www/manager/Utils.js:723
+msgid "VZDump backup file"
+msgstr "VZDump biztonsági mentés fájl"
+
+#: ../www/manager/grid/ObjectGrid.js:100 ../www/manager/qemu/Snapshot.js:111
+#: ../www/manager/lxc/Snapshot.js:102
+msgid "Value"
+msgstr "Érték"
+
+#: ../www/manager/qemu/CPUOptions.js:40
+msgid "Vcpus"
+msgstr "Vcpus"
+
+#: ../www/manager/ceph/Disks.js:88
+msgid "Vendor"
+msgstr "Szállító"
+
+#: ../www/manager/Workspace.js:263 ../www/manager/node/APT.js:165
+#: ../www/manager/qemu/Smbios1Edit.js:52
+#: ../www/manager/storage/ContentView.js:55
+msgid "Version"
+msgstr "Verzió"
+
+#: ../www/manager/node/Tasks.js:68
+msgid "View"
+msgstr "Nézet"
+
+#: ../www/manager/tree/ResourceTree.js:21
+#: ../www/manager/grid/PoolMembers.js:18
+#: ../www/manager/grid/PoolMembers.js:148
+#: ../www/manager/qemu/CreateWizard.js:40
+msgid "Virtual Machine"
+msgstr "Virtuális gép"
+
+#: ../www/manager/qemu/Config.js:128
+msgid "Virtual Machine {0} on node {1}"
+msgstr "{0} virtuális gép a {1} csomóponton"
+
+#: ../www/manager/node/NetworkEdit.js:60
+msgid "Vlan Aware"
+msgstr "Vlan aware"
+
+#: ../www/manager/storage/LVMEdit.js:133 ../www/manager/storage/LVMEdit.js:140
+msgid "Volume group"
+msgstr "Kötetcsoport"
+
+#: ../www/manager/storage/ZFSEdit.js:103
+msgid "Write cache"
+msgstr "Írási gyorstár"
+
+#: ../www/manager/qemu/HDThrottle.js:96 ../www/manager/qemu/HDThrottle.js:140
+msgid "Write limit"
+msgstr "Írási határ"
+
+#: ../www/manager/qemu/HDThrottle.js:107 ../www/manager/qemu/HDThrottle.js:151
+msgid "Write max burst"
+msgstr "Írási max löket"
+
+#: ../www/manager/Utils.js:708 ../www/manager/form/Boolean.js:11
+msgid "Yes"
+msgstr "Igen"
+
+#: ../www/manager/qemu/SnapshotTree.js:280
+#: ../www/manager/lxc/SnapshotTree.js:280
+msgid "You are here!"
+msgstr "Itt vagy!"
+
+#: ../www/manager/Workspace.js:247
+msgid "You are logged in as {0}"
+msgstr "Bejelentkezve mint {0}"
+
+#: ../www/manager/storage/ZFSPoolEdit.js:80
+#: ../www/manager/storage/ZFSPoolEdit.js:88
+msgid "ZFS Pool"
+msgstr "ZFS pool"
+
+#: ../www/manager/node/APT.js:168
+msgid "current"
+msgstr "jelenlegi"
+
+#: ../www/manager/Utils.js:715
+msgid "day"
+msgstr "nap"
+
+#: ../www/manager/Utils.js:714
+msgid "days"
+msgstr "napok"
+
+#: ../www/manager/qemu/HDThrottle.js:86 ../www/manager/qemu/HDThrottle.js:109
+#: ../www/manager/qemu/HDThrottle.js:131 ../www/manager/qemu/HDThrottle.js:153
+msgid "default"
+msgstr "alapértelmezett"
+
+#: ../www/manager/Utils.js:104
+msgid "disabled"
+msgstr "letiltva"
+
+#: ../www/manager/ha/ResourceEdit.js:59
+msgid "enable"
+msgstr "engedélyezve"
+
+#: ../www/manager/form/CompressionSelector.js:10
+msgid "fast"
+msgstr "gyors"
+
+#: ../www/manager/form/CompressionSelector.js:11
+msgid "good"
+msgstr "jó"
+
+#: ../www/manager/storage/ZFSEdit.js:88
+msgid "iSCSI Provider"
+msgstr "iSCSI ellátó"
+
+#: ../www/manager/data/ResourceStore.js:130
+msgid "maxcpu"
+msgstr "maxcpu"
+
+#: ../www/manager/Utils.js:718
+msgid "never"
+msgstr "soha"
+
+#: ../www/manager/node/APT.js:174
+msgid "new"
+msgstr "új"
+
+#: ../www/manager/ha/Groups.js:93 ../www/manager/ha/GroupEdit.js:50
+msgid "nofailback"
+msgstr "nofailback"
+
+#: ../www/manager/panel/IPSet.js:229
+msgid "nomatch"
+msgstr "nomatch"
+
+#: ../www/manager/Utils.js:710
+msgid "none"
+msgstr "semmi"
+
+#: ../www/manager/form/NetworkCardSelector.js:10
+msgid "paravirtualized"
+msgstr "paravirtualizált"
+
+#: ../www/manager/ha/Groups.js:86 ../www/manager/ha/GroupEdit.js:44
+msgid "restricted"
+msgstr "korlátozott"
+
+#: ../www/manager/Utils.js:716
+msgid "running"
+msgstr "futó"
+
+#: ../www/manager/openvz/Options.js:94
+msgid "seconds"
+msgstr "másodperc"
+
+#: ../www/manager/Utils.js:717
+msgid "stopped"
+msgstr "leállítva"
+
+#: ../www/manager/qemu/HDThrottle.js:75 ../www/manager/qemu/HDThrottle.js:98
+#: ../www/manager/qemu/HDThrottle.js:120 ../www/manager/qemu/HDThrottle.js:142
+#: ../www/manager/qemu/CPUOptions.js:53 ../www/manager/lxc/Resources.js:67
+msgid "unlimited"
+msgstr "korlátlan"
+
+#: ../www/manager/form/CacheTypeSelector.js:13
+msgid "unsafe"
+msgstr "nem biztonságos"
+
+#: ../www/manager/lxc/DNS.js:44 ../www/manager/lxc/DNS.js:183
+#: ../www/manager/lxc/DNS.js:194
+msgid "use host settings"
+msgstr "hoszt beállításainak használata"
