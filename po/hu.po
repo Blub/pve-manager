@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
 "POT-Creation-Date: Wed Oct 28 12:45:25 2015\n"
-"PO-Revision-Date: 2015-12-22 21:06+0200\n"
-"Last-Translator: István <pongracz.istvan@startit.hu>\n"
+"PO-Revision-Date: 2015-12-28 13:07+0100\n"
+"Last-Translator: Pongrácz István <pongracz.istvan@gmail.com>\n"
 "Language-Team: Hungarian <support@proxmox.com>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.1.6\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #: ../www/manager/qemu/Options.js:142 ../www/manager/qemu/Options.js:147
 msgid "ACPI support"
@@ -552,7 +552,7 @@ msgstr "Elvet"
 
 #: ../www/manager/qemu/NetworkEdit.js:164
 msgid "Disconnect"
-msgstr "Szétkapcsol"
+msgstr "Leválasztva"
 
 #: ../www/manager/Utils.js:109
 #: ../www/manager/form/HotplugFeatureSelector.js:49
@@ -1118,7 +1118,7 @@ msgstr "Nyelv"
 
 #: ../www/manager/dc/UserEdit.js:114
 msgid "Last Name"
-msgstr "Keresztnév"
+msgstr "Vezetéknév"
 
 #: ../www/manager/node/Subscription.js:75
 msgid "Last checked"
@@ -1578,7 +1578,7 @@ msgstr "Prémium"
 
 #: ../www/manager/dc/RoleView.js:47
 msgid "Privileges"
-msgstr "Privilégiumok"
+msgstr "Jogosultságok"
 
 #: ../www/manager/window/TaskViewer.js:129
 msgid "Process ID"
@@ -1664,7 +1664,7 @@ msgstr "Olvasás max. löket"
 #: ../www/manager/dc/AuthView.js:113 ../www/manager/dc/AuthEdit.js:29
 #: ../www/manager/form/RealmComboBox.js:23
 msgid "Realm"
-msgstr "Realm"
+msgstr "Hitelesítő"
 
 #: ../www/manager/node/APT.js:75 ../www/manager/VNCConsole.js:418
 #: ../www/manager/VNCConsole.js:512 ../www/manager/VNCConsole.js:554
@@ -1993,12 +1993,12 @@ msgstr "Sockets"
 #: ../www/manager/grid/FirewallRules.js:679
 #: ../www/manager/window/Restore.js:41
 msgid "Source"
-msgstr "Source"
+msgstr "Forrás"
 
 #: ../www/manager/grid/FirewallRules.js:203
 #: ../www/manager/grid/FirewallRules.js:711
 msgid "Source port"
-msgstr "Source port"
+msgstr "Forrás port"
 
 #: ../www/manager/dc/Summary.js:25
 msgid "Standalone node - no cluster defined"
@@ -2397,7 +2397,7 @@ msgstr "Fájl feltöltése..."
 #: ../www/manager/data/ResourceStore.js:176
 #: ../www/manager/qemu/StatusView.js:49 ../www/manager/lxc/StatusView.js:67
 msgid "Uptime"
-msgstr "Működési idő"
+msgstr "Futásidő"
 
 #: ../www/manager/storage/Summary.js:44 ../www/manager/ceph/Disks.js:68
 msgid "Usage"
