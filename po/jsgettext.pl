@@ -16,6 +16,7 @@ my $findcmd = ['find', $dir, '-name', '*.js'];
 PVE::Tools::run_command($findcmd, outfunc => sub {
     my $line = shift;
     next if $line =~ m|/pvemanagerlib.js$|;
+    next if $line =~ m|/openvz/|;
     push @$sources, $line;
 });
 
