@@ -143,7 +143,13 @@ Ext.define('PVE.lxc.Options', {
 		header: gettext('Unprivileged container'),
 		renderer: PVE.Utils.format_boolean,
 		defaultValue: 0
-	    }
+	    },
+	    features: {
+		header: gettext('Features'),
+		defaultValue: '',
+		editor: caps.vms['VM.Config.Options'] ? 'PVE.lxc.FeaturesEdit' : undefined,
+		url: 'nodes/' + nodename + '/lxc/' + vmid + '/features',
+	    },
 	};
 
 	var baseurl = 'nodes/' + nodename + '/lxc/' + vmid + '/config';
@@ -165,18 +171,20 @@ Ext.define('PVE.lxc.Options', {
 		return;
 	    }
 
+	    var editor_url = rowdef.url || baseurl;
+
 	    var win;
 	    if (Ext.isString(rowdef.editor)) {
 		win = Ext.create(rowdef.editor, {
 		    pveSelNode: me.pveSelNode,
 		    confid: rec.data.key,
-		    url: '/api2/extjs/' + baseurl
+		    url: '/api2/extjs/' + editor_url
 		});
 	    } else {
 		var config = Ext.apply({
 		    pveSelNode: me.pveSelNode,
 		    confid: rec.data.key,
-		    url: '/api2/extjs/' + baseurl
+		    url: '/api2/extjs/' + editor_url
 		}, rowdef.editor);
 		win = Ext.createWidget(rowdef.editor.xtype, config);
 		win.load();

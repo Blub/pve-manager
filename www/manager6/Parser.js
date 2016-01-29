@@ -347,6 +347,57 @@ Ext.define('PVE.Parser', { statics: {
 	return drivestr;
     },
 
+    parseLxcFeatures: function(value) {
+	if (!value) {
+	    return;
+	}
+
+	var res = {};
+
+	var errors = false;
+	Ext.Array.each(value.split(','), function(p) {
+	    if (!p || p.match(/^\s*$/)) {
+		return; // continue
+	    }
+	    var match_res = p.match(/^([a-z_]+)=(\S+)$/);
+	    if (!match_res) {
+		errors = true;
+		return false; // break
+	    }
+	    var k = match_res[1];
+
+	    if (Ext.isDefined(res[k])) {
+		errors = true;
+		return false; // break
+	    }
+
+	    var v = match_res[2];
+
+	    res[k] = v;
+	});
+
+	if (errors) {
+	    return;
+	}
+
+	return res;
+    },
+
+    printLxcFeatures: function(mp) {
+	var featurestr = '';
+	var comma = '';
+
+	Ext.Object.each(mp, function(key, value) {
+	    if (!Ext.isDefined(value)) {
+		return; // continue
+	    }
+	    featurestr += comma + key + '=' + value;
+	    comma = ',';
+	});
+
+	return featurestr;
+    },
+
     parseStartup: function(value) {
 	if (value === undefined) {
 	    return;
