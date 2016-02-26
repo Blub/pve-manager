@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Tue Jan 19 11:16:50 2016\n"
-"PO-Revision-Date: 2013-06-10 12:04+0100\n"
+"POT-Creation-Date: 2016-02-25 20:31+0100\n"
+"PO-Revision-Date: 2016-02-25 21:51+0100\n"
 "Last-Translator: Jostein Hove-Henriksen <jostein@hove-henriksen.no>\n"
 "Language-Team: Norwegian Bokmål\n"
 "Language: nb_NO\n"
@@ -16,14 +16,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Poedit-Language: Norwegian Bokmal\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-Country: NORWAY\n"
+"X-Generator: Poedit 1.8.4\n"
 
 #: ../www/manager/qemu/Options.js:142 ../www/manager/qemu/Options.js:147
-#, fuzzy
 msgid "ACPI support"
-msgstr "Brukerstøtte"
+msgstr "ACPI-støtte"
 
 #: ../www/manager/storage/ContentView.js:227
 msgid "Abort"
@@ -31,9 +29,8 @@ msgstr "Avbryt"
 
 #: ../www/manager/grid/FirewallRules.js:102
 #: ../www/manager/grid/FirewallRules.js:649
-#, fuzzy
 msgid "Action"
-msgstr "Valg"
+msgstr "Handling"
 
 #: ../www/manager/form/BridgeSelector.js:55
 #: ../www/manager/node/NetworkView.js:243
@@ -43,7 +40,7 @@ msgstr "Aktiv"
 
 #: ../www/manager/dc/AuthView.js:78 ../www/manager/dc/AuthEdit.js:37
 msgid "Active Directory Server"
-msgstr ""
+msgstr "Active Directory-tjener"
 
 #: ../www/manager/Utils.js:934 ../www/manager/dc/UserView.js:148
 #: ../www/manager/dc/AuthView.js:74 ../www/manager/dc/ACLView.js:190
@@ -58,14 +55,13 @@ msgid "Add"
 msgstr "Legg til"
 
 #: ../www/manager/ceph/Monitor.js:185
-#, fuzzy
 msgid "Address"
-msgstr "IP-adresse"
+msgstr "Adresse"
 
 #: ../www/manager/grid/FirewallAliases.js:48
 #: ../www/manager/grid/FirewallAliases.js:73
 msgid "Alias"
-msgstr ""
+msgstr "Alias"
 
 #: ../www/manager/dc/Backup.js:30 ../www/manager/dc/Backup.js:119
 #: ../www/manager/dc/Backup.js:325 ../www/manager/storage/DirEdit.js:81
@@ -88,16 +84,15 @@ msgstr "Tillatte tegn"
 
 #: ../www/manager/form/EmailNotificationSelector.js:9
 msgid "Always"
-msgstr ""
+msgstr "Alltid"
 
 #: ../www/manager/lxc/Options.js:51
 msgid "Architecture"
-msgstr ""
+msgstr "Arkitektur"
 
 #: ../www/manager/StateProvider.js:161
-#, fuzzy
 msgid "Are you sure you want to navigate away from this page?"
-msgstr "Er du sikker på at du ønsker å aktivere endringene"
+msgstr "Er du sikker på at du vil navigere vekk fra denne siden?"
 
 #: ../www/manager/qemu/Config.js:102 ../www/manager/lxc/Config.js:91
 msgid ""
@@ -141,9 +136,8 @@ msgstr "Tildel automatisk minne innenfor dette intervallet"
 
 #: ../www/manager/node/NetworkEdit.js:50
 #: ../www/manager/node/NetworkView.js:253
-#, fuzzy
 msgid "Autostart"
-msgstr "Omstart"
+msgstr "Autostart"
 
 #: ../www/manager/form/StorageSelector.js:87
 #: ../www/manager/storage/StatusView.js:55
@@ -170,7 +164,7 @@ msgstr "Ta sikkerhetskopi nå"
 
 #: ../www/manager/dc/AuthEdit.js:54
 msgid "Base Domain Name"
-msgstr ""
+msgstr "Basis domenenavn"
 
 #: ../www/manager/storage/LVMEdit.js:157
 msgid "Base storage"
@@ -202,26 +196,23 @@ msgstr "Oppstartsrekkefølge"
 #: ../www/manager/qemu/NetworkEdit.js:67 ../www/manager/lxc/Network.js:136
 #: ../www/manager/lxc/Network.js:485
 msgid "Bridge"
-msgstr ""
+msgstr "Bro"
 
 #: ../www/manager/node/NetworkEdit.js:66 ../www/manager/node/NetworkEdit.js:72
-#, fuzzy
 msgid "Bridge ports"
-msgstr "Kilde"
+msgstr "Bro-porter "
 
 #: ../www/manager/qemu/NetworkEdit.js:80
 msgid "Bridged mode"
-msgstr ""
+msgstr "Bro-modus"
 
 #: ../www/manager/form/ControllerSelector.js:60
-#, fuzzy
 msgid "Bus/Device"
-msgstr "Tjeneste"
+msgstr "Buss/Enhet"
 
 #: ../www/manager/qemu/CreateWizard.js:20
-#, fuzzy
 msgid "CD/DVD"
-msgstr "CD/DVD-stasjon"
+msgstr "CD/DVD"
 
 #: ../www/manager/qemu/HardwareView.js:154
 #: ../www/manager/qemu/HardwareView.js:165
@@ -237,25 +228,22 @@ msgstr "CD/DVD-stasjon"
 #: ../www/manager/lxc/CreateWizard.js:164
 #: ../www/manager/lxc/ResourceEdit.js:28
 msgid "CPU"
-msgstr ""
+msgstr "CPU"
 
 #: ../www/manager/qemu/CPUOptions.js:51 ../www/manager/lxc/Resources.js:60
 #: ../www/manager/lxc/ResourceEdit.js:54
-#, fuzzy
 msgid "CPU limit"
-msgstr "CPU-forbruk"
+msgstr "CPU-grense"
 
 #: ../www/manager/qemu/CPUOptions.js:83
 #: ../www/manager/qemu/HardwareView.js:363
-#, fuzzy
 msgid "CPU options"
-msgstr "Innstillinger"
+msgstr "CPU-innstillinger"
 
 #: ../www/manager/qemu/CPUOptions.js:58 ../www/manager/lxc/Resources.js:71
 #: ../www/manager/lxc/ResourceEdit.js:61
-#, fuzzy
 msgid "CPU units"
-msgstr "CPU-forbruk"
+msgstr "CPU-enheter"
 
 #: ../www/manager/form/NodeSelector.js:56 ../www/manager/node/StatusView.js:46
 #: ../www/manager/node/Summary.js:108 ../www/manager/data/ResourceStore.js:123
@@ -266,31 +254,29 @@ msgstr "CPU-forbruk"
 
 #: ../www/manager/node/StatusView.js:45
 msgid "CPUs"
-msgstr ""
+msgstr "CPU-er"
 
 #: ../www/manager/lxc/CmdMenu.js:30 ../www/manager/lxc/CmdMenu.js:56
 #: ../www/manager/lxc/CmdMenu.js:77 ../www/manager/lxc/CmdMenu.js:91
 #: ../www/manager/lxc/CmdMenu.js:116
 msgid "CT"
-msgstr ""
+msgstr "CT"
 
 #: ../www/manager/lxc/Options.js:122 ../www/manager/lxc/Options.js:127
-#, fuzzy
 msgid "CT protection"
-msgstr "Katalog"
+msgstr "CT-beskyttelse"
 
 #: ../www/manager/qemu/HDEdit.js:222
-#, fuzzy
 msgid "Cache"
-msgstr "Ingen forandringer"
+msgstr "Hurtiglager"
 
 #: ../www/manager/form/StorageSelector.js:93
 msgid "Capacity"
-msgstr ""
+msgstr "Kapasitet"
 
 #: ../www/manager/node/APT.js:104 ../www/manager/node/APT.js:133
 msgid "Changelog"
-msgstr ""
+msgstr "Endringslogg"
 
 #: ../www/manager/node/Subscription.js:166
 msgid "Check"
@@ -303,18 +289,16 @@ msgid "Clone"
 msgstr "Klone"
 
 #: ../www/manager/dc/Summary.js:96
-#, fuzzy
 msgid "Cluster"
-msgstr "Klyngelogg"
+msgstr "Klynge"
 
 #: ../www/manager/panel/StatusPanel.js:36
 msgid "Cluster log"
 msgstr "Klyngelogg"
 
 #: ../www/manager/ha/Fencing.js:29
-#, fuzzy
 msgid "Command"
-msgstr "Kommentar"
+msgstr "Kommando"
 
 #: ../www/manager/pool/StatusView.js:15 ../www/manager/dc/UserEdit.js:128
 #: ../www/manager/dc/PoolEdit.js:35 ../www/manager/dc/PoolView.js:96
@@ -348,14 +332,12 @@ msgid "Compression"
 msgstr "Komprimering"
 
 #: ../www/manager/ceph/Config.js:110
-#, fuzzy
 msgid "Config"
-msgstr "Bekreft"
+msgstr "Oppsett"
 
 #: ../www/manager/Utils.js:548
-#, fuzzy
 msgid "Configure"
-msgstr "Bekreft"
+msgstr "Sette opp"
 
 #: ../www/manager/button/Button.js:45 ../www/manager/node/Config.js:42
 #: ../www/manager/node/Config.js:63 ../www/manager/qemu/CmdMenu.js:57
@@ -391,25 +373,21 @@ msgstr "Konsoll"
 
 #: ../www/manager/dc/OptionView.js:61 ../www/manager/dc/OptionView.js:67
 #: ../www/manager/dc/OptionView.js:135
-#, fuzzy
 msgid "Console Viewer"
-msgstr "Konsoll"
+msgstr "Konsollviser"
 
 #: ../www/manager/lxc/Options.js:101 ../www/manager/lxc/Options.js:105
 #: ../www/manager/lxc/Options.js:117
-#, fuzzy
 msgid "Console mode"
-msgstr "Konsoll"
+msgstr "konsoll-modus"
 
 #: ../www/manager/Utils.js:740
-#, fuzzy
 msgid "Container"
-msgstr "OpenVZ-beholder"
+msgstr "Beholder"
 
 #: ../www/manager/Utils.js:738
-#, fuzzy
 msgid "Container template"
-msgstr "Konverter til mal"
+msgstr "Beholder-mal"
 
 #: ../www/manager/lxc/Config.js:117
 msgid "Container {0} on node {1}"
@@ -436,7 +414,7 @@ msgstr "Kopier data"
 
 #: ../www/manager/qemu/ProcessorEdit.js:31
 msgid "Cores"
-msgstr ""
+msgstr "Kjerner"
 
 #: ../www/manager/Utils.js:535 ../www/manager/Utils.js:549
 #: ../www/manager/Utils.js:570 ../www/manager/Utils.js:572
@@ -459,21 +437,20 @@ msgstr "Opprett VM"
 
 #: ../www/manager/ceph/Pool.js:46
 msgid "Crush RuleSet"
-msgstr ""
+msgstr "Crush-regelsett"
 
 #: ../www/manager/lxc/Network.js:196 ../www/manager/lxc/Network.js:255
 msgid "DHCP"
-msgstr ""
+msgstr "DHCP"
 
 #: ../www/manager/node/DNSEdit.js:44 ../www/manager/node/Config.js:145
 #: ../www/manager/lxc/Config.js:139 ../www/manager/lxc/CreateWizard.js:175
 msgid "DNS"
-msgstr ""
+msgstr "DNS"
 
 #: ../www/manager/lxc/DNS.js:43 ../www/manager/lxc/DNS.js:176
-#, fuzzy
 msgid "DNS domain"
-msgstr "Søk"
+msgstr "DNS-domene"
 
 #: ../www/manager/node/DNSEdit.js:22 ../www/manager/node/DNSEdit.js:29
 #: ../www/manager/node/DNSEdit.js:36 ../www/manager/node/DNSView.js:26
@@ -490,7 +467,7 @@ msgstr "Datasenter"
 #: ../www/manager/qemu/SnapshotTree.js:261
 #: ../www/manager/lxc/SnapshotTree.js:261
 msgid "Date"
-msgstr ""
+msgstr "Dato"
 
 #: ../www/manager/dc/Backup.js:141 ../www/manager/dc/Backup.js:427
 msgid "Day of week"
@@ -507,9 +484,8 @@ msgid "Delete Snapshot"
 msgstr "Slett øyeblikksbilde"
 
 #: ../www/manager/qemu/HDMove.js:110
-#, fuzzy
 msgid "Delete source"
-msgstr "Slett øyeblikksbilde"
+msgstr "Slett kilde"
 
 #: ../www/manager/dc/Tasks.js:103 ../www/manager/form/IPProtocolSelector.js:86
 #: ../www/manager/grid/FirewallRules.js:37 ../www/manager/node/Tasks.js:147
@@ -524,13 +500,12 @@ msgstr "Beskrivelse"
 #: ../www/manager/grid/FirewallRules.js:210
 #: ../www/manager/grid/FirewallRules.js:703
 msgid "Dest. port"
-msgstr ""
+msgstr "Destinasjonsport"
 
 #: ../www/manager/grid/FirewallRules.js:148
 #: ../www/manager/grid/FirewallRules.js:687
-#, fuzzy
 msgid "Destination"
-msgstr "Beskrivelse"
+msgstr "Mål"
 
 #: ../www/manager/Utils.js:537 ../www/manager/Utils.js:551
 #: ../www/manager/Utils.js:571 ../www/manager/Utils.js:573
@@ -539,17 +514,15 @@ msgstr "Ødelegg"
 
 #: ../www/manager/window/TaskViewer.js:61
 msgid "Details"
-msgstr ""
+msgstr "Detaljer"
 
 #: ../www/manager/ceph/Disks.js:62 ../www/manager/ceph/Disks.js:163
-#, fuzzy
 msgid "Device"
-msgstr "Tjeneste"
+msgstr "Enhet"
 
 #: ../www/manager/grid/FirewallRules.js:94
-#, fuzzy
 msgid "Direction"
-msgstr "Katalog"
+msgstr "Retning"
 
 #: ../www/manager/Utils.js:735 ../www/manager/storage/DirEdit.js:38
 msgid "Directory"
@@ -557,28 +530,26 @@ msgstr "Katalog"
 
 #: ../www/manager/qemu/HDEdit.js:233
 msgid "Discard"
-msgstr ""
+msgstr "Forkast"
 
 #: ../www/manager/qemu/NetworkEdit.js:164
 msgid "Disconnect"
-msgstr ""
+msgstr "Kobl fra"
 
 #: ../www/manager/Utils.js:109
 #: ../www/manager/form/HotplugFeatureSelector.js:49
 #: ../www/manager/qemu/HDMove.js:56 ../www/manager/qemu/HDResize.js:40
 #: ../www/manager/lxc/MPResize.js:43 ../www/manager/ceph/OSD.js:29
-#, fuzzy
 msgid "Disk"
-msgstr "Diskstørrelse"
+msgstr "Disk"
 
 #: ../www/manager/qemu/Summary.js:83 ../www/manager/lxc/Summary.js:88
-#, fuzzy
 msgid "Disk IO"
-msgstr "Diskstørrelse"
+msgstr "Disk-IO"
 
 #: ../www/manager/qemu/HardwareView.js:356
 msgid "Disk Throttle"
-msgstr ""
+msgstr "Disk-struping"
 
 #: ../www/manager/Utils.js:736 ../www/manager/qemu/HDEdit.js:126
 #: ../www/manager/qemu/HDEdit.js:147 ../www/manager/qemu/HDEdit.js:213
@@ -595,9 +566,8 @@ msgid "Disk usage"
 msgstr "Diskforbruk"
 
 #: ../www/manager/ceph/Config.js:120
-#, fuzzy
 msgid "Disks"
-msgstr "Diskstørrelse"
+msgstr "Disker"
 
 #: ../www/manager/qemu/DisplayEdit.js:33
 #: ../www/manager/qemu/HardwareView.js:112
@@ -605,18 +575,16 @@ msgid "Display"
 msgstr "Skjerm"
 
 #: ../www/manager/qemu/CDEdit.js:137
-#, fuzzy
 msgid "Do not use any media"
-msgstr "Ikke bruk noen mellomtjener"
+msgstr "Ikke bruk noen media"
 
 #: ../www/manager/dc/OptionView.js:13 ../www/manager/dc/OptionView.js:106
 msgid "Do not use any proxy"
 msgstr "Ikke bruk noen mellomtjener"
 
 #: ../www/manager/qemu/CmdMenu.js:115 ../www/manager/lxc/CmdMenu.js:116
-#, fuzzy
 msgid "Do you really want to convert {0} into a template?"
-msgstr "Vil du virkelig konvertere VM {0} til en mal?"
+msgstr "Vil du virkelig konvertere {0} til en mal?"
 
 #: ../www/manager/qemu/Config.js:83 ../www/manager/VNCConsole.js:382
 msgid "Do you really want to reset VM {0}?"
@@ -636,14 +604,12 @@ msgid "Do you really want to shutdown node {0}?"
 msgstr "Vil du virkelig slå av node {0}?"
 
 #: ../www/manager/qemu/CmdMenu.js:76 ../www/manager/lxc/CmdMenu.js:77
-#, fuzzy
 msgid "Do you really want to shutdown {0}?"
-msgstr "Vil du virkelig slå av VM {0}?"
+msgstr "Vil du virkelig slå av {0}?"
 
 #: ../www/manager/node/Config.js:41
-#, fuzzy
 msgid "Do you really want to start all VMs and Containers on node {0}?"
-msgstr "Vil du virkelig omstarte node {0}?"
+msgstr "Vil du virkelig starte alle VM'er og beholdere på node {0}?"
 
 #: ../www/manager/qemu/Config.js:61 ../www/manager/lxc/Config.js:59
 #: ../www/manager/VNCConsole.js:365 ../www/manager/VNCConsole.js:500
@@ -651,27 +617,24 @@ msgid "Do you really want to stop VM {0}?"
 msgstr "Vil du virkelig stoppe VM {0}?"
 
 #: ../www/manager/node/Config.js:62
-#, fuzzy
 msgid "Do you really want to stop all VMs and Containers on node {0}?"
-msgstr "Vil du virkelig slå av node {0}?"
+msgstr "Vil du virkelig stoppe VM'er og beholdere på {0}?"
 
 #: ../www/manager/qemu/CmdMenu.js:90 ../www/manager/lxc/CmdMenu.js:91
-#, fuzzy
 msgid "Do you really want to stop {0}?"
-msgstr "Vil du virkelig stoppe VM {0}?"
+msgstr "Vil du virkelig stoppe {0}?"
 
 #: ../www/manager/VNCConsole.js:394
 msgid "Do you really want to suspend VM {0}?"
 msgstr "Vil du virkelig sette VM {0} i hvilemodus?"
 
 #: ../www/manager/qemu/CmdMenu.js:56 ../www/manager/lxc/CmdMenu.js:56
-#, fuzzy
 msgid "Do you really want to suspend {0}?"
-msgstr "Vil du virkelig sette VM {0} i hvilemodus?"
+msgstr "Vil du virkelig sette {0} i hvilemodus?"
 
 #: ../www/manager/dc/AuthEdit.js:42
 msgid "Domain"
-msgstr ""
+msgstr "Domene"
 
 #: ../www/manager/Utils.js:576 ../www/manager/node/Subscription.js:60
 #: ../www/manager/storage/ContentView.js:105
@@ -680,7 +643,7 @@ msgstr "Last ned"
 
 #: ../www/manager/dc/UserEdit.js:119
 msgid "E-Mail"
-msgstr ""
+msgstr "E-post"
 
 #: ../www/manager/Utils.js:939 ../www/manager/dc/OptionView.js:175
 #: ../www/manager/dc/PoolView.js:60 ../www/manager/dc/UserView.js:124
@@ -705,11 +668,11 @@ msgstr "Rediger"
 #: ../www/manager/dc/OptionView.js:84 ../www/manager/dc/OptionView.js:92
 #: ../www/manager/dc/OptionView.js:141
 msgid "Email from address"
-msgstr ""
+msgstr "E-post fra adresse"
 
 #: ../www/manager/dc/Backup.js:165
 msgid "Email notification"
-msgstr ""
+msgstr "E-postvarsling"
 
 #: ../www/manager/dc/Backup.js:185 ../www/manager/dc/StorageView.js:240
 #: ../www/manager/grid/FirewallRules.js:160
@@ -728,23 +691,21 @@ msgstr "Aktiver"
 #: ../www/manager/lxc/Options.js:55 ../www/manager/lxc/Options.js:60
 #: ../www/manager/lxc/Options.js:68
 msgid "Enable /dev/console"
-msgstr ""
+msgstr "Aktiver /dev/console"
 
 #: ../www/manager/grid/FirewallOptions.js:119
-#, fuzzy
 msgid "Enable DHCP"
-msgstr "Aktiver"
+msgstr "Aktiver DHCP"
 
 #: ../www/manager/grid/FirewallOptions.js:107
 #: ../www/manager/grid/FirewallOptions.js:118
 #: ../www/manager/grid/FirewallOptions.js:124
 msgid "Enable Firewall"
-msgstr ""
+msgstr "Aktiver brannmur"
 
 #: ../www/manager/qemu/ProcessorEdit.js:43
-#, fuzzy
 msgid "Enable numa"
-msgstr "Aktiver"
+msgstr "Aktiver numa"
 
 #: ../www/manager/dc/UserEdit.js:97 ../www/manager/dc/UserView.js:199
 #: ../www/manager/dc/Backup.js:408 ../www/manager/qemu/Options.js:120
@@ -845,11 +806,11 @@ msgstr "Reserveserver"
 
 #: ../www/manager/qemu/Smbios1Edit.js:70
 msgid "Family"
-msgstr ""
+msgstr "Familie"
 
 #: ../www/manager/ha/Config.js:28
 msgid "Fencing"
-msgstr ""
+msgstr "Inngjerding"
 
 #: ../www/manager/window/Wizard.js:114
 msgid "Finish"
@@ -860,7 +821,7 @@ msgstr "Ferdig"
 #: ../www/manager/lxc/Config.js:188 ../www/manager/lxc/Network.js:147
 #: ../www/manager/lxc/Network.js:490
 msgid "Firewall"
-msgstr ""
+msgstr "Brannmur"
 
 #: ../www/manager/dc/UserEdit.js:109
 msgid "First Name"
@@ -886,12 +847,11 @@ msgstr "Format"
 #: ../www/manager/qemu/Options.js:190 ../www/manager/qemu/Options.js:195
 #: ../www/manager/qemu/Options.js:203
 msgid "Freeze CPU at startup"
-msgstr ""
+msgstr "Frys CPU ved start"
 
 #: ../www/manager/qemu/Clone.js:141
-#, fuzzy
 msgid "Full Clone"
-msgstr "Klone"
+msgstr "Fullstendig klone"
 
 #: ../www/manager/node/NetworkEdit.js:241
 #: ../www/manager/node/NetworkEdit.js:282
@@ -929,18 +889,17 @@ msgid "Groups"
 msgstr "Grupper"
 
 #: ../www/manager/ha/GroupEdit.js:90
-#, fuzzy
 msgid "HA Group"
-msgstr "Gruppe"
+msgstr "HA-gruppe"
 
 #: ../www/manager/node/StatusView.js:51
 msgid "HD space"
-msgstr ""
+msgstr "Harddiskplass"
 
 #: ../www/manager/dc/OptionView.js:8 ../www/manager/dc/OptionView.js:16
 #: ../www/manager/dc/OptionView.js:124
 msgid "HTTP proxy"
-msgstr ""
+msgstr "HTTP-mellomtjener"
 
 #: ../www/manager/qemu/HDEdit.js:275 ../www/manager/qemu/HDEdit.js:277
 #: ../www/manager/qemu/HDThrottle.js:188
@@ -959,35 +918,33 @@ msgstr "Maskinvare"
 
 #: ../www/manager/node/NetworkEdit.js:109
 msgid "Hash policy"
-msgstr ""
+msgstr "Hash-regler"
 
 #: ../www/manager/ceph/Monitor.js:34 ../www/manager/ceph/Monitor.js:169
 msgid "Host"
-msgstr ""
+msgstr "Vert"
 
 #: ../www/manager/storage/ZFSEdit.js:110
-#, fuzzy
 msgid "Host group"
-msgstr "Volumgruppe"
+msgstr "Vert-gruppe"
 
 #: ../www/manager/lxc/DNS.js:160 ../www/manager/lxc/DNS.js:163
 #: ../www/manager/lxc/DNS.js:169 ../www/manager/lxc/CreateWizard.js:87
-#, fuzzy
 msgid "Hostname"
-msgstr "Brukernavn"
+msgstr "Vertnavn"
 
 #: ../www/manager/qemu/Options.js:125 ../www/manager/qemu/Options.js:130
 #: ../www/manager/qemu/Options.js:136
 msgid "Hotplug"
-msgstr ""
+msgstr "Hotplug"
 
 #: ../www/manager/lxc/Network.js:82 ../www/manager/lxc/Network.js:475
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: ../www/manager/node/StatusView.js:47
 msgid "IO delay"
-msgstr ""
+msgstr "IO-forsinkels"
 
 #: ../www/manager/node/NetworkEdit.js:209
 #: ../www/manager/node/NetworkView.js:267 ../www/manager/lxc/Network.js:506
@@ -999,38 +956,35 @@ msgstr "IP-adresse"
 #: ../www/manager/panel/IPSet.js:207 ../www/manager/panel/IPSet.js:215
 #: ../www/manager/panel/IPSet.js:243 ../www/manager/panel/IPSet.js:392
 msgid "IP/CIDR"
-msgstr ""
+msgstr "IP/CIDR"
 
 #: ../www/manager/lxc/Network.js:178 ../www/manager/lxc/Network.js:218
 msgid "IPv4"
-msgstr ""
+msgstr "IPv4"
 
 #: ../www/manager/lxc/Network.js:210
 msgid "IPv4/CIDR"
-msgstr ""
+msgstr "IPv4/CIDR"
 
 #: ../www/manager/lxc/Network.js:237 ../www/manager/lxc/Network.js:285
 msgid "IPv6"
-msgstr ""
+msgstr "IPv6"
 
 #: ../www/manager/node/NetworkEdit.js:248
-#, fuzzy
 msgid "IPv6 address"
-msgstr "IP-adresse"
+msgstr "IPv6-adresse"
 
 #: ../www/manager/lxc/Network.js:277
 msgid "IPv6/CIDR"
-msgstr ""
+msgstr "IPv6/CIDR"
 
 #: ../www/manager/qemu/CDEdit.js:103
-#, fuzzy
 msgid "ISO Image"
-msgstr "Diskfil"
+msgstr "ISO-diskbildefil"
 
 #: ../www/manager/Utils.js:739
-#, fuzzy
 msgid "ISO image"
-msgstr "Diskfil"
+msgstr "ISO-diskbildefil"
 
 #: ../www/manager/qemu/Snapshot.js:92
 msgid "Include RAM"
@@ -1043,19 +997,18 @@ msgstr "Inkluder valgte VM-er"
 #: ../www/manager/grid/FirewallOptions.js:129
 #: ../www/manager/grid/FirewallOptions.js:134
 #: ../www/manager/grid/FirewallOptions.js:139
-#, fuzzy
 msgid "Input Policy"
-msgstr "Utdata"
+msgstr "Inndataregler"
 
 #: ../www/manager/grid/FirewallRules.js:558
 msgid "Insert"
-msgstr ""
+msgstr "Sett inn"
 
 #: ../www/manager/grid/FirewallRules.js:113
 #: ../www/manager/grid/FirewallRules.js:332
 #: ../www/manager/grid/FirewallRules.js:668
 msgid "Interface"
-msgstr ""
+msgstr "Grensesnitt"
 
 #: ../www/manager/qemu/HDEdit.js:239
 msgid "Iothread"
@@ -1063,7 +1016,7 @@ msgstr ""
 
 #: ../www/manager/ceph/OSD.js:37
 msgid "Journal Disk"
-msgstr ""
+msgstr "Journal-disk"
 
 #: ../www/manager/storage/RBDEdit.js:80
 msgid "KRBD"
@@ -1071,24 +1024,23 @@ msgstr ""
 
 #: ../www/manager/node/StatusView.js:50
 msgid "KSM sharing"
-msgstr ""
+msgstr "KSM-deling"
 
 #: ../www/manager/qemu/Options.js:172 ../www/manager/qemu/Options.js:177
 msgid "KVM hardware virtualization"
-msgstr ""
+msgstr "KVM maskinvarevirtualisering"
 
 #: ../www/manager/node/StatusView.js:53
-#, fuzzy
 msgid "Kernel version"
-msgstr "Brukerrettigheter"
+msgstr "Kjerneversjon"
 
 #: ../www/manager/qemu/Snapshot.js:110 ../www/manager/lxc/Snapshot.js:101
 msgid "Key"
-msgstr ""
+msgstr "Nøkkel"
 
 #: ../www/manager/dc/UserEdit.js:133
 msgid "Key IDs"
-msgstr ""
+msgstr "Nøkkel-IDer"
 
 #: ../www/manager/dc/OptionView.js:33 ../www/manager/dc/OptionView.js:38
 #: ../www/manager/dc/OptionView.js:118 ../www/manager/qemu/KeyboardEdit.js:8
@@ -1098,15 +1050,13 @@ msgid "Keyboard Layout"
 msgstr "Tastaturoppsett"
 
 #: ../www/manager/dc/AuthView.js:88 ../www/manager/dc/AuthEdit.js:49
-#, fuzzy
 msgid "LDAP Server"
-msgstr "Tjener"
+msgstr "LDAP-tjener"
 
 #: ../www/manager/tree/ResourceTree.js:25
 #: ../www/manager/lxc/CreateWizard.js:54
-#, fuzzy
 msgid "LXC Container"
-msgstr "OpenVZ-beholder"
+msgstr "LXC-beholder"
 
 #: ../www/manager/window/LoginWindow.js:123
 msgid "Language"
@@ -1118,28 +1068,27 @@ msgstr "Etternavn"
 
 #: ../www/manager/node/Subscription.js:143
 msgid "Last checked"
-msgstr ""
+msgstr "Sist sjekket"
 
 #: ../www/manager/ceph/OSD.js:329
 msgid "Latency (ms)"
-msgstr ""
+msgstr "Forsinkelse (ms)"
 
 #: ../www/manager/qemu/Clone.js:143
 msgid "Linked Clone"
-msgstr ""
+msgstr "Lenket klone"
 
 #: ../www/manager/node/StatusView.js:44
 msgid "Load average"
-msgstr ""
+msgstr "Lastgjennomsnitt"
 
 #: ../www/manager/Utils.js:1067
 msgid "Loading..."
 msgstr "Laster ..."
 
 #: ../www/manager/ceph/Config.js:139
-#, fuzzy
 msgid "Log"
-msgstr "Logg inn"
+msgstr "Logg"
 
 #: ../www/manager/window/LoginWindow.js:139
 msgid "Login"
@@ -1155,27 +1104,26 @@ msgstr "Logg ut"
 
 #: ../www/manager/qemu/NetworkEdit.js:138 ../www/manager/lxc/Network.js:126
 #: ../www/manager/lxc/Network.js:501
-#, fuzzy
 msgid "MAC address"
-msgstr "IP-adresse"
+msgstr "MAC-adresse"
 
 #: ../www/manager/grid/FirewallOptions.js:120
 msgid "MAC filter"
-msgstr ""
+msgstr "MAC-filter"
 
 #: ../www/manager/grid/FirewallRules.js:31
 #: ../www/manager/grid/FirewallRules.js:166
 #: ../www/manager/grid/FirewallRules.js:657
 msgid "Macro"
-msgstr ""
+msgstr "Makro"
 
 #: ../www/manager/qemu/StatusView.js:50 ../www/manager/lxc/StatusView.js:68
 msgid "Managed by HA"
-msgstr ""
+msgstr "Behandlet av HA"
 
 #: ../www/manager/qemu/Smbios1Edit.js:40
 msgid "Manufacturer"
-msgstr ""
+msgstr "Produsent"
 
 #: ../www/manager/storage/DirEdit.js:67 ../www/manager/storage/NFSEdit.js:155
 #: ../www/manager/storage/GlusterFsEdit.js:160
@@ -1224,14 +1172,12 @@ msgid "Migrate"
 msgstr "Migrer"
 
 #: ../www/manager/Utils.js:581 ../www/manager/node/Config.js:80
-#, fuzzy
 msgid "Migrate all VMs and Containers"
-msgstr "Start alle VM-er og beholdere"
+msgstr "Migrer alle VM'er og beholdere"
 
 #: ../www/manager/ceph/Pool.js:37
-#, fuzzy
 msgid "Min. Size"
-msgstr "Størrelse"
+msgstr "Min. størrelse"
 
 #: ../www/manager/qemu/MemoryEdit.js:102
 msgid "Minimum memory"
@@ -1244,9 +1190,8 @@ msgid "Mode"
 msgstr "Modus"
 
 #: ../www/manager/qemu/NetworkEdit.js:131 ../www/manager/ceph/Disks.js:94
-#, fuzzy
 msgid "Model"
-msgstr "Modus"
+msgstr "Modell"
 
 #: ../www/manager/qemu/Config.js:160 ../www/manager/ceph/Config.js:115
 msgid "Monitor"
@@ -1258,22 +1203,20 @@ msgstr "Overvåk vert"
 
 #: ../www/manager/node/Config.js:33
 msgid "More"
-msgstr ""
+msgstr "Mer"
 
 #: ../www/manager/Utils.js:555
 msgid "Mount"
 msgstr "Monter"
 
 #: ../www/manager/lxc/Resources.js:89
-#, fuzzy
 msgid "Mount Point"
-msgstr "Monter"
+msgstr "Monteringspunkt"
 
 #: ../www/manager/Utils.js:540 ../www/manager/qemu/HDMove.js:130
 #: ../www/manager/qemu/HDMove.js:132 ../www/manager/qemu/HardwareView.js:349
-#, fuzzy
 msgid "Move disk"
-msgstr "Endre størrelse på disk"
+msgstr "Flytt disk"
 
 #: ../www/manager/qemu/NetworkEdit.js:156
 msgid "Multiqueues"
@@ -1281,7 +1224,7 @@ msgstr ""
 
 #: ../www/manager/qemu/NetworkEdit.js:113
 msgid "NAT mode"
-msgstr ""
+msgstr "NAT-modus"
 
 #: ../www/manager/dc/RoleView.js:40 ../www/manager/dc/PoolEdit.js:28
 #: ../www/manager/dc/PoolView.js:90 ../www/manager/dc/UserView.js:213
@@ -1326,9 +1269,8 @@ msgstr "Nettverkskort"
 
 #: ../www/manager/node/Summary.js:126 ../www/manager/qemu/Summary.js:76
 #: ../www/manager/lxc/Summary.js:81
-#, fuzzy
 msgid "Network traffic"
-msgstr "Nettverkskort"
+msgstr "Nettverkstrafikk"
 
 #: ../www/manager/window/Wizard.js:90
 msgid "Next"
@@ -1336,7 +1278,7 @@ msgstr "Neste"
 
 #: ../www/manager/node/Subscription.js:147
 msgid "Next due date"
-msgstr ""
+msgstr "Neste forfallsdato"
 
 #: ../www/manager/Utils.js:723 ../www/manager/form/Boolean.js:12
 msgid "No"
@@ -1348,9 +1290,8 @@ msgstr "Ingen sikkerhetskopi"
 
 #: ../www/manager/form/CacheTypeSelector.js:9
 #: ../www/manager/form/CacheTypeSelector.js:14
-#, fuzzy
 msgid "No cache"
-msgstr "Ingen forandringer"
+msgstr "Ingen hurtiglager"
 
 #: ../www/manager/node/NetworkView.js:41
 #: ../www/manager/node/NetworkView.js:318
@@ -1358,9 +1299,8 @@ msgid "No changes"
 msgstr "Ingen forandringer"
 
 #: ../www/manager/qemu/NetworkEdit.js:123
-#, fuzzy
 msgid "No network device"
-msgstr "Nettverkskort"
+msgstr "Ingen nettverksenhet"
 
 #: ../www/manager/storage/DirEdit.js:82
 #: ../www/manager/storage/ZFSPoolEdit.js:125
@@ -1370,16 +1310,15 @@ msgstr "Nettverkskort"
 #: ../www/manager/storage/GlusterFsEdit.js:147
 #: ../www/manager/storage/SheepdogEdit.js:61
 msgid "No restrictions"
-msgstr "Ingen restriksjoner"
+msgstr "Ingen avgrensinger"
 
 #: ../www/manager/node/APT.js:153
 msgid "No updates available."
-msgstr ""
+msgstr "Ingen oppdateringer tilgjengelig"
 
 #: ../www/manager/Utils.js:509
-#, fuzzy
 msgid "No valid subscription"
-msgstr "Last opp abonnementsnøkkel"
+msgstr "Ingen gyldig abonnementsnøkkel"
 
 #: ../www/manager/dc/Tasks.js:93 ../www/manager/dc/Log.js:50
 #: ../www/manager/dc/Backup.js:87 ../www/manager/dc/Backup.js:115
@@ -1413,36 +1352,33 @@ msgid "Notes"
 msgstr "Notater"
 
 #: ../www/manager/form/IPProtocolSelector.js:79
-#, fuzzy
 msgid "Number"
-msgstr "Medlemmer"
+msgstr "Nummer"
 
 #: ../www/manager/window/Edit.js:198
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #: ../www/manager/qemu/CreateWizard.js:97
 msgid "OS"
-msgstr ""
+msgstr "OS"
 
 #: ../www/manager/qemu/Options.js:65 ../www/manager/lxc/Options.js:47
-#, fuzzy
 msgid "OS Type"
-msgstr "Type"
+msgstr "OS-type"
 
 #: ../www/manager/window/LoginWindow.js:38
 msgid "OTP"
-msgstr ""
+msgstr "Engangspassord (OTP)"
 
 #: ../www/manager/node/NetworkEdit.js:77 ../www/manager/node/NetworkEdit.js:98
 #: ../www/manager/node/NetworkEdit.js:154
-#, fuzzy
 msgid "OVS options"
-msgstr "Innstillinger"
+msgstr "OVS-innstillinger"
 
 #: ../www/manager/form/EmailNotificationSelector.js:10
 msgid "On failure only"
-msgstr ""
+msgstr "Kun ved feil"
 
 #: ../www/manager/dc/Summary.js:50 ../www/manager/data/ResourceStore.js:36
 #: ../www/manager/window/Migrate.js:71
@@ -1470,23 +1406,20 @@ msgstr "Utdata"
 #: ../www/manager/grid/FirewallOptions.js:145
 #: ../www/manager/grid/FirewallOptions.js:150
 #: ../www/manager/grid/FirewallOptions.js:155
-#, fuzzy
 msgid "Output Policy"
-msgstr "Utdata"
+msgstr "Utdata-regler"
 
 #: ../www/manager/node/StatusView.js:52
-#, fuzzy
 msgid "PVE Manager version"
-msgstr "Pakke"
+msgstr "PVE Manager-versjon"
 
 #: ../www/manager/node/APT.js:159 ../www/manager/storage/ContentView.js:50
 msgid "Package"
 msgstr "Pakke"
 
 #: ../www/manager/node/Summary.js:24 ../www/manager/node/Summary.js:90
-#, fuzzy
 msgid "Package versions"
-msgstr "Pakke"
+msgstr "Pakkeversjoner"
 
 #: ../www/manager/dc/UserEdit.js:46 ../www/manager/dc/UserView.js:31
 #: ../www/manager/dc/UserView.js:38 ../www/manager/dc/UserView.js:134
@@ -1530,9 +1463,8 @@ msgid "Pool"
 msgstr "Pool"
 
 #: ../www/manager/form/ViewSelector.js:25
-#, fuzzy
 msgid "Pool View"
-msgstr "Mappevisning"
+msgstr ""
 
 #: ../www/manager/dc/Config.js:63 ../www/manager/ceph/Config.js:130
 msgid "Pools"
@@ -1548,11 +1480,11 @@ msgstr "Portal"
 
 #: ../www/manager/node/NetworkView.js:262
 msgid "Ports/Slaves"
-msgstr ""
+msgstr "Porter/slaver"
 
 #: ../www/manager/node/NetworkEdit.js:255
 msgid "Prefix length"
-msgstr ""
+msgstr "Prefikslengde"
 
 #: ../www/manager/Utils.js:72
 msgid "Premium"
@@ -1563,9 +1495,8 @@ msgid "Privileges"
 msgstr "Tillatelser"
 
 #: ../www/manager/window/TaskViewer.js:129
-#, fuzzy
 msgid "Process ID"
-msgstr "Prosessorer"
+msgstr "Prosess-ID"
 
 #: ../www/manager/qemu/ProcessorEdit.js:78
 #: ../www/manager/qemu/HardwareView.js:61
@@ -1574,7 +1505,7 @@ msgstr "Prosessorer"
 
 #: ../www/manager/qemu/Smbios1Edit.js:46
 msgid "Product"
-msgstr ""
+msgstr "Produkt"
 
 #: ../www/manager/dc/ACLView.js:51 ../www/manager/dc/ACLView.js:135
 msgid "Propagate"
@@ -1584,7 +1515,7 @@ msgstr "Spre"
 #: ../www/manager/grid/FirewallRules.js:191
 #: ../www/manager/grid/FirewallRules.js:695
 msgid "Protocol"
-msgstr ""
+msgstr "Protokoll"
 
 #: ../www/manager/window/LoginWindow.js:52
 msgid "Proxmox VE Login"
@@ -1592,7 +1523,7 @@ msgstr "Proxmox VE-innlogging"
 
 #: ../www/manager/form/DiskFormatSelector.js:10
 msgid "QEMU image format"
-msgstr ""
+msgstr "QEMU-bildefilformat"
 
 #: ../www/manager/qemu/Options.js:248 ../www/manager/qemu/Options.js:253
 msgid "Qemu Agent"
@@ -1604,41 +1535,37 @@ msgstr ""
 
 #: ../www/manager/ceph/Monitor.js:178
 msgid "Quorum"
-msgstr ""
+msgstr "Quorum"
 
 #: ../www/manager/qemu/SnapshotTree.js:249
 #: ../www/manager/lxc/SnapshotTree.js:249
 msgid "RAM"
-msgstr ""
+msgstr "Minne"
 
 #: ../www/manager/node/StatusView.js:48
-#, fuzzy
 msgid "RAM usage"
-msgstr "CPU-forbruk"
+msgstr "Minne-forbruk"
 
 #: ../www/manager/qemu/Options.js:226 ../www/manager/qemu/Options.js:230
 #: ../www/manager/qemu/Options.js:236
 msgid "RTC start date"
-msgstr ""
+msgstr "RTC startdato"
 
 #: ../www/manager/qemu/NetworkEdit.js:146
-#, fuzzy
 msgid "Rate limit"
-msgstr "Leseavgrensning"
+msgstr "Rate-grense"
 
 #: ../www/manager/form/DiskFormatSelector.js:9
-#, fuzzy
 msgid "Raw disk image"
-msgstr "Diskfil"
+msgstr "RAW-diskbildefil"
 
 #: ../www/manager/qemu/HDThrottle.js:73 ../www/manager/qemu/HDThrottle.js:118
 msgid "Read limit"
 msgstr "Leseavgrensning"
 
 #: ../www/manager/qemu/HDThrottle.js:84 ../www/manager/qemu/HDThrottle.js:129
-#, fuzzy
 msgid "Read max burst"
-msgstr "Skriveavgrensning"
+msgstr "Maks leseutbrudd"
 
 #: ../www/manager/dc/UserEdit.js:141 ../www/manager/dc/UserView.js:192
 #: ../www/manager/dc/AuthView.js:113 ../www/manager/dc/AuthEdit.js:29
@@ -1679,9 +1606,8 @@ msgid "Remove"
 msgstr "Fjern"
 
 #: ../www/manager/ceph/OSD.js:82
-#, fuzzy
 msgid "Remove Partitions"
-msgstr "Ingen restriksjoner"
+msgstr "Fjern partisjoner"
 
 #: ../www/manager/Utils.js:544 ../www/manager/qemu/Config.js:81
 #: ../www/manager/VNCConsole.js:380
@@ -1698,7 +1624,7 @@ msgstr "Endre størrelse på disk"
 #: ../www/manager/qemu/Clone.js:227 ../www/manager/qemu/CreateWizard.js:80
 #: ../www/manager/lxc/CreateWizard.js:95
 msgid "Resource Pool"
-msgstr "Resurspool"
+msgstr "Ressurspool"
 
 #: ../www/manager/lxc/DNS.js:108 ../www/manager/lxc/Config.js:129
 #: ../www/manager/ha/Config.js:18
@@ -1715,28 +1641,25 @@ msgstr "Omstart"
 #: ../www/manager/storage/ContentView.js:373
 #: ../www/manager/window/Restore.js:79
 msgid "Restore"
-msgstr "Gjennopprett"
+msgstr "Gjenopprett"
 
 #: ../www/manager/window/Restore.js:121
-#, fuzzy
 msgid "Restore CT"
-msgstr "Gjennopprett"
+msgstr "Gjenopprett CT"
 
 #: ../www/manager/window/Restore.js:122
-#, fuzzy
 msgid "Restore VM"
-msgstr "Gjennopprett"
+msgstr "Gjenopprett VM"
 
 #: ../www/manager/Utils.js:547 ../www/manager/Utils.js:559
 #: ../www/manager/qemu/CmdMenu.js:66 ../www/manager/qemu/Config.js:42
 #: ../www/manager/lxc/CmdMenu.js:67 ../www/manager/VNCConsole.js:404
 msgid "Resume"
-msgstr "Gjennoppta"
+msgstr "Gjenoppta"
 
 #: ../www/manager/qemu/Options.js:329 ../www/manager/qemu/HardwareView.js:400
-#, fuzzy
 msgid "Revert"
-msgstr "aldri"
+msgstr "Tilbakestill"
 
 #: ../www/manager/node/NetworkView.js:202
 msgid "Revert changes"
@@ -1758,18 +1681,17 @@ msgid "Rollback"
 msgstr "Rull tilbake"
 
 #: ../www/manager/lxc/Resources.js:78 ../www/manager/lxc/CreateWizard.js:146
-#, fuzzy
 msgid "Root Disk"
-msgstr "Diskstørrelse"
+msgstr "Rot-disk"
 
 #: ../www/manager/grid/FirewallRules.js:264
 #: ../www/manager/grid/FirewallRules.js:360
 msgid "Rule"
-msgstr ""
+msgstr "Regel"
 
 #: ../www/manager/dc/SecurityGroups.js:204 ../www/manager/panel/Firewall.js:29
 msgid "Rules"
-msgstr ""
+msgstr "Regler"
 
 #: ../www/manager/qemu/ScsiHwEdit.js:8 ../www/manager/qemu/Options.js:160
 msgid "SCSI Controller Type"
@@ -1777,7 +1699,7 @@ msgstr "Type SCSI-kontroller"
 
 #: ../www/manager/qemu/Smbios1Edit.js:64
 msgid "SKU"
-msgstr ""
+msgstr "SKU"
 
 #: ../www/manager/lxc/Network.js:263
 msgid "SLAAC"
@@ -1785,23 +1707,21 @@ msgstr ""
 
 #: ../www/manager/qemu/Options.js:243 ../www/manager/qemu/Smbios1Edit.js:91
 msgid "SMBIOS settings (type1)"
-msgstr ""
+msgstr "SMBIOS innstillinger (type1)"
 
 #: ../www/manager/grid/FirewallOptions.js:108
 msgid "SMURFS filter"
-msgstr ""
+msgstr "SMURFS-filter"
 
 #: ../www/manager/node/StatusView.js:49
-#, fuzzy
 msgid "SWAP usage"
-msgstr "CPU-forbruk"
+msgstr "Vekseminne-forbruk"
 
 #: ../www/manager/storage/ZFSPoolEdit.js:28
 #: ../www/manager/storage/IScsiEdit.js:49 ../www/manager/storage/NFSEdit.js:49
 #: ../www/manager/storage/LVMEdit.js:28
-#, fuzzy
 msgid "Scanning..."
-msgstr "Laster ..."
+msgstr "Skanner..."
 
 #: ../www/manager/grid/BackupView.js:83
 #: ../www/manager/grid/ResourceGrid.js:167
@@ -1811,14 +1731,12 @@ msgid "Search"
 msgstr "Søk"
 
 #: ../www/manager/node/DNSEdit.js:16
-#, fuzzy
 msgid "Search domain"
-msgstr "Søk"
+msgstr "Søke-domene"
 
 #: ../www/manager/storage/GlusterFsEdit.js:120
-#, fuzzy
 msgid "Second Server"
-msgstr "Tjener"
+msgstr "Neste tjener"
 
 #: ../www/manager/dc/SecurityGroups.js:36
 #: ../www/manager/dc/SecurityGroups.js:38
@@ -1827,7 +1745,7 @@ msgstr "Tjener"
 #: ../www/manager/grid/FirewallRules.js:559
 #: ../www/manager/panel/Firewall.js:40
 msgid "Security Group"
-msgstr ""
+msgstr "Sikkerhetsgruppe"
 
 #: ../www/manager/storage/ContentView.js:195
 msgid "Select File..."
@@ -1847,17 +1765,17 @@ msgstr "Send e-post til"
 
 #: ../www/manager/dc/OptionView.js:89 ../www/manager/dc/OptionView.js:107
 msgid "Send emails from root@$hostname"
-msgstr ""
+msgstr "Send e-poster fra root@$hostname"
 
 #: ../www/manager/qemu/Smbios1Edit.js:58 ../www/manager/ceph/Disks.js:100
 #: ../www/manager/ceph/Disks.js:176
 msgid "Serial"
-msgstr ""
+msgstr "Seriell"
 
 #: ../www/manager/Utils.js:220 ../www/manager/Utils.js:221
 #: ../www/manager/Utils.js:222 ../www/manager/Utils.js:223
 msgid "Serial terminal"
-msgstr ""
+msgstr "Seriell terminal"
 
 #: ../www/manager/dc/AuthEdit.js:95 ../www/manager/storage/NFSEdit.js:106
 #: ../www/manager/storage/GlusterFsEdit.js:103
@@ -1877,9 +1795,8 @@ msgid "Server View"
 msgstr "Tjenervisning"
 
 #: ../www/manager/node/Summary.js:114
-#, fuzzy
 msgid "Server load"
-msgstr "Tjener"
+msgstr "Tjenerlast"
 
 #: ../www/manager/node/TimeView.js:36
 msgid "Server time"
@@ -1945,7 +1862,7 @@ msgstr "Størrelsesøkning"
 #: ../www/manager/node/NetworkEdit.js:104
 #: ../www/manager/node/NetworkEdit.js:199
 msgid "Slaves"
-msgstr ""
+msgstr "Slaver"
 
 #: ../www/manager/Utils.js:532 ../www/manager/Utils.js:560
 #: ../www/manager/form/SnapshotSelector.js:51
@@ -1961,13 +1878,13 @@ msgstr "Øyeblikksbilder"
 
 #: ../www/manager/node/StatusView.js:13
 msgid "Socket"
-msgstr ""
+msgstr "Sokkel"
 
 #: ../www/manager/node/StatusView.js:14
 #: ../www/manager/node/Subscription.js:140
 #: ../www/manager/qemu/ProcessorEdit.js:15
 msgid "Sockets"
-msgstr ""
+msgstr "Sokler"
 
 #: ../www/manager/grid/FirewallRules.js:138
 #: ../www/manager/grid/FirewallRules.js:679
@@ -1977,9 +1894,8 @@ msgstr "Kilde"
 
 #: ../www/manager/grid/FirewallRules.js:203
 #: ../www/manager/grid/FirewallRules.js:711
-#, fuzzy
 msgid "Source port"
-msgstr "Kilde"
+msgstr "Kildeport"
 
 #: ../www/manager/dc/Summary.js:25
 msgid "Standalone node - no cluster defined"
@@ -1990,9 +1906,8 @@ msgid "Standard"
 msgstr "Standard"
 
 #: ../www/manager/Utils.js:213
-#, fuzzy
 msgid "Standard VGA"
-msgstr "Standard"
+msgstr "Standard VGA"
 
 #: ../www/manager/Utils.js:542 ../www/manager/Utils.js:553
 #: ../www/manager/Utils.js:564 ../www/manager/Utils.js:566
@@ -2030,14 +1945,12 @@ msgid "Startup delay"
 msgstr "Oppstartsforsinkelse"
 
 #: ../www/manager/ha/Resources.js:116
-#, fuzzy
 msgid "State"
-msgstr "Status"
+msgstr "Tilstand"
 
 #: ../www/manager/lxc/Network.js:182 ../www/manager/lxc/Network.js:241
-#, fuzzy
 msgid "Static"
-msgstr "Status"
+msgstr "Statisk"
 
 #: ../www/manager/pool/StatusView.js:21 ../www/manager/dc/Tasks.js:109
 #: ../www/manager/dc/Backup.js:91 ../www/manager/node/Tasks.js:153
@@ -2098,9 +2011,8 @@ msgid "Subnet mask"
 msgstr "Nettmaske"
 
 #: ../www/manager/node/Config.js:211
-#, fuzzy
 msgid "Subscription"
-msgstr "Abonnementsnøkkel"
+msgstr "Abonnement"
 
 #: ../www/manager/node/Subscription.js:14
 #: ../www/manager/node/Subscription.js:127
@@ -2135,20 +2047,19 @@ msgstr "Vekselminne"
 #: ../www/manager/node/Subscription.js:52
 #: ../www/manager/node/Subscription.js:181
 msgid "System Report"
-msgstr ""
+msgstr "Systemrapport"
 
 #: ../www/manager/Workspace.js:157
-#, fuzzy
 msgid "System upgrade on node {0}"
-msgstr "Lagring {0} på node {1}"
+msgstr "Systemoppgradering på node {0}"
 
 #: ../www/manager/grid/FirewallOptions.js:109
 msgid "TCP flags filter"
-msgstr ""
+msgstr "TCP-flagg-filter"
 
 #: ../www/manager/dc/AuthView.js:125 ../www/manager/dc/AuthEdit.js:130
 msgid "TFA"
-msgstr ""
+msgstr "Totrinnsautentisering"
 
 #: ../www/manager/lxc/Options.js:73 ../www/manager/lxc/Options.js:77
 #: ../www/manager/lxc/Options.js:85
@@ -2166,28 +2077,25 @@ msgid "Target"
 msgstr "Mål"
 
 #: ../www/manager/qemu/Clone.js:198 ../www/manager/qemu/HDMove.js:65
-#, fuzzy
 msgid "Target Storage"
-msgstr "Basis lagring"
+msgstr "Mål-lager"
 
 #: ../www/manager/storage/ZFSEdit.js:70
-#, fuzzy
 msgid "Target group"
-msgstr "Mål"
+msgstr "Mål-gruppe"
 
 #: ../www/manager/qemu/Clone.js:133 ../www/manager/window/Migrate.js:61
-#, fuzzy
 msgid "Target node"
-msgstr "Mål"
+msgstr "Mål-node"
 
 #: ../www/manager/node/Config.js:170 ../www/manager/qemu/Config.js:150
 #: ../www/manager/lxc/Config.js:149
 msgid "Task History"
-msgstr ""
+msgstr "Oppgavehistorikk"
 
 #: ../www/manager/window/TaskViewer.js:117
 msgid "Task type"
-msgstr ""
+msgstr "Oppgavetype"
 
 #: ../www/manager/panel/StatusPanel.js:31
 msgid "Tasks"
@@ -2207,20 +2115,21 @@ msgstr "Maler"
 #: ../www/manager/storage/ZFSPoolEdit.js:115
 #: ../www/manager/storage/ZFSEdit.js:96
 msgid "Thin provision"
-msgstr ""
+msgstr "Thin provision"
 
 #: ../www/manager/form/VMIDSelector.js:31
 msgid "This VM ID does not exists"
-msgstr ""
+msgstr "Denne VM-ID finnes ikke"
 
 #: ../www/manager/form/VMIDSelector.js:36
 msgid "This VM ID is already in use"
-msgstr ""
+msgstr "Denne VM-ID er allerede i bruk"
 
 #: ../www/manager/Toolkit.js:97
 msgid ""
 "This field should be an e-mail address in the format \"user@example.com\""
 msgstr ""
+"Dette feltet skulle vært en e-postadresse i formatet: \"user@example.com\""
 
 #: ../www/manager/Toolkit.js:91
 msgid "This is not a valid DNS name"
@@ -2251,27 +2160,27 @@ msgstr "Tidsstempel"
 #: ../www/manager/Utils.js:733 ../www/manager/ceph/OSD.js:315
 #: ../www/manager/ceph/Pool.js:184
 msgid "Total"
-msgstr ""
+msgstr "Total"
 
 #: ../www/manager/data/ResourceStore.js:137
 msgid "Total Disk Read"
-msgstr ""
+msgstr "Total disklesing"
 
 #: ../www/manager/data/ResourceStore.js:145
 msgid "Total Disk Write"
-msgstr ""
+msgstr "Total diskskriving"
 
 #: ../www/manager/data/ResourceStore.js:153
 msgid "Total NetIn"
-msgstr ""
+msgstr "Totalt nett-inndata"
 
 #: ../www/manager/data/ResourceStore.js:161
 msgid "Total NetOut"
-msgstr ""
+msgstr "Total nett-utdata"
 
 #: ../www/manager/qemu/ProcessorEdit.js:60
 msgid "Total cores"
-msgstr ""
+msgstr "Totalt kjerner"
 
 #: ../www/manager/dc/AuthView.js:119 ../www/manager/dc/Backup.js:107
 #: ../www/manager/dc/StorageView.js:207
@@ -2291,30 +2200,27 @@ msgstr "Type"
 #: ../www/manager/Utils.js:113
 #: ../www/manager/form/HotplugFeatureSelector.js:51
 msgid "USB"
-msgstr ""
+msgstr "USB"
 
 #: ../www/manager/dc/Support.js:50
-#, fuzzy
 msgid "Unable to load subscription status"
-msgstr "Last opp abonnementsnøkkel"
+msgstr "Ikke mulig å laste abonnementstatus"
 
 #: ../www/manager/qemu/HDEdit.js:291 ../www/manager/qemu/HDThrottle.js:201
-#, fuzzy
 msgid "Unable to parse drive options"
-msgstr "Last opp abonnementsnøkkel"
+msgstr "Ikke mulig å tolke drev-innstillinger"
 
 #: ../www/manager/qemu/NetworkEdit.js:210
 msgid "Unable to parse network options"
-msgstr ""
+msgstr "Ikke mulig å tolke nettverksinnstillinger"
 
 #: ../www/manager/qemu/Smbios1Edit.js:106
-#, fuzzy
 msgid "Unable to parse smbios options"
-msgstr "Last opp abonnementsnøkkel"
+msgstr "Ikke mulig å tolke smbios-innstillinger"
 
 #: ../www/manager/window/TaskViewer.js:138
 msgid "Unique task ID"
-msgstr ""
+msgstr "Unik oppgave-ID"
 
 #: ../www/manager/Utils.js:726
 msgid "Unknown"
@@ -2339,16 +2245,15 @@ msgstr "Oppdater"
 
 #: ../www/manager/Utils.js:578
 msgid "Update package database"
-msgstr ""
+msgstr "Oppdatere pakkedatabase"
 
 #: ../www/manager/node/Config.js:187
-#, fuzzy
 msgid "Updates"
-msgstr "Oppdater"
+msgstr "Oppdateringer"
 
 #: ../www/manager/node/APT.js:83
 msgid "Upgrade"
-msgstr ""
+msgstr "Oppgrader"
 
 #: ../www/manager/storage/ContentView.js:235
 #: ../www/manager/storage/ContentView.js:302
@@ -2372,13 +2277,12 @@ msgid "Uptime"
 msgstr "Oppetid"
 
 #: ../www/manager/storage/Summary.js:44 ../www/manager/ceph/Disks.js:68
-#, fuzzy
 msgid "Usage"
-msgstr "CPU-forbruk"
+msgstr "Bruk"
 
 #: ../www/manager/qemu/CDEdit.js:85
 msgid "Use CD/DVD disc image file (iso)"
-msgstr ""
+msgstr "Bruk CD/DVD-diskbildefil (iso)"
 
 #: ../www/manager/storage/IScsiEdit.js:149
 msgid "Use LUNs directly"
@@ -2391,16 +2295,15 @@ msgstr "Bruk fast minnestørrelse"
 #: ../www/manager/qemu/Options.js:208 ../www/manager/qemu/Options.js:213
 #: ../www/manager/qemu/Options.js:221
 msgid "Use local time for RTC"
-msgstr ""
+msgstr "Bruk lokaltid for RTC"
 
 #: ../www/manager/qemu/CDEdit.js:130
-#, fuzzy
 msgid "Use physical CD/DVD Drive"
-msgstr "CD/DVD-stasjon"
+msgstr "Bruk fysisk CD/DVD-stasjon"
 
 #: ../www/manager/qemu/Options.js:107 ../www/manager/qemu/Options.js:112
 msgid "Use tablet for pointer"
-msgstr ""
+msgstr "Bruk tegneplate som peker"
 
 #: ../www/manager/Utils.js:734 ../www/manager/storage/StatusView.js:50
 #: ../www/manager/ceph/OSD.js:300 ../www/manager/ceph/Pool.js:171
@@ -2414,7 +2317,7 @@ msgstr "Bruker"
 
 #: ../www/manager/dc/AuthEdit.js:63
 msgid "User Attribute Name"
-msgstr ""
+msgstr "Brukeregenskapnavn"
 
 #: ../www/manager/dc/ACLView.js:29 ../www/manager/dc/ACLView.js:205
 msgid "User Permission"
@@ -2435,44 +2338,41 @@ msgstr "Brukere"
 
 #: ../www/manager/form/VLanField.js:9 ../www/manager/lxc/Network.js:496
 msgid "VLAN Tag"
-msgstr ""
+msgstr "VLAN-tagg"
 
 #: ../www/manager/qemu/CmdMenu.js:56 ../www/manager/qemu/CmdMenu.js:76
 #: ../www/manager/qemu/CmdMenu.js:90 ../www/manager/qemu/CmdMenu.js:115
 msgid "VM"
-msgstr ""
+msgstr "VM"
 
 #: ../www/manager/ha/ResourceEdit.js:99
-#, fuzzy
 msgid "VM Resource"
-msgstr "Ressurser"
+msgstr "VM-ressurs"
 
 #: ../www/manager/qemu/Options.js:265 ../www/manager/qemu/Options.js:270
-#, fuzzy
 msgid "VM protection"
-msgstr "Katalog"
+msgstr "VM-beskyttelse"
 
 #: ../www/manager/Utils.js:214
 msgid "VMWare compatible"
-msgstr ""
+msgstr "VMware-kompatibel"
 
 #: ../www/manager/form/DiskFormatSelector.js:11
 msgid "VMware image format"
-msgstr ""
+msgstr "VMware-bildefilformat"
 
 #: ../www/manager/lxc/StatusView.js:65
-#, fuzzy
 msgid "VSwap usage"
-msgstr "CPU-forbruk"
+msgstr "VSwap-forbruk"
 
 #: ../www/manager/Utils.js:737
 msgid "VZDump backup file"
-msgstr ""
+msgstr "VZDump-sikkerhetskopi"
 
 #: ../www/manager/grid/ObjectGrid.js:100 ../www/manager/qemu/Snapshot.js:111
 #: ../www/manager/lxc/Snapshot.js:102
 msgid "Value"
-msgstr ""
+msgstr "Verdi"
 
 #: ../www/manager/qemu/CPUOptions.js:40
 msgid "Vcpus"
@@ -2480,7 +2380,7 @@ msgstr ""
 
 #: ../www/manager/ceph/Disks.js:88
 msgid "Vendor"
-msgstr ""
+msgstr "Leverandør"
 
 #: ../www/manager/Workspace.js:263 ../www/manager/node/APT.js:165
 #: ../www/manager/qemu/Smbios1Edit.js:52
@@ -2512,18 +2412,16 @@ msgid "Volume group"
 msgstr "Volumgruppe"
 
 #: ../www/manager/storage/ZFSEdit.js:103
-#, fuzzy
 msgid "Write cache"
-msgstr "Ingen forandringer"
+msgstr "Skrive-hurtigminne"
 
 #: ../www/manager/qemu/HDThrottle.js:96 ../www/manager/qemu/HDThrottle.js:140
 msgid "Write limit"
 msgstr "Skriveavgrensning"
 
 #: ../www/manager/qemu/HDThrottle.js:107 ../www/manager/qemu/HDThrottle.js:151
-#, fuzzy
 msgid "Write max burst"
-msgstr "Skriveavgrensning"
+msgstr "Maks skriveutbrudd"
 
 #: ../www/manager/Utils.js:722 ../www/manager/form/Boolean.js:11
 msgid "Yes"
@@ -2540,13 +2438,12 @@ msgstr "Du er logget på som {0}"
 
 #: ../www/manager/storage/ZFSPoolEdit.js:80
 #: ../www/manager/storage/ZFSPoolEdit.js:88
-#, fuzzy
 msgid "ZFS Pool"
-msgstr "Pool"
+msgstr "ZFS-pool"
 
 #: ../www/manager/node/APT.js:168
 msgid "current"
-msgstr ""
+msgstr "nåværende"
 
 #: ../www/manager/Utils.js:729
 msgid "day"
@@ -2558,19 +2455,16 @@ msgstr "dager"
 
 #: ../www/manager/qemu/HDThrottle.js:86 ../www/manager/qemu/HDThrottle.js:109
 #: ../www/manager/qemu/HDThrottle.js:131 ../www/manager/qemu/HDThrottle.js:153
-#, fuzzy
 msgid "default"
-msgstr "Standard"
+msgstr "standard"
 
 #: ../www/manager/Utils.js:104
-#, fuzzy
 msgid "disabled"
-msgstr "Aktivert"
+msgstr "deaktivert"
 
 #: ../www/manager/ha/ResourceEdit.js:59
-#, fuzzy
 msgid "enable"
-msgstr "Aktiver"
+msgstr "aktiver"
 
 #: ../www/manager/form/CompressionSelector.js:10
 msgid "fast"
@@ -2582,11 +2476,11 @@ msgstr "god"
 
 #: ../www/manager/storage/ZFSEdit.js:88
 msgid "iSCSI Provider"
-msgstr ""
+msgstr "iSCSI-provider"
 
 #: ../www/manager/data/ResourceStore.js:130
 msgid "maxcpu"
-msgstr ""
+msgstr "maxcpu"
 
 #: ../www/manager/Utils.js:732
 msgid "never"
@@ -2594,16 +2488,15 @@ msgstr "aldri"
 
 #: ../www/manager/node/APT.js:174
 msgid "new"
-msgstr ""
+msgstr "ny"
 
 #: ../www/manager/ha/Groups.js:96 ../www/manager/ha/GroupEdit.js:50
-#, fuzzy
 msgid "nofailback"
-msgstr "Rull tilbake"
+msgstr ""
 
 #: ../www/manager/panel/IPSet.js:229
 msgid "nomatch"
-msgstr ""
+msgstr "nomatch"
 
 #: ../www/manager/Utils.js:724
 msgid "none"
@@ -2611,12 +2504,11 @@ msgstr "ingen"
 
 #: ../www/manager/form/NetworkCardSelector.js:10
 msgid "paravirtualized"
-msgstr ""
+msgstr "paravirtualisert"
 
 #: ../www/manager/ha/Groups.js:89 ../www/manager/ha/GroupEdit.js:44
-#, fuzzy
 msgid "restricted"
-msgstr "Ingen restriksjoner"
+msgstr "avgrensa"
 
 #: ../www/manager/Utils.js:730
 msgid "running"
@@ -2634,52 +2526,72 @@ msgstr "ubegrenset"
 
 #: ../www/manager/form/CacheTypeSelector.js:13
 msgid "unsafe"
-msgstr ""
+msgstr "usikker"
 
 #: ../www/manager/lxc/DNS.js:44 ../www/manager/lxc/DNS.js:183
 #: ../www/manager/lxc/DNS.js:194
 msgid "use host settings"
-msgstr ""
+msgstr "bruk vert-innstillinger"
+
+#~ msgid "Barrier"
+#~ msgstr "Grenser"
+
+#~ msgid "CPU Options"
+#~ msgstr "CPU-innstillinger"
+
+#~ msgid "Do you really want to convert VM {0} into a template?"
+#~ msgstr "Vil du virkelig konvertere VM {0} til en mal?"
+
+#~ msgid "Failcnt"
+#~ msgstr "Failcnt"
+
+#~ msgid "Held"
+#~ msgstr "Holdt"
+
+#~ msgid "Host MAC address"
+#~ msgstr "Vert-MAC-adresse"
+
+#~ msgid "Host device name"
+#~ msgstr "Vert-enhetsnavn"
+
+#~ msgid "Host ifname"
+#~ msgstr "Vert-grensesnittnavn"
+
+#~ msgid "Limit"
+#~ msgstr "Grense"
+
+#~ msgid "Maxheld"
+#~ msgstr "Maxheld"
+
+#~ msgid "OpenVZ Container"
+#~ msgstr "OpenVZ-beholder"
+
+#~ msgid "Quota Grace period"
+#~ msgstr "Nådeperiode for kvote"
+
+#~ msgid "Quota UGID limit"
+#~ msgstr "UGID-grensekvote"
+
+#~ msgid "Resource"
+#~ msgstr "Ressurs"
+
+#~ msgid "User quotas disabled."
+#~ msgstr "Brukerkvote deaktivert."
+
+#~ msgid "seconds"
+#~ msgstr "sekunder"
 
 #~ msgid "Activate"
 #~ msgstr "Aktiver"
+
+#~ msgid "Aliases"
+#~ msgstr "Aliaser"
 
 #~ msgid "Are you sure you want to activate your changes"
 #~ msgstr "Er du sikker på at du ønsker å aktivere endringene"
 
 #~ msgid "Are you sure you want to revert your changes"
 #~ msgstr "Er du sikker på at du vil tilbakestille endringene"
-
-#, fuzzy
-#~ msgid "CPU Options"
-#~ msgstr "Innstillinger"
-
-#, fuzzy
-#~ msgid "CPU usage %"
-#~ msgstr "CPU-forbruk"
-
-#, fuzzy
-#~ msgid "Clone Mode"
-#~ msgstr "Klone"
-
-#, fuzzy
-#~ msgid "Confirmation"
-#~ msgstr "Bekreft"
-
-#~ msgid "Do you really want to convert VM {0} into a template?"
-#~ msgstr "Vil du virkelig konvertere VM {0} til en mal?"
-
-#, fuzzy
-#~ msgid "Do you really want to shutdown CT {0}?"
-#~ msgstr "Vil du virkelig slå av VM {0}?"
-
-#, fuzzy
-#~ msgid "Do you really want to stop CT {0}?"
-#~ msgstr "Vil du virkelig stoppe VM {0}?"
-
-#, fuzzy
-#~ msgid "Do you really want to suspend CT {0}?"
-#~ msgstr "Vil du virkelig sette VM {0} i hvilemodus?"
 
 #~ msgid "Estranged"
 #~ msgstr "Fraseparert"
@@ -2693,60 +2605,44 @@ msgstr ""
 #~ msgid "HA managed VM/CT"
 #~ msgstr "HA-behandlet VM/CT"
 
-#, fuzzy
-#~ msgid "Host MAC address"
-#~ msgstr "IP-adresse"
-
-#, fuzzy
-#~ msgid "Host device name"
-#~ msgstr "Oppstartsenhet"
-
-#, fuzzy
-#~ msgid "Host ifname"
-#~ msgstr "Brukernavn"
-
-#, fuzzy
-#~ msgid "Images"
-#~ msgstr "Diskfil"
-
 #~ msgid "Last owner"
 #~ msgstr "Siste eier"
 
 #~ msgid "Last transition"
 #~ msgstr "Siste overgang"
 
-#, fuzzy
-#~ msgid "Memory (MB)"
-#~ msgstr "Minne"
-
-#, fuzzy
-#~ msgid "Migrate All VMs"
-#~ msgstr "Migrer"
-
-#~ msgid "OpenVZ Container"
-#~ msgstr "OpenVZ-beholder"
-
-#, fuzzy
 #~ msgid "OpenVZ template"
-#~ msgstr "OpenVZ-beholder"
+#~ msgstr "OpenVZ-mal"
 
 #~ msgid "Owner"
 #~ msgstr "Eier"
-
-#, fuzzy
-#~ msgid "Resource"
-#~ msgstr "Ressurser"
 
 #~ msgid "Restarts"
 #~ msgstr "Starter på nytt"
 
 #, fuzzy
-#~ msgid "Spice Console"
-#~ msgstr "Konsoll"
+#~ msgid "CPU usage %"
+#~ msgstr "CPU-forbruk"
 
 #, fuzzy
-#~ msgid "Swap (MB)"
-#~ msgstr "Vekselminne"
+#~ msgid "Clone Mode"
+#~ msgstr "Klone"
+
+#, fuzzy
+#~ msgid "Confirmation"
+#~ msgstr "Bekreft"
+
+#, fuzzy
+#~ msgid "Images"
+#~ msgstr "Diskfil"
+
+#, fuzzy
+#~ msgid "Migrate VM"
+#~ msgstr "Migrer"
+
+#, fuzzy
+#~ msgid "Spice Console"
+#~ msgstr "Konsoll"
 
 #~ msgid "ssl"
 #~ msgstr "ssl"
