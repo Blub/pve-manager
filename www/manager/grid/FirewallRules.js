@@ -59,7 +59,7 @@ Ext.define('PVE.FirewallRulePanel', {
 	// hack: editable ComboGrid returns nothing when empty, so we need to set ''
 	// Also, disabled text fields return nothing, so we need to set ''
 
-	Ext.Array.each(['source', 'dest', 'proto', 'sport', 'dport', 'macro'], function(key) {
+	Ext.Array.each(['source', 'dest', 'proto', 'sport', 'dport', 'macro', 'mark', 'setmark'], function(key) {
 	    if (values[key] === undefined) {
 		values[key] = '';
 	    }
@@ -98,9 +98,17 @@ Ext.define('PVE.FirewallRulePanel', {
 		xtype: 'pveKVComboBox',
 		name: 'action',
 		value: 'ACCEPT',
-		data: [['ACCEPT', 'ACCEPT'], ['DROP', 'DROP'], ['REJECT', 'REJECT']],
+		data: [['ACCEPT', 'ACCEPT'], ['DROP', 'DROP'], ['REJECT', 'REJECT'], ['MARK', 'MARK']],
 		fieldLabel: gettext('Action'),
-		allowBlank: false
+		allowBlank: false,
+		listeners: {
+		    change: function(f, value) {
+			var showmark = (value === 'MARK');
+			me.down('field[name=setmark]').setVisible(showmark);
+			me.down('field[name=setmark]').setDisabled(!showmark);
+			me.down('field[name=setmarkhidden]').setVisible(!showmark);
+		    }
+		}
 	    }
         ];
 
@@ -122,6 +130,20 @@ Ext.define('PVE.FirewallRulePanel', {
 	}
 
 	me.column1.push([
+	    {
+		xtype: 'textfield',
+		name: 'setmark',
+		value: '',
+		hidden: true,
+		fieldLabel: gettext('Set Mark')
+	    },
+	    {
+		xtype: 'displayfield',
+		fieldLabel: '',
+		name: 'setmarkhidden',
+		height: 22, // hack: set same height as text fields
+		value: ''
+	    },
 	    {
 		xtype: 'displayfield',
 		fieldLabel: '',
@@ -189,6 +211,12 @@ Ext.define('PVE.FirewallRulePanel', {
 		editable: true,
 		value: '',
 		fieldLabel: gettext('Protocol')
+	    },
+	    {
+		xtype: 'textfield',
+		name: 'mark',
+		value: '',
+		fieldLabel: gettext('Mark')
 	    },
 	    {
 		xtype: 'displayfield',
