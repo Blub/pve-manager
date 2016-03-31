@@ -7,11 +7,14 @@ EXTJSSRC=${EXTJSDIR}-gpl.zip
 
 EXTDATA=	\
 	extjs/build/ext-all.js	\
-	extjs/build/ext-all-debug.js
+	extjs/build/ext-all-debug.js	\
+	extjs/build/packages/charts/classic/charts.js	\
+	extjs/build/packages/charts/classic/charts-debug.js	\
 
 EXT_THEME=	\
 	extjs/build/classic/theme-classic	\
-	extjs/build/classic/theme-crisp
+	extjs/build/classic/theme-crisp		\
+	extjs/build/packages/charts/classic/crisp	\
 
 all: ${EXTDATA}
 
