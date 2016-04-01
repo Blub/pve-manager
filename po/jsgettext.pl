@@ -24,9 +24,9 @@ my $filename = "messages.pot";
 
 my $header = <<__EOD;
 SOME DESCRIPTIVE TITLE.
-Copyright (C) 2011-2015 Proxmox Server Solutions GmbH
+Copyright (C) 2011-2016 Proxmox Server Solutions GmbH
 This file is distributed under the same license as the pve-manager package.
-Proxmox Support Team <support\@proxmox.com>, 2015.
+Proxmox Support Team <support\@proxmox.com>, 2016.
 __EOD
 
 my $ctime = scalar localtime;

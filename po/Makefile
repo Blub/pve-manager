@@ -6,7 +6,7 @@ all: $(patsubst %, pve-lang-%.js, $(LINGUAS))
 
 .PHONY: update-po
 update-po:
-	./jsgettext.pl ../www/manager
+	./jsgettext.pl ../www/manager6
 	for i in $(LINGUAS); do echo -n "$$i: ";msgmerge -s -v $$i.po messages.pot >$$i.po.tmp && mv $$i.po.tmp $$i.po; done
 
 # try to generate po files when someone add a new language
