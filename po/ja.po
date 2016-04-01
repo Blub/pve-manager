@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Fri Apr  1 17:47:19 2016\n"
+"POT-Creation-Date: Fri Apr  1 18:17:28 2016\n"
 "PO-Revision-Date: 2011-12-08 07:14+0100\n"
 "Last-Translator: Koichi MATSUMOTO <mzch@mac.com>\n"
 "Language-Team: Japanese <support@proxmox.com>\n"
@@ -1077,11 +1077,7 @@ msgstr "IP アドレス"
 msgid "IPv6/CIDR"
 msgstr ""
 
-#: ../www/manager6/qemu/CDEdit.js:103
-msgid "ISO Image"
-msgstr "ISO イメージ"
-
-#: ../www/manager6/Utils.js:739
+#: ../www/manager6/Utils.js:739 ../www/manager6/qemu/CDEdit.js:103
 msgid "ISO image"
 msgstr "ISO イメージ"
 
@@ -3268,6 +3264,9 @@ msgstr "ホスト設定を使用する"
 
 #~ msgid "ISO"
 #~ msgstr "ISO"
+
+#~ msgid "ISO Image"
+#~ msgstr "ISO イメージ"
 
 #~ msgid "Icelandic"
 #~ msgstr "アイスランド語"

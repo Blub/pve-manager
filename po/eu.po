@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Fri Apr  1 17:47:19 2016\n"
+"POT-Creation-Date: Fri Apr  1 18:17:28 2016\n"
 "PO-Revision-Date: 2014-04-17 10:44+0100\n"
 "Last-Translator: Xabier Isla Rodriguez <xabi@uharte.com>\n"
 "Language-Team: Euskera\n"
@@ -1061,11 +1061,7 @@ msgstr "IP helbidea"
 msgid "IPv6/CIDR"
 msgstr ""
 
-#: ../www/manager6/qemu/CDEdit.js:103
-msgid "ISO Image"
-msgstr "ISO Irudia"
-
-#: ../www/manager6/Utils.js:739
+#: ../www/manager6/Utils.js:739 ../www/manager6/qemu/CDEdit.js:103
 msgid "ISO image"
 msgstr "ISO irudia"
 
@@ -2805,6 +2801,9 @@ msgstr ""
 
 #~ msgid "Host ifname"
 #~ msgstr "Anfitrioi ifname"
+
+#~ msgid "ISO Image"
+#~ msgstr "ISO Irudia"
 
 #, fuzzy
 #~ msgid "Images"

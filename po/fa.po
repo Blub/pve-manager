@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Fri Apr  1 17:47:19 2016\n"
+"POT-Creation-Date: Fri Apr  1 18:17:28 2016\n"
 "PO-Revision-Date: 2014-06-23 06:07+0200\n"
 "Last-Translator: Jerry Afr <hamedwise@gmail.com>\n"
 "Language-Team: Persian\n"
@@ -1066,11 +1066,7 @@ msgstr "آدرس IP"
 msgid "IPv6/CIDR"
 msgstr ""
 
-#: ../www/manager6/qemu/CDEdit.js:103
-msgid "ISO Image"
-msgstr ""
-
-#: ../www/manager6/Utils.js:739
+#: ../www/manager6/Utils.js:739 ../www/manager6/qemu/CDEdit.js:103
 #, fuzzy
 msgid "ISO image"
 msgstr "image دیسک"

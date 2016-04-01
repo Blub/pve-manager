@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Fri Apr  1 17:47:19 2016\n"
+"POT-Creation-Date: Fri Apr  1 18:17:28 2016\n"
 "PO-Revision-Date: 2012-04-25 18:19+0200\n"
 "Last-Translator: Para Bilgi Teknolojileri Ltd. Sti. <proxmox@para.com.tr>\n"
 "Language-Team: Turkish\n"
@@ -1075,12 +1075,7 @@ msgstr "Ip adresi"
 msgid "IPv6/CIDR"
 msgstr ""
 
-#: ../www/manager6/qemu/CDEdit.js:103
-#, fuzzy
-msgid "ISO Image"
-msgstr "Disk Imajı"
-
-#: ../www/manager6/Utils.js:739
+#: ../www/manager6/Utils.js:739 ../www/manager6/qemu/CDEdit.js:103
 #, fuzzy
 msgid "ISO image"
 msgstr "Disk Imajı"
@@ -2842,6 +2837,10 @@ msgstr ""
 #, fuzzy
 #~ msgid "Host ifname"
 #~ msgstr "Kullanıcı adı"
+
+#, fuzzy
+#~ msgid "ISO Image"
+#~ msgstr "Disk Imajı"
 
 #, fuzzy
 #~ msgid "Images"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Fri Apr  1 17:47:19 2016\n"
+"POT-Creation-Date: Fri Apr  1 18:17:28 2016\n"
 "PO-Revision-Date: 2016-02-25 21:51+0100\n"
 "Last-Translator: Jostein Hove-Henriksen <jostein@hove-henriksen.no>\n"
 "Language-Team: Norwegian Nynorsk\n"
@@ -1036,11 +1036,7 @@ msgstr "IPv6-adresse"
 msgid "IPv6/CIDR"
 msgstr "IPv6/CIDR"
 
-#: ../www/manager6/qemu/CDEdit.js:103
-msgid "ISO Image"
-msgstr "ISO-diskbiletfil"
-
-#: ../www/manager6/Utils.js:739
+#: ../www/manager6/Utils.js:739 ../www/manager6/qemu/CDEdit.js:103
 msgid "ISO image"
 msgstr "ISO-diskbiletfil"
 
@@ -2731,6 +2727,9 @@ msgstr "bruk vert-innstillingar"
 
 #~ msgid "Host ifname"
 #~ msgstr "Vert grensesnittnamn"
+
+#~ msgid "ISO Image"
+#~ msgstr "ISO-diskbiletfil"
 
 #, fuzzy
 #~ msgid "Images"

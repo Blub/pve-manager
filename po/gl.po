@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Fri Apr  1 17:47:19 2016\n"
+"POT-Creation-Date: Fri Apr  1 18:17:28 2016\n"
 "PO-Revision-Date: 2015-10-22 16:28+0200\n"
 "Last-Translator: Diego Blanco Girón <diego.blanco@treitos.com>\n"
 "Language-Team: Galego <diego.blanco@treitos.com>\n"
@@ -1053,11 +1053,7 @@ msgstr "Enderezo IP"
 msgid "IPv6/CIDR"
 msgstr "IP/CIDR"
 
-#: ../www/manager6/qemu/CDEdit.js:103
-msgid "ISO Image"
-msgstr "Imaxe ISO"
-
-#: ../www/manager6/Utils.js:739
+#: ../www/manager6/Utils.js:739 ../www/manager6/qemu/CDEdit.js:103
 msgid "ISO image"
 msgstr "Imaxe ISO"
 
@@ -2770,6 +2766,9 @@ msgstr ""
 
 #~ msgid "Host ifname"
 #~ msgstr "Interface do servidor"
+
+#~ msgid "ISO Image"
+#~ msgstr "Imaxe ISO"
 
 #~ msgid "Last owner"
 #~ msgstr "Último dono"
