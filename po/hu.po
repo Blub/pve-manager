@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Fri Apr  1 18:17:28 2016\n"
+"POT-Creation-Date: Mon Apr  4 16:57:59 2016\n"
 "PO-Revision-Date: 2015-12-28 13:07+0100\n"
 "Last-Translator: Pongrácz István <pongracz.istvan@gmail.com>\n"
 "Language-Team: Hungarian <support@proxmox.com>\n"
@@ -49,7 +49,7 @@ msgstr "Aktív"
 msgid "Active Directory Server"
 msgstr "Active Directory Server"
 
-#: ../www/manager6/Utils.js:938 ../www/manager6/dc/UserView.js:148
+#: ../www/manager6/Utils.js:943 ../www/manager6/dc/UserView.js:148
 #: ../www/manager6/dc/AuthView.js:74 ../www/manager6/dc/ACLView.js:189
 #: ../www/manager6/dc/Backup.js:396 ../www/manager6/dc/StorageView.js:106
 #: ../www/manager6/grid/FirewallAliases.js:135
@@ -113,7 +113,7 @@ msgstr "Biztos benne, hogy elhagyja ezt az oldalt?"
 #: ../www/manager6/dc/AuthView.js:49 ../www/manager6/dc/GroupView.js:28
 #: ../www/manager6/dc/StorageView.js:79 ../www/manager6/grid/BackupView.js:147
 #: ../www/manager6/grid/PoolMembers.js:173
-#: ../www/manager6/qemu/SnapshotTree.js:183
+#: ../www/manager6/qemu/SnapshotTree.js:182
 #: ../www/manager6/qemu/HardwareView.js:373
 #: ../www/manager6/lxc/Resources.js:199
 #: ../www/manager6/lxc/SnapshotTree.js:183 ../www/manager6/lxc/Network.js:399
@@ -127,25 +127,8 @@ msgstr "Biztos benne, hogy eltávolítja ezt a bejegyzést"
 
 #: ../www/manager6/window/SafeDestroy.js:94
 #, fuzzy
-msgid ""
-"Are you sure you want to remove {item.type} {item.id}? This will permanently "
-"erase all data."
-msgstr ""
-"Biztos benne, hogy törölni akarja a {0} VM-et? Ez a művelet "
-"visszavonhatatlanul törli a VM összes adatát."
-
-#: ../www/manager6/window/Restore.js:103
-msgid "Are you sure you want to restore this VM?"
-msgstr "Biztos benne, hogy helyreállítja ezt a VM-et?"
-
-#: ../www/manager6/qemu/SnapshotTree.js:148
-#: ../www/manager6/lxc/SnapshotTree.js:148
-msgid "Are you sure you want to rollback to snapshot {0}"
-msgstr "Biztos benne, hogy visszaáll erre a pillanatképre {0}"
-
-#: ../www/manager6/window/SafeDestroy.js:9
-msgid "Are you sure?"
-msgstr ""
+msgid "Are you sure you want to remove {item.type} {item.id}?"
+msgstr "Biztos benne, hogy eltávolítja a következő bejegyzést {0}"
 
 #: ../www/manager6/dc/Config.js:84
 msgid "Authentication"
@@ -169,7 +152,7 @@ msgstr "Elérhető"
 msgid "Back"
 msgstr "Vissza"
 
-#: ../www/manager6/Utils.js:577 ../www/manager6/dc/Config.js:46
+#: ../www/manager6/Utils.js:582 ../www/manager6/dc/Config.js:46
 #: ../www/manager6/qemu/Config.js:162 ../www/manager6/lxc/Config.js:162
 #: ../www/manager6/window/Backup.js:57 ../www/manager6/window/Backup.js:91
 msgid "Backup"
@@ -282,10 +265,6 @@ msgstr "CPU használat"
 msgid "CPUs"
 msgstr "CPU-k"
 
-#: ../www/manager6/lxc/Options.js:122 ../www/manager6/lxc/Options.js:127
-msgid "CT protection"
-msgstr "CT védelem"
-
 #: ../www/manager6/qemu/HDEdit.js:226
 msgid "Cache"
 msgstr "Gyorstár"
@@ -302,8 +281,9 @@ msgstr "Változásnapló"
 msgid "Check"
 msgstr "Ellenőriz"
 
-#: ../www/manager6/Utils.js:542 ../www/manager6/qemu/CmdMenu.js:101
-#: ../www/manager6/qemu/Clone.js:269 ../www/manager6/qemu/TemplateMenu.js:48
+#: ../www/manager6/Utils.js:542 ../www/manager6/Utils.js:559
+#: ../www/manager6/qemu/CmdMenu.js:101 ../www/manager6/qemu/Clone.js:269
+#: ../www/manager6/qemu/TemplateMenu.js:48
 msgid "Clone"
 msgstr "Klón"
 
@@ -368,7 +348,8 @@ msgstr "Konfigurál"
 #: ../www/manager6/VNCConsole.js:265 ../www/manager6/VNCConsole.js:277
 #: ../www/manager6/VNCConsole.js:294 ../www/manager6/VNCConsole.js:306
 #: ../www/manager6/VNCConsole.js:391 ../www/manager6/VNCConsole.js:403
-#: ../www/manager6/window/Restore.js:105
+#: ../www/manager6/window/Restore.js:107
+#: ../www/manager6/window/SafeDestroy.js:9
 msgid "Confirm"
 msgstr "Megerősít"
 
@@ -379,7 +360,7 @@ msgstr "Jelszó megerősítése"
 
 #: ../www/manager6/Utils.js:391 ../www/manager6/Utils.js:450
 #: ../www/manager6/Utils.js:452 ../www/manager6/Utils.js:454
-#: ../www/manager6/Utils.js:456 ../www/manager6/Utils.js:1102
+#: ../www/manager6/Utils.js:456 ../www/manager6/Utils.js:1107
 msgid "Connection error"
 msgstr "Kapcsolódási hiba"
 
@@ -401,11 +382,11 @@ msgstr "Konzol megjelenítő"
 msgid "Console mode"
 msgstr "Konzol mód"
 
-#: ../www/manager6/Utils.js:740
+#: ../www/manager6/Utils.js:745
 msgid "Container"
 msgstr "Konténer"
 
-#: ../www/manager6/Utils.js:738
+#: ../www/manager6/Utils.js:743
 msgid "Container template"
 msgstr "Konténer sablon"
 
@@ -426,12 +407,12 @@ msgstr "{0} konténer a {1} csomóponton"
 msgid "Content"
 msgstr "Tartalom"
 
-#: ../www/manager6/Utils.js:544 ../www/manager6/qemu/CmdMenu.js:112
-#: ../www/manager6/lxc/CmdMenu.js:102
+#: ../www/manager6/Utils.js:544 ../www/manager6/Utils.js:560
+#: ../www/manager6/qemu/CmdMenu.js:112 ../www/manager6/lxc/CmdMenu.js:102
 msgid "Convert to template"
 msgstr "Sablonná alakít"
 
-#: ../www/manager6/Utils.js:574
+#: ../www/manager6/Utils.js:579
 msgid "Copy data"
 msgstr "Adat másolása"
 
@@ -439,9 +420,9 @@ msgstr "Adat másolása"
 msgid "Cores"
 msgstr "Mag"
 
-#: ../www/manager6/Utils.js:538 ../www/manager6/Utils.js:552
-#: ../www/manager6/Utils.js:570 ../www/manager6/Utils.js:572
-#: ../www/manager6/Utils.js:940 ../www/manager6/dc/PoolView.js:68
+#: ../www/manager6/Utils.js:538 ../www/manager6/Utils.js:555
+#: ../www/manager6/Utils.js:575 ../www/manager6/Utils.js:577
+#: ../www/manager6/Utils.js:945 ../www/manager6/dc/PoolView.js:68
 #: ../www/manager6/dc/GroupView.js:68 ../www/manager6/dc/SecurityGroups.js:134
 #: ../www/manager6/node/NetworkView.js:135 ../www/manager6/panel/IPSet.js:95
 #: ../www/manager6/ha/Groups.js:71 ../www/manager6/ceph/Disks.js:83
@@ -487,7 +468,7 @@ msgstr "DNS szerver"
 msgid "Datacenter"
 msgstr "Adatközpont"
 
-#: ../www/manager6/qemu/SnapshotTree.js:265
+#: ../www/manager6/qemu/SnapshotTree.js:264
 #: ../www/manager6/lxc/SnapshotTree.js:265
 msgid "Date"
 msgstr "Dátum"
@@ -496,14 +477,14 @@ msgstr "Dátum"
 msgid "Day of week"
 msgstr "Hét napja"
 
-#: ../www/manager6/Utils.js:727 ../www/manager6/dc/AuthEdit.js:84
+#: ../www/manager6/Utils.js:732 ../www/manager6/dc/AuthEdit.js:84
 #: ../www/manager6/dc/AuthEdit.js:111 ../www/manager6/form/Boolean.js:6
 #: ../www/manager6/grid/FirewallOptions.js:67
 #: ../www/manager6/lxc/Options.js:86
 msgid "Default"
 msgstr "Alapértelmezett"
 
-#: ../www/manager6/Utils.js:537
+#: ../www/manager6/Utils.js:537 ../www/manager6/Utils.js:554
 msgid "Delete Snapshot"
 msgstr "Pillanatkép törlése"
 
@@ -516,7 +497,7 @@ msgstr "Forrás törlése"
 #: ../www/manager6/grid/FirewallRules.js:17 ../www/manager6/node/Tasks.js:142
 #: ../www/manager6/node/APT.js:182 ../www/manager6/node/ServiceView.js:139
 #: ../www/manager6/data/ResourceStore.js:50
-#: ../www/manager6/qemu/SnapshotTree.js:279
+#: ../www/manager6/qemu/SnapshotTree.js:278
 #: ../www/manager6/qemu/Snapshot.js:100
 #: ../www/manager6/lxc/SnapshotTree.js:279 ../www/manager6/lxc/Snapshot.js:91
 #: ../www/manager6/storage/ContentView.js:60
@@ -534,8 +515,8 @@ msgstr "Cél port"
 msgid "Destination"
 msgstr "Cél"
 
-#: ../www/manager6/Utils.js:540 ../www/manager6/Utils.js:554
-#: ../www/manager6/Utils.js:571 ../www/manager6/Utils.js:573
+#: ../www/manager6/Utils.js:540 ../www/manager6/Utils.js:557
+#: ../www/manager6/Utils.js:576 ../www/manager6/Utils.js:578
 msgid "Destroy"
 msgstr "Törlés"
 
@@ -551,7 +532,7 @@ msgstr "Eszköz"
 msgid "Direction"
 msgstr "Irány"
 
-#: ../www/manager6/Utils.js:735 ../www/manager6/storage/DirEdit.js:38
+#: ../www/manager6/Utils.js:740 ../www/manager6/storage/DirEdit.js:38
 msgid "Directory"
 msgstr "Könyvtár"
 
@@ -578,7 +559,7 @@ msgstr "Lemez IO"
 msgid "Disk Throttle"
 msgstr "Lemez visszafogás"
 
-#: ../www/manager6/Utils.js:736 ../www/manager6/qemu/HDEdit.js:126
+#: ../www/manager6/Utils.js:741 ../www/manager6/qemu/HDEdit.js:126
 #: ../www/manager6/qemu/HDEdit.js:147 ../www/manager6/qemu/HDEdit.js:217
 #: ../www/manager6/lxc/ResourceEdit.js:388
 #: ../www/manager6/lxc/ResourceEdit.js:411
@@ -612,67 +593,11 @@ msgstr "Nem használj semmilyen médiát"
 msgid "Do not use any proxy"
 msgstr "Ne használj proxy-t"
 
-#: ../www/manager6/qemu/CmdMenu.js:115 ../www/manager6/lxc/CmdMenu.js:105
-#, fuzzy
-msgid "Do you really want to convert {0} into a template?"
-msgstr "Biztos benne, hogy a {0} VM-et sablonná konvertálja?"
-
-#: ../www/manager6/qemu/Config.js:83 ../www/manager6/VNCConsole.js:293
-msgid "Do you really want to reset VM {0}?"
-msgstr "Biztos benne, hogy a {0} VM-et alapállapotba állítja?"
-
-#: ../www/manager6/node/Config.js:96
-msgid "Do you really want to restart node {0}?"
-msgstr "Biztos benne, hogy a {0} csomópontot újraindítja?"
-
-#: ../www/manager6/qemu/Config.js:92 ../www/manager6/lxc/Config.js:70
-#: ../www/manager6/VNCConsole.js:264 ../www/manager6/VNCConsole.js:390
-msgid "Do you really want to shutdown VM {0}?"
-msgstr "Biztos benne, hogy a {0} VM-et leállítja?"
-
-#: ../www/manager6/node/Config.js:105
-msgid "Do you really want to shutdown node {0}?"
-msgstr "Biztos benne, hogy a {0} csomópontot leállítja?"
-
-#: ../www/manager6/qemu/CmdMenu.js:76 ../www/manager6/lxc/CmdMenu.js:77
-#, fuzzy
-msgid "Do you really want to shutdown {0}?"
-msgstr "Biztos benne, hogy a {0} CT-t leállítja?"
-
-#: ../www/manager6/node/Config.js:41
-#, fuzzy
-msgid "Do you really want to start all Vms on  node {0}?"
-msgstr "Biztos benne, hogy az összes VM-et elindítja a {0} csomóponton?"
-
-#: ../www/manager6/qemu/Config.js:61 ../www/manager6/lxc/Config.js:61
-#: ../www/manager6/VNCConsole.js:276 ../www/manager6/VNCConsole.js:402
-msgid "Do you really want to stop VM {0}?"
-msgstr "Biztos benne, hogy a {0} VM-et megállítja?"
-
-#: ../www/manager6/node/Config.js:62
-#, fuzzy
-msgid "Do you really want to stop all Vms on  node {0}?"
-msgstr "Biztos benne, hogy az összes VM-et megállítja a {0} csomóponton?"
-
-#: ../www/manager6/qemu/CmdMenu.js:90 ../www/manager6/lxc/CmdMenu.js:91
-#, fuzzy
-msgid "Do you really want to stop {0}?"
-msgstr "Biztos benne, hogy a {0} CT-t megállítja?"
-
-#: ../www/manager6/VNCConsole.js:305
-msgid "Do you really want to suspend VM {0}?"
-msgstr "Biztos benne, hogy a {0} VM futását felfüggeszti?"
-
-#: ../www/manager6/qemu/CmdMenu.js:56 ../www/manager6/lxc/CmdMenu.js:56
-#, fuzzy
-msgid "Do you really want to suspend {0}?"
-msgstr "Biztos benne, hogy a {0} CT futását felfüggeszti?"
-
 #: ../www/manager6/dc/AuthEdit.js:42
 msgid "Domain"
 msgstr "Tartomány"
 
-#: ../www/manager6/Utils.js:576 ../www/manager6/node/Subscription.js:56
+#: ../www/manager6/Utils.js:581 ../www/manager6/node/Subscription.js:56
 #: ../www/manager6/storage/ContentView.js:108
 msgid "Download"
 msgstr "Letöltés"
@@ -681,7 +606,7 @@ msgstr "Letöltés"
 msgid "E-Mail"
 msgstr "E-mail"
 
-#: ../www/manager6/Utils.js:943 ../www/manager6/dc/OptionView.js:175
+#: ../www/manager6/Utils.js:948 ../www/manager6/dc/OptionView.js:175
 #: ../www/manager6/dc/PoolView.js:60 ../www/manager6/dc/UserView.js:124
 #: ../www/manager6/dc/AuthView.js:38 ../www/manager6/dc/GroupView.js:60
 #: ../www/manager6/dc/Backup.js:359 ../www/manager6/dc/StorageView.js:68
@@ -778,11 +703,11 @@ msgstr "Adja meg a jelszavát"
 msgid "Enter your user name"
 msgstr "Adja meg a felhasználónevét"
 
-#: ../www/manager6/Utils.js:575
+#: ../www/manager6/Utils.js:580
 msgid "Erase data"
 msgstr "Adat törlése"
 
-#: ../www/manager6/Utils.js:505 ../www/manager6/Utils.js:725
+#: ../www/manager6/Utils.js:505 ../www/manager6/Utils.js:730
 #: ../www/manager6/Workspace.js:167 ../www/manager6/dc/Support.js:49
 #: ../www/manager6/dc/PoolView.js:40 ../www/manager6/dc/UserView.js:104
 #: ../www/manager6/dc/AuthView.js:66 ../www/manager6/dc/ACLView.js:175
@@ -804,8 +729,8 @@ msgstr "Adat törlése"
 #: ../www/manager6/qemu/NetworkEdit.js:210 ../www/manager6/qemu/HDEdit.js:295
 #: ../www/manager6/qemu/HDThrottle.js:201
 #: ../www/manager6/qemu/TemplateMenu.js:27
-#: ../www/manager6/qemu/SnapshotTree.js:167
-#: ../www/manager6/qemu/SnapshotTree.js:203
+#: ../www/manager6/qemu/SnapshotTree.js:166
+#: ../www/manager6/qemu/SnapshotTree.js:202
 #: ../www/manager6/qemu/Snapshot.js:19 ../www/manager6/qemu/Snapshot.js:39
 #: ../www/manager6/qemu/Snapshot.js:183
 #: ../www/manager6/qemu/Smbios1Edit.js:106
@@ -1039,7 +964,7 @@ msgstr "IPv6 cím"
 msgid "IPv6/CIDR"
 msgstr "IPv6/CIDR"
 
-#: ../www/manager6/Utils.js:739 ../www/manager6/qemu/CDEdit.js:103
+#: ../www/manager6/Utils.js:744 ../www/manager6/qemu/CDEdit.js:103
 msgid "ISO image"
 msgstr "ISO képfájl"
 
@@ -1140,11 +1065,11 @@ msgstr "Láncolt klón"
 msgid "Load average"
 msgstr "Átlagos terhelés"
 
-#: ../www/manager6/Utils.js:1071
+#: ../www/manager6/Utils.js:1076
 msgid "Loading..."
 msgstr "Betöltés..."
 
-#: ../www/manager6/ceph/Config.js:106
+#: ../www/manager6/panel/Firewall.js:80 ../www/manager6/ceph/Config.js:106
 msgid "Log"
 msgstr "Napló"
 
@@ -1224,19 +1149,15 @@ msgstr "Memória használat"
 msgid "Message"
 msgstr "Üzenet"
 
-#: ../www/manager6/Utils.js:541 ../www/manager6/Utils.js:555
-#: ../www/manager6/Utils.js:563 ../www/manager6/qemu/CmdMenu.js:41
+#: ../www/manager6/Utils.js:541 ../www/manager6/Utils.js:558
+#: ../www/manager6/Utils.js:568 ../www/manager6/qemu/CmdMenu.js:41
 #: ../www/manager6/qemu/TemplateMenu.js:36 ../www/manager6/qemu/Config.js:68
 #: ../www/manager6/lxc/CmdMenu.js:41 ../www/manager6/lxc/Config.js:77
 #: ../www/manager6/window/Migrate.js:79 ../www/manager6/window/Migrate.js:87
 msgid "Migrate"
 msgstr "Migrálás"
 
-#: ../www/manager6/node/Config.js:80
-msgid "Migrate All VMs"
-msgstr "Összes VM migrálása"
-
-#: ../www/manager6/Utils.js:581
+#: ../www/manager6/Utils.js:586 ../www/manager6/node/Config.js:80
 msgid "Migrate all VMs and Containers"
 msgstr "Összes VM és konténer migrálása"
 
@@ -1270,7 +1191,7 @@ msgstr "Hoszt monitorozása"
 msgid "More"
 msgstr "Több"
 
-#: ../www/manager6/Utils.js:558
+#: ../www/manager6/Utils.js:563
 msgid "Mount"
 msgstr "Csatol"
 
@@ -1313,7 +1234,7 @@ msgstr "NAT mód"
 #: ../www/manager6/data/ResourceStore.js:87 ../www/manager6/qemu/Clone.js:192
 #: ../www/manager6/qemu/StatusView.js:43 ../www/manager6/qemu/Options.js:26
 #: ../www/manager6/qemu/Options.js:29 ../www/manager6/qemu/Options.js:35
-#: ../www/manager6/qemu/SnapshotTree.js:241
+#: ../www/manager6/qemu/SnapshotTree.js:240
 #: ../www/manager6/qemu/Snapshot.js:73 ../www/manager6/qemu/CreateWizard.js:73
 #: ../www/manager6/lxc/StatusView.js:58
 #: ../www/manager6/lxc/SnapshotTree.js:241 ../www/manager6/lxc/Snapshot.js:73
@@ -1351,7 +1272,7 @@ msgstr "Következő"
 msgid "Next due date"
 msgstr "Következő határidő"
 
-#: ../www/manager6/Utils.js:723 ../www/manager6/form/Boolean.js:8
+#: ../www/manager6/Utils.js:728 ../www/manager6/form/Boolean.js:8
 msgid "No"
 msgstr "Nem"
 
@@ -1398,6 +1319,8 @@ msgstr "Nem található érvényes előfizetés"
 #: ../www/manager6/dc/Backup.js:87 ../www/manager6/dc/Backup.js:115
 #: ../www/manager6/dc/Backup.js:414 ../www/manager6/form/NodeSelector.js:39
 #: ../www/manager6/grid/PoolMembers.js:62 ../www/manager6/node/Tasks.js:132
+#: ../www/manager6/node/Config.js:41 ../www/manager6/node/Config.js:62
+#: ../www/manager6/node/Config.js:96 ../www/manager6/node/Config.js:105
 #: ../www/manager6/node/Config.js:121
 #: ../www/manager6/data/ResourceStore.js:183
 #: ../www/manager6/qemu/CreateWizard.js:50
@@ -1527,7 +1450,7 @@ msgstr "Függőben lévő változások"
 msgid "Permissions"
 msgstr "Engedélyek"
 
-#: ../www/manager6/window/SafeDestroy.js:102
+#: ../www/manager6/window/SafeDestroy.js:103
 msgid "Please enter the {item.type} ID to confirm"
 msgstr ""
 
@@ -1595,6 +1518,12 @@ msgstr "Termék"
 msgid "Propagate"
 msgstr "Propagál"
 
+#: ../www/manager6/qemu/Options.js:266 ../www/manager6/qemu/Options.js:271
+#: ../www/manager6/lxc/Options.js:122 ../www/manager6/lxc/Options.js:127
+#, fuzzy
+msgid "Protection"
+msgstr "CT védelem"
+
 #: ../www/manager6/form/IPProtocolSelector.js:9
 #: ../www/manager6/grid/FirewallRules.js:190
 #: ../www/manager6/grid/FirewallRules.js:695
@@ -1621,7 +1550,7 @@ msgstr "Quorate"
 msgid "Quorum"
 msgstr "Quorum"
 
-#: ../www/manager6/qemu/SnapshotTree.js:253
+#: ../www/manager6/qemu/SnapshotTree.js:252
 #: ../www/manager6/lxc/SnapshotTree.js:253
 msgid "RAM"
 msgstr "RAM"
@@ -1668,7 +1597,7 @@ msgstr "Hitelesítő"
 msgid "Refresh"
 msgstr "Frissít"
 
-#: ../www/manager6/Utils.js:569 ../www/manager6/ceph/OSD.js:338
+#: ../www/manager6/Utils.js:574 ../www/manager6/ceph/OSD.js:338
 #: ../www/manager6/VNCConsole.js:329 ../www/manager6/VNCConsole.js:414
 #: ../www/manager6/VNCConsole.js:449
 msgid "Reload"
@@ -1684,7 +1613,7 @@ msgstr "Újratölt"
 #: ../www/manager6/grid/FirewallRules.js:572
 #: ../www/manager6/grid/PoolMembers.js:169
 #: ../www/manager6/node/NetworkView.js:72
-#: ../www/manager6/qemu/SnapshotTree.js:179 ../www/manager6/qemu/Config.js:99
+#: ../www/manager6/qemu/SnapshotTree.js:178 ../www/manager6/qemu/Config.js:99
 #: ../www/manager6/qemu/HardwareView.js:368
 #: ../www/manager6/lxc/Resources.js:194
 #: ../www/manager6/lxc/SnapshotTree.js:179 ../www/manager6/lxc/Config.js:90
@@ -1694,7 +1623,7 @@ msgstr "Újratölt"
 #: ../www/manager6/ha/Resources.js:61 ../www/manager6/ceph/OSD.js:80
 #: ../www/manager6/ceph/OSD.js:296 ../www/manager6/ceph/Pool.js:164
 #: ../www/manager6/ceph/Monitor.js:128 ../www/manager6/window/Edit.js:198
-#: ../www/manager6/window/SafeDestroy.js:113
+#: ../www/manager6/window/SafeDestroy.js:114
 msgid "Remove"
 msgstr "Eltávolít"
 
@@ -1725,27 +1654,27 @@ msgstr "Erőforrás pool"
 msgid "Resources"
 msgstr "Erőforrások"
 
-#: ../www/manager6/Utils.js:568 ../www/manager6/node/ServiceView.js:74
-#: ../www/manager6/node/Config.js:94
+#: ../www/manager6/Utils.js:573 ../www/manager6/node/ServiceView.js:74
+#: ../www/manager6/node/Config.js:94 ../www/manager6/node/Config.js:96
 msgid "Restart"
 msgstr "Újraindít"
 
-#: ../www/manager6/Utils.js:539 ../www/manager6/Utils.js:553
+#: ../www/manager6/Utils.js:539 ../www/manager6/Utils.js:556
 #: ../www/manager6/grid/BackupView.js:120
 #: ../www/manager6/storage/ContentView.js:407
 #: ../www/manager6/window/Restore.js:79
 msgid "Restore"
 msgstr "Helyreállít"
 
-#: ../www/manager6/window/Restore.js:121
+#: ../www/manager6/window/Restore.js:123
 msgid "Restore CT"
 msgstr "CT helyreállítása"
 
-#: ../www/manager6/window/Restore.js:122
+#: ../www/manager6/window/Restore.js:124
 msgid "Restore VM"
 msgstr "VM helyreállítása"
 
-#: ../www/manager6/Utils.js:550 ../www/manager6/Utils.js:562
+#: ../www/manager6/Utils.js:550 ../www/manager6/Utils.js:567
 #: ../www/manager6/qemu/CmdMenu.js:66 ../www/manager6/qemu/Config.js:42
 #: ../www/manager6/lxc/CmdMenu.js:67 ../www/manager6/VNCConsole.js:315
 msgid "Resume"
@@ -1769,7 +1698,8 @@ msgstr "Szerep"
 msgid "Roles"
 msgstr "Szerepek"
 
-#: ../www/manager6/Utils.js:536 ../www/manager6/qemu/SnapshotTree.js:143
+#: ../www/manager6/Utils.js:536 ../www/manager6/Utils.js:553
+#: ../www/manager6/qemu/SnapshotTree.js:143
 #: ../www/manager6/lxc/SnapshotTree.js:143
 msgid "Rollback"
 msgstr "Visszaállít"
@@ -1932,11 +1862,11 @@ msgstr "Megosztások"
 msgid "Shell"
 msgstr "Shell"
 
-#: ../www/manager6/Utils.js:548 ../www/manager6/Utils.js:560
-#: ../www/manager6/node/Config.js:103 ../www/manager6/qemu/CmdMenu.js:73
-#: ../www/manager6/qemu/Config.js:90 ../www/manager6/lxc/CmdMenu.js:74
-#: ../www/manager6/lxc/Config.js:68 ../www/manager6/VNCConsole.js:262
-#: ../www/manager6/VNCConsole.js:388
+#: ../www/manager6/Utils.js:548 ../www/manager6/Utils.js:565
+#: ../www/manager6/node/Config.js:103 ../www/manager6/node/Config.js:105
+#: ../www/manager6/qemu/CmdMenu.js:73 ../www/manager6/qemu/Config.js:90
+#: ../www/manager6/lxc/CmdMenu.js:74 ../www/manager6/lxc/Config.js:68
+#: ../www/manager6/VNCConsole.js:262 ../www/manager6/VNCConsole.js:388
 msgid "Shutdown"
 msgstr "Leállítás"
 
@@ -1962,7 +1892,8 @@ msgstr "Méret növelése"
 msgid "Slaves"
 msgstr "Slaves"
 
-#: ../www/manager6/Utils.js:535 ../www/manager6/form/SnapshotSelector.js:52
+#: ../www/manager6/Utils.js:535 ../www/manager6/Utils.js:552
+#: ../www/manager6/form/SnapshotSelector.js:52
 #: ../www/manager6/form/BackupModeSelector.js:5
 #: ../www/manager6/qemu/Clone.js:164 ../www/manager6/qemu/Snapshot.js:131
 #: ../www/manager6/lxc/Snapshot.js:122
@@ -2006,8 +1937,8 @@ msgstr "Szabványos"
 msgid "Standard VGA"
 msgstr "Szabványos VGA"
 
-#: ../www/manager6/Utils.js:545 ../www/manager6/Utils.js:556
-#: ../www/manager6/Utils.js:564 ../www/manager6/Utils.js:566
+#: ../www/manager6/Utils.js:545 ../www/manager6/Utils.js:561
+#: ../www/manager6/Utils.js:569 ../www/manager6/Utils.js:571
 #: ../www/manager6/node/ServiceView.js:58 ../www/manager6/qemu/CmdMenu.js:34
 #: ../www/manager6/qemu/Config.js:51 ../www/manager6/lxc/CmdMenu.js:34
 #: ../www/manager6/lxc/Config.js:42 ../www/manager6/ceph/OSD.js:272
@@ -2016,17 +1947,14 @@ msgstr "Szabványos VGA"
 msgid "Start"
 msgstr "Indítás"
 
-#: ../www/manager6/node/Config.js:38
-msgid "Start All VMs"
-msgstr "Összes VM indítása"
-
 #: ../www/manager6/dc/Tasks.js:71 ../www/manager6/dc/Backup.js:148
 #: ../www/manager6/dc/Backup.js:432 ../www/manager6/node/Tasks.js:116
 #: ../www/manager6/window/TaskViewer.js:133
 msgid "Start Time"
 msgstr "Kezdési idő"
 
-#: ../www/manager6/Utils.js:579
+#: ../www/manager6/Utils.js:584 ../www/manager6/node/Config.js:38
+#: ../www/manager6/node/Config.js:41
 msgid "Start all VMs and Containers"
 msgstr "Összes VM és konténer indítása"
 
@@ -2059,7 +1987,7 @@ msgstr "Statikus"
 #: ../www/manager6/node/Tasks.js:148 ../www/manager6/node/ServiceView.js:133
 #: ../www/manager6/node/Summary.js:88 ../www/manager6/node/Subscription.js:126
 #: ../www/manager6/qemu/StatusView.js:44
-#: ../www/manager6/qemu/SnapshotTree.js:265 ../www/manager6/qemu/Summary.js:36
+#: ../www/manager6/qemu/SnapshotTree.js:264 ../www/manager6/qemu/Summary.js:36
 #: ../www/manager6/lxc/StatusView.js:59
 #: ../www/manager6/lxc/SnapshotTree.js:265 ../www/manager6/lxc/Summary.js:37
 #: ../www/manager6/storage/StatusView.js:5 ../www/manager6/ha/StatusView.js:53
@@ -2069,8 +1997,8 @@ msgstr "Statikus"
 msgid "Status"
 msgstr "Állapot"
 
-#: ../www/manager6/Utils.js:546 ../www/manager6/Utils.js:557
-#: ../www/manager6/Utils.js:565 ../www/manager6/Utils.js:567
+#: ../www/manager6/Utils.js:546 ../www/manager6/Utils.js:562
+#: ../www/manager6/Utils.js:570 ../www/manager6/Utils.js:572
 #: ../www/manager6/form/BackupModeSelector.js:7
 #: ../www/manager6/node/ServiceView.js:66 ../www/manager6/qemu/CmdMenu.js:87
 #: ../www/manager6/qemu/Config.js:59 ../www/manager6/lxc/CmdMenu.js:88
@@ -2081,11 +2009,8 @@ msgstr "Állapot"
 msgid "Stop"
 msgstr "Megállít"
 
-#: ../www/manager6/node/Config.js:59
-msgid "Stop All VMs"
-msgstr "Összes VM megállítása"
-
-#: ../www/manager6/Utils.js:580
+#: ../www/manager6/Utils.js:585 ../www/manager6/node/Config.js:59
+#: ../www/manager6/node/Config.js:62
 msgid "Stop all VMs and Containers"
 msgstr "Összes VM és konténer megállítása"
 
@@ -2142,7 +2067,7 @@ msgstr "Összefoglaló"
 msgid "Support"
 msgstr "Támogatás"
 
-#: ../www/manager6/Utils.js:549 ../www/manager6/Utils.js:561
+#: ../www/manager6/Utils.js:549 ../www/manager6/Utils.js:566
 #: ../www/manager6/form/BackupModeSelector.js:6
 #: ../www/manager6/qemu/CmdMenu.js:53 ../www/manager6/lxc/CmdMenu.js:53
 #: ../www/manager6/VNCConsole.js:303
@@ -2176,7 +2101,7 @@ msgstr "TFA"
 msgid "TTY count"
 msgstr "TTY számláló"
 
-#: ../www/manager6/qemu/SnapshotTree.js:216
+#: ../www/manager6/qemu/SnapshotTree.js:215
 #: ../www/manager6/qemu/Snapshot.js:142 ../www/manager6/qemu/Snapshot.js:144
 #: ../www/manager6/lxc/SnapshotTree.js:216 ../www/manager6/lxc/Snapshot.js:133
 #: ../www/manager6/lxc/Snapshot.js:135
@@ -2254,10 +2179,12 @@ msgstr "Ez nem egy érvényes DNS név"
 #: ../www/manager6/grid/BackupView.js:149
 #: ../www/manager6/qemu/HardwareView.js:376
 #: ../www/manager6/lxc/Resources.js:202 ../www/manager6/ceph/Pool.js:170
-msgid "This will permanently erase all image data."
+#: ../www/manager6/window/SafeDestroy.js:95
+#, fuzzy
+msgid "This will permanently erase all data."
 msgstr "Ez véglegesen eltávolítja az összes képfájl adatot."
 
-#: ../www/manager6/window/Restore.js:104
+#: ../www/manager6/window/Restore.js:106
 msgid "This will permanently erase current VM data."
 msgstr "Ez véglegesen eltávolítja az aktuális VM adatait."
 
@@ -2274,7 +2201,7 @@ msgstr "Időzóna"
 msgid "Timestamp"
 msgstr "Időbélyeg"
 
-#: ../www/manager6/Utils.js:733 ../www/manager6/node/Summary.js:129
+#: ../www/manager6/Utils.js:738 ../www/manager6/node/Summary.js:129
 #: ../www/manager6/qemu/Summary.js:77 ../www/manager6/lxc/Summary.js:78
 #: ../www/manager6/ceph/OSD.js:159 ../www/manager6/ceph/Pool.js:117
 msgid "Total"
@@ -2347,7 +2274,7 @@ msgstr "Nem lehetséges feldolgozni az smbios opciókat"
 msgid "Unique task ID"
 msgstr "Egyedi művelet ID"
 
-#: ../www/manager6/Utils.js:726
+#: ../www/manager6/Utils.js:731
 msgid "Unknown"
 msgstr "Ismeretlen"
 
@@ -2355,7 +2282,7 @@ msgstr "Ismeretlen"
 msgid "Unknown error"
 msgstr "Ismeretlen hiba"
 
-#: ../www/manager6/Utils.js:559 ../www/manager6/lxc/Config.js:50
+#: ../www/manager6/Utils.js:564 ../www/manager6/lxc/Config.js:50
 msgid "Unmount"
 msgstr "Lecsatolás"
 
@@ -2374,7 +2301,7 @@ msgstr "Csatolási pont"
 msgid "Update"
 msgstr "Frissítés"
 
-#: ../www/manager6/Utils.js:578
+#: ../www/manager6/Utils.js:583
 msgid "Update package database"
 msgstr "Csomag adatbázis frissítése"
 
@@ -2436,7 +2363,7 @@ msgstr "Fizikai CD/DVD meghajtó használata"
 msgid "Use tablet for pointer"
 msgstr "Tablet mutatóeszköz használata"
 
-#: ../www/manager6/Utils.js:734 ../www/manager6/storage/StatusView.js:40
+#: ../www/manager6/Utils.js:739 ../www/manager6/storage/StatusView.js:40
 #: ../www/manager6/ceph/OSD.js:144 ../www/manager6/ceph/Pool.js:104
 msgid "Used"
 msgstr "Használt"
@@ -2475,10 +2402,6 @@ msgstr "VLAN Tag"
 msgid "VM Resource"
 msgstr "VM erőforrás"
 
-#: ../www/manager6/qemu/Options.js:266 ../www/manager6/qemu/Options.js:271
-msgid "VM protection"
-msgstr "VM védelem"
-
 #: ../www/manager6/Utils.js:219
 msgid "VMWare compatible"
 msgstr "VMWare kompatibilis"
@@ -2491,7 +2414,7 @@ msgstr "VMWare képfájl formátum"
 msgid "VSwap usage"
 msgstr "VSwap használat"
 
-#: ../www/manager6/Utils.js:737
+#: ../www/manager6/Utils.js:742
 msgid "VZDump backup file"
 msgstr "VZDump biztonsági mentés fájl"
 
@@ -2532,12 +2455,8 @@ msgstr "{0} virtuális gép a {1} csomóponton"
 msgid "Vlan Aware"
 msgstr "Vlan aware"
 
-#: ../www/manager6/storage/LvmThinEdit.js:156
-#, fuzzy
-msgid "Volume Group"
-msgstr "Kötetcsoport"
-
 #: ../www/manager6/storage/LvmThinEdit.js:132
+#: ../www/manager6/storage/LvmThinEdit.js:156
 #: ../www/manager6/storage/LVMEdit.js:122
 #: ../www/manager6/storage/LVMEdit.js:129
 msgid "Volume group"
@@ -2557,11 +2476,11 @@ msgstr "Írási határ"
 msgid "Write max burst"
 msgstr "Írási max löket"
 
-#: ../www/manager6/Utils.js:722 ../www/manager6/form/Boolean.js:7
+#: ../www/manager6/Utils.js:727 ../www/manager6/form/Boolean.js:7
 msgid "Yes"
 msgstr "Igen"
 
-#: ../www/manager6/qemu/SnapshotTree.js:284
+#: ../www/manager6/qemu/SnapshotTree.js:283
 #: ../www/manager6/lxc/SnapshotTree.js:284
 msgid "You are here!"
 msgstr "Itt vagy!"
@@ -2579,11 +2498,11 @@ msgstr "ZFS pool"
 msgid "current"
 msgstr "jelenlegi"
 
-#: ../www/manager6/Utils.js:729
+#: ../www/manager6/Utils.js:734
 msgid "day"
 msgstr "nap"
 
-#: ../www/manager6/Utils.js:728
+#: ../www/manager6/Utils.js:733
 msgid "days"
 msgstr "napok"
 
@@ -2618,7 +2537,7 @@ msgstr "iSCSI ellátó"
 msgid "maxcpu"
 msgstr "maxcpu"
 
-#: ../www/manager6/Utils.js:732
+#: ../www/manager6/Utils.js:737
 msgid "never"
 msgstr "soha"
 
@@ -2634,7 +2553,7 @@ msgstr "nofailback"
 msgid "nomatch"
 msgstr "nomatch"
 
-#: ../www/manager6/Utils.js:724
+#: ../www/manager6/Utils.js:729
 msgid "none"
 msgstr "semmi"
 
@@ -2646,11 +2565,11 @@ msgstr "paravirtualizált"
 msgid "restricted"
 msgstr "korlátozott"
 
-#: ../www/manager6/Utils.js:730
+#: ../www/manager6/Utils.js:735
 msgid "running"
 msgstr "futó"
 
-#: ../www/manager6/Utils.js:731
+#: ../www/manager6/Utils.js:736
 msgid "stopped"
 msgstr "leállítva"
 
@@ -2670,6 +2589,20 @@ msgstr "nem biztonságos"
 msgid "use host settings"
 msgstr "hoszt beállításainak használata"
 
+#, fuzzy
+#~ msgid ""
+#~ "Are you sure you want to remove {item.type} {item.id}? This will "
+#~ "permanently erase all data."
+#~ msgstr ""
+#~ "Biztos benne, hogy törölni akarja a {0} VM-et? Ez a művelet "
+#~ "visszavonhatatlanul törli a VM összes adatát."
+
+#~ msgid "Are you sure you want to restore this VM?"
+#~ msgstr "Biztos benne, hogy helyreállítja ezt a VM-et?"
+
+#~ msgid "Are you sure you want to rollback to snapshot {0}"
+#~ msgstr "Biztos benne, hogy visszaáll erre a pillanatképre {0}"
+
 #~ msgid "Barrier"
 #~ msgstr "Barrier"
 
@@ -2679,13 +2612,59 @@ msgstr "hoszt beállításainak használata"
 #~ msgid "Do you really want to convert VM {0} into a template?"
 #~ msgstr "Biztos benne, hogy a {0} VM-et sablonná konvertálja?"
 
+#, fuzzy
+#~ msgid "Do you really want to convert {0} into a template?"
+#~ msgstr "Biztos benne, hogy a {0} VM-et sablonná konvertálja?"
+
+#~ msgid "Do you really want to reset VM {0}?"
+#~ msgstr "Biztos benne, hogy a {0} VM-et alapállapotba állítja?"
+
+#, fuzzy
+#~ msgid "Do you really want to reset {0}?"
+#~ msgstr "Biztos benne, hogy a {0} VM-et alapállapotba állítja?"
+
+#~ msgid "Do you really want to restart node {0}?"
+#~ msgstr "Biztos benne, hogy a {0} csomópontot újraindítja?"
+
 #~ msgid "Do you really want to shutdown CT {0}?"
 #~ msgstr "Biztos benne, hogy a {0} CT-t leállítja?"
+
+#~ msgid "Do you really want to shutdown VM {0}?"
+#~ msgstr "Biztos benne, hogy a {0} VM-et leállítja?"
+
+#~ msgid "Do you really want to shutdown node {0}?"
+#~ msgstr "Biztos benne, hogy a {0} csomópontot leállítja?"
+
+#, fuzzy
+#~ msgid "Do you really want to shutdown {0}?"
+#~ msgstr "Biztos benne, hogy a {0} CT-t leállítja?"
+
+#, fuzzy
+#~ msgid "Do you really want to start all VMs on node {0}?"
+#~ msgstr "Biztos benne, hogy az összes VM-et elindítja a {0} csomóponton?"
 
 #~ msgid "Do you really want to stop CT {0}?"
 #~ msgstr "Biztos benne, hogy a {0} CT-t megállítja?"
 
+#~ msgid "Do you really want to stop VM {0}?"
+#~ msgstr "Biztos benne, hogy a {0} VM-et megállítja?"
+
+#, fuzzy
+#~ msgid "Do you really want to stop all VMs on node {0}?"
+#~ msgstr "Biztos benne, hogy az összes VM-et megállítja a {0} csomóponton?"
+
+#, fuzzy
+#~ msgid "Do you really want to stop {0}?"
+#~ msgstr "Biztos benne, hogy a {0} CT-t megállítja?"
+
 #~ msgid "Do you really want to suspend CT {0}?"
+#~ msgstr "Biztos benne, hogy a {0} CT futását felfüggeszti?"
+
+#~ msgid "Do you really want to suspend VM {0}?"
+#~ msgstr "Biztos benne, hogy a {0} VM futását felfüggeszti?"
+
+#, fuzzy
+#~ msgid "Do you really want to suspend {0}?"
 #~ msgstr "Biztos benne, hogy a {0} CT futását felfüggeszti?"
 
 #~ msgid "Failcnt"
@@ -2715,6 +2694,9 @@ msgstr "hoszt beállításainak használata"
 #~ msgid "Memory (MB)"
 #~ msgstr "Memória (MB)"
 
+#~ msgid "Migrate All VMs"
+#~ msgstr "Összes VM migrálása"
+
 #~ msgid "OpenVZ Container"
 #~ msgstr "OpenVZ konténer"
 
@@ -2727,11 +2709,31 @@ msgstr "hoszt beállításainak használata"
 #~ msgid "Resource"
 #~ msgstr "Erőforrás"
 
+#~ msgid "Start All VMs"
+#~ msgstr "Összes VM indítása"
+
+#~ msgid "Stop All VMs"
+#~ msgstr "Összes VM megállítása"
+
 #~ msgid "Swap (MB)"
 #~ msgstr "Swap (MB)"
 
+#~ msgid "This will permanently erase all image data."
+#~ msgstr "Ez véglegesen eltávolítja az összes képfájl adatot."
+
 #~ msgid "User quotas disabled."
 #~ msgstr "Felhasználói kvóták letiltva."
+
+#~ msgid "VM protection"
+#~ msgstr "VM védelem"
+
+#, fuzzy
+#~ msgid "Volume Group"
+#~ msgstr "Kötetcsoport"
+
+#, fuzzy
+#~ msgid "action"
+#~ msgstr "Művelet"
 
 #~ msgid "seconds"
 #~ msgstr "másodperc"
