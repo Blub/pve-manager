@@ -181,6 +181,12 @@ Ext.define('PVE.qemu.Config', {
 		xtype: 'PVE.qemu.Options'
 	    },
 	    {
+		title: gettext('CloudInit'),
+		iconCls: 'fa fa-cloud',
+		itemId: 'cloudinit',
+		xtype: 'PVE.qemu.CloudInit'
+	    },
+	    {
 		title: gettext('Task History'),
 		itemId: 'tasks',
 		xtype: 'pveNodeTasks',

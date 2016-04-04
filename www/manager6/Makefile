@@ -138,6 +138,10 @@ JSSRC= 				                 	\
 	qemu/BootOrderEdit.js				\
 	qemu/MemoryEdit.js				\
 	qemu/NetworkEdit.js				\
+	qemu/IPConfigEdit.js				\
+	qemu/DNS.js					\
+	qemu/SSHKey.js					\
+	qemu/CloudInitCreator.js			\
 	qemu/Smbios1Edit.js				\
 	qemu/CDEdit.js					\
 	qemu/HDEdit.js					\
@@ -152,6 +156,7 @@ JSSRC= 				                 	\
 	qemu/ScsiHwEdit.js				\
 	qemu/QemuBiosEdit.js				\
 	qemu/Options.js					\
+	qemu/CloudInit.js				\
 	qemu/Snapshot.js				\
 	qemu/Clone.js					\
 	qemu/SnapshotTree.js				\
