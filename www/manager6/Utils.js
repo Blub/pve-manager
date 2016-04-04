@@ -1396,6 +1396,34 @@ Ext.define('PVE.Utils', { utilities: {
 	me.HostPort_match = new RegExp("^(" + IPV4_REGEXP + "|" + DnsName_REGEXP + ")(:\\d+)?$");
 	me.HostPortBrackets_match = new RegExp("^\\[(?:" + IPV6_REGEXP + "|" + IPV4_REGEXP + "|" + DnsName_REGEXP + ")\\](:\\d+)?$");
 	me.IP6_dotnotation_match = new RegExp("^" + IPV6_REGEXP + "(\\.\\d+)?$");
+    },
+
+    bus_counts: { ide: 4, sata: 6, scsi: 16, virtio: 16 },
+
+    forEachBus: function(type, func) {
+	if (Ext.isDefined(type)) {
+	    var count = PVE.Utils.bus_counts[type];
+	    if (!count) {
+		Ext.Msg.alert(gettext('Invalid bus type') + ' (' + type + ')');
+		return;
+	    }
+	    for (var i = 0; i < count; i++) {
+		var cont = func(type, i);
+		if (Ext.isDefined(cont) && cont < 0) {
+		    return;
+		}
+	    }
+	} else {
+	    Ext.each(Object.keys(PVE.Utils.bus_counts), function(busname) {
+		var count = PVE.Utils.bus_counts[busname];
+		for (var i = 0; i < count; i++) {
+		    var cont = func(busname, i);
+		    if (Ext.isDefined(cont) && !cont) {
+			return false;
+		    }
+		}
+	    });
+	}
     }
 });
 
