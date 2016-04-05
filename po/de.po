@@ -130,7 +130,7 @@ msgstr "Authentifikation"
 
 #: ../www/manager6/qemu/MemoryEdit.js:65
 msgid "Automatically allocate memory within this range"
-msgstr "Automatische Speicherzuteilung innerhalb dieses Bereichs"
+msgstr "Automatische Speicherallozierung innerhalb dieses Bereichs"
 
 #: ../www/manager6/node/NetworkEdit.js:50
 #: ../www/manager6/node/NetworkView.js:253
@@ -2449,7 +2449,7 @@ msgstr "Voreinstellung"
 
 #: ../www/manager6/Utils.js:112
 msgid "disabled"
-msgstr "Deaktivieren"
+msgstr "Deaktiviert"
 
 #: ../www/manager6/ha/ResourceEdit.js:59
 msgid "enable"
