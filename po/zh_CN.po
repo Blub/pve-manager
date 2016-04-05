@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 3.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Mon Apr  4 16:57:59 2016\n"
+"POT-Creation-Date: Tue Apr  5 11:10:38 2016\n"
 "PO-Revision-Date: 2014-08-01 15:28+0800\n"
 "Last-Translator: 黄学武 <1833net@163.com>\n"
 "Language-Team: Chinese (simplified) <hxw@unoc.cn>\n"
@@ -125,11 +125,6 @@ msgstr "你确定你要删除该项{0}吗？"
 #: ../www/manager6/dc/ACLView.js:151 ../www/manager6/dc/Backup.js:369
 msgid "Are you sure you want to remove this entry"
 msgstr "你确定你要删除此项？"
-
-#: ../www/manager6/window/SafeDestroy.js:94
-#, fuzzy
-msgid "Are you sure you want to remove {item.type} {item.id}?"
-msgstr "你确定你要删除该项{0}吗？"
 
 #: ../www/manager6/dc/Config.js:84
 msgid "Authentication"
@@ -344,10 +339,10 @@ msgstr "配置"
 msgid "Configure"
 msgstr "配置"
 
-#: ../www/manager6/button/Button.js:45 ../www/manager6/node/Config.js:42
-#: ../www/manager6/node/Config.js:63 ../www/manager6/qemu/CmdMenu.js:57
-#: ../www/manager6/qemu/CmdMenu.js:77 ../www/manager6/qemu/CmdMenu.js:91
-#: ../www/manager6/qemu/CmdMenu.js:116
+#: ../www/manager6/button/Split.js:40 ../www/manager6/button/Button.js:45
+#: ../www/manager6/node/Config.js:42 ../www/manager6/node/Config.js:63
+#: ../www/manager6/qemu/CmdMenu.js:57 ../www/manager6/qemu/CmdMenu.js:77
+#: ../www/manager6/qemu/CmdMenu.js:91 ../www/manager6/qemu/CmdMenu.js:116
 #: ../www/manager6/qemu/CreateWizard.js:113 ../www/manager6/lxc/CmdMenu.js:57
 #: ../www/manager6/lxc/CmdMenu.js:78 ../www/manager6/lxc/CmdMenu.js:92
 #: ../www/manager6/lxc/CmdMenu.js:106 ../www/manager6/lxc/CreateWizard.js:162
@@ -379,7 +374,7 @@ msgid "Console"
 msgstr "控制台"
 
 #: ../www/manager6/dc/OptionView.js:61 ../www/manager6/dc/OptionView.js:66
-#: ../www/manager6/dc/OptionView.js:135
+#: ../www/manager6/dc/OptionView.js:134
 #, fuzzy
 msgid "Console Viewer"
 msgstr "控制台"
@@ -621,7 +616,7 @@ msgstr "下载"
 msgid "E-Mail"
 msgstr "E-Mail"
 
-#: ../www/manager6/Utils.js:948 ../www/manager6/dc/OptionView.js:175
+#: ../www/manager6/Utils.js:948 ../www/manager6/dc/OptionView.js:174
 #: ../www/manager6/dc/PoolView.js:60 ../www/manager6/dc/UserView.js:124
 #: ../www/manager6/dc/AuthView.js:38 ../www/manager6/dc/GroupView.js:60
 #: ../www/manager6/dc/Backup.js:359 ../www/manager6/dc/StorageView.js:68
@@ -643,7 +638,7 @@ msgid "Edit"
 msgstr "编辑"
 
 #: ../www/manager6/dc/OptionView.js:84 ../www/manager6/dc/OptionView.js:92
-#: ../www/manager6/dc/OptionView.js:141
+#: ../www/manager6/dc/OptionView.js:140
 msgid "Email from address"
 msgstr ""
 
@@ -651,8 +646,7 @@ msgstr ""
 msgid "Email notification"
 msgstr ""
 
-#: ../www/manager6/dc/Backup.js:185 ../www/manager6/dc/StorageView.js:251
-#: ../www/manager6/grid/FirewallRules.js:159
+#: ../www/manager6/dc/Backup.js:185 ../www/manager6/grid/FirewallRules.js:159
 #: ../www/manager6/grid/FirewallRules.js:345
 #: ../www/manager6/grid/FirewallRules.js:622
 #: ../www/manager6/storage/DirEdit.js:57
@@ -692,8 +686,8 @@ msgstr "启用 DHCP"
 
 #: ../www/manager6/qemu/ProcessorEdit.js:77
 #, fuzzy
-msgid "Enable numa"
-msgstr "启用"
+msgid "Enable NUMA"
+msgstr "启用 DHCP"
 
 #: ../www/manager6/lxc/ResourceEdit.js:449
 #, fuzzy
@@ -701,10 +695,11 @@ msgid "Enable quota"
 msgstr "启用"
 
 #: ../www/manager6/dc/UserEdit.js:97 ../www/manager6/dc/UserView.js:199
-#: ../www/manager6/dc/Backup.js:408 ../www/manager6/qemu/Options.js:120
-#: ../www/manager6/qemu/Options.js:155 ../www/manager6/qemu/Options.js:185
-#: ../www/manager6/qemu/Options.js:261 ../www/manager6/qemu/Options.js:278
-#: ../www/manager6/lxc/Options.js:134 ../www/manager6/storage/StatusView.js:10
+#: ../www/manager6/dc/Backup.js:408 ../www/manager6/dc/StorageView.js:251
+#: ../www/manager6/qemu/Options.js:120 ../www/manager6/qemu/Options.js:155
+#: ../www/manager6/qemu/Options.js:185 ../www/manager6/qemu/Options.js:261
+#: ../www/manager6/qemu/Options.js:278 ../www/manager6/lxc/Options.js:134
+#: ../www/manager6/storage/StatusView.js:10
 msgid "Enabled"
 msgstr "生效"
 
@@ -783,6 +778,7 @@ msgstr "错误"
 #: ../www/manager6/Toolkit.js:25 ../www/manager6/Toolkit.js:31
 #: ../www/manager6/Toolkit.js:37 ../www/manager6/Toolkit.js:43
 #: ../www/manager6/Toolkit.js:50 ../www/manager6/Toolkit.js:86
+#: ../www/manager6/Toolkit.js:97
 msgid "Example"
 msgstr "示例"
 
@@ -896,7 +892,7 @@ msgid "HD space"
 msgstr "硬盘空间"
 
 #: ../www/manager6/dc/OptionView.js:8 ../www/manager6/dc/OptionView.js:16
-#: ../www/manager6/dc/OptionView.js:124
+#: ../www/manager6/dc/OptionView.js:123
 msgid "HTTP proxy"
 msgstr "HTTP 代理"
 
@@ -946,6 +942,10 @@ msgstr ""
 #: ../www/manager6/node/StatusView.js:47 ../www/manager6/node/Summary.js:115
 msgid "IO delay"
 msgstr "IO延迟"
+
+#: ../www/manager6/qemu/HDEdit.js:243
+msgid "IO thread"
+msgstr ""
 
 #: ../www/manager6/node/NetworkEdit.js:209
 #: ../www/manager6/node/NetworkView.js:267 ../www/manager6/lxc/Network.js:506
@@ -1016,10 +1016,6 @@ msgstr "插入"
 msgid "Interface"
 msgstr "接口"
 
-#: ../www/manager6/qemu/HDEdit.js:243
-msgid "Iothread"
-msgstr ""
-
 #: ../www/manager6/ceph/OSD.js:37
 msgid "Journal Disk"
 msgstr "日志磁盘"
@@ -1049,7 +1045,7 @@ msgid "Key IDs"
 msgstr ""
 
 #: ../www/manager6/dc/OptionView.js:33 ../www/manager6/dc/OptionView.js:38
-#: ../www/manager6/dc/OptionView.js:118 ../www/manager6/grid/ObjectGrid.js:7
+#: ../www/manager6/dc/OptionView.js:117 ../www/manager6/grid/ObjectGrid.js:7
 #: ../www/manager6/qemu/KeyboardEdit.js:8
 #: ../www/manager6/qemu/KeyboardEdit.js:13
 #: ../www/manager6/qemu/HardwareView.js:104
@@ -1359,11 +1355,8 @@ msgstr "没有有效认购"
 msgid "Node"
 msgstr "节点"
 
-#: ../www/manager6/tree/ResourceTree.js:12
-msgid "Node list"
-msgstr "节点列表"
-
-#: ../www/manager6/dc/Summary.js:121 ../www/manager6/storage/DirEdit.js:80
+#: ../www/manager6/tree/ResourceTree.js:12 ../www/manager6/dc/Summary.js:121
+#: ../www/manager6/storage/DirEdit.js:80
 #: ../www/manager6/storage/LvmThinEdit.js:188
 #: ../www/manager6/storage/ZFSPoolEdit.js:114
 #: ../www/manager6/storage/IScsiEdit.js:123
@@ -1483,8 +1476,8 @@ msgstr "更改已挂起"
 msgid "Permissions"
 msgstr "权限"
 
-#: ../www/manager6/window/SafeDestroy.js:103
-msgid "Please enter the {item.type} ID to confirm"
+#: ../www/manager6/window/SafeDestroy.js:134
+msgid "Please enter the ID to confirm"
 msgstr ""
 
 #: ../www/manager6/node/NetworkView.js:313
@@ -1658,7 +1651,7 @@ msgstr "重载"
 #: ../www/manager6/ha/Resources.js:61 ../www/manager6/ceph/OSD.js:80
 #: ../www/manager6/ceph/OSD.js:296 ../www/manager6/ceph/Pool.js:164
 #: ../www/manager6/ceph/Monitor.js:128 ../www/manager6/window/Edit.js:198
-#: ../www/manager6/window/SafeDestroy.js:114
+#: ../www/manager6/window/SafeDestroy.js:100
 msgid "Remove"
 msgstr "删除"
 
@@ -1698,17 +1691,9 @@ msgstr "重启"
 #: ../www/manager6/Utils.js:539 ../www/manager6/Utils.js:556
 #: ../www/manager6/grid/BackupView.js:120
 #: ../www/manager6/storage/ContentView.js:407
-#: ../www/manager6/window/Restore.js:79
+#: ../www/manager6/window/Restore.js:79 ../www/manager6/window/Restore.js:123
 msgid "Restore"
 msgstr "恢复"
-
-#: ../www/manager6/window/Restore.js:123
-msgid "Restore CT"
-msgstr "恢复 CT"
-
-#: ../www/manager6/window/Restore.js:124
-msgid "Restore VM"
-msgstr "恢复 VM"
 
 #: ../www/manager6/Utils.js:550 ../www/manager6/Utils.js:567
 #: ../www/manager6/qemu/CmdMenu.js:66 ../www/manager6/qemu/Config.js:42
@@ -1716,15 +1701,11 @@ msgstr "恢复 VM"
 msgid "Resume"
 msgstr "恢复"
 
-#: ../www/manager6/qemu/Options.js:330
+#: ../www/manager6/node/NetworkView.js:202 ../www/manager6/qemu/Options.js:330
 #: ../www/manager6/qemu/HardwareView.js:400
 #, fuzzy
 msgid "Revert"
 msgstr "永远"
-
-#: ../www/manager6/node/NetworkView.js:202
-msgid "Revert changes"
-msgstr "还原更改"
 
 #: ../www/manager6/dc/ACLView.js:45 ../www/manager6/dc/ACLView.js:119
 #: ../www/manager6/form/RoleSelector.js:21
@@ -1829,10 +1810,6 @@ msgstr "选择模式"
 #: ../www/manager6/dc/Backup.js:160
 msgid "Send email to"
 msgstr "发送邮件至"
-
-#: ../www/manager6/dc/OptionView.js:89 ../www/manager6/dc/OptionView.js:107
-msgid "Send emails from root@$hostname"
-msgstr ""
 
 #: ../www/manager6/qemu/Smbios1Edit.js:58 ../www/manager6/ceph/Disks.js:45
 #: ../www/manager6/ceph/Disks.js:150
@@ -2057,8 +2034,9 @@ msgstr "停止"
 msgid "Stop all VMs and Containers"
 msgstr "停止所有虚拟机和容器"
 
-#: ../www/manager6/dc/Config.js:38 ../www/manager6/dc/Backup.js:59
-#: ../www/manager6/dc/Backup.js:438 ../www/manager6/grid/BackupView.js:71
+#: ../www/manager6/tree/ResourceTree.js:20 ../www/manager6/dc/Config.js:38
+#: ../www/manager6/dc/Backup.js:59 ../www/manager6/dc/Backup.js:438
+#: ../www/manager6/grid/BackupView.js:71
 #: ../www/manager6/grid/PoolMembers.js:114
 #: ../www/manager6/grid/PoolMembers.js:123
 #: ../www/manager6/grid/PoolMembers.js:219
@@ -2073,10 +2051,6 @@ msgstr "存储"
 #: ../www/manager6/form/ViewSelector.js:30
 msgid "Storage View"
 msgstr "存储视图"
-
-#: ../www/manager6/tree/ResourceTree.js:20
-msgid "Storage list"
-msgstr "存储列表"
 
 #: ../www/manager6/storage/Browser.js:30
 msgid "Storage {0} on node {1}"
@@ -2212,11 +2186,6 @@ msgstr "该虚拟机 ID 不存在"
 msgid "This VM ID is already in use"
 msgstr "该虚拟机 ID 已被使用"
 
-#: ../www/manager6/Toolkit.js:97
-msgid ""
-"This field should be an e-mail address in the format \"user@example.com\""
-msgstr ""
-
 #: ../www/manager6/Toolkit.js:91
 msgid "This is not a valid DNS name"
 msgstr "这是不是一个有效的DNS名称"
@@ -2224,7 +2193,6 @@ msgstr "这是不是一个有效的DNS名称"
 #: ../www/manager6/grid/BackupView.js:149
 #: ../www/manager6/qemu/HardwareView.js:376
 #: ../www/manager6/lxc/Resources.js:202 ../www/manager6/ceph/Pool.js:170
-#: ../www/manager6/window/SafeDestroy.js:95
 #, fuzzy
 msgid "This will permanently erase all data."
 msgstr "确定删除该数据将无法恢复。"
@@ -2294,29 +2262,6 @@ msgstr "类别"
 msgid "USB"
 msgstr ""
 
-#: ../www/manager6/dc/Support.js:50
-msgid "Unable to load subscription status"
-msgstr "无法加载认购状态"
-
-#: ../www/manager6/qemu/HDEdit.js:295 ../www/manager6/qemu/HDThrottle.js:201
-#, fuzzy
-msgid "Unable to parse drive options"
-msgstr "无法加载认购状态"
-
-#: ../www/manager6/lxc/ResourceEdit.js:85
-#, fuzzy
-msgid "Unable to parse mount point options"
-msgstr "不能解析网络选项"
-
-#: ../www/manager6/qemu/NetworkEdit.js:210
-msgid "Unable to parse network options"
-msgstr "不能解析网络选项"
-
-#: ../www/manager6/qemu/Smbios1Edit.js:106
-#, fuzzy
-msgid "Unable to parse smbios options"
-msgstr "不能解析smbios选项"
-
 #: ../www/manager6/window/TaskViewer.js:138
 msgid "Unique task ID"
 msgstr "唯一任务 ID"
@@ -2335,14 +2280,9 @@ msgstr "卸载"
 
 #: ../www/manager6/qemu/HDEdit.js:277 ../www/manager6/qemu/HDThrottle.js:186
 #: ../www/manager6/qemu/HardwareView.js:205
-#: ../www/manager6/lxc/Resources.js:103
+#: ../www/manager6/lxc/Resources.js:103 ../www/manager6/lxc/ResourceEdit.js:63
 msgid "Unused Disk"
 msgstr "未使用的磁盘"
-
-#: ../www/manager6/lxc/ResourceEdit.js:63
-#, fuzzy
-msgid "Unused Mount Point"
-msgstr "载入"
 
 #: ../www/manager6/qemu/Snapshot.js:133 ../www/manager6/lxc/Snapshot.js:124
 msgid "Update"
@@ -2441,8 +2381,18 @@ msgstr "用户名"
 msgid "Users"
 msgstr "用户"
 
+#: ../www/manager6/qemu/CPUOptions.js:40
+#, fuzzy
+msgid "VCPUs"
+msgstr "CPUs"
+
 #: ../www/manager6/form/VLanField.js:9 ../www/manager6/lxc/Network.js:496
 msgid "VLAN Tag"
+msgstr "VLAN 标签"
+
+#: ../www/manager6/node/NetworkEdit.js:60
+#, fuzzy
+msgid "VLAN aware"
 msgstr "VLAN 标签"
 
 #: ../www/manager6/ha/ResourceEdit.js:99
@@ -2471,10 +2421,6 @@ msgstr "VZDump 备份文件"
 msgid "Value"
 msgstr "值"
 
-#: ../www/manager6/qemu/CPUOptions.js:40
-msgid "Vcpus"
-msgstr ""
-
 #: ../www/manager6/ceph/Disks.js:33
 msgid "Vendor"
 msgstr ""
@@ -2498,10 +2444,6 @@ msgstr "虚拟机"
 #: ../www/manager6/qemu/Config.js:122
 msgid "Virtual Machine {0} on node {1}"
 msgstr "虚拟机 {0} 在节点 {1} 上"
-
-#: ../www/manager6/node/NetworkEdit.js:60
-msgid "Vlan Aware"
-msgstr ""
 
 #: ../www/manager6/storage/LvmThinEdit.js:132
 #: ../www/manager6/storage/LvmThinEdit.js:156
@@ -2599,15 +2541,6 @@ msgstr "永远"
 msgid "new"
 msgstr "新"
 
-#: ../www/manager6/ha/Groups.js:96 ../www/manager6/ha/GroupEdit.js:50
-#, fuzzy
-msgid "nofailback"
-msgstr "回滚"
-
-#: ../www/manager6/panel/IPSet.js:229
-msgid "nomatch"
-msgstr "无匹配"
-
 #: ../www/manager6/Utils.js:729
 msgid "none"
 msgstr "无"
@@ -2615,11 +2548,6 @@ msgstr "无"
 #: ../www/manager6/form/NetworkCardSelector.js:6
 msgid "paravirtualized"
 msgstr "半虚拟化"
-
-#: ../www/manager6/ha/Groups.js:89 ../www/manager6/ha/GroupEdit.js:44
-#, fuzzy
-msgid "restricted"
-msgstr "无限制"
 
 #: ../www/manager6/Utils.js:735
 msgid "running"
@@ -2653,6 +2581,10 @@ msgstr ""
 
 #~ msgid "Are you sure you want to activate your changes"
 #~ msgstr "你确定要激活您所做的更改吗？"
+
+#, fuzzy
+#~ msgid "Are you sure you want to remove {item.type} {item.id}?"
+#~ msgstr "你确定你要删除该项{0}吗？"
 
 #, fuzzy
 #~ msgid ""
@@ -2749,6 +2681,10 @@ msgstr ""
 #~ msgid "Do you really want to suspend {0}?"
 #~ msgstr "你真的要挂起虚拟机 {0}?"
 
+#, fuzzy
+#~ msgid "Enable numa"
+#~ msgstr "启用"
+
 #~ msgid "Estranged"
 #~ msgstr "分离"
 
@@ -2800,6 +2736,9 @@ msgstr ""
 #~ msgid "Migrate All VMs"
 #~ msgstr "迁移"
 
+#~ msgid "Node list"
+#~ msgstr "节点列表"
+
 #~ msgid "OpenVZ Container"
 #~ msgstr "OpenVZ 容器"
 
@@ -2821,6 +2760,15 @@ msgstr ""
 #~ msgid "Restarts"
 #~ msgstr "重启"
 
+#~ msgid "Restore CT"
+#~ msgstr "恢复 CT"
+
+#~ msgid "Restore VM"
+#~ msgstr "恢复 VM"
+
+#~ msgid "Revert changes"
+#~ msgstr "还原更改"
+
 #, fuzzy
 #~ msgid "Spice Console"
 #~ msgstr "控制台"
@@ -2833,12 +2781,37 @@ msgstr ""
 #~ msgid "Stop All VMs"
 #~ msgstr "迁移"
 
+#~ msgid "Storage list"
+#~ msgstr "存储列表"
+
 #, fuzzy
 #~ msgid "Swap (MB)"
 #~ msgstr "交换分区"
 
 #~ msgid "This will permanently erase all image data."
 #~ msgstr "确定删除该数据将无法恢复。"
+
+#~ msgid "Unable to load subscription status"
+#~ msgstr "无法加载认购状态"
+
+#, fuzzy
+#~ msgid "Unable to parse drive options"
+#~ msgstr "无法加载认购状态"
+
+#, fuzzy
+#~ msgid "Unable to parse mount point options"
+#~ msgstr "不能解析网络选项"
+
+#~ msgid "Unable to parse network options"
+#~ msgstr "不能解析网络选项"
+
+#, fuzzy
+#~ msgid "Unable to parse smbios options"
+#~ msgstr "不能解析smbios选项"
+
+#, fuzzy
+#~ msgid "Unused Mount Point"
+#~ msgstr "载入"
 
 #~ msgid "User quotas disabled."
 #~ msgstr "禁用用户配额。"
@@ -2854,6 +2827,17 @@ msgstr ""
 #, fuzzy
 #~ msgid "action"
 #~ msgstr "选择"
+
+#, fuzzy
+#~ msgid "nofailback"
+#~ msgstr "回滚"
+
+#~ msgid "nomatch"
+#~ msgstr "无匹配"
+
+#, fuzzy
+#~ msgid "restricted"
+#~ msgstr "无限制"
 
 #~ msgid "seconds"
 #~ msgstr "秒"

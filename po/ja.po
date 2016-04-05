@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Mon Apr  4 16:57:59 2016\n"
+"POT-Creation-Date: Tue Apr  5 11:10:38 2016\n"
 "PO-Revision-Date: 2011-12-08 07:14+0100\n"
 "Last-Translator: Koichi MATSUMOTO <mzch@mac.com>\n"
 "Language-Team: Japanese <support@proxmox.com>\n"
@@ -129,11 +129,6 @@ msgstr "本当に {0} を削除してもよろしいですか?"
 #, fuzzy
 msgid "Are you sure you want to remove this entry"
 msgstr "本当にこの項目を削除してもよろしいですか?"
-
-#: ../www/manager6/window/SafeDestroy.js:94
-#, fuzzy
-msgid "Are you sure you want to remove {item.type} {item.id}?"
-msgstr "本当に {0} を削除してもよろしいですか?"
 
 #: ../www/manager6/dc/Config.js:84
 msgid "Authentication"
@@ -352,10 +347,10 @@ msgstr "確認"
 msgid "Configure"
 msgstr "確認"
 
-#: ../www/manager6/button/Button.js:45 ../www/manager6/node/Config.js:42
-#: ../www/manager6/node/Config.js:63 ../www/manager6/qemu/CmdMenu.js:57
-#: ../www/manager6/qemu/CmdMenu.js:77 ../www/manager6/qemu/CmdMenu.js:91
-#: ../www/manager6/qemu/CmdMenu.js:116
+#: ../www/manager6/button/Split.js:40 ../www/manager6/button/Button.js:45
+#: ../www/manager6/node/Config.js:42 ../www/manager6/node/Config.js:63
+#: ../www/manager6/qemu/CmdMenu.js:57 ../www/manager6/qemu/CmdMenu.js:77
+#: ../www/manager6/qemu/CmdMenu.js:91 ../www/manager6/qemu/CmdMenu.js:116
 #: ../www/manager6/qemu/CreateWizard.js:113 ../www/manager6/lxc/CmdMenu.js:57
 #: ../www/manager6/lxc/CmdMenu.js:78 ../www/manager6/lxc/CmdMenu.js:92
 #: ../www/manager6/lxc/CmdMenu.js:106 ../www/manager6/lxc/CreateWizard.js:162
@@ -387,7 +382,7 @@ msgid "Console"
 msgstr "コンソール"
 
 #: ../www/manager6/dc/OptionView.js:61 ../www/manager6/dc/OptionView.js:66
-#: ../www/manager6/dc/OptionView.js:135
+#: ../www/manager6/dc/OptionView.js:134
 #, fuzzy
 msgid "Console Viewer"
 msgstr "コンソール"
@@ -632,7 +627,7 @@ msgstr ""
 msgid "E-Mail"
 msgstr ""
 
-#: ../www/manager6/Utils.js:948 ../www/manager6/dc/OptionView.js:175
+#: ../www/manager6/Utils.js:948 ../www/manager6/dc/OptionView.js:174
 #: ../www/manager6/dc/PoolView.js:60 ../www/manager6/dc/UserView.js:124
 #: ../www/manager6/dc/AuthView.js:38 ../www/manager6/dc/GroupView.js:60
 #: ../www/manager6/dc/Backup.js:359 ../www/manager6/dc/StorageView.js:68
@@ -654,7 +649,7 @@ msgid "Edit"
 msgstr "編集"
 
 #: ../www/manager6/dc/OptionView.js:84 ../www/manager6/dc/OptionView.js:92
-#: ../www/manager6/dc/OptionView.js:141
+#: ../www/manager6/dc/OptionView.js:140
 msgid "Email from address"
 msgstr ""
 
@@ -662,8 +657,7 @@ msgstr ""
 msgid "Email notification"
 msgstr ""
 
-#: ../www/manager6/dc/Backup.js:185 ../www/manager6/dc/StorageView.js:251
-#: ../www/manager6/grid/FirewallRules.js:159
+#: ../www/manager6/dc/Backup.js:185 ../www/manager6/grid/FirewallRules.js:159
 #: ../www/manager6/grid/FirewallRules.js:345
 #: ../www/manager6/grid/FirewallRules.js:622
 #: ../www/manager6/storage/DirEdit.js:57
@@ -703,7 +697,7 @@ msgstr "有効"
 
 #: ../www/manager6/qemu/ProcessorEdit.js:77
 #, fuzzy
-msgid "Enable numa"
+msgid "Enable NUMA"
 msgstr "有効"
 
 #: ../www/manager6/lxc/ResourceEdit.js:449
@@ -712,10 +706,11 @@ msgid "Enable quota"
 msgstr "有効"
 
 #: ../www/manager6/dc/UserEdit.js:97 ../www/manager6/dc/UserView.js:199
-#: ../www/manager6/dc/Backup.js:408 ../www/manager6/qemu/Options.js:120
-#: ../www/manager6/qemu/Options.js:155 ../www/manager6/qemu/Options.js:185
-#: ../www/manager6/qemu/Options.js:261 ../www/manager6/qemu/Options.js:278
-#: ../www/manager6/lxc/Options.js:134 ../www/manager6/storage/StatusView.js:10
+#: ../www/manager6/dc/Backup.js:408 ../www/manager6/dc/StorageView.js:251
+#: ../www/manager6/qemu/Options.js:120 ../www/manager6/qemu/Options.js:155
+#: ../www/manager6/qemu/Options.js:185 ../www/manager6/qemu/Options.js:261
+#: ../www/manager6/qemu/Options.js:278 ../www/manager6/lxc/Options.js:134
+#: ../www/manager6/storage/StatusView.js:10
 msgid "Enabled"
 msgstr "有効"
 
@@ -794,6 +789,7 @@ msgstr "エラー"
 #: ../www/manager6/Toolkit.js:25 ../www/manager6/Toolkit.js:31
 #: ../www/manager6/Toolkit.js:37 ../www/manager6/Toolkit.js:43
 #: ../www/manager6/Toolkit.js:50 ../www/manager6/Toolkit.js:86
+#: ../www/manager6/Toolkit.js:97
 msgid "Example"
 msgstr "例"
 
@@ -910,7 +906,7 @@ msgid "HD space"
 msgstr "ディスクスペース"
 
 #: ../www/manager6/dc/OptionView.js:8 ../www/manager6/dc/OptionView.js:16
-#: ../www/manager6/dc/OptionView.js:124
+#: ../www/manager6/dc/OptionView.js:123
 msgid "HTTP proxy"
 msgstr "HTTP プロキシ"
 
@@ -960,6 +956,10 @@ msgstr "ID"
 #: ../www/manager6/node/StatusView.js:47 ../www/manager6/node/Summary.js:115
 msgid "IO delay"
 msgstr "IO 遅延"
+
+#: ../www/manager6/qemu/HDEdit.js:243
+msgid "IO thread"
+msgstr ""
 
 #: ../www/manager6/node/NetworkEdit.js:209
 #: ../www/manager6/node/NetworkView.js:267 ../www/manager6/lxc/Network.js:506
@@ -1028,10 +1028,6 @@ msgstr ""
 msgid "Interface"
 msgstr "インターフェース名"
 
-#: ../www/manager6/qemu/HDEdit.js:243
-msgid "Iothread"
-msgstr ""
-
 #: ../www/manager6/ceph/OSD.js:37
 msgid "Journal Disk"
 msgstr ""
@@ -1062,7 +1058,7 @@ msgid "Key IDs"
 msgstr ""
 
 #: ../www/manager6/dc/OptionView.js:33 ../www/manager6/dc/OptionView.js:38
-#: ../www/manager6/dc/OptionView.js:118 ../www/manager6/grid/ObjectGrid.js:7
+#: ../www/manager6/dc/OptionView.js:117 ../www/manager6/grid/ObjectGrid.js:7
 #: ../www/manager6/qemu/KeyboardEdit.js:8
 #: ../www/manager6/qemu/KeyboardEdit.js:13
 #: ../www/manager6/qemu/HardwareView.js:104
@@ -1380,11 +1376,8 @@ msgstr "アップロード"
 msgid "Node"
 msgstr "ノード"
 
-#: ../www/manager6/tree/ResourceTree.js:12
-msgid "Node list"
-msgstr "ノードリスト"
-
-#: ../www/manager6/dc/Summary.js:121 ../www/manager6/storage/DirEdit.js:80
+#: ../www/manager6/tree/ResourceTree.js:12 ../www/manager6/dc/Summary.js:121
+#: ../www/manager6/storage/DirEdit.js:80
 #: ../www/manager6/storage/LvmThinEdit.js:188
 #: ../www/manager6/storage/ZFSPoolEdit.js:114
 #: ../www/manager6/storage/IScsiEdit.js:123
@@ -1506,8 +1499,8 @@ msgstr "変更はありません"
 msgid "Permissions"
 msgstr "アクセス権限"
 
-#: ../www/manager6/window/SafeDestroy.js:103
-msgid "Please enter the {item.type} ID to confirm"
+#: ../www/manager6/window/SafeDestroy.js:134
+msgid "Please enter the ID to confirm"
 msgstr ""
 
 #: ../www/manager6/node/NetworkView.js:313
@@ -1688,7 +1681,7 @@ msgstr "再読込"
 #: ../www/manager6/ha/Resources.js:61 ../www/manager6/ceph/OSD.js:80
 #: ../www/manager6/ceph/OSD.js:296 ../www/manager6/ceph/Pool.js:164
 #: ../www/manager6/ceph/Monitor.js:128 ../www/manager6/window/Edit.js:198
-#: ../www/manager6/window/SafeDestroy.js:114
+#: ../www/manager6/window/SafeDestroy.js:100
 msgid "Remove"
 msgstr "削除"
 
@@ -1729,17 +1722,9 @@ msgstr "再起動"
 #: ../www/manager6/Utils.js:539 ../www/manager6/Utils.js:556
 #: ../www/manager6/grid/BackupView.js:120
 #: ../www/manager6/storage/ContentView.js:407
-#: ../www/manager6/window/Restore.js:79
+#: ../www/manager6/window/Restore.js:79 ../www/manager6/window/Restore.js:123
 msgid "Restore"
 msgstr "リストア"
-
-#: ../www/manager6/window/Restore.js:123
-msgid "Restore CT"
-msgstr "CT をリストア"
-
-#: ../www/manager6/window/Restore.js:124
-msgid "Restore VM"
-msgstr "VM をリストア"
 
 #: ../www/manager6/Utils.js:550 ../www/manager6/Utils.js:567
 #: ../www/manager6/qemu/CmdMenu.js:66 ../www/manager6/qemu/Config.js:42
@@ -1747,15 +1732,11 @@ msgstr "VM をリストア"
 msgid "Resume"
 msgstr "再開"
 
-#: ../www/manager6/qemu/Options.js:330
+#: ../www/manager6/node/NetworkView.js:202 ../www/manager6/qemu/Options.js:330
 #: ../www/manager6/qemu/HardwareView.js:400
 #, fuzzy
 msgid "Revert"
 msgstr "無期限"
-
-#: ../www/manager6/node/NetworkView.js:202
-msgid "Revert changes"
-msgstr "元に戻す"
 
 #: ../www/manager6/dc/ACLView.js:45 ../www/manager6/dc/ACLView.js:119
 #: ../www/manager6/form/RoleSelector.js:21
@@ -1860,10 +1841,6 @@ msgstr "選択モード"
 #: ../www/manager6/dc/Backup.js:160
 msgid "Send email to"
 msgstr "メールの送信先"
-
-#: ../www/manager6/dc/OptionView.js:89 ../www/manager6/dc/OptionView.js:107
-msgid "Send emails from root@$hostname"
-msgstr ""
 
 #: ../www/manager6/qemu/Smbios1Edit.js:58 ../www/manager6/ceph/Disks.js:45
 #: ../www/manager6/ceph/Disks.js:150
@@ -2095,8 +2072,9 @@ msgstr "停止"
 msgid "Stop all VMs and Containers"
 msgstr ""
 
-#: ../www/manager6/dc/Config.js:38 ../www/manager6/dc/Backup.js:59
-#: ../www/manager6/dc/Backup.js:438 ../www/manager6/grid/BackupView.js:71
+#: ../www/manager6/tree/ResourceTree.js:20 ../www/manager6/dc/Config.js:38
+#: ../www/manager6/dc/Backup.js:59 ../www/manager6/dc/Backup.js:438
+#: ../www/manager6/grid/BackupView.js:71
 #: ../www/manager6/grid/PoolMembers.js:114
 #: ../www/manager6/grid/PoolMembers.js:123
 #: ../www/manager6/grid/PoolMembers.js:219
@@ -2111,10 +2089,6 @@ msgstr "ストレージ"
 #: ../www/manager6/form/ViewSelector.js:30
 msgid "Storage View"
 msgstr "ストレージ表示"
-
-#: ../www/manager6/tree/ResourceTree.js:20
-msgid "Storage list"
-msgstr "ストレージリスト"
 
 #: ../www/manager6/storage/Browser.js:30
 msgid "Storage {0} on node {1}"
@@ -2256,11 +2230,6 @@ msgstr "この VM ID は存在しません。"
 msgid "This VM ID is already in use"
 msgstr "この VM ID は既に使用されています。"
 
-#: ../www/manager6/Toolkit.js:97
-msgid ""
-"This field should be an e-mail address in the format \"user@example.com\""
-msgstr ""
-
 #: ../www/manager6/Toolkit.js:91
 msgid "This is not a valid DNS name"
 msgstr ""
@@ -2268,7 +2237,6 @@ msgstr ""
 #: ../www/manager6/grid/BackupView.js:149
 #: ../www/manager6/qemu/HardwareView.js:376
 #: ../www/manager6/lxc/Resources.js:202 ../www/manager6/ceph/Pool.js:170
-#: ../www/manager6/window/SafeDestroy.js:95
 #, fuzzy
 msgid "This will permanently erase all data."
 msgstr ""
@@ -2347,30 +2315,6 @@ msgstr "種別"
 msgid "USB"
 msgstr "UBC"
 
-#: ../www/manager6/dc/Support.js:50
-#, fuzzy
-msgid "Unable to load subscription status"
-msgstr "ドライブオプションを解析できません"
-
-#: ../www/manager6/qemu/HDEdit.js:295 ../www/manager6/qemu/HDThrottle.js:201
-#, fuzzy
-msgid "Unable to parse drive options"
-msgstr "ネットワークオプションを解析できません"
-
-#: ../www/manager6/lxc/ResourceEdit.js:85
-#, fuzzy
-msgid "Unable to parse mount point options"
-msgstr "ネットワークオプションを解析できません"
-
-#: ../www/manager6/qemu/NetworkEdit.js:210
-msgid "Unable to parse network options"
-msgstr "ネットワークオプションを解析できません"
-
-#: ../www/manager6/qemu/Smbios1Edit.js:106
-#, fuzzy
-msgid "Unable to parse smbios options"
-msgstr "ネットワークオプションを解析できません"
-
 #: ../www/manager6/window/TaskViewer.js:138
 msgid "Unique task ID"
 msgstr "タスク ID"
@@ -2390,13 +2334,9 @@ msgstr ""
 
 #: ../www/manager6/qemu/HDEdit.js:277 ../www/manager6/qemu/HDThrottle.js:186
 #: ../www/manager6/qemu/HardwareView.js:205
-#: ../www/manager6/lxc/Resources.js:103
+#: ../www/manager6/lxc/Resources.js:103 ../www/manager6/lxc/ResourceEdit.js:63
 msgid "Unused Disk"
 msgstr "未使用のディスク"
-
-#: ../www/manager6/lxc/ResourceEdit.js:63
-msgid "Unused Mount Point"
-msgstr ""
 
 #: ../www/manager6/qemu/Snapshot.js:133 ../www/manager6/lxc/Snapshot.js:124
 msgid "Update"
@@ -2499,8 +2439,17 @@ msgstr "ユーザー名"
 msgid "Users"
 msgstr "ユーザー"
 
+#: ../www/manager6/qemu/CPUOptions.js:40
+#, fuzzy
+msgid "VCPUs"
+msgstr "CPU"
+
 #: ../www/manager6/form/VLanField.js:9 ../www/manager6/lxc/Network.js:496
 msgid "VLAN Tag"
+msgstr ""
+
+#: ../www/manager6/node/NetworkEdit.js:60
+msgid "VLAN aware"
 msgstr ""
 
 #: ../www/manager6/ha/ResourceEdit.js:99
@@ -2530,10 +2479,6 @@ msgstr "VZDump ファイル"
 msgid "Value"
 msgstr "値"
 
-#: ../www/manager6/qemu/CPUOptions.js:40
-msgid "Vcpus"
-msgstr ""
-
 #: ../www/manager6/ceph/Disks.js:33
 msgid "Vendor"
 msgstr ""
@@ -2559,10 +2504,6 @@ msgstr "仮想マシン"
 #, fuzzy
 msgid "Virtual Machine {0} on node {1}"
 msgstr "ノード {1} 上の仮想マシン {0}"
-
-#: ../www/manager6/node/NetworkEdit.js:60
-msgid "Vlan Aware"
-msgstr ""
 
 #: ../www/manager6/storage/LvmThinEdit.js:132
 #: ../www/manager6/storage/LvmThinEdit.js:156
@@ -2661,14 +2602,6 @@ msgstr "無期限"
 msgid "new"
 msgstr ""
 
-#: ../www/manager6/ha/Groups.js:96 ../www/manager6/ha/GroupEdit.js:50
-msgid "nofailback"
-msgstr ""
-
-#: ../www/manager6/panel/IPSet.js:229
-msgid "nomatch"
-msgstr ""
-
 #: ../www/manager6/Utils.js:729
 msgid "none"
 msgstr ""
@@ -2677,11 +2610,6 @@ msgstr ""
 #, fuzzy
 msgid "paravirtualized"
 msgstr "VirtIO (準仮想化)"
-
-#: ../www/manager6/ha/Groups.js:89 ../www/manager6/ha/GroupEdit.js:44
-#, fuzzy
-msgid "restricted"
-msgstr "無制限"
 
 #: ../www/manager6/Utils.js:735
 msgid "running"
@@ -2779,6 +2707,10 @@ msgstr "ホスト設定を使用する"
 
 #~ msgid "Are you sure you want to remove device {0}"
 #~ msgstr "本当にデバイス {0} を削除してもよろしいですか"
+
+#, fuzzy
+#~ msgid "Are you sure you want to remove {item.type} {item.id}?"
+#~ msgstr "本当に {0} を削除してもよろしいですか?"
 
 #, fuzzy
 #~ msgid ""
@@ -3110,6 +3042,10 @@ msgstr "ホスト設定を使用する"
 #~ msgid "Email"
 #~ msgstr "メール"
 
+#, fuzzy
+#~ msgid "Enable numa"
+#~ msgstr "有効"
+
 #~ msgid "English"
 #~ msgstr "英語"
 
@@ -3363,6 +3299,9 @@ msgstr "ホスト設定を使用する"
 #~ msgid "No Groups Selected"
 #~ msgstr "グループが選択されていません"
 
+#~ msgid "Node list"
+#~ msgstr "ノードリスト"
+
 #~ msgid "Node {0} seems to be offline!"
 #~ msgstr "ノード {0} はオフラインのようです!"
 
@@ -3460,6 +3399,12 @@ msgstr "ホスト設定を使用する"
 #~ msgid "Restarts"
 #~ msgstr "再起動"
 
+#~ msgid "Restore CT"
+#~ msgstr "CT をリストア"
+
+#~ msgid "Restore VM"
+#~ msgstr "VM をリストア"
+
 #~ msgid "Restore VM {0}"
 #~ msgstr "VM {0} をリストア"
 
@@ -3470,6 +3415,9 @@ msgstr "ホスト設定を使用する"
 #, fuzzy
 #~ msgid "Resume {0}"
 #~ msgstr "VM {0} を再開"
+
+#~ msgid "Revert changes"
+#~ msgstr "元に戻す"
 
 #~ msgid "Role name"
 #~ msgstr "ロール名"
@@ -3552,6 +3500,9 @@ msgstr "ホスト設定を使用する"
 #~ msgid "Storage ID"
 #~ msgstr "ストレージ ID"
 
+#~ msgid "Storage list"
+#~ msgstr "ストレージリスト"
+
 #~ msgid "Subnet mask requires option 'IP address'"
 #~ msgstr ""
 #~ "サブネットマスクを指定する場合は 'IP アドレス' オプションも入力して下さい"
@@ -3611,6 +3562,25 @@ msgstr "ホスト設定を使用する"
 
 #~ msgid "Type 'help' for help."
 #~ msgstr "ヘルプを参照する場合は 'help' とタイプして下さい。"
+
+#, fuzzy
+#~ msgid "Unable to load subscription status"
+#~ msgstr "ドライブオプションを解析できません"
+
+#, fuzzy
+#~ msgid "Unable to parse drive options"
+#~ msgstr "ネットワークオプションを解析できません"
+
+#, fuzzy
+#~ msgid "Unable to parse mount point options"
+#~ msgstr "ネットワークオプションを解析できません"
+
+#~ msgid "Unable to parse network options"
+#~ msgstr "ネットワークオプションを解析できません"
+
+#, fuzzy
+#~ msgid "Unable to parse smbios options"
+#~ msgstr "ネットワークオプションを解析できません"
 
 #~ msgid "Unable to parse the JSON returned by the server: {0}"
 #~ msgstr "サーバーが返信してきた JSON データを解析できません: {0}"
@@ -3828,6 +3798,10 @@ msgstr "ホスト設定を使用する"
 
 #~ msgid "qemu64"
 #~ msgstr "qemu64"
+
+#, fuzzy
+#~ msgid "restricted"
+#~ msgstr "無制限"
 
 #, fuzzy
 #~ msgid "serial"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Mon Apr  4 16:57:59 2016\n"
+"POT-Creation-Date: Tue Apr  5 11:10:38 2016\n"
 "PO-Revision-Date: 2016-02-25 21:51+0100\n"
 "Last-Translator: Jostein Hove-Henriksen <jostein@hove-henriksen.no>\n"
 "Language-Team: Norwegian Bokmål\n"
@@ -125,11 +125,6 @@ msgstr "Er du sikker på at du vil fjerne oppføring {0}"
 #: ../www/manager6/dc/ACLView.js:151 ../www/manager6/dc/Backup.js:369
 msgid "Are you sure you want to remove this entry"
 msgstr "Er du sikker på at du vil fjerne denne oppføringen"
-
-#: ../www/manager6/window/SafeDestroy.js:94
-#, fuzzy
-msgid "Are you sure you want to remove {item.type} {item.id}?"
-msgstr "Er du sikker på at du vil fjerne oppføring {0}"
 
 #: ../www/manager6/dc/Config.js:84
 msgid "Authentication"
@@ -339,10 +334,10 @@ msgstr "Oppsett"
 msgid "Configure"
 msgstr "Sette opp"
 
-#: ../www/manager6/button/Button.js:45 ../www/manager6/node/Config.js:42
-#: ../www/manager6/node/Config.js:63 ../www/manager6/qemu/CmdMenu.js:57
-#: ../www/manager6/qemu/CmdMenu.js:77 ../www/manager6/qemu/CmdMenu.js:91
-#: ../www/manager6/qemu/CmdMenu.js:116
+#: ../www/manager6/button/Split.js:40 ../www/manager6/button/Button.js:45
+#: ../www/manager6/node/Config.js:42 ../www/manager6/node/Config.js:63
+#: ../www/manager6/qemu/CmdMenu.js:57 ../www/manager6/qemu/CmdMenu.js:77
+#: ../www/manager6/qemu/CmdMenu.js:91 ../www/manager6/qemu/CmdMenu.js:116
 #: ../www/manager6/qemu/CreateWizard.js:113 ../www/manager6/lxc/CmdMenu.js:57
 #: ../www/manager6/lxc/CmdMenu.js:78 ../www/manager6/lxc/CmdMenu.js:92
 #: ../www/manager6/lxc/CmdMenu.js:106 ../www/manager6/lxc/CreateWizard.js:162
@@ -374,7 +369,7 @@ msgid "Console"
 msgstr "Konsoll"
 
 #: ../www/manager6/dc/OptionView.js:61 ../www/manager6/dc/OptionView.js:66
-#: ../www/manager6/dc/OptionView.js:135
+#: ../www/manager6/dc/OptionView.js:134
 msgid "Console Viewer"
 msgstr "Konsollviser"
 
@@ -607,7 +602,7 @@ msgstr "Last ned"
 msgid "E-Mail"
 msgstr "E-post"
 
-#: ../www/manager6/Utils.js:948 ../www/manager6/dc/OptionView.js:175
+#: ../www/manager6/Utils.js:948 ../www/manager6/dc/OptionView.js:174
 #: ../www/manager6/dc/PoolView.js:60 ../www/manager6/dc/UserView.js:124
 #: ../www/manager6/dc/AuthView.js:38 ../www/manager6/dc/GroupView.js:60
 #: ../www/manager6/dc/Backup.js:359 ../www/manager6/dc/StorageView.js:68
@@ -629,7 +624,7 @@ msgid "Edit"
 msgstr "Rediger"
 
 #: ../www/manager6/dc/OptionView.js:84 ../www/manager6/dc/OptionView.js:92
-#: ../www/manager6/dc/OptionView.js:141
+#: ../www/manager6/dc/OptionView.js:140
 msgid "Email from address"
 msgstr "E-post fra adresse"
 
@@ -637,8 +632,7 @@ msgstr "E-post fra adresse"
 msgid "Email notification"
 msgstr "E-postvarsling"
 
-#: ../www/manager6/dc/Backup.js:185 ../www/manager6/dc/StorageView.js:251
-#: ../www/manager6/grid/FirewallRules.js:159
+#: ../www/manager6/dc/Backup.js:185 ../www/manager6/grid/FirewallRules.js:159
 #: ../www/manager6/grid/FirewallRules.js:345
 #: ../www/manager6/grid/FirewallRules.js:622
 #: ../www/manager6/storage/DirEdit.js:57
@@ -676,8 +670,9 @@ msgid "Enable NDP"
 msgstr "Aktiver DHCP"
 
 #: ../www/manager6/qemu/ProcessorEdit.js:77
-msgid "Enable numa"
-msgstr "Aktiver numa"
+#, fuzzy
+msgid "Enable NUMA"
+msgstr "Aktiver DHCP"
 
 #: ../www/manager6/lxc/ResourceEdit.js:449
 #, fuzzy
@@ -685,10 +680,11 @@ msgid "Enable quota"
 msgstr "Aktiver numa"
 
 #: ../www/manager6/dc/UserEdit.js:97 ../www/manager6/dc/UserView.js:199
-#: ../www/manager6/dc/Backup.js:408 ../www/manager6/qemu/Options.js:120
-#: ../www/manager6/qemu/Options.js:155 ../www/manager6/qemu/Options.js:185
-#: ../www/manager6/qemu/Options.js:261 ../www/manager6/qemu/Options.js:278
-#: ../www/manager6/lxc/Options.js:134 ../www/manager6/storage/StatusView.js:10
+#: ../www/manager6/dc/Backup.js:408 ../www/manager6/dc/StorageView.js:251
+#: ../www/manager6/qemu/Options.js:120 ../www/manager6/qemu/Options.js:155
+#: ../www/manager6/qemu/Options.js:185 ../www/manager6/qemu/Options.js:261
+#: ../www/manager6/qemu/Options.js:278 ../www/manager6/lxc/Options.js:134
+#: ../www/manager6/storage/StatusView.js:10
 msgid "Enabled"
 msgstr "Aktivert"
 
@@ -767,6 +763,7 @@ msgstr "Feil"
 #: ../www/manager6/Toolkit.js:25 ../www/manager6/Toolkit.js:31
 #: ../www/manager6/Toolkit.js:37 ../www/manager6/Toolkit.js:43
 #: ../www/manager6/Toolkit.js:50 ../www/manager6/Toolkit.js:86
+#: ../www/manager6/Toolkit.js:97
 msgid "Example"
 msgstr "Eksempel"
 
@@ -879,7 +876,7 @@ msgid "HD space"
 msgstr "Harddiskplass"
 
 #: ../www/manager6/dc/OptionView.js:8 ../www/manager6/dc/OptionView.js:16
-#: ../www/manager6/dc/OptionView.js:124
+#: ../www/manager6/dc/OptionView.js:123
 msgid "HTTP proxy"
 msgstr "HTTP-mellomtjener"
 
@@ -927,6 +924,10 @@ msgstr "ID"
 #: ../www/manager6/node/StatusView.js:47 ../www/manager6/node/Summary.js:115
 msgid "IO delay"
 msgstr "IO-forsinkels"
+
+#: ../www/manager6/qemu/HDEdit.js:243
+msgid "IO thread"
+msgstr ""
 
 #: ../www/manager6/node/NetworkEdit.js:209
 #: ../www/manager6/node/NetworkView.js:267 ../www/manager6/lxc/Network.js:506
@@ -993,10 +994,6 @@ msgstr "Sett inn"
 msgid "Interface"
 msgstr "Grensesnitt"
 
-#: ../www/manager6/qemu/HDEdit.js:243
-msgid "Iothread"
-msgstr ""
-
 #: ../www/manager6/ceph/OSD.js:37
 msgid "Journal Disk"
 msgstr "Journal-disk"
@@ -1026,7 +1023,7 @@ msgid "Key IDs"
 msgstr "Nøkkel-IDer"
 
 #: ../www/manager6/dc/OptionView.js:33 ../www/manager6/dc/OptionView.js:38
-#: ../www/manager6/dc/OptionView.js:118 ../www/manager6/grid/ObjectGrid.js:7
+#: ../www/manager6/dc/OptionView.js:117 ../www/manager6/grid/ObjectGrid.js:7
 #: ../www/manager6/qemu/KeyboardEdit.js:8
 #: ../www/manager6/qemu/KeyboardEdit.js:13
 #: ../www/manager6/qemu/HardwareView.js:104
@@ -1330,11 +1327,8 @@ msgstr "Ingen gyldig abonnementsnøkkel"
 msgid "Node"
 msgstr "Node"
 
-#: ../www/manager6/tree/ResourceTree.js:12
-msgid "Node list"
-msgstr "Nodeliste"
-
-#: ../www/manager6/dc/Summary.js:121 ../www/manager6/storage/DirEdit.js:80
+#: ../www/manager6/tree/ResourceTree.js:12 ../www/manager6/dc/Summary.js:121
+#: ../www/manager6/storage/DirEdit.js:80
 #: ../www/manager6/storage/LvmThinEdit.js:188
 #: ../www/manager6/storage/ZFSPoolEdit.js:114
 #: ../www/manager6/storage/IScsiEdit.js:123
@@ -1451,8 +1445,8 @@ msgstr "Avventende endringer"
 msgid "Permissions"
 msgstr "Rettigheter"
 
-#: ../www/manager6/window/SafeDestroy.js:103
-msgid "Please enter the {item.type} ID to confirm"
+#: ../www/manager6/window/SafeDestroy.js:134
+msgid "Please enter the ID to confirm"
 msgstr ""
 
 #: ../www/manager6/node/NetworkView.js:313
@@ -1624,7 +1618,7 @@ msgstr "Last på nytt"
 #: ../www/manager6/ha/Resources.js:61 ../www/manager6/ceph/OSD.js:80
 #: ../www/manager6/ceph/OSD.js:296 ../www/manager6/ceph/Pool.js:164
 #: ../www/manager6/ceph/Monitor.js:128 ../www/manager6/window/Edit.js:198
-#: ../www/manager6/window/SafeDestroy.js:114
+#: ../www/manager6/window/SafeDestroy.js:100
 msgid "Remove"
 msgstr "Fjern"
 
@@ -1663,17 +1657,9 @@ msgstr "Omstart"
 #: ../www/manager6/Utils.js:539 ../www/manager6/Utils.js:556
 #: ../www/manager6/grid/BackupView.js:120
 #: ../www/manager6/storage/ContentView.js:407
-#: ../www/manager6/window/Restore.js:79
+#: ../www/manager6/window/Restore.js:79 ../www/manager6/window/Restore.js:123
 msgid "Restore"
 msgstr "Gjenopprett"
-
-#: ../www/manager6/window/Restore.js:123
-msgid "Restore CT"
-msgstr "Gjenopprett CT"
-
-#: ../www/manager6/window/Restore.js:124
-msgid "Restore VM"
-msgstr "Gjenopprett VM"
 
 #: ../www/manager6/Utils.js:550 ../www/manager6/Utils.js:567
 #: ../www/manager6/qemu/CmdMenu.js:66 ../www/manager6/qemu/Config.js:42
@@ -1681,14 +1667,10 @@ msgstr "Gjenopprett VM"
 msgid "Resume"
 msgstr "Gjenoppta"
 
-#: ../www/manager6/qemu/Options.js:330
+#: ../www/manager6/node/NetworkView.js:202 ../www/manager6/qemu/Options.js:330
 #: ../www/manager6/qemu/HardwareView.js:400
 msgid "Revert"
 msgstr "Tilbakestill"
-
-#: ../www/manager6/node/NetworkView.js:202
-msgid "Revert changes"
-msgstr "Tilbakestill endringer"
 
 #: ../www/manager6/dc/ACLView.js:45 ../www/manager6/dc/ACLView.js:119
 #: ../www/manager6/form/RoleSelector.js:21
@@ -1790,10 +1772,6 @@ msgstr "Valgmodus"
 #: ../www/manager6/dc/Backup.js:160
 msgid "Send email to"
 msgstr "Send e-post til"
-
-#: ../www/manager6/dc/OptionView.js:89 ../www/manager6/dc/OptionView.js:107
-msgid "Send emails from root@$hostname"
-msgstr "Send e-poster fra root@$hostname"
 
 #: ../www/manager6/qemu/Smbios1Edit.js:58 ../www/manager6/ceph/Disks.js:45
 #: ../www/manager6/ceph/Disks.js:150
@@ -2015,8 +1993,9 @@ msgstr "Stopp"
 msgid "Stop all VMs and Containers"
 msgstr "Stopp alle VM-er og beholdere"
 
-#: ../www/manager6/dc/Config.js:38 ../www/manager6/dc/Backup.js:59
-#: ../www/manager6/dc/Backup.js:438 ../www/manager6/grid/BackupView.js:71
+#: ../www/manager6/tree/ResourceTree.js:20 ../www/manager6/dc/Config.js:38
+#: ../www/manager6/dc/Backup.js:59 ../www/manager6/dc/Backup.js:438
+#: ../www/manager6/grid/BackupView.js:71
 #: ../www/manager6/grid/PoolMembers.js:114
 #: ../www/manager6/grid/PoolMembers.js:123
 #: ../www/manager6/grid/PoolMembers.js:219
@@ -2031,10 +2010,6 @@ msgstr "Lagring"
 #: ../www/manager6/form/ViewSelector.js:30
 msgid "Storage View"
 msgstr "Lagringsoversikt"
-
-#: ../www/manager6/tree/ResourceTree.js:20
-msgid "Storage list"
-msgstr "Lagringsliste"
 
 #: ../www/manager6/storage/Browser.js:30
 msgid "Storage {0} on node {1}"
@@ -2167,12 +2142,6 @@ msgstr "Denne VM-ID finnes ikke"
 msgid "This VM ID is already in use"
 msgstr "Denne VM-ID er allerede i bruk"
 
-#: ../www/manager6/Toolkit.js:97
-msgid ""
-"This field should be an e-mail address in the format \"user@example.com\""
-msgstr ""
-"Dette feltet skulle vært en e-postadresse i formatet: \"user@example.com\""
-
 #: ../www/manager6/Toolkit.js:91
 msgid "This is not a valid DNS name"
 msgstr "Dette er et ugyldig DNS-navn"
@@ -2180,7 +2149,6 @@ msgstr "Dette er et ugyldig DNS-navn"
 #: ../www/manager6/grid/BackupView.js:149
 #: ../www/manager6/qemu/HardwareView.js:376
 #: ../www/manager6/lxc/Resources.js:202 ../www/manager6/ceph/Pool.js:170
-#: ../www/manager6/window/SafeDestroy.js:95
 #, fuzzy
 msgid "This will permanently erase all data."
 msgstr "Dette vil permanent fjerne all bildefildata."
@@ -2250,27 +2218,6 @@ msgstr "Type"
 msgid "USB"
 msgstr "USB"
 
-#: ../www/manager6/dc/Support.js:50
-msgid "Unable to load subscription status"
-msgstr "Ikke mulig å laste abonnementstatus"
-
-#: ../www/manager6/qemu/HDEdit.js:295 ../www/manager6/qemu/HDThrottle.js:201
-msgid "Unable to parse drive options"
-msgstr "Ikke mulig å tolke drev-innstillinger"
-
-#: ../www/manager6/lxc/ResourceEdit.js:85
-#, fuzzy
-msgid "Unable to parse mount point options"
-msgstr "Ikke mulig å tolke nettverksinnstillinger"
-
-#: ../www/manager6/qemu/NetworkEdit.js:210
-msgid "Unable to parse network options"
-msgstr "Ikke mulig å tolke nettverksinnstillinger"
-
-#: ../www/manager6/qemu/Smbios1Edit.js:106
-msgid "Unable to parse smbios options"
-msgstr "Ikke mulig å tolke smbios-innstillinger"
-
 #: ../www/manager6/window/TaskViewer.js:138
 msgid "Unique task ID"
 msgstr "Unik oppgave-ID"
@@ -2289,14 +2236,9 @@ msgstr "Avmonter"
 
 #: ../www/manager6/qemu/HDEdit.js:277 ../www/manager6/qemu/HDThrottle.js:186
 #: ../www/manager6/qemu/HardwareView.js:205
-#: ../www/manager6/lxc/Resources.js:103
+#: ../www/manager6/lxc/Resources.js:103 ../www/manager6/lxc/ResourceEdit.js:63
 msgid "Unused Disk"
 msgstr "Ubrukt disk"
-
-#: ../www/manager6/lxc/ResourceEdit.js:63
-#, fuzzy
-msgid "Unused Mount Point"
-msgstr "Monteringspunkt"
 
 #: ../www/manager6/qemu/Snapshot.js:133 ../www/manager6/lxc/Snapshot.js:124
 msgid "Update"
@@ -2395,8 +2337,18 @@ msgstr "Brukernavn"
 msgid "Users"
 msgstr "Brukere"
 
+#: ../www/manager6/qemu/CPUOptions.js:40
+#, fuzzy
+msgid "VCPUs"
+msgstr "CPU-er"
+
 #: ../www/manager6/form/VLanField.js:9 ../www/manager6/lxc/Network.js:496
 msgid "VLAN Tag"
+msgstr "VLAN-tagg"
+
+#: ../www/manager6/node/NetworkEdit.js:60
+#, fuzzy
+msgid "VLAN aware"
 msgstr "VLAN-tagg"
 
 #: ../www/manager6/ha/ResourceEdit.js:99
@@ -2424,10 +2376,6 @@ msgstr "VZDump-sikkerhetskopi"
 msgid "Value"
 msgstr "Verdi"
 
-#: ../www/manager6/qemu/CPUOptions.js:40
-msgid "Vcpus"
-msgstr ""
-
 #: ../www/manager6/ceph/Disks.js:33
 msgid "Vendor"
 msgstr "Leverandør"
@@ -2451,10 +2399,6 @@ msgstr "Virtuell maskin"
 #: ../www/manager6/qemu/Config.js:122
 msgid "Virtual Machine {0} on node {1}"
 msgstr "Virtuell maskin {0} på node {1}"
-
-#: ../www/manager6/node/NetworkEdit.js:60
-msgid "Vlan Aware"
-msgstr ""
 
 #: ../www/manager6/storage/LvmThinEdit.js:132
 #: ../www/manager6/storage/LvmThinEdit.js:156
@@ -2546,14 +2490,6 @@ msgstr "aldri"
 msgid "new"
 msgstr "ny"
 
-#: ../www/manager6/ha/Groups.js:96 ../www/manager6/ha/GroupEdit.js:50
-msgid "nofailback"
-msgstr ""
-
-#: ../www/manager6/panel/IPSet.js:229
-msgid "nomatch"
-msgstr "nomatch"
-
 #: ../www/manager6/Utils.js:729
 msgid "none"
 msgstr "ingen"
@@ -2561,10 +2497,6 @@ msgstr "ingen"
 #: ../www/manager6/form/NetworkCardSelector.js:6
 msgid "paravirtualized"
 msgstr "paravirtualisert"
-
-#: ../www/manager6/ha/Groups.js:89 ../www/manager6/ha/GroupEdit.js:44
-msgid "restricted"
-msgstr "avgrensa"
 
 #: ../www/manager6/Utils.js:735
 msgid "running"
@@ -2598,6 +2530,10 @@ msgstr "bruk vert-innstillinger"
 
 #~ msgid "Are you sure you want to activate your changes"
 #~ msgstr "Er du sikker på at du ønsker å aktivere endringene"
+
+#, fuzzy
+#~ msgid "Are you sure you want to remove {item.type} {item.id}?"
+#~ msgstr "Er du sikker på at du vil fjerne oppføring {0}"
 
 #, fuzzy
 #~ msgid ""
@@ -2682,6 +2618,9 @@ msgstr "bruk vert-innstillinger"
 #~ msgid "Do you really want to suspend {0}?"
 #~ msgstr "Vil du virkelig sette {0} i hvilemodus?"
 
+#~ msgid "Enable numa"
+#~ msgstr "Aktiver numa"
+
 #~ msgid "Estranged"
 #~ msgstr "Fraseparert"
 
@@ -2732,6 +2671,9 @@ msgstr "bruk vert-innstillinger"
 #~ msgid "Migrate All VMs"
 #~ msgstr "Migrer"
 
+#~ msgid "Node list"
+#~ msgstr "Nodeliste"
+
 #~ msgid "OpenVZ Container"
 #~ msgstr "OpenVZ-beholder"
 
@@ -2753,12 +2695,52 @@ msgstr "bruk vert-innstillinger"
 #~ msgid "Restarts"
 #~ msgstr "Starter på nytt"
 
+#~ msgid "Restore CT"
+#~ msgstr "Gjenopprett CT"
+
+#~ msgid "Restore VM"
+#~ msgstr "Gjenopprett VM"
+
+#~ msgid "Revert changes"
+#~ msgstr "Tilbakestill endringer"
+
+#~ msgid "Send emails from root@$hostname"
+#~ msgstr "Send e-poster fra root@$hostname"
+
 #, fuzzy
 #~ msgid "Spice Console"
 #~ msgstr "Konsoll"
 
+#~ msgid "Storage list"
+#~ msgstr "Lagringsliste"
+
+#~ msgid ""
+#~ "This field should be an e-mail address in the format \"user@example.com\""
+#~ msgstr ""
+#~ "Dette feltet skulle vært en e-postadresse i formatet: \"user@example.com\""
+
 #~ msgid "This will permanently erase all image data."
 #~ msgstr "Dette vil permanent fjerne all bildefildata."
+
+#~ msgid "Unable to load subscription status"
+#~ msgstr "Ikke mulig å laste abonnementstatus"
+
+#~ msgid "Unable to parse drive options"
+#~ msgstr "Ikke mulig å tolke drev-innstillinger"
+
+#, fuzzy
+#~ msgid "Unable to parse mount point options"
+#~ msgstr "Ikke mulig å tolke nettverksinnstillinger"
+
+#~ msgid "Unable to parse network options"
+#~ msgstr "Ikke mulig å tolke nettverksinnstillinger"
+
+#~ msgid "Unable to parse smbios options"
+#~ msgstr "Ikke mulig å tolke smbios-innstillinger"
+
+#, fuzzy
+#~ msgid "Unused Mount Point"
+#~ msgstr "Monteringspunkt"
 
 #~ msgid "User quotas disabled."
 #~ msgstr "Brukerkvote deaktivert."
@@ -2776,6 +2758,12 @@ msgstr "bruk vert-innstillinger"
 #, fuzzy
 #~ msgid "action"
 #~ msgstr "Handling"
+
+#~ msgid "nomatch"
+#~ msgstr "nomatch"
+
+#~ msgid "restricted"
+#~ msgstr "avgrensa"
 
 #~ msgid "seconds"
 #~ msgstr "sekunder"
