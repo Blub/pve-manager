@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
 "POT-Creation-Date: Mon Apr  4 16:57:59 2016\n"
-"PO-Revision-Date: 2016-04-04 16:57+0200\n"
+"PO-Revision-Date: 2016-04-05 06:47+0200\n"
 "Last-Translator:  Proxmox Support Team <support@proxmox.com>\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -1066,7 +1066,7 @@ msgstr "Laden..."
 
 #: ../www/manager6/panel/Firewall.js:80 ../www/manager6/ceph/Config.js:106
 msgid "Log"
-msgstr ""
+msgstr "Log"
 
 #: ../www/manager6/window/LoginWindow.js:155
 msgid "Login"
@@ -1447,7 +1447,7 @@ msgstr "Rechte"
 
 #: ../www/manager6/window/SafeDestroy.js:103
 msgid "Please enter the {item.type} ID to confirm"
-msgstr ""
+msgstr "Bitte bestätigen Sie die {item.type} ID"
 
 #: ../www/manager6/node/NetworkView.js:313
 msgid "Please reboot to activate changes"
@@ -2576,4 +2576,4 @@ msgstr "unsicher"
 #: ../www/manager6/lxc/DNS.js:44 ../www/manager6/lxc/DNS.js:183
 #: ../www/manager6/lxc/DNS.js:194
 msgid "use host settings"
-msgstr ""
+msgstr "verwende Werte vom Host"
