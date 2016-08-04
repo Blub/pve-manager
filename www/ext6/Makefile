@@ -12,7 +12,6 @@ EXTDATA=	\
 	extjs/build/packages/charts/classic/charts-debug.js	\
 
 EXT_THEME=	\
-	extjs/build/classic/theme-classic	\
 	extjs/build/classic/theme-crisp		\
 	extjs/build/packages/charts/classic/crisp	\
 
