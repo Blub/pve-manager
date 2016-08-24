@@ -116,7 +116,8 @@ Ext.define('PVE.window.Clone', {
 		rec.data.type === 'iscsi' ||
 		rec.data.type === 'sheepdog' ||
 		rec.data.type === 'zfs' ||
-		rec.data.type === 'zfspool'
+		rec.data.type === 'zfspool' ||
+		rec.data.type === 'btrfs'
 	) {
 	    formatsel.setValue('raw');
 	    formatsel.setDisabled(true);

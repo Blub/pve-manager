@@ -185,6 +185,7 @@ JSSRC= 				                 	\
 	storage/SheepdogEdit.js				\
 	storage/ZFSEdit.js				\
 	storage/ZFSPoolEdit.js				\
+	storage/BTRFSEdit.js				\
 	ha/StatusView.js				\
 	ha/Status.js					\
 	ha/GroupSelector.js				\

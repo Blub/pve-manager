@@ -407,7 +407,8 @@ Ext.define('PVE.lxc.MountPointInputPanel', {
 			       rec.data.type === 'rbd' ||
 			       rec.data.type === 'sheepdog' ||
 			       rec.data.type === 'zfs' ||
-			       rec.data.type === 'zfspool') {
+			       rec.data.type === 'zfspool' ||
+			       rec.data.type === 'btrfs') {
 			me.hdfilesel.setDisabled(true);
 			me.hdfilesel.setVisible(false);
 			me.hdsizesel.setDisabled(false);

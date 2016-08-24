@@ -58,6 +58,8 @@ Ext.define('PVE.dc.StorageView', {
 		editor = 'PVE.storage.ZFSEdit';
 	    } else if (type === 'zfspool') {
 		editor = 'PVE.storage.ZFSPoolEdit';
+	    } else if (type === 'btrfs') {
+		editor = 'PVE.storage.BTRFSEdit';
 	    } else {
 		return;
 	    }
@@ -191,7 +193,16 @@ Ext.define('PVE.dc.StorageView', {
                                     win.on('destroy', reload);
                                     win.show();
                                 }
-                            }
+			    },
+			    {
+				text: PVE.Utils.format_storage_type('btrfs'),
+				iconCls: 'fa fa-fw fa-building',
+				handler: function() {
+				    var win = Ext.create('PVE.storage.BTRFSEdit', {});
+				    win.on('destroy', reload);
+				    win.show();
+				}
+			    },
 
 /* the following type are conidered unstable
  * so we do not enable that on the GUI for now

@@ -795,6 +795,8 @@ Ext.define('PVE.Utils', { utilities: {
 	    return 'ZFS over iSCSI';
 	} else if (value === 'zfspool') {
 	    return 'ZFS';
+	} else if (value === 'btrfs') {
+	    return 'btrfs';
 	} else if (value === 'iscsidirect') {
 	    return 'iSCSIDirect';
 	} else if (value === 'drbd') {

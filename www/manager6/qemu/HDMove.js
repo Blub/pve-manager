@@ -80,7 +80,8 @@ Ext.define('PVE.window.HDMove', {
 			    rec.data.type === 'rbd' ||
 			    rec.data.type === 'sheepdog' ||
 			    rec.data.type === 'zfs' ||
-			    rec.data.type === 'zfspool'
+			    rec.data.type === 'zfspool' ||
+			    rec.data.type === 'btrfs'
                         ) {
                             me.formatsel.setValue('raw');
                             me.formatsel.setDisabled(true);
