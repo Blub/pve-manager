@@ -26,9 +26,6 @@ install: ${TOUCHDATA}
 	chown -R www-data:www-data ${WWWTOUCHDIR}
 	find ${WWWTOUCHDIR} -type f -exec chmod -R 0644 '{}' ';'
 
-.PHONY: distclean
-distclean: clean
-
 .PHONY: clean
 clean:
 	rm -rf *~ ${TOUCHDIR}

@@ -26,9 +26,6 @@ install: ${EXTDATA}
 	cp -a ${EXT_THEME} ${WWWEXT6DIR}
 	chown -R www-data:www-data ${WWWEXT6DIR}
 
-.PHONY: distclean
-distclean: clean
-
 .PHONY: clean
 clean:
 	rm -rf *~
