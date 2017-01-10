@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
 "POT-Creation-Date: Tue Jan 10 12:16:34 2017\n"
-"PO-Revision-Date: 2016-04-05 10:44+0200\n"
+"PO-Revision-Date: 2017-01-10 14:39+0100\n"
 "Last-Translator:  Proxmox Support Team <support@proxmox.com>\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -128,9 +128,8 @@ msgid "Are you sure you want to remove this entry"
 msgstr "Möchten Sie diesen Eintrag wirklich entfernen?"
 
 #: ../www/manager6/node/Disks.js:247
-#, fuzzy
 msgid "Attribute"
-msgstr "User Attribute Name"
+msgstr "Attribut"
 
 #: ../www/manager6/dc/Config.js:96
 msgid "Authentication"
@@ -170,7 +169,7 @@ msgstr "Backup starten"
 
 #: ../www/manager6/qemu/MemoryEdit.js:76
 msgid "Ballooning"
-msgstr ""
+msgstr "Ballooning"
 
 #: ../www/manager6/dc/AuthEdit.js:53
 msgid "Base Domain Name"
@@ -194,7 +193,6 @@ msgid "Block Size"
 msgstr "Blockgröße"
 
 #: ../www/manager6/qemu/BootOrderEdit.js:159
-#, fuzzy
 msgid "Boot Order"
 msgstr "Boot-Reihenfolge"
 
@@ -209,14 +207,12 @@ msgid "Boot order"
 msgstr "Boot-Reihenfolge"
 
 #: ../www/manager6/panel/GuestStatusView.js:65
-#, fuzzy
 msgid "Bootdisk Size"
-msgstr "Blockgröße"
+msgstr "Bootdisk Größe"
 
 #: ../www/manager6/panel/TemplateStatusView.js:43
-#, fuzzy
 msgid "Bootdisk size"
-msgstr "Disk-Größe"
+msgstr "Bootdisk Größe"
 
 #: ../www/manager6/form/BridgeSelector.js:22
 #: ../www/manager6/qemu/NetworkEdit.js:68 ../www/manager6/lxc/Network.js:129
@@ -234,29 +230,24 @@ msgid "Bridged mode"
 msgstr "Bridged mode"
 
 #: ../www/manager6/window/Settings.js:106
-#, fuzzy
 msgid "Browser Settings"
-msgstr "Einstellungen"
+msgstr "Browser Einstellungen"
 
 #: ../www/manager6/node/Config.js:35
-#, fuzzy
 msgid "Bulk Actions"
-msgstr "Aktion"
+msgstr "Massenaktionen"
 
 #: ../www/manager6/node/Config.js:67 ../www/manager6/node/Config.js:72
-#, fuzzy
 msgid "Bulk Migrate"
-msgstr "Migration"
+msgstr "Massenmigration"
 
 #: ../www/manager6/node/Config.js:41 ../www/manager6/node/Config.js:46
-#, fuzzy
 msgid "Bulk Start"
-msgstr "Start"
+msgstr "Massenstart"
 
 #: ../www/manager6/node/Config.js:54 ../www/manager6/node/Config.js:59
-#, fuzzy
 msgid "Bulk Stop"
-msgstr "Stopp"
+msgstr "Massenstopp"
 
 #: ../www/manager6/form/ControllerSelector.js:99
 msgid "Bus/Device"
@@ -283,7 +274,6 @@ msgid "CPU"
 msgstr "CPU"
 
 #: ../www/manager6/dc/NodeView.js:46
-#, fuzzy
 msgid "CPU Usage"
 msgstr "CPU-Auslastung"
 
@@ -315,21 +305,19 @@ msgstr "CPU-Auslastung"
 
 #: ../www/manager6/Utils.js:1070
 msgid "CPU(s)"
-msgstr ""
+msgstr "CPU(s)"
 
 #: ../www/manager6/node/StatusView.js:86
 msgid "CPUs"
 msgstr "CPUs"
 
 #: ../www/manager6/ha/Resources.js:147
-#, fuzzy
 msgid "CRM State"
-msgstr "Status"
+msgstr "CRM Status"
 
 #: ../www/manager6/ha/ResourceEdit.js:171
-#, fuzzy
 msgid "CT/VM Resource"
-msgstr "VM Ressource"
+msgstr "CT/VM Ressource"
 
 #: ../www/manager6/qemu/HDEdit.js:246
 msgid "Cache"
@@ -341,12 +329,11 @@ msgstr "Kapazität"
 
 #: ../www/manager6/dc/Health.js:135
 msgid "Ceph"
-msgstr ""
+msgstr "Ceph"
 
 #: ../www/manager6/ceph/Config.js:56
-#, fuzzy
 msgid "Ceph Config"
-msgstr "Konfiguration"
+msgstr "Ceph Konfiguration"
 
 #: ../www/manager6/node/APT.js:106 ../www/manager6/node/APT.js:135
 msgid "Changelog"
@@ -357,9 +344,8 @@ msgid "Check"
 msgstr "Testen"
 
 #: ../www/manager6/window/Settings.js:167
-#, fuzzy
 msgid "Clear User name"
-msgstr "Benutzername"
+msgstr "Benutzername zurücksetzen"
 
 #: ../www/manager6/Utils.js:579 ../www/manager6/Utils.js:596
 #: ../www/manager6/qemu/CmdMenu.js:128 ../www/manager6/qemu/Clone.js:271
@@ -369,16 +355,15 @@ msgstr "Klon"
 
 #: ../www/manager6/node/Disks.js:281 ../www/manager6/window/Settings.js:12
 msgid "Close"
-msgstr ""
+msgstr "Schließen"
 
 #: ../www/manager6/dc/Health.js:46
 msgid "Cluster"
 msgstr "Cluster"
 
 #: ../www/manager6/dc/Summary.js:26
-#, fuzzy
 msgid "Cluster Resources"
-msgstr "Ressourcen"
+msgstr "Cluster Ressourcen"
 
 #: ../www/manager6/panel/StatusPanel.js:39
 msgid "Cluster log"
@@ -427,9 +412,8 @@ msgid "Config"
 msgstr "Konfiguration"
 
 #: ../www/manager6/window/BackupConfig.js:3
-#, fuzzy
 msgid "Configuration"
-msgstr "Konfiguriere"
+msgstr "Konfiguration"
 
 #: ../www/manager6/Utils.js:588
 msgid "Configure"
@@ -472,7 +456,7 @@ msgstr "Konsole Typ"
 #: ../www/manager6/lxc/Options.js:105 ../www/manager6/lxc/Options.js:109
 #: ../www/manager6/lxc/Options.js:121
 msgid "Console mode"
-msgstr "Konsole modus"
+msgstr "Konsolenmodus"
 
 #: ../www/manager6/Utils.js:764
 msgid "Container"
@@ -505,9 +489,8 @@ msgid "Convert to template"
 msgstr "Konvertiere zu Template"
 
 #: ../www/manager6/grid/FirewallRules.js:584
-#, fuzzy
 msgid "Copy"
-msgstr "Daten kopieren"
+msgstr "Kopieren"
 
 #: ../www/manager6/Utils.js:616
 msgid "Copy data"
@@ -539,7 +522,7 @@ msgstr "Erstelle VM"
 
 #: ../www/manager6/ceph/Config.js:61
 msgid "Crush Map"
-msgstr ""
+msgstr "Crush Map"
 
 #: ../www/manager6/ceph/Pool.js:38
 msgid "Crush RuleSet"
@@ -567,18 +550,16 @@ msgid "DNS server"
 msgstr "DNS Server"
 
 #: ../www/manager6/window/Settings.js:118
-#, fuzzy
 msgid "Dashboard Storages"
-msgstr "Ziel-Storage"
+msgstr "Dashboard Storages"
 
 #: ../www/manager6/tree/ResourceTree.js:230 ../www/manager6/dc/Config.js:19
 msgid "Datacenter"
 msgstr "Rechenzentrum"
 
 #: ../www/manager6/dc/Health.js:5
-#, fuzzy
 msgid "Datacenter Health"
-msgstr "Rechenzentrum"
+msgstr "Rechenzentrum Zustand"
 
 #: ../www/manager6/qemu/SnapshotTree.js:276
 #: ../www/manager6/lxc/SnapshotTree.js:278
@@ -650,9 +631,8 @@ msgid "Directory"
 msgstr "Verzeichnis"
 
 #: ../www/manager6/ha/ResourceEdit.js:114
-#, fuzzy
 msgid "Disabled"
-msgstr "Deaktiviert"
+msgstr "Disabled"
 
 #: ../www/manager6/qemu/HDEdit.js:257
 msgid "Discard"
@@ -713,9 +693,8 @@ msgid "Domain"
 msgstr "Domain"
 
 #: ../www/manager6/ceph/StatusDetail.js:59
-#, fuzzy
 msgid "Down"
-msgstr "Herunterladen"
+msgstr "Down"
 
 #: ../www/manager6/Utils.js:618 ../www/manager6/node/Subscription.js:59
 #: ../www/manager6/storage/ContentView.js:110
@@ -728,9 +707,8 @@ msgstr "E-Mail"
 
 #: ../www/manager6/qemu/HDEfi.js:115 ../www/manager6/qemu/HardwareView.js:210
 #: ../www/manager6/qemu/HardwareView.js:437
-#, fuzzy
 msgid "EFI Disk"
-msgstr "Disk"
+msgstr "EFI Disk"
 
 #: ../www/manager6/Utils.js:1100 ../www/manager6/dc/OptionView.js:211
 #: ../www/manager6/dc/PoolView.js:65 ../www/manager6/dc/UserView.js:129
@@ -751,7 +729,7 @@ msgstr "Disk"
 #: ../www/manager6/panel/IPSet.js:326 ../www/manager6/ha/Groups.js:61
 #: ../www/manager6/ha/Resources.js:92
 msgid "Edit"
-msgstr "Bearbeite"
+msgstr "Bearbeiten"
 
 #: ../www/manager6/dc/OptionView.js:84 ../www/manager6/dc/OptionView.js:92
 #: ../www/manager6/dc/OptionView.js:166
@@ -910,7 +888,7 @@ msgstr "Expire"
 
 #: ../www/manager6/node/Disks.js:253
 msgid "Failing"
-msgstr ""
+msgstr "Fehler"
 
 #: ../www/manager6/dc/AuthEdit.js:104
 msgid "Fallback Server"
@@ -941,7 +919,7 @@ msgstr "Vorname"
 
 #: ../www/manager6/node/Disks.js:252
 msgid "Flags"
-msgstr ""
+msgstr "Flags"
 
 #: ../www/manager6/form/ViewSelector.js:26
 msgid "Folder View"
@@ -971,7 +949,7 @@ msgstr "vollständiger Klon"
 
 #: ../www/manager6/node/Disks.js:52
 msgid "GPT"
-msgstr ""
+msgstr "GPT"
 
 #: ../www/manager6/node/NetworkEdit.js:246
 #: ../www/manager6/node/NetworkEdit.js:287
@@ -1010,16 +988,15 @@ msgstr "Gruppen"
 
 #: ../www/manager6/dc/Guests.js:6
 msgid "Guests"
-msgstr ""
+msgstr "Gäste"
 
 #: ../www/manager6/ha/GroupEdit.js:216
 msgid "HA Group"
 msgstr "HA Gruppe"
 
 #: ../www/manager6/data/ResourceStore.js:238
-#, fuzzy
 msgid "HA State"
-msgstr "Status"
+msgstr "HA Status"
 
 #: ../www/manager6/node/StatusView.js:65
 msgid "HD space"
@@ -1051,12 +1028,12 @@ msgstr "Hash-Policy"
 
 #: ../www/manager6/ceph/Status.js:20 ../www/manager6/ceph/StatusDetail.js:243
 msgid "Health"
-msgstr ""
+msgstr "Zustand"
 
 #: ../www/manager6/button/HelpButton.js:10
 #: ../www/manager6/button/HelpButton.js:69
 msgid "Help"
-msgstr ""
+msgstr "Hilfe"
 
 #: ../www/manager6/ceph/Monitor.js:34 ../www/manager6/ceph/Monitor.js:176
 msgid "Host"
@@ -1090,7 +1067,7 @@ msgstr "IO-Thread"
 
 #: ../www/manager6/ceph/Status.js:119
 msgid "IOPS"
-msgstr ""
+msgstr "IOPS"
 
 #: ../www/manager6/node/NetworkEdit.js:214
 #: ../www/manager6/node/NetworkView.js:270 ../www/manager6/lxc/Network.js:513
@@ -1110,7 +1087,7 @@ msgstr "IP/CIDR"
 
 #: ../www/manager6/qemu/Config.js:241 ../www/manager6/lxc/Config.js:236
 msgid "IPSet"
-msgstr ""
+msgstr "IPSet"
 
 #: ../www/manager6/lxc/Network.js:180 ../www/manager6/lxc/Network.js:220
 msgid "IPv4"
@@ -1138,7 +1115,7 @@ msgstr "ISO Image"
 
 #: ../www/manager6/ceph/StatusDetail.js:44
 msgid "In"
-msgstr ""
+msgstr "In"
 
 #: ../www/manager6/qemu/Snapshot.js:92
 msgid "Include RAM"
@@ -1150,11 +1127,11 @@ msgstr "Mit den ausgewählten VMs"
 
 #: ../www/manager6/node/Disks.js:158
 msgid "Initialize Disk with GPT"
-msgstr ""
+msgstr "Initialisiere Disk mit GPT"
 
 #: ../www/manager6/Utils.js:567
 msgid "Initialize GPT"
-msgstr ""
+msgstr "Initialisiere GPT"
 
 #: ../www/manager6/grid/FirewallOptions.js:132
 #: ../www/manager6/grid/FirewallOptions.js:137
@@ -1174,7 +1151,7 @@ msgstr "Interface"
 
 #: ../www/manager6/lxc/CreateWizard.js:15
 msgid "Invalid file size: "
-msgstr ""
+msgstr "Ungültige Größe: "
 
 #: ../www/manager6/ceph/OSD.js:111
 msgid "Journal Disk"
@@ -1189,7 +1166,6 @@ msgid "KVM hardware virtualization"
 msgstr "KVM Hardware-Virtualisierung"
 
 #: ../www/manager6/node/StatusView.js:101
-#, fuzzy
 msgid "Kernel Version"
 msgstr "Kernelversion"
 
@@ -1237,7 +1213,7 @@ msgstr "Latenz (ms)"
 
 #: ../www/manager6/window/Settings.js:177
 msgid "Layout"
-msgstr ""
+msgstr "Layout"
 
 #: ../www/manager6/qemu/Clone.js:145
 msgid "Linked Clone"
@@ -1245,7 +1221,7 @@ msgstr "verknüpfter Klon"
 
 #: ../www/manager6/lxc/CreateWizard.js:167
 msgid "Load SSH Key File"
-msgstr ""
+msgstr "SSH Schlüssel Datei laden"
 
 #: ../www/manager6/node/StatusView.js:37 ../www/manager6/node/Summary.js:123
 msgid "Load average"
@@ -1274,7 +1250,7 @@ msgstr "Logout"
 
 #: ../www/manager6/Workspace.js:409
 msgid "Logs"
-msgstr ""
+msgstr "Logs"
 
 #: ../www/manager6/qemu/NetworkEdit.js:136 ../www/manager6/lxc/Network.js:119
 #: ../www/manager6/lxc/Network.js:508
@@ -1283,9 +1259,8 @@ msgstr "MAC-Adresse"
 
 #: ../www/manager6/dc/OptionView.js:109 ../www/manager6/dc/OptionView.js:118
 #: ../www/manager6/dc/OptionView.js:177
-#, fuzzy
 msgid "MAC address prefix"
-msgstr "MAC-Adresse"
+msgstr "MAC-Adressen-Präfix"
 
 #: ../www/manager6/grid/FirewallOptions.js:122
 msgid "MAC filter"
@@ -1299,7 +1274,7 @@ msgstr "Makro"
 
 #: ../www/manager6/panel/GuestStatusView.js:27
 msgid "Managed by HA"
-msgstr "Managed by HA"
+msgstr "Verwaltet von HA"
 
 #: ../www/manager6/qemu/Smbios1Edit.js:40
 msgid "Manufacturer"
@@ -1313,17 +1288,15 @@ msgstr "Max Backups"
 
 #: ../www/manager6/ha/Resources.js:163 ../www/manager6/ha/ResourceEdit.js:91
 msgid "Max. Relocate"
-msgstr ""
+msgstr "Max. Relocate"
 
 #: ../www/manager6/ha/Resources.js:154 ../www/manager6/ha/ResourceEdit.js:82
-#, fuzzy
 msgid "Max. Restart"
-msgstr "Restart"
+msgstr "Max. Restart"
 
 #: ../www/manager6/Toolkit.js:73
-#, fuzzy
 msgid "Maximum characters"
-msgstr "Max. Speicher"
+msgstr "Maximale Zeichen"
 
 #: ../www/manager6/qemu/MemoryEdit.js:97
 msgid "Maximum memory"
@@ -1347,7 +1320,6 @@ msgid "Memory"
 msgstr "Speicher"
 
 #: ../www/manager6/dc/NodeView.js:57
-#, fuzzy
 msgid "Memory Usage"
 msgstr "Speicherverbrauch"
 
@@ -1387,9 +1359,8 @@ msgstr "Min. Größe"
 
 #: ../www/manager6/Toolkit.js:72 ../www/manager6/Toolkit.js:85
 #: ../www/manager6/Toolkit.js:93
-#, fuzzy
 msgid "Minimum characters"
-msgstr "Min. Speicher"
+msgstr "Minimale Zeichen"
 
 #: ../www/manager6/qemu/MemoryEdit.js:119
 msgid "Minimum memory"
@@ -1411,9 +1382,8 @@ msgid "Monitor"
 msgstr "Monitor"
 
 #: ../www/manager6/ceph/StatusDetail.js:26
-#, fuzzy
 msgid "Monitors"
-msgstr "Monitor"
+msgstr "Monitore"
 
 #: ../www/manager6/Utils.js:600
 msgid "Mount"
@@ -1437,21 +1407,20 @@ msgstr "Multiqueues"
 
 #: ../www/manager6/Toolkit.js:87
 msgid "Must end with"
-msgstr ""
+msgstr "Muss enden mit"
 
 #: ../www/manager6/Toolkit.js:74 ../www/manager6/Toolkit.js:86
 #: ../www/manager6/Toolkit.js:94
 msgid "Must start with"
-msgstr ""
+msgstr "Muss beginnen mit"
 
 #: ../www/manager6/window/Settings.js:5
-#, fuzzy
 msgid "My Settings"
-msgstr "Einstellungen"
+msgstr "Meine Einstellungen"
 
 #: ../www/manager6/Utils.js:1075
 msgid "N/A"
-msgstr ""
+msgstr "Nicht verfügbar"
 
 #: ../www/manager6/qemu/NetworkEdit.js:112
 msgid "NAT mode"
@@ -1525,33 +1494,31 @@ msgstr ""
 
 #: ../www/manager6/node/Disks.js:4
 msgid "No Disks found"
-msgstr ""
+msgstr "Keine Disk gefunden"
 
 #: ../www/manager6/ceph/OSD.js:9
-#, fuzzy
 msgid "No Disks unused"
-msgstr "Disk-Auslastung"
+msgstr "Alle Disks benutzt"
 
 #: ../www/manager6/button/HelpButton.js:69
-#, fuzzy
 msgid "No Help available"
-msgstr "Keine Updates verfügbar."
+msgstr "Keine Hilfe verfügbar"
 
 #: ../www/manager6/ceph/OSD.js:445
 msgid "No OSD selected"
-msgstr ""
+msgstr "Keine OSD ausgewählt"
 
 #: ../www/manager6/node/Disks.js:240
 msgid "No S.M.A.R.T. Values"
-msgstr ""
+msgstr "Keine S.M.A.R.T. Werte"
 
 #: ../www/manager6/form/VMSelector.js:153
 msgid "No VM selected"
-msgstr ""
+msgstr "Keine VM ausgewählt"
 
 #: ../www/manager6/ceph/Status.js:46
 msgid "No Warnings/Errors"
-msgstr ""
+msgstr "Keine Warnungen/Fehler"
 
 #: ../www/manager6/qemu/HDEdit.js:251
 msgid "No backup"
@@ -1629,11 +1596,11 @@ msgstr "Knoten"
 
 #: ../www/manager6/node/Disks.js:249
 msgid "Normalized"
-msgstr ""
+msgstr "Normalisiert"
 
 #: ../www/manager6/Toolkit.js:129
 msgid "Not a valid list of hosts"
-msgstr ""
+msgstr "Keine gültige Host-Liste"
 
 #: ../www/manager6/panel/NotesView.js:4 ../www/manager6/window/NotesEdit.js:8
 msgid "Notes"
@@ -1657,7 +1624,7 @@ msgstr "OS-Typ"
 
 #: ../www/manager6/ceph/StatusDetail.js:40
 msgid "OSDs"
-msgstr ""
+msgstr "OSDs"
 
 #: ../www/manager6/window/LoginWindow.js:163
 msgid "OTP"
@@ -1670,9 +1637,8 @@ msgid "OVS options"
 msgstr "OVS-Optionen"
 
 #: ../www/manager6/dc/Health.js:124
-#, fuzzy
 msgid "Offline"
-msgstr "Online"
+msgstr "Offline"
 
 #: ../www/manager6/form/EmailNotificationSelector.js:6
 msgid "On failure only"
@@ -1701,9 +1667,8 @@ msgid "Other OS types"
 msgstr "Andere Bertiebssysteme"
 
 #: ../www/manager6/ceph/StatusDetail.js:47
-#, fuzzy
 msgid "Out"
-msgstr "Ausgabe"
+msgstr "Out"
 
 #: ../www/manager6/window/TaskViewer.js:183
 msgid "Output"
@@ -1717,16 +1682,15 @@ msgstr "Output Policy"
 
 #: ../www/manager6/ceph/StatusDetail.js:79
 msgid "PGs"
-msgstr ""
+msgstr "PGs"
 
 #: ../www/manager6/node/StatusView.js:110
-#, fuzzy
 msgid "PVE Manager Version"
 msgstr "PVE Manager version"
 
 #: ../www/manager6/node/APT.js:162 ../www/manager6/storage/ContentView.js:51
 msgid "Package"
-msgstr "Packet"
+msgstr "Paket"
 
 #: ../www/manager6/node/Summary.js:27 ../www/manager6/node/Summary.js:84
 msgid "Package versions"
@@ -1751,7 +1715,7 @@ msgstr "Pfad"
 
 #: ../www/manager6/dc/Guests.js:37 ../www/manager6/dc/Guests.js:72
 msgid "Paused"
-msgstr ""
+msgstr "Pausiert"
 
 #: ../www/manager6/node/NetworkView.js:320
 msgid "Pending changes"
@@ -1759,7 +1723,7 @@ msgstr "Ausstehende Änderungen"
 
 #: ../www/manager6/ceph/Status.js:82
 msgid "Performance"
-msgstr ""
+msgstr "Leistung"
 
 #: ../www/manager6/pool/Config.js:34 ../www/manager6/dc/Config.js:57
 #: ../www/manager6/qemu/Config.js:263 ../www/manager6/lxc/Config.js:258
@@ -1777,7 +1741,7 @@ msgstr "Um die Änderungen zu aktivieren müssen Sie den Rechner neu starten"
 
 #: ../www/manager6/qemu/HardwareView.js:452
 msgid "Please select OVMF(UEFI) as BIOS first."
-msgstr ""
+msgstr "Bitte zuerst OVMF (UEFI) als BIOS auswählen."
 
 #: ../www/manager6/Utils.js:445 ../www/manager6/window/LoginWindow.js:17
 #: ../www/manager6/window/LoginWindow.js:87
@@ -1845,7 +1809,7 @@ msgstr "Propagieren"
 #: ../www/manager6/qemu/Options.js:284 ../www/manager6/qemu/Options.js:289
 #: ../www/manager6/lxc/Options.js:126 ../www/manager6/lxc/Options.js:131
 msgid "Protection"
-msgstr "Protektion"
+msgstr "Geschützt"
 
 #: ../www/manager6/form/IPProtocolSelector.js:9
 #: ../www/manager6/grid/FirewallRules.js:189
@@ -1898,7 +1862,7 @@ msgstr "Raw disk image"
 
 #: ../www/manager6/ceph/Status.js:126
 msgid "Read IOPS"
-msgstr ""
+msgstr "Lese IOPS"
 
 #: ../www/manager6/qemu/HDThrottle.js:73
 #: ../www/manager6/qemu/HDThrottle.js:118
@@ -1916,7 +1880,7 @@ msgstr "Read-only"
 
 #: ../www/manager6/ceph/Status.js:106
 msgid "Reads"
-msgstr ""
+msgstr "Lese-Vorgänge"
 
 #: ../www/manager6/dc/UserEdit.js:140 ../www/manager6/dc/UserView.js:196
 #: ../www/manager6/dc/AuthView.js:117 ../www/manager6/dc/AuthEdit.js:28
@@ -1963,7 +1927,7 @@ msgstr "Partitionen löschen"
 
 #: ../www/manager6/ha/Resources.js:137 ../www/manager6/ha/ResourceEdit.js:110
 msgid "Request State"
-msgstr ""
+msgstr "Angeforderter Status"
 
 #: ../www/manager6/Utils.js:584 ../www/manager6/qemu/Config.js:77
 msgid "Reset"
@@ -1971,7 +1935,7 @@ msgstr "Reset"
 
 #: ../www/manager6/window/Settings.js:183
 msgid "Reset Layout"
-msgstr ""
+msgstr "Layout zurücksetzen"
 
 #: ../www/manager6/qemu/HardwareView.js:354
 #: ../www/manager6/qemu/HDResize.js:72 ../www/manager6/qemu/HDResize.js:74
@@ -1994,12 +1958,11 @@ msgstr "Ressourcen"
 #: ../www/manager6/Utils.js:610 ../www/manager6/node/ServiceView.js:76
 #: ../www/manager6/node/Config.js:84 ../www/manager6/node/Config.js:86
 msgid "Restart"
-msgstr "Restart"
+msgstr "Neustart"
 
 #: ../www/manager6/window/Migrate.js:82
-#, fuzzy
 msgid "Restart Mode"
-msgstr "Restart"
+msgstr "Neustart-Modus"
 
 #: ../www/manager6/Utils.js:576 ../www/manager6/Utils.js:593
 #: ../www/manager6/grid/BackupView.js:138
@@ -2048,13 +2011,12 @@ msgid "Rules"
 msgstr "Regeln"
 
 #: ../www/manager6/dc/Guests.js:31 ../www/manager6/dc/Guests.js:66
-#, fuzzy
 msgid "Running"
-msgstr "läuft"
+msgstr "Laufend"
 
 #: ../www/manager6/node/Disks.js:299
 msgid "S.M.A.R.T. Values"
-msgstr ""
+msgstr "S.M.A.R.T. Werte"
 
 #: ../www/manager6/qemu/ScsiHwEdit.js:8 ../www/manager6/qemu/Options.js:178
 msgid "SCSI Controller Type"
@@ -2078,7 +2040,7 @@ msgstr "SMURFS filter"
 
 #: ../www/manager6/lxc/CreateWizard.js:96
 msgid "SSH public key"
-msgstr ""
+msgstr "Öffentlicher SSH Schlüssel"
 
 #: ../www/manager6/node/StatusView.js:73
 #: ../www/manager6/panel/GuestStatusView.js:59
@@ -2086,14 +2048,12 @@ msgid "SWAP usage"
 msgstr "SWAP-Auslastung"
 
 #: ../www/manager6/window/LoginWindow.js:185
-#, fuzzy
 msgid "Save User name"
-msgstr "Benutzername"
+msgstr "Benutzername speicher"
 
 #: ../www/manager6/window/Settings.js:155
-#, fuzzy
 msgid "Saved User name"
-msgstr "Benutzername"
+msgstr "Gespeicherter Benutzername"
 
 #: ../www/manager6/storage/LvmThinEdit.js:51
 #: ../www/manager6/storage/LvmThinEdit.js:86
@@ -2184,7 +2144,7 @@ msgstr "Service"
 
 #: ../www/manager6/ceph/OSD.js:423 ../www/manager6/ceph/OSD.js:452
 msgid "Set noout"
-msgstr ""
+msgstr "noout setzen"
 
 #: ../www/manager6/qemu/Snapshot.js:105
 #: ../www/manager6/qemu/CreateWizard.js:123 ../www/manager6/lxc/Snapshot.js:96
@@ -2213,11 +2173,11 @@ msgstr "Shell"
 #: ../www/manager6/grid/BackupView.js:196
 #: ../www/manager6/storage/ContentView.js:469
 msgid "Show Configuration"
-msgstr ""
+msgstr "Zeige Konfiguration"
 
 #: ../www/manager6/node/Disks.js:140
 msgid "Show S.M.A.R.T. values"
-msgstr ""
+msgstr "Zeige S.M.A.R.T. Werte"
 
 #: ../www/manager6/Utils.js:585 ../www/manager6/Utils.js:602
 #: ../www/manager6/node/Config.js:94 ../www/manager6/node/Config.js:96
@@ -2323,9 +2283,8 @@ msgid "Start/Shutdown order"
 msgstr "Startreihenfolge"
 
 #: ../www/manager6/ha/ResourceEdit.js:112
-#, fuzzy
 msgid "Started"
-msgstr "Start"
+msgstr "Started"
 
 #: ../www/manager6/window/StartupEdit.js:42
 msgid "Startup delay"
@@ -2374,9 +2333,8 @@ msgstr "Stoppe alle VMs und Container"
 
 #: ../www/manager6/dc/Guests.js:43 ../www/manager6/dc/Guests.js:78
 #: ../www/manager6/ha/ResourceEdit.js:113
-#, fuzzy
 msgid "Stopped"
-msgstr "gestopped"
+msgstr "Gestoppt"
 
 #: ../www/manager6/tree/ResourceTree.js:20 ../www/manager6/dc/Config.js:42
 #: ../www/manager6/dc/Backup.js:57 ../www/manager6/dc/Backup.js:477
@@ -2441,9 +2399,8 @@ msgid "Swap"
 msgstr "Swap"
 
 #: ../www/manager6/node/Config.js:147
-#, fuzzy
 msgid "System"
-msgstr "Systemreport"
+msgstr "System"
 
 #: ../www/manager6/node/Subscription.js:51
 #: ../www/manager6/node/Subscription.js:180
@@ -2536,18 +2493,16 @@ msgid "This will permanently erase current VM data."
 msgstr "Damit löschen Sie alle Daten der jetztigen VM."
 
 #: ../www/manager6/form/GuestIDSelector.js:20
-#, fuzzy
 msgid "This {0} ID does not exists"
-msgstr "Diese VM ID existiert nicht"
+msgstr "Die ID {0} existiert nicht"
 
 #: ../www/manager6/form/GuestIDSelector.js:21
-#, fuzzy
 msgid "This {0} ID is already in use"
-msgstr "Diese VM ID wird schon verwendet"
+msgstr "Die ID {0} existiert bereits"
 
 #: ../www/manager6/node/Disks.js:250
 msgid "Threshold"
-msgstr ""
+msgstr "Schwellwert"
 
 #: ../www/manager6/dc/Log.js:46 ../www/manager6/node/Config.js:168
 msgid "Time"
@@ -2564,7 +2519,7 @@ msgstr "Zeitstempel"
 
 #: ../www/manager6/panel/RRDChart.js:142
 msgid "Toggle Legend"
-msgstr ""
+msgstr "Legende umschalten"
 
 #: ../www/manager6/Utils.js:757 ../www/manager6/node/Summary.js:130
 #: ../www/manager6/qemu/Summary.js:127 ../www/manager6/lxc/Summary.js:120
@@ -2619,7 +2574,7 @@ msgstr "USB"
 
 #: ../www/manager6/panel/RRDChart.js:133
 msgid "Undo Zoom"
-msgstr ""
+msgstr "Zoom rückgängig"
 
 #: ../www/manager6/window/TaskViewer.js:138
 msgid "Unique task ID"
@@ -2640,11 +2595,11 @@ msgstr "Unmount"
 #: ../www/manager6/lxc/Options.js:143 ../www/manager6/lxc/CreateWizard.js:223
 #: ../www/manager6/window/Restore.js:61
 msgid "Unprivileged container"
-msgstr ""
+msgstr "Unprivilegierter Container"
 
 #: ../www/manager6/ceph/OSD.js:452
 msgid "Unset noout"
-msgstr ""
+msgstr "noout aufheben"
 
 #: ../www/manager6/qemu/HDEdit.js:299 ../www/manager6/qemu/HDThrottle.js:186
 #: ../www/manager6/qemu/HardwareView.js:217
@@ -2654,7 +2609,7 @@ msgstr "Unused Disk"
 
 #: ../www/manager6/ceph/StatusDetail.js:52
 msgid "Up"
-msgstr ""
+msgstr "Up"
 
 #: ../www/manager6/qemu/Snapshot.js:133 ../www/manager6/lxc/Snapshot.js:124
 msgid "Update"
@@ -2721,7 +2676,7 @@ msgstr "Verwende physische CD/DVD Laufwerk"
 
 #: ../www/manager6/qemu/Options.js:125 ../www/manager6/qemu/Options.js:130
 msgid "Use tablet for pointer"
-msgstr "Use tablet for pointer"
+msgstr "Benutze Tablet als Zeiger"
 
 #: ../www/manager6/Utils.js:758 ../www/manager6/ceph/OSD.js:230
 #: ../www/manager6/ceph/Pool.js:109
@@ -2767,9 +2722,8 @@ msgid "VLAN aware"
 msgstr "VLAN aware"
 
 #: ../www/manager6/Utils.js:255
-#, fuzzy
 msgid "VMware compatible"
-msgstr "VMWare kompatibel"
+msgstr "VMware kompatibel"
 
 #: ../www/manager6/form/DiskFormatSelector.js:7
 msgid "VMware image format"
@@ -2781,7 +2735,7 @@ msgstr "VZDump backup file"
 
 #: ../www/manager6/Toolkit.js:22 ../www/manager6/Toolkit.js:37
 msgid "Valid CIDR Range"
-msgstr ""
+msgstr "Gültiger CIDR Bereich"
 
 #: ../www/manager6/grid/ObjectGrid.js:123 ../www/manager6/node/Disks.js:248
 #: ../www/manager6/qemu/Snapshot.js:111 ../www/manager6/lxc/Snapshot.js:102
@@ -2814,9 +2768,8 @@ msgid "Virtual Machine {0} on node {1}"
 msgstr "Virtuelle Maschine {0} auf Knoten {1}"
 
 #: ../www/manager6/dc/Guests.js:28
-#, fuzzy
 msgid "Virtual Machines"
-msgstr "Virtuelle Maschine"
+msgstr "Virtuelle Maschinen"
 
 #: ../www/manager6/storage/LvmThinEdit.js:132
 #: ../www/manager6/storage/LvmThinEdit.js:155
@@ -2827,11 +2780,11 @@ msgstr "Volume-Group"
 
 #: ../www/manager6/node/Disks.js:251
 msgid "Worst"
-msgstr ""
+msgstr "Schlechtester"
 
 #: ../www/manager6/ceph/Status.js:133
 msgid "Write IOPS"
-msgstr ""
+msgstr "Schreibe IOPS"
 
 #: ../www/manager6/storage/ZFSEdit.js:96
 msgid "Write cache"
@@ -2849,7 +2802,7 @@ msgstr "Write max burst"
 
 #: ../www/manager6/ceph/Status.js:112
 msgid "Writes"
-msgstr ""
+msgstr "Schreib-Vorgänge"
 
 #: ../www/manager6/Utils.js:746 ../www/manager6/form/Boolean.js:7
 msgid "Yes"
@@ -2906,7 +2859,7 @@ msgstr "iSCSI Provider"
 
 #: ../www/manager6/Toolkit.js:94
 msgid "letter"
-msgstr ""
+msgstr "Buchstabe"
 
 #: ../www/manager6/data/ResourceStore.js:164
 msgid "maxcpu"
@@ -2926,7 +2879,7 @@ msgstr "keine"
 
 #: ../www/manager6/dc/Summary.js:185
 msgid "of {0} CPU(s)"
-msgstr ""
+msgstr "von {0} CPU(s)"
 
 #: ../www/manager6/form/NetworkCardSelector.js:6
 msgid "paravirtualized"
@@ -2938,7 +2891,7 @@ msgstr "läuft"
 
 #: ../www/manager6/Utils.js:755
 msgid "stopped"
-msgstr "gestopped"
+msgstr "gestoppt"
 
 #: ../www/manager6/qemu/HDThrottle.js:75 ../www/manager6/qemu/HDThrottle.js:98
 #: ../www/manager6/qemu/HDThrottle.js:120
@@ -2961,11 +2914,11 @@ msgstr "verwende Werte vom Host"
 #: ../www/manager6/Utils.js:1078 ../www/manager6/dc/Summary.js:188
 #: ../www/manager6/dc/Summary.js:191 ../www/manager6/ceph/Status.js:162
 msgid "{0} of {1}"
-msgstr ""
+msgstr "{0} von {1}"
 
 #: ../www/manager6/Utils.js:1069
 msgid "{0}% of {1}"
-msgstr ""
+msgstr "{0}% von {1}"
 
 #~ msgid "Do not use any proxy"
 #~ msgstr "Keinen Proxy verwenden"
