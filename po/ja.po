@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Tue Jan 10 12:16:34 2017\n"
+"POT-Creation-Date: Wed Jan 11 10:58:53 2017\n"
 "PO-Revision-Date: 2011-12-08 07:14+0100\n"
 "Last-Translator: Koichi MATSUMOTO <mzch@mac.com>\n"
 "Language-Team: Japanese <support@proxmox.com>\n"
@@ -64,7 +64,7 @@ msgid "Add"
 msgstr "追加"
 
 #: ../www/manager6/ceph/Monitor.js:192
-#: ../www/manager6/ceph/StatusDetail.js:242
+#: ../www/manager6/ceph/StatusDetail.js:261
 #, fuzzy
 msgid "Address"
 msgstr "IP アドレス"
@@ -123,7 +123,7 @@ msgstr "本当にこのページから移動してもよろしいですか?"
 #: ../www/manager6/qemu/HardwareView.js:385
 #: ../www/manager6/lxc/Resources.js:212
 #: ../www/manager6/lxc/SnapshotTree.js:196 ../www/manager6/lxc/Network.js:406
-#: ../www/manager6/storage/ContentView.js:445 ../www/manager6/ceph/Pool.js:173
+#: ../www/manager6/storage/ContentView.js:446 ../www/manager6/ceph/Pool.js:173
 #, fuzzy
 msgid "Are you sure you want to remove entry {0}"
 msgstr "本当に {0} を削除してもよろしいですか?"
@@ -133,7 +133,7 @@ msgstr "本当に {0} を削除してもよろしいですか?"
 msgid "Are you sure you want to remove this entry"
 msgstr "本当にこの項目を削除してもよろしいですか?"
 
-#: ../www/manager6/node/Disks.js:247
+#: ../www/manager6/node/Disks.js:246
 #, fuzzy
 msgid "Attribute"
 msgstr "ユーザー属性名"
@@ -216,12 +216,8 @@ msgstr "最初にブートするデバイス"
 msgid "Boot order"
 msgstr "ブート順"
 
-#: ../www/manager6/panel/GuestStatusView.js:65
-#, fuzzy
-msgid "Bootdisk Size"
-msgstr "ディスクサイズ"
-
 #: ../www/manager6/panel/TemplateStatusView.js:43
+#: ../www/manager6/panel/GuestStatusView.js:65
 #, fuzzy
 msgid "Bootdisk size"
 msgstr "ディスクサイズ"
@@ -290,11 +286,6 @@ msgstr "CD/DVD ドライブ"
 msgid "CPU"
 msgstr "CPU"
 
-#: ../www/manager6/dc/NodeView.js:46
-#, fuzzy
-msgid "CPU Usage"
-msgstr "CPU 使用率"
-
 #: ../www/manager6/qemu/CPUOptions.js:36 ../www/manager6/lxc/Resources.js:75
 #: ../www/manager6/lxc/ResourceEdit.js:140
 #, fuzzy
@@ -312,7 +303,7 @@ msgstr "オプション"
 msgid "CPU units"
 msgstr "CPU ユニット"
 
-#: ../www/manager6/form/NodeSelector.js:56
+#: ../www/manager6/dc/NodeView.js:46 ../www/manager6/form/NodeSelector.js:56
 #: ../www/manager6/node/StatusView.js:25 ../www/manager6/node/Summary.js:114
 #: ../www/manager6/node/Summary.js:116
 #: ../www/manager6/data/ResourceStore.js:157
@@ -323,13 +314,9 @@ msgstr "CPU ユニット"
 msgid "CPU usage"
 msgstr "CPU 使用率"
 
-#: ../www/manager6/Utils.js:1070
+#: ../www/manager6/Utils.js:1070 ../www/manager6/node/StatusView.js:86
 msgid "CPU(s)"
 msgstr ""
-
-#: ../www/manager6/node/StatusView.js:86
-msgid "CPUs"
-msgstr "CPU"
 
 #: ../www/manager6/ha/Resources.js:147
 #, fuzzy
@@ -377,7 +364,7 @@ msgstr "ユーザー名"
 msgid "Clone"
 msgstr ""
 
-#: ../www/manager6/node/Disks.js:281 ../www/manager6/window/Settings.js:12
+#: ../www/manager6/node/Disks.js:280 ../www/manager6/window/Settings.js:12
 msgid "Close"
 msgstr ""
 
@@ -902,7 +889,7 @@ msgstr ""
 #: ../www/manager6/storage/ContentView.js:272
 #: ../www/manager6/storage/ContentView.js:276
 #: ../www/manager6/storage/ContentView.js:285
-#: ../www/manager6/storage/ContentView.js:460 ../www/manager6/ha/Groups.js:54
+#: ../www/manager6/storage/ContentView.js:461 ../www/manager6/ha/Groups.js:54
 #: ../www/manager6/ha/Resources.js:85 ../www/manager6/ha/ResourceEdit.js:51
 #: ../www/manager6/ceph/OSD.js:340 ../www/manager6/ceph/OSD.js:362
 #: ../www/manager6/ceph/OSD.js:430 ../www/manager6/ceph/Pool.js:191
@@ -937,7 +924,7 @@ msgstr "既存のボリュームグループ"
 msgid "Expire"
 msgstr "有効期限"
 
-#: ../www/manager6/node/Disks.js:253
+#: ../www/manager6/node/Disks.js:252
 #, fuzzy
 msgid "Failing"
 msgstr "割当失敗回数"
@@ -970,7 +957,7 @@ msgstr ""
 msgid "First Name"
 msgstr "名"
 
-#: ../www/manager6/node/Disks.js:252
+#: ../www/manager6/node/Disks.js:251
 msgid "Flags"
 msgstr ""
 
@@ -987,7 +974,7 @@ msgstr "すべての欄が正しく入力されていないとフォームを送
 #: ../www/manager6/qemu/HDMove.js:98 ../www/manager6/qemu/HDEfi.js:80
 #: ../www/manager6/qemu/HDEdit.js:194 ../www/manager6/Toolkit.js:61
 #: ../www/manager6/Toolkit.js:66 ../www/manager6/Toolkit.js:79
-#: ../www/manager6/storage/ContentView.js:515
+#: ../www/manager6/storage/ContentView.js:516
 msgid "Format"
 msgstr "形式"
 
@@ -1083,7 +1070,7 @@ msgstr "ハードウェア"
 msgid "Hash policy"
 msgstr ""
 
-#: ../www/manager6/ceph/Status.js:20 ../www/manager6/ceph/StatusDetail.js:243
+#: ../www/manager6/ceph/Status.js:20 ../www/manager6/ceph/StatusDetail.js:262
 msgid "Health"
 msgstr ""
 
@@ -1393,16 +1380,12 @@ msgstr ""
 msgid "Memory"
 msgstr "メモリー"
 
-#: ../www/manager6/dc/NodeView.js:57
-#, fuzzy
-msgid "Memory Usage"
-msgstr "メモリー使用状況"
-
 #: ../www/manager6/data/ResourceStore.js:149
 msgid "Memory size"
 msgstr "メモリーサイズ"
 
-#: ../www/manager6/form/NodeSelector.js:49 ../www/manager6/node/Summary.js:128
+#: ../www/manager6/dc/NodeView.js:57 ../www/manager6/form/NodeSelector.js:49
+#: ../www/manager6/node/Summary.js:128
 #: ../www/manager6/data/ResourceStore.js:132
 #: ../www/manager6/data/ResourceStore.js:140
 #: ../www/manager6/qemu/Summary.js:124 ../www/manager6/lxc/Summary.js:117
@@ -1457,7 +1440,7 @@ msgid "Model"
 msgstr "モード"
 
 #: ../www/manager6/node/Config.js:249 ../www/manager6/qemu/Config.js:185
-#: ../www/manager6/ceph/StatusDetail.js:241
+#: ../www/manager6/ceph/StatusDetail.js:260
 msgid "Monitor"
 msgstr "モニター"
 
@@ -1533,7 +1516,7 @@ msgstr "NAT モード"
 #: ../www/manager6/lxc/SnapshotTree.js:254 ../www/manager6/lxc/Snapshot.js:73
 #: ../www/manager6/lxc/Network.js:93 ../www/manager6/lxc/Network.js:487
 #: ../www/manager6/panel/IPSet.js:75 ../www/manager6/panel/IPSet.js:110
-#: ../www/manager6/storage/ContentView.js:508 ../www/manager6/ceph/Pool.js:14
+#: ../www/manager6/storage/ContentView.js:509 ../www/manager6/ceph/Pool.js:14
 #: ../www/manager6/ceph/Pool.js:82 ../www/manager6/ceph/Monitor.js:169
 #: ../www/manager6/window/Settings.js:130
 msgid "Name"
@@ -1570,10 +1553,6 @@ msgstr ""
 msgid "No"
 msgstr "いいえ"
 
-#: ../www/manager6/node/Disks.js:196
-msgid "No Disk found"
-msgstr ""
-
 #: ../www/manager6/node/Disks.js:4
 msgid "No Disks found"
 msgstr ""
@@ -1592,7 +1571,7 @@ msgstr ""
 msgid "No OSD selected"
 msgstr "グループが選択されていません"
 
-#: ../www/manager6/node/Disks.js:240
+#: ../www/manager6/node/Disks.js:239
 msgid "No S.M.A.R.T. Values"
 msgstr ""
 
@@ -1681,7 +1660,7 @@ msgstr "ノード"
 msgid "Nodes"
 msgstr "ノード"
 
-#: ../www/manager6/node/Disks.js:249
+#: ../www/manager6/node/Disks.js:248
 msgid "Normalized"
 msgstr ""
 
@@ -1998,7 +1977,7 @@ msgid "Refresh"
 msgstr "再表示"
 
 #: ../www/manager6/Utils.js:611 ../www/manager6/node/Disks.js:133
-#: ../www/manager6/node/Disks.js:273 ../www/manager6/ceph/OSD.js:478
+#: ../www/manager6/node/Disks.js:272 ../www/manager6/ceph/OSD.js:478
 msgid "Reload"
 msgstr "再読込"
 
@@ -2018,7 +1997,7 @@ msgstr "再読込"
 #: ../www/manager6/lxc/SnapshotTree.js:192 ../www/manager6/lxc/Config.js:100
 #: ../www/manager6/lxc/Network.js:399 ../www/manager6/panel/IPSet.js:128
 #: ../www/manager6/panel/IPSet.js:349
-#: ../www/manager6/storage/ContentView.js:441 ../www/manager6/ha/Groups.js:40
+#: ../www/manager6/storage/ContentView.js:442 ../www/manager6/ha/Groups.js:40
 #: ../www/manager6/ha/Resources.js:71 ../www/manager6/ceph/OSD.js:154
 #: ../www/manager6/ceph/OSD.js:405 ../www/manager6/ceph/Pool.js:169
 #: ../www/manager6/ceph/Monitor.js:136 ../www/manager6/window/Edit.js:214
@@ -2074,7 +2053,7 @@ msgstr "再起動"
 
 #: ../www/manager6/Utils.js:576 ../www/manager6/Utils.js:593
 #: ../www/manager6/grid/BackupView.js:138
-#: ../www/manager6/storage/ContentView.js:413
+#: ../www/manager6/storage/ContentView.js:414
 #: ../www/manager6/window/Restore.js:99 ../www/manager6/window/Restore.js:144
 msgid "Restore"
 msgstr "リストア"
@@ -2125,7 +2104,7 @@ msgstr ""
 msgid "Running"
 msgstr "稼働中"
 
-#: ../www/manager6/node/Disks.js:299
+#: ../www/manager6/node/Disks.js:298
 msgid "S.M.A.R.T. Values"
 msgstr ""
 
@@ -2180,7 +2159,7 @@ msgstr "スキャン中…"
 #: ../www/manager6/grid/BackupView.js:99
 #: ../www/manager6/grid/ResourceGrid.js:154
 #: ../www/manager6/panel/ConfigPanel.js:208
-#: ../www/manager6/storage/ContentView.js:485
+#: ../www/manager6/storage/ContentView.js:486
 msgid "Search"
 msgstr "検索"
 
@@ -2288,7 +2267,7 @@ msgid "Shell"
 msgstr "シェル"
 
 #: ../www/manager6/grid/BackupView.js:196
-#: ../www/manager6/storage/ContentView.js:469
+#: ../www/manager6/storage/ContentView.js:470
 #, fuzzy
 msgid "Show Configuration"
 msgstr "確認"
@@ -2311,7 +2290,7 @@ msgstr "シャットダウン"
 
 #: ../www/manager6/form/FileSelector.js:63
 #: ../www/manager6/grid/BackupView.js:234 ../www/manager6/node/Disks.js:44
-#: ../www/manager6/storage/ContentView.js:520 ../www/manager6/ceph/OSD.js:19
+#: ../www/manager6/storage/ContentView.js:527 ../www/manager6/ceph/OSD.js:19
 #: ../www/manager6/ceph/Pool.js:20 ../www/manager6/ceph/Pool.js:88
 msgid "Size"
 msgstr "サイズ"
@@ -2599,7 +2578,7 @@ msgstr "テンプレート"
 
 #: ../www/manager6/dc/Guests.js:49 ../www/manager6/dc/Guests.js:84
 #: ../www/manager6/storage/ContentView.js:93
-#: ../www/manager6/storage/ContentView.js:376
+#: ../www/manager6/storage/ContentView.js:378
 msgid "Templates"
 msgstr "テンプレート"
 
@@ -2643,7 +2622,7 @@ msgstr "この VM ID は存在しません。"
 msgid "This {0} ID is already in use"
 msgstr "この VM ID は既に使用されています。"
 
-#: ../www/manager6/node/Disks.js:250
+#: ../www/manager6/node/Disks.js:249
 msgid "Threshold"
 msgstr ""
 
@@ -2708,6 +2687,7 @@ msgstr "合計コア数"
 #: ../www/manager6/qemu/ScsiHwEdit.js:13
 #: ../www/manager6/qemu/ProcessorEdit.js:91
 #: ../www/manager6/storage/ContentView.js:46
+#: ../www/manager6/storage/ContentView.js:521
 #: ../www/manager6/storage/StatusView.js:41
 #: ../www/manager6/ha/StatusView.js:48
 msgid "Type"
@@ -2778,7 +2758,7 @@ msgstr ""
 
 #: ../www/manager6/storage/ContentView.js:240
 #: ../www/manager6/storage/ContentView.js:307
-#: ../www/manager6/storage/ContentView.js:389
+#: ../www/manager6/storage/ContentView.js:391
 msgid "Upload"
 msgstr "アップロード"
 
@@ -2892,7 +2872,7 @@ msgstr "VZDump ファイル"
 msgid "Valid CIDR Range"
 msgstr ""
 
-#: ../www/manager6/grid/ObjectGrid.js:123 ../www/manager6/node/Disks.js:248
+#: ../www/manager6/grid/ObjectGrid.js:123 ../www/manager6/node/Disks.js:247
 #: ../www/manager6/qemu/Snapshot.js:111 ../www/manager6/lxc/Snapshot.js:102
 msgid "Value"
 msgstr "値"
@@ -2936,7 +2916,7 @@ msgstr "仮想マシン"
 msgid "Volume group"
 msgstr "ボリュームグループ"
 
-#: ../www/manager6/node/Disks.js:251
+#: ../www/manager6/node/Disks.js:250
 msgid "Worst"
 msgstr ""
 
@@ -3204,6 +3184,10 @@ msgstr "{1} {2} の {0}%"
 #~ msgid "Bond"
 #~ msgstr "Bond"
 
+#, fuzzy
+#~ msgid "Bootdisk Size"
+#~ msgstr "ディスクサイズ"
+
 #~ msgid "CD-ROM"
 #~ msgstr "CD-ROM"
 
@@ -3211,11 +3195,18 @@ msgstr "{1} {2} の {0}%"
 #~ msgid "CPU Options"
 #~ msgstr "オプション"
 
+#, fuzzy
+#~ msgid "CPU Usage"
+#~ msgstr "CPU 使用率"
+
 #~ msgid "CPU type"
 #~ msgstr "CPU 種別"
 
 #~ msgid "CPU usage %"
 #~ msgstr "CPU 使用率"
+
+#~ msgid "CPUs"
+#~ msgstr "CPU"
 
 #~ msgid "Change CD/DVD settings ({0})"
 #~ msgstr "CD/DVD 設定 ({0}) を変更"
@@ -3699,6 +3690,10 @@ msgstr "{1} {2} の {0}%"
 
 #~ msgid "Memory (MB)"
 #~ msgstr "メモリー (MB)"
+
+#, fuzzy
+#~ msgid "Memory Usage"
+#~ msgstr "メモリー使用状況"
 
 #~ msgid "Microsoft Windows"
 #~ msgstr "Microsoft Windows"

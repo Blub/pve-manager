@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 3.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Tue Jan 10 12:16:34 2017\n"
+"POT-Creation-Date: Wed Jan 11 10:58:53 2017\n"
 "PO-Revision-Date: 2014-08-01 15:28+0800\n"
 "Last-Translator: 黄学武 <1833net@163.com>\n"
 "Language-Team: Chinese (simplified) <hxw@unoc.cn>\n"
@@ -63,7 +63,7 @@ msgid "Add"
 msgstr "添加"
 
 #: ../www/manager6/ceph/Monitor.js:192
-#: ../www/manager6/ceph/StatusDetail.js:242
+#: ../www/manager6/ceph/StatusDetail.js:261
 #, fuzzy
 msgid "Address"
 msgstr "MAC 地址"
@@ -121,7 +121,7 @@ msgstr "你确定要离开此页？"
 #: ../www/manager6/qemu/HardwareView.js:385
 #: ../www/manager6/lxc/Resources.js:212
 #: ../www/manager6/lxc/SnapshotTree.js:196 ../www/manager6/lxc/Network.js:406
-#: ../www/manager6/storage/ContentView.js:445 ../www/manager6/ceph/Pool.js:173
+#: ../www/manager6/storage/ContentView.js:446 ../www/manager6/ceph/Pool.js:173
 msgid "Are you sure you want to remove entry {0}"
 msgstr "你确定你要删除该项{0}吗？"
 
@@ -129,7 +129,7 @@ msgstr "你确定你要删除该项{0}吗？"
 msgid "Are you sure you want to remove this entry"
 msgstr "你确定你要删除此项？"
 
-#: ../www/manager6/node/Disks.js:247
+#: ../www/manager6/node/Disks.js:246
 #, fuzzy
 msgid "Attribute"
 msgstr "User Attribute Name"
@@ -210,12 +210,8 @@ msgstr "引导设备"
 msgid "Boot order"
 msgstr "引导顺序"
 
-#: ../www/manager6/panel/GuestStatusView.js:65
-#, fuzzy
-msgid "Bootdisk Size"
-msgstr "块尺寸"
-
 #: ../www/manager6/panel/TemplateStatusView.js:43
+#: ../www/manager6/panel/GuestStatusView.js:65
 #, fuzzy
 msgid "Bootdisk size"
 msgstr "磁盘大小"
@@ -284,11 +280,6 @@ msgstr "CD/DVD 驱动器"
 msgid "CPU"
 msgstr "CPU"
 
-#: ../www/manager6/dc/NodeView.js:46
-#, fuzzy
-msgid "CPU Usage"
-msgstr "CPU利用率"
-
 #: ../www/manager6/qemu/CPUOptions.js:36 ../www/manager6/lxc/Resources.js:75
 #: ../www/manager6/lxc/ResourceEdit.js:140
 #, fuzzy
@@ -306,7 +297,7 @@ msgstr "OVS 选项"
 msgid "CPU units"
 msgstr "CPU 单位"
 
-#: ../www/manager6/form/NodeSelector.js:56
+#: ../www/manager6/dc/NodeView.js:46 ../www/manager6/form/NodeSelector.js:56
 #: ../www/manager6/node/StatusView.js:25 ../www/manager6/node/Summary.js:114
 #: ../www/manager6/node/Summary.js:116
 #: ../www/manager6/data/ResourceStore.js:157
@@ -317,13 +308,9 @@ msgstr "CPU 单位"
 msgid "CPU usage"
 msgstr "CPU利用率"
 
-#: ../www/manager6/Utils.js:1070
+#: ../www/manager6/Utils.js:1070 ../www/manager6/node/StatusView.js:86
 msgid "CPU(s)"
 msgstr ""
-
-#: ../www/manager6/node/StatusView.js:86
-msgid "CPUs"
-msgstr "CPUs"
 
 #: ../www/manager6/ha/Resources.js:147
 #, fuzzy
@@ -371,7 +358,7 @@ msgstr "用户名"
 msgid "Clone"
 msgstr "克隆"
 
-#: ../www/manager6/node/Disks.js:281 ../www/manager6/window/Settings.js:12
+#: ../www/manager6/node/Disks.js:280 ../www/manager6/window/Settings.js:12
 msgid "Close"
 msgstr ""
 
@@ -893,7 +880,7 @@ msgstr "擦除数据"
 #: ../www/manager6/storage/ContentView.js:272
 #: ../www/manager6/storage/ContentView.js:276
 #: ../www/manager6/storage/ContentView.js:285
-#: ../www/manager6/storage/ContentView.js:460 ../www/manager6/ha/Groups.js:54
+#: ../www/manager6/storage/ContentView.js:461 ../www/manager6/ha/Groups.js:54
 #: ../www/manager6/ha/Resources.js:85 ../www/manager6/ha/ResourceEdit.js:51
 #: ../www/manager6/ceph/OSD.js:340 ../www/manager6/ceph/OSD.js:362
 #: ../www/manager6/ceph/OSD.js:430 ../www/manager6/ceph/Pool.js:191
@@ -928,7 +915,7 @@ msgstr "现有的卷组"
 msgid "Expire"
 msgstr "有效期至"
 
-#: ../www/manager6/node/Disks.js:253
+#: ../www/manager6/node/Disks.js:252
 #, fuzzy
 msgid "Failing"
 msgstr "失败计数"
@@ -960,7 +947,7 @@ msgstr "防火墙"
 msgid "First Name"
 msgstr "名"
 
-#: ../www/manager6/node/Disks.js:252
+#: ../www/manager6/node/Disks.js:251
 msgid "Flags"
 msgstr ""
 
@@ -977,7 +964,7 @@ msgstr "不能提交表单字段可能无效值"
 #: ../www/manager6/qemu/HDMove.js:98 ../www/manager6/qemu/HDEfi.js:80
 #: ../www/manager6/qemu/HDEdit.js:194 ../www/manager6/Toolkit.js:61
 #: ../www/manager6/Toolkit.js:66 ../www/manager6/Toolkit.js:79
-#: ../www/manager6/storage/ContentView.js:515
+#: ../www/manager6/storage/ContentView.js:516
 msgid "Format"
 msgstr "格式"
 
@@ -1071,7 +1058,7 @@ msgstr "硬件"
 msgid "Hash policy"
 msgstr "Hash策略"
 
-#: ../www/manager6/ceph/Status.js:20 ../www/manager6/ceph/StatusDetail.js:243
+#: ../www/manager6/ceph/Status.js:20 ../www/manager6/ceph/StatusDetail.js:262
 msgid "Health"
 msgstr ""
 
@@ -1378,16 +1365,12 @@ msgstr "成员"
 msgid "Memory"
 msgstr "内存"
 
-#: ../www/manager6/dc/NodeView.js:57
-#, fuzzy
-msgid "Memory Usage"
-msgstr "内存使用率"
-
 #: ../www/manager6/data/ResourceStore.js:149
 msgid "Memory size"
 msgstr "内存大小"
 
-#: ../www/manager6/form/NodeSelector.js:49 ../www/manager6/node/Summary.js:128
+#: ../www/manager6/dc/NodeView.js:57 ../www/manager6/form/NodeSelector.js:49
+#: ../www/manager6/node/Summary.js:128
 #: ../www/manager6/data/ResourceStore.js:132
 #: ../www/manager6/data/ResourceStore.js:140
 #: ../www/manager6/qemu/Summary.js:124 ../www/manager6/lxc/Summary.js:117
@@ -1440,7 +1423,7 @@ msgid "Model"
 msgstr "模型"
 
 #: ../www/manager6/node/Config.js:249 ../www/manager6/qemu/Config.js:185
-#: ../www/manager6/ceph/StatusDetail.js:241
+#: ../www/manager6/ceph/StatusDetail.js:260
 msgid "Monitor"
 msgstr "监视器"
 
@@ -1517,7 +1500,7 @@ msgstr "NAT模式"
 #: ../www/manager6/lxc/SnapshotTree.js:254 ../www/manager6/lxc/Snapshot.js:73
 #: ../www/manager6/lxc/Network.js:93 ../www/manager6/lxc/Network.js:487
 #: ../www/manager6/panel/IPSet.js:75 ../www/manager6/panel/IPSet.js:110
-#: ../www/manager6/storage/ContentView.js:508 ../www/manager6/ceph/Pool.js:14
+#: ../www/manager6/storage/ContentView.js:509 ../www/manager6/ceph/Pool.js:14
 #: ../www/manager6/ceph/Pool.js:82 ../www/manager6/ceph/Monitor.js:169
 #: ../www/manager6/window/Settings.js:130
 msgid "Name"
@@ -1554,10 +1537,6 @@ msgstr ""
 msgid "No"
 msgstr "否"
 
-#: ../www/manager6/node/Disks.js:196
-msgid "No Disk found"
-msgstr ""
-
 #: ../www/manager6/node/Disks.js:4
 msgid "No Disks found"
 msgstr ""
@@ -1576,7 +1555,7 @@ msgstr "没有可用的更新。"
 msgid "No OSD selected"
 msgstr ""
 
-#: ../www/manager6/node/Disks.js:240
+#: ../www/manager6/node/Disks.js:239
 msgid "No S.M.A.R.T. Values"
 msgstr ""
 
@@ -1662,7 +1641,7 @@ msgstr "节点"
 msgid "Nodes"
 msgstr "节点"
 
-#: ../www/manager6/node/Disks.js:249
+#: ../www/manager6/node/Disks.js:248
 msgid "Normalized"
 msgstr ""
 
@@ -1970,7 +1949,7 @@ msgid "Refresh"
 msgstr "刷新"
 
 #: ../www/manager6/Utils.js:611 ../www/manager6/node/Disks.js:133
-#: ../www/manager6/node/Disks.js:273 ../www/manager6/ceph/OSD.js:478
+#: ../www/manager6/node/Disks.js:272 ../www/manager6/ceph/OSD.js:478
 msgid "Reload"
 msgstr "重载"
 
@@ -1990,7 +1969,7 @@ msgstr "重载"
 #: ../www/manager6/lxc/SnapshotTree.js:192 ../www/manager6/lxc/Config.js:100
 #: ../www/manager6/lxc/Network.js:399 ../www/manager6/panel/IPSet.js:128
 #: ../www/manager6/panel/IPSet.js:349
-#: ../www/manager6/storage/ContentView.js:441 ../www/manager6/ha/Groups.js:40
+#: ../www/manager6/storage/ContentView.js:442 ../www/manager6/ha/Groups.js:40
 #: ../www/manager6/ha/Resources.js:71 ../www/manager6/ceph/OSD.js:154
 #: ../www/manager6/ceph/OSD.js:405 ../www/manager6/ceph/Pool.js:169
 #: ../www/manager6/ceph/Monitor.js:136 ../www/manager6/window/Edit.js:214
@@ -2045,7 +2024,7 @@ msgstr "重启"
 
 #: ../www/manager6/Utils.js:576 ../www/manager6/Utils.js:593
 #: ../www/manager6/grid/BackupView.js:138
-#: ../www/manager6/storage/ContentView.js:413
+#: ../www/manager6/storage/ContentView.js:414
 #: ../www/manager6/window/Restore.js:99 ../www/manager6/window/Restore.js:144
 msgid "Restore"
 msgstr "恢复"
@@ -2096,7 +2075,7 @@ msgstr "规则"
 msgid "Running"
 msgstr "运行中"
 
-#: ../www/manager6/node/Disks.js:299
+#: ../www/manager6/node/Disks.js:298
 msgid "S.M.A.R.T. Values"
 msgstr ""
 
@@ -2152,7 +2131,7 @@ msgstr "扫描中…"
 #: ../www/manager6/grid/BackupView.js:99
 #: ../www/manager6/grid/ResourceGrid.js:154
 #: ../www/manager6/panel/ConfigPanel.js:208
-#: ../www/manager6/storage/ContentView.js:485
+#: ../www/manager6/storage/ContentView.js:486
 msgid "Search"
 msgstr "搜索"
 
@@ -2257,7 +2236,7 @@ msgid "Shell"
 msgstr "Shell"
 
 #: ../www/manager6/grid/BackupView.js:196
-#: ../www/manager6/storage/ContentView.js:469
+#: ../www/manager6/storage/ContentView.js:470
 #, fuzzy
 msgid "Show Configuration"
 msgstr "确认"
@@ -2279,7 +2258,7 @@ msgstr "关机超时"
 
 #: ../www/manager6/form/FileSelector.js:63
 #: ../www/manager6/grid/BackupView.js:234 ../www/manager6/node/Disks.js:44
-#: ../www/manager6/storage/ContentView.js:520 ../www/manager6/ceph/OSD.js:19
+#: ../www/manager6/storage/ContentView.js:527 ../www/manager6/ceph/OSD.js:19
 #: ../www/manager6/ceph/Pool.js:20 ../www/manager6/ceph/Pool.js:88
 msgid "Size"
 msgstr "大小"
@@ -2560,7 +2539,7 @@ msgstr "模板"
 
 #: ../www/manager6/dc/Guests.js:49 ../www/manager6/dc/Guests.js:84
 #: ../www/manager6/storage/ContentView.js:93
-#: ../www/manager6/storage/ContentView.js:376
+#: ../www/manager6/storage/ContentView.js:378
 msgid "Templates"
 msgstr "模板"
 
@@ -2600,7 +2579,7 @@ msgstr "该虚拟机 ID 不存在"
 msgid "This {0} ID is already in use"
 msgstr "该虚拟机 ID 已被使用"
 
-#: ../www/manager6/node/Disks.js:250
+#: ../www/manager6/node/Disks.js:249
 msgid "Threshold"
 msgstr ""
 
@@ -2662,6 +2641,7 @@ msgstr "核心总数"
 #: ../www/manager6/qemu/ScsiHwEdit.js:13
 #: ../www/manager6/qemu/ProcessorEdit.js:91
 #: ../www/manager6/storage/ContentView.js:46
+#: ../www/manager6/storage/ContentView.js:521
 #: ../www/manager6/storage/StatusView.js:41
 #: ../www/manager6/ha/StatusView.js:48
 msgid "Type"
@@ -2729,7 +2709,7 @@ msgstr "升级"
 
 #: ../www/manager6/storage/ContentView.js:240
 #: ../www/manager6/storage/ContentView.js:307
-#: ../www/manager6/storage/ContentView.js:389
+#: ../www/manager6/storage/ContentView.js:391
 msgid "Upload"
 msgstr "上传"
 
@@ -2840,7 +2820,7 @@ msgstr "VZDump 备份文件"
 msgid "Valid CIDR Range"
 msgstr ""
 
-#: ../www/manager6/grid/ObjectGrid.js:123 ../www/manager6/node/Disks.js:248
+#: ../www/manager6/grid/ObjectGrid.js:123 ../www/manager6/node/Disks.js:247
 #: ../www/manager6/qemu/Snapshot.js:111 ../www/manager6/lxc/Snapshot.js:102
 msgid "Value"
 msgstr "值"
@@ -2882,7 +2862,7 @@ msgstr "虚拟机"
 msgid "Volume group"
 msgstr "卷组"
 
-#: ../www/manager6/node/Disks.js:251
+#: ../www/manager6/node/Disks.js:250
 msgid "Worst"
 msgstr ""
 
@@ -3061,12 +3041,23 @@ msgstr ""
 #~ msgstr "Barrier"
 
 #, fuzzy
+#~ msgid "Bootdisk Size"
+#~ msgstr "块尺寸"
+
+#, fuzzy
 #~ msgid "CPU Options"
 #~ msgstr "选项"
 
 #, fuzzy
+#~ msgid "CPU Usage"
+#~ msgstr "CPU利用率"
+
+#, fuzzy
 #~ msgid "CPU usage %"
 #~ msgstr "CPU使用率"
+
+#~ msgid "CPUs"
+#~ msgstr "CPUs"
 
 #, fuzzy
 #~ msgid "Clone Mode"
@@ -3183,6 +3174,10 @@ msgstr ""
 #, fuzzy
 #~ msgid "Memory (MB)"
 #~ msgstr "内存"
+
+#, fuzzy
+#~ msgid "Memory Usage"
+#~ msgstr "内存使用率"
 
 #, fuzzy
 #~ msgid "Migrate All VMs"

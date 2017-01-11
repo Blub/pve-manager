@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Tue Jan 10 12:16:34 2017\n"
+"POT-Creation-Date: Wed Jan 11 10:58:53 2017\n"
 "PO-Revision-Date: 2017-01-10 14:39+0100\n"
 "Last-Translator:  Proxmox Support Team <support@proxmox.com>\n"
 "Language-Team: German\n"
@@ -62,7 +62,7 @@ msgid "Add"
 msgstr "Hinzufügen"
 
 #: ../www/manager6/ceph/Monitor.js:192
-#: ../www/manager6/ceph/StatusDetail.js:242
+#: ../www/manager6/ceph/StatusDetail.js:261
 msgid "Address"
 msgstr "Adresse"
 
@@ -119,7 +119,7 @@ msgstr "Möchten Sie diese Seite wirklich verlassen?"
 #: ../www/manager6/qemu/HardwareView.js:385
 #: ../www/manager6/lxc/Resources.js:212
 #: ../www/manager6/lxc/SnapshotTree.js:196 ../www/manager6/lxc/Network.js:406
-#: ../www/manager6/storage/ContentView.js:445 ../www/manager6/ceph/Pool.js:173
+#: ../www/manager6/storage/ContentView.js:446 ../www/manager6/ceph/Pool.js:173
 msgid "Are you sure you want to remove entry {0}"
 msgstr "Möchten Sie Eintrag {0} wirklich entfernen?"
 
@@ -127,7 +127,7 @@ msgstr "Möchten Sie Eintrag {0} wirklich entfernen?"
 msgid "Are you sure you want to remove this entry"
 msgstr "Möchten Sie diesen Eintrag wirklich entfernen?"
 
-#: ../www/manager6/node/Disks.js:247
+#: ../www/manager6/node/Disks.js:246
 msgid "Attribute"
 msgstr "Attribut"
 
@@ -206,11 +206,8 @@ msgstr "Boot-Device"
 msgid "Boot order"
 msgstr "Boot-Reihenfolge"
 
-#: ../www/manager6/panel/GuestStatusView.js:65
-msgid "Bootdisk Size"
-msgstr "Bootdisk Größe"
-
 #: ../www/manager6/panel/TemplateStatusView.js:43
+#: ../www/manager6/panel/GuestStatusView.js:65
 msgid "Bootdisk size"
 msgstr "Bootdisk Größe"
 
@@ -273,10 +270,6 @@ msgstr "CD/DVD Laufwerk"
 msgid "CPU"
 msgstr "CPU"
 
-#: ../www/manager6/dc/NodeView.js:46
-msgid "CPU Usage"
-msgstr "CPU-Auslastung"
-
 #: ../www/manager6/qemu/CPUOptions.js:36 ../www/manager6/lxc/Resources.js:75
 #: ../www/manager6/lxc/ResourceEdit.js:140
 msgid "CPU limit"
@@ -292,7 +285,7 @@ msgstr "CPU-Optionen"
 msgid "CPU units"
 msgstr "CPU-Einheiten"
 
-#: ../www/manager6/form/NodeSelector.js:56
+#: ../www/manager6/dc/NodeView.js:46 ../www/manager6/form/NodeSelector.js:56
 #: ../www/manager6/node/StatusView.js:25 ../www/manager6/node/Summary.js:114
 #: ../www/manager6/node/Summary.js:116
 #: ../www/manager6/data/ResourceStore.js:157
@@ -303,13 +296,9 @@ msgstr "CPU-Einheiten"
 msgid "CPU usage"
 msgstr "CPU-Auslastung"
 
-#: ../www/manager6/Utils.js:1070
+#: ../www/manager6/Utils.js:1070 ../www/manager6/node/StatusView.js:86
 msgid "CPU(s)"
 msgstr "CPU(s)"
-
-#: ../www/manager6/node/StatusView.js:86
-msgid "CPUs"
-msgstr "CPUs"
 
 #: ../www/manager6/ha/Resources.js:147
 msgid "CRM State"
@@ -353,7 +342,7 @@ msgstr "Benutzername zurücksetzen"
 msgid "Clone"
 msgstr "Klon"
 
-#: ../www/manager6/node/Disks.js:281 ../www/manager6/window/Settings.js:12
+#: ../www/manager6/node/Disks.js:280 ../www/manager6/window/Settings.js:12
 msgid "Close"
 msgstr "Schließen"
 
@@ -851,7 +840,7 @@ msgstr "Daten löschen"
 #: ../www/manager6/storage/ContentView.js:272
 #: ../www/manager6/storage/ContentView.js:276
 #: ../www/manager6/storage/ContentView.js:285
-#: ../www/manager6/storage/ContentView.js:460 ../www/manager6/ha/Groups.js:54
+#: ../www/manager6/storage/ContentView.js:461 ../www/manager6/ha/Groups.js:54
 #: ../www/manager6/ha/Resources.js:85 ../www/manager6/ha/ResourceEdit.js:51
 #: ../www/manager6/ceph/OSD.js:340 ../www/manager6/ceph/OSD.js:362
 #: ../www/manager6/ceph/OSD.js:430 ../www/manager6/ceph/Pool.js:191
@@ -886,7 +875,7 @@ msgstr "Existierende Volume-Group"
 msgid "Expire"
 msgstr "Expire"
 
-#: ../www/manager6/node/Disks.js:253
+#: ../www/manager6/node/Disks.js:252
 msgid "Failing"
 msgstr "Fehler"
 
@@ -917,7 +906,7 @@ msgstr "Firewall"
 msgid "First Name"
 msgstr "Vorname"
 
-#: ../www/manager6/node/Disks.js:252
+#: ../www/manager6/node/Disks.js:251
 msgid "Flags"
 msgstr "Flags"
 
@@ -934,7 +923,7 @@ msgstr "Formularfelder müssen gültige Werte haben"
 #: ../www/manager6/qemu/HDMove.js:98 ../www/manager6/qemu/HDEfi.js:80
 #: ../www/manager6/qemu/HDEdit.js:194 ../www/manager6/Toolkit.js:61
 #: ../www/manager6/Toolkit.js:66 ../www/manager6/Toolkit.js:79
-#: ../www/manager6/storage/ContentView.js:515
+#: ../www/manager6/storage/ContentView.js:516
 msgid "Format"
 msgstr "Format"
 
@@ -1026,7 +1015,7 @@ msgstr "Hardware"
 msgid "Hash policy"
 msgstr "Hash-Policy"
 
-#: ../www/manager6/ceph/Status.js:20 ../www/manager6/ceph/StatusDetail.js:243
+#: ../www/manager6/ceph/Status.js:20 ../www/manager6/ceph/StatusDetail.js:262
 msgid "Health"
 msgstr "Zustand"
 
@@ -1319,15 +1308,12 @@ msgstr "Mitglieder"
 msgid "Memory"
 msgstr "Speicher"
 
-#: ../www/manager6/dc/NodeView.js:57
-msgid "Memory Usage"
-msgstr "Speicherverbrauch"
-
 #: ../www/manager6/data/ResourceStore.js:149
 msgid "Memory size"
 msgstr "Speichergröße"
 
-#: ../www/manager6/form/NodeSelector.js:49 ../www/manager6/node/Summary.js:128
+#: ../www/manager6/dc/NodeView.js:57 ../www/manager6/form/NodeSelector.js:49
+#: ../www/manager6/node/Summary.js:128
 #: ../www/manager6/data/ResourceStore.js:132
 #: ../www/manager6/data/ResourceStore.js:140
 #: ../www/manager6/qemu/Summary.js:124 ../www/manager6/lxc/Summary.js:117
@@ -1377,7 +1363,7 @@ msgid "Model"
 msgstr "Modell"
 
 #: ../www/manager6/node/Config.js:249 ../www/manager6/qemu/Config.js:185
-#: ../www/manager6/ceph/StatusDetail.js:241
+#: ../www/manager6/ceph/StatusDetail.js:260
 msgid "Monitor"
 msgstr "Monitor"
 
@@ -1451,7 +1437,7 @@ msgstr "NAT mode"
 #: ../www/manager6/lxc/SnapshotTree.js:254 ../www/manager6/lxc/Snapshot.js:73
 #: ../www/manager6/lxc/Network.js:93 ../www/manager6/lxc/Network.js:487
 #: ../www/manager6/panel/IPSet.js:75 ../www/manager6/panel/IPSet.js:110
-#: ../www/manager6/storage/ContentView.js:508 ../www/manager6/ceph/Pool.js:14
+#: ../www/manager6/storage/ContentView.js:509 ../www/manager6/ceph/Pool.js:14
 #: ../www/manager6/ceph/Pool.js:82 ../www/manager6/ceph/Monitor.js:169
 #: ../www/manager6/window/Settings.js:130
 msgid "Name"
@@ -1488,10 +1474,6 @@ msgstr "Nächstes Fälligkeitsdatum"
 msgid "No"
 msgstr "Nein"
 
-#: ../www/manager6/node/Disks.js:196
-msgid "No Disk found"
-msgstr ""
-
 #: ../www/manager6/node/Disks.js:4
 msgid "No Disks found"
 msgstr "Keine Disk gefunden"
@@ -1508,7 +1490,7 @@ msgstr "Keine Hilfe verfügbar"
 msgid "No OSD selected"
 msgstr "Keine OSD ausgewählt"
 
-#: ../www/manager6/node/Disks.js:240
+#: ../www/manager6/node/Disks.js:239
 msgid "No S.M.A.R.T. Values"
 msgstr "Keine S.M.A.R.T. Werte"
 
@@ -1594,7 +1576,7 @@ msgstr "Knoten"
 msgid "Nodes"
 msgstr "Knoten"
 
-#: ../www/manager6/node/Disks.js:249
+#: ../www/manager6/node/Disks.js:248
 msgid "Normalized"
 msgstr "Normalisiert"
 
@@ -1893,7 +1875,7 @@ msgid "Refresh"
 msgstr "Aktualisieren"
 
 #: ../www/manager6/Utils.js:611 ../www/manager6/node/Disks.js:133
-#: ../www/manager6/node/Disks.js:273 ../www/manager6/ceph/OSD.js:478
+#: ../www/manager6/node/Disks.js:272 ../www/manager6/ceph/OSD.js:478
 msgid "Reload"
 msgstr "Neu laden"
 
@@ -1913,7 +1895,7 @@ msgstr "Neu laden"
 #: ../www/manager6/lxc/SnapshotTree.js:192 ../www/manager6/lxc/Config.js:100
 #: ../www/manager6/lxc/Network.js:399 ../www/manager6/panel/IPSet.js:128
 #: ../www/manager6/panel/IPSet.js:349
-#: ../www/manager6/storage/ContentView.js:441 ../www/manager6/ha/Groups.js:40
+#: ../www/manager6/storage/ContentView.js:442 ../www/manager6/ha/Groups.js:40
 #: ../www/manager6/ha/Resources.js:71 ../www/manager6/ceph/OSD.js:154
 #: ../www/manager6/ceph/OSD.js:405 ../www/manager6/ceph/Pool.js:169
 #: ../www/manager6/ceph/Monitor.js:136 ../www/manager6/window/Edit.js:214
@@ -1966,7 +1948,7 @@ msgstr "Neustart-Modus"
 
 #: ../www/manager6/Utils.js:576 ../www/manager6/Utils.js:593
 #: ../www/manager6/grid/BackupView.js:138
-#: ../www/manager6/storage/ContentView.js:413
+#: ../www/manager6/storage/ContentView.js:414
 #: ../www/manager6/window/Restore.js:99 ../www/manager6/window/Restore.js:144
 msgid "Restore"
 msgstr "Zurückspielen"
@@ -2014,7 +1996,7 @@ msgstr "Regeln"
 msgid "Running"
 msgstr "Laufend"
 
-#: ../www/manager6/node/Disks.js:299
+#: ../www/manager6/node/Disks.js:298
 msgid "S.M.A.R.T. Values"
 msgstr "S.M.A.R.T. Werte"
 
@@ -2067,7 +2049,7 @@ msgstr "Scannen..."
 #: ../www/manager6/grid/BackupView.js:99
 #: ../www/manager6/grid/ResourceGrid.js:154
 #: ../www/manager6/panel/ConfigPanel.js:208
-#: ../www/manager6/storage/ContentView.js:485
+#: ../www/manager6/storage/ContentView.js:486
 msgid "Search"
 msgstr "Suche"
 
@@ -2171,7 +2153,7 @@ msgid "Shell"
 msgstr "Shell"
 
 #: ../www/manager6/grid/BackupView.js:196
-#: ../www/manager6/storage/ContentView.js:469
+#: ../www/manager6/storage/ContentView.js:470
 msgid "Show Configuration"
 msgstr "Zeige Konfiguration"
 
@@ -2192,7 +2174,7 @@ msgstr "Shutdown timeout"
 
 #: ../www/manager6/form/FileSelector.js:63
 #: ../www/manager6/grid/BackupView.js:234 ../www/manager6/node/Disks.js:44
-#: ../www/manager6/storage/ContentView.js:520 ../www/manager6/ceph/OSD.js:19
+#: ../www/manager6/storage/ContentView.js:527 ../www/manager6/ceph/OSD.js:19
 #: ../www/manager6/ceph/Pool.js:20 ../www/manager6/ceph/Pool.js:88
 msgid "Size"
 msgstr "Größe"
@@ -2464,7 +2446,7 @@ msgstr "Template"
 
 #: ../www/manager6/dc/Guests.js:49 ../www/manager6/dc/Guests.js:84
 #: ../www/manager6/storage/ContentView.js:93
-#: ../www/manager6/storage/ContentView.js:376
+#: ../www/manager6/storage/ContentView.js:378
 msgid "Templates"
 msgstr "Templates"
 
@@ -2500,7 +2482,7 @@ msgstr "Die ID {0} existiert nicht"
 msgid "This {0} ID is already in use"
 msgstr "Die ID {0} existiert bereits"
 
-#: ../www/manager6/node/Disks.js:250
+#: ../www/manager6/node/Disks.js:249
 msgid "Threshold"
 msgstr "Schwellwert"
 
@@ -2562,6 +2544,7 @@ msgstr "Total cores"
 #: ../www/manager6/qemu/ScsiHwEdit.js:13
 #: ../www/manager6/qemu/ProcessorEdit.js:91
 #: ../www/manager6/storage/ContentView.js:46
+#: ../www/manager6/storage/ContentView.js:521
 #: ../www/manager6/storage/StatusView.js:41
 #: ../www/manager6/ha/StatusView.js:48
 msgid "Type"
@@ -2629,7 +2612,7 @@ msgstr "Upgrade"
 
 #: ../www/manager6/storage/ContentView.js:240
 #: ../www/manager6/storage/ContentView.js:307
-#: ../www/manager6/storage/ContentView.js:389
+#: ../www/manager6/storage/ContentView.js:391
 msgid "Upload"
 msgstr "Hochladen"
 
@@ -2737,7 +2720,7 @@ msgstr "VZDump backup file"
 msgid "Valid CIDR Range"
 msgstr "Gültiger CIDR Bereich"
 
-#: ../www/manager6/grid/ObjectGrid.js:123 ../www/manager6/node/Disks.js:248
+#: ../www/manager6/grid/ObjectGrid.js:123 ../www/manager6/node/Disks.js:247
 #: ../www/manager6/qemu/Snapshot.js:111 ../www/manager6/lxc/Snapshot.js:102
 msgid "Value"
 msgstr "Wert"
@@ -2778,7 +2761,7 @@ msgstr "Virtuelle Maschinen"
 msgid "Volume group"
 msgstr "Volume-Group"
 
-#: ../www/manager6/node/Disks.js:251
+#: ../www/manager6/node/Disks.js:250
 msgid "Worst"
 msgstr "Schlechtester"
 
@@ -2920,11 +2903,23 @@ msgstr "{0} von {1}"
 msgid "{0}% of {1}"
 msgstr "{0}% von {1}"
 
+#~ msgid "Bootdisk Size"
+#~ msgstr "Bootdisk Größe"
+
+#~ msgid "CPU Usage"
+#~ msgstr "CPU-Auslastung"
+
+#~ msgid "CPUs"
+#~ msgstr "CPUs"
+
 #~ msgid "Do not use any proxy"
 #~ msgstr "Keinen Proxy verwenden"
 
 #~ msgid "KRBD"
 #~ msgstr "KRBD"
+
+#~ msgid "Memory Usage"
+#~ msgstr "Speicherverbrauch"
 
 #~ msgid "Monitor Host"
 #~ msgstr "Monitor Host"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pve-manager 2.0\n"
 "Report-Msgid-Bugs-To: <support@proxmox.com>\n"
-"POT-Creation-Date: Tue Jan 10 12:16:34 2017\n"
+"POT-Creation-Date: Wed Jan 11 10:58:53 2017\n"
 "PO-Revision-Date: 2015-12-28 13:07+0100\n"
 "Last-Translator: Pongrácz István <pongracz.istvan@gmail.com>\n"
 "Language-Team: Hungarian <support@proxmox.com>\n"
@@ -63,7 +63,7 @@ msgid "Add"
 msgstr "Új"
 
 #: ../www/manager6/ceph/Monitor.js:192
-#: ../www/manager6/ceph/StatusDetail.js:242
+#: ../www/manager6/ceph/StatusDetail.js:261
 msgid "Address"
 msgstr "Cím"
 
@@ -120,7 +120,7 @@ msgstr "Biztos benne, hogy elhagyja ezt az oldalt?"
 #: ../www/manager6/qemu/HardwareView.js:385
 #: ../www/manager6/lxc/Resources.js:212
 #: ../www/manager6/lxc/SnapshotTree.js:196 ../www/manager6/lxc/Network.js:406
-#: ../www/manager6/storage/ContentView.js:445 ../www/manager6/ceph/Pool.js:173
+#: ../www/manager6/storage/ContentView.js:446 ../www/manager6/ceph/Pool.js:173
 msgid "Are you sure you want to remove entry {0}"
 msgstr "Biztos benne, hogy eltávolítja a következő bejegyzést {0}"
 
@@ -128,7 +128,7 @@ msgstr "Biztos benne, hogy eltávolítja a következő bejegyzést {0}"
 msgid "Are you sure you want to remove this entry"
 msgstr "Biztos benne, hogy eltávolítja ezt a bejegyzést"
 
-#: ../www/manager6/node/Disks.js:247
+#: ../www/manager6/node/Disks.js:246
 #, fuzzy
 msgid "Attribute"
 msgstr "Felhasználói attribútum név"
@@ -209,12 +209,8 @@ msgstr "Boot eszköz"
 msgid "Boot order"
 msgstr "Boot sorrend"
 
-#: ../www/manager6/panel/GuestStatusView.js:65
-#, fuzzy
-msgid "Bootdisk Size"
-msgstr "Blokk méret"
-
 #: ../www/manager6/panel/TemplateStatusView.js:43
+#: ../www/manager6/panel/GuestStatusView.js:65
 #, fuzzy
 msgid "Bootdisk size"
 msgstr "Lemez méret"
@@ -283,11 +279,6 @@ msgstr "CD/DVD meghajtó"
 msgid "CPU"
 msgstr "CPU"
 
-#: ../www/manager6/dc/NodeView.js:46
-#, fuzzy
-msgid "CPU Usage"
-msgstr "CPU használat"
-
 #: ../www/manager6/qemu/CPUOptions.js:36 ../www/manager6/lxc/Resources.js:75
 #: ../www/manager6/lxc/ResourceEdit.js:140
 msgid "CPU limit"
@@ -303,7 +294,7 @@ msgstr "CPU opciók"
 msgid "CPU units"
 msgstr "CPU egységek"
 
-#: ../www/manager6/form/NodeSelector.js:56
+#: ../www/manager6/dc/NodeView.js:46 ../www/manager6/form/NodeSelector.js:56
 #: ../www/manager6/node/StatusView.js:25 ../www/manager6/node/Summary.js:114
 #: ../www/manager6/node/Summary.js:116
 #: ../www/manager6/data/ResourceStore.js:157
@@ -314,13 +305,9 @@ msgstr "CPU egységek"
 msgid "CPU usage"
 msgstr "CPU használat"
 
-#: ../www/manager6/Utils.js:1070
+#: ../www/manager6/Utils.js:1070 ../www/manager6/node/StatusView.js:86
 msgid "CPU(s)"
 msgstr ""
-
-#: ../www/manager6/node/StatusView.js:86
-msgid "CPUs"
-msgstr "CPU-k"
 
 #: ../www/manager6/ha/Resources.js:147
 #, fuzzy
@@ -368,7 +355,7 @@ msgstr "Felhasználónév"
 msgid "Clone"
 msgstr "Klón"
 
-#: ../www/manager6/node/Disks.js:281 ../www/manager6/window/Settings.js:12
+#: ../www/manager6/node/Disks.js:280 ../www/manager6/window/Settings.js:12
 msgid "Close"
 msgstr ""
 
@@ -877,7 +864,7 @@ msgstr "Adat törlése"
 #: ../www/manager6/storage/ContentView.js:272
 #: ../www/manager6/storage/ContentView.js:276
 #: ../www/manager6/storage/ContentView.js:285
-#: ../www/manager6/storage/ContentView.js:460 ../www/manager6/ha/Groups.js:54
+#: ../www/manager6/storage/ContentView.js:461 ../www/manager6/ha/Groups.js:54
 #: ../www/manager6/ha/Resources.js:85 ../www/manager6/ha/ResourceEdit.js:51
 #: ../www/manager6/ceph/OSD.js:340 ../www/manager6/ceph/OSD.js:362
 #: ../www/manager6/ceph/OSD.js:430 ../www/manager6/ceph/Pool.js:191
@@ -912,7 +899,7 @@ msgstr "Létező kötetcsoportok"
 msgid "Expire"
 msgstr "Lejárat"
 
-#: ../www/manager6/node/Disks.js:253
+#: ../www/manager6/node/Disks.js:252
 #, fuzzy
 msgid "Failing"
 msgstr "Hibaszámláló"
@@ -944,7 +931,7 @@ msgstr "Tűzfal"
 msgid "First Name"
 msgstr "Keresztnév"
 
-#: ../www/manager6/node/Disks.js:252
+#: ../www/manager6/node/Disks.js:251
 msgid "Flags"
 msgstr ""
 
@@ -961,7 +948,7 @@ msgstr "Az űrlap mezői nem küldhetőek el érvénytelen értékekkel"
 #: ../www/manager6/qemu/HDMove.js:98 ../www/manager6/qemu/HDEfi.js:80
 #: ../www/manager6/qemu/HDEdit.js:194 ../www/manager6/Toolkit.js:61
 #: ../www/manager6/Toolkit.js:66 ../www/manager6/Toolkit.js:79
-#: ../www/manager6/storage/ContentView.js:515
+#: ../www/manager6/storage/ContentView.js:516
 msgid "Format"
 msgstr "Formátum"
 
@@ -1054,7 +1041,7 @@ msgstr "Hardver"
 msgid "Hash policy"
 msgstr "Hash szabály"
 
-#: ../www/manager6/ceph/Status.js:20 ../www/manager6/ceph/StatusDetail.js:243
+#: ../www/manager6/ceph/Status.js:20 ../www/manager6/ceph/StatusDetail.js:262
 msgid "Health"
 msgstr ""
 
@@ -1353,16 +1340,12 @@ msgstr "Tagok"
 msgid "Memory"
 msgstr "Memória"
 
-#: ../www/manager6/dc/NodeView.js:57
-#, fuzzy
-msgid "Memory Usage"
-msgstr "Memória használat"
-
 #: ../www/manager6/data/ResourceStore.js:149
 msgid "Memory size"
 msgstr "Memória mérete"
 
-#: ../www/manager6/form/NodeSelector.js:49 ../www/manager6/node/Summary.js:128
+#: ../www/manager6/dc/NodeView.js:57 ../www/manager6/form/NodeSelector.js:49
+#: ../www/manager6/node/Summary.js:128
 #: ../www/manager6/data/ResourceStore.js:132
 #: ../www/manager6/data/ResourceStore.js:140
 #: ../www/manager6/qemu/Summary.js:124 ../www/manager6/lxc/Summary.js:117
@@ -1413,7 +1396,7 @@ msgid "Model"
 msgstr "Modell"
 
 #: ../www/manager6/node/Config.js:249 ../www/manager6/qemu/Config.js:185
-#: ../www/manager6/ceph/StatusDetail.js:241
+#: ../www/manager6/ceph/StatusDetail.js:260
 msgid "Monitor"
 msgstr "Monitor"
 
@@ -1489,7 +1472,7 @@ msgstr "NAT mód"
 #: ../www/manager6/lxc/SnapshotTree.js:254 ../www/manager6/lxc/Snapshot.js:73
 #: ../www/manager6/lxc/Network.js:93 ../www/manager6/lxc/Network.js:487
 #: ../www/manager6/panel/IPSet.js:75 ../www/manager6/panel/IPSet.js:110
-#: ../www/manager6/storage/ContentView.js:508 ../www/manager6/ceph/Pool.js:14
+#: ../www/manager6/storage/ContentView.js:509 ../www/manager6/ceph/Pool.js:14
 #: ../www/manager6/ceph/Pool.js:82 ../www/manager6/ceph/Monitor.js:169
 #: ../www/manager6/window/Settings.js:130
 msgid "Name"
@@ -1526,10 +1509,6 @@ msgstr "Következő határidő"
 msgid "No"
 msgstr "Nem"
 
-#: ../www/manager6/node/Disks.js:196
-msgid "No Disk found"
-msgstr ""
-
 #: ../www/manager6/node/Disks.js:4
 msgid "No Disks found"
 msgstr ""
@@ -1548,7 +1527,7 @@ msgstr "Nem érhető el frissítés."
 msgid "No OSD selected"
 msgstr ""
 
-#: ../www/manager6/node/Disks.js:240
+#: ../www/manager6/node/Disks.js:239
 msgid "No S.M.A.R.T. Values"
 msgstr ""
 
@@ -1634,7 +1613,7 @@ msgstr "Csomópont"
 msgid "Nodes"
 msgstr "Csomópontok"
 
-#: ../www/manager6/node/Disks.js:249
+#: ../www/manager6/node/Disks.js:248
 msgid "Normalized"
 msgstr ""
 
@@ -1937,7 +1916,7 @@ msgid "Refresh"
 msgstr "Frissít"
 
 #: ../www/manager6/Utils.js:611 ../www/manager6/node/Disks.js:133
-#: ../www/manager6/node/Disks.js:273 ../www/manager6/ceph/OSD.js:478
+#: ../www/manager6/node/Disks.js:272 ../www/manager6/ceph/OSD.js:478
 msgid "Reload"
 msgstr "Újratölt"
 
@@ -1957,7 +1936,7 @@ msgstr "Újratölt"
 #: ../www/manager6/lxc/SnapshotTree.js:192 ../www/manager6/lxc/Config.js:100
 #: ../www/manager6/lxc/Network.js:399 ../www/manager6/panel/IPSet.js:128
 #: ../www/manager6/panel/IPSet.js:349
-#: ../www/manager6/storage/ContentView.js:441 ../www/manager6/ha/Groups.js:40
+#: ../www/manager6/storage/ContentView.js:442 ../www/manager6/ha/Groups.js:40
 #: ../www/manager6/ha/Resources.js:71 ../www/manager6/ceph/OSD.js:154
 #: ../www/manager6/ceph/OSD.js:405 ../www/manager6/ceph/Pool.js:169
 #: ../www/manager6/ceph/Monitor.js:136 ../www/manager6/window/Edit.js:214
@@ -2011,7 +1990,7 @@ msgstr "Újraindít"
 
 #: ../www/manager6/Utils.js:576 ../www/manager6/Utils.js:593
 #: ../www/manager6/grid/BackupView.js:138
-#: ../www/manager6/storage/ContentView.js:413
+#: ../www/manager6/storage/ContentView.js:414
 #: ../www/manager6/window/Restore.js:99 ../www/manager6/window/Restore.js:144
 msgid "Restore"
 msgstr "Helyreállít"
@@ -2060,7 +2039,7 @@ msgstr "Szabályok"
 msgid "Running"
 msgstr "futó"
 
-#: ../www/manager6/node/Disks.js:299
+#: ../www/manager6/node/Disks.js:298
 msgid "S.M.A.R.T. Values"
 msgstr ""
 
@@ -2115,7 +2094,7 @@ msgstr "Felderítés..."
 #: ../www/manager6/grid/BackupView.js:99
 #: ../www/manager6/grid/ResourceGrid.js:154
 #: ../www/manager6/panel/ConfigPanel.js:208
-#: ../www/manager6/storage/ContentView.js:485
+#: ../www/manager6/storage/ContentView.js:486
 msgid "Search"
 msgstr "Keresés"
 
@@ -2219,7 +2198,7 @@ msgid "Shell"
 msgstr "Shell"
 
 #: ../www/manager6/grid/BackupView.js:196
-#: ../www/manager6/storage/ContentView.js:469
+#: ../www/manager6/storage/ContentView.js:470
 msgid "Show Configuration"
 msgstr ""
 
@@ -2240,7 +2219,7 @@ msgstr "Leállítás időtúllépés"
 
 #: ../www/manager6/form/FileSelector.js:63
 #: ../www/manager6/grid/BackupView.js:234 ../www/manager6/node/Disks.js:44
-#: ../www/manager6/storage/ContentView.js:520 ../www/manager6/ceph/OSD.js:19
+#: ../www/manager6/storage/ContentView.js:527 ../www/manager6/ceph/OSD.js:19
 #: ../www/manager6/ceph/Pool.js:20 ../www/manager6/ceph/Pool.js:88
 msgid "Size"
 msgstr "Méret"
@@ -2516,7 +2495,7 @@ msgstr "Sablon"
 
 #: ../www/manager6/dc/Guests.js:49 ../www/manager6/dc/Guests.js:84
 #: ../www/manager6/storage/ContentView.js:93
-#: ../www/manager6/storage/ContentView.js:376
+#: ../www/manager6/storage/ContentView.js:378
 msgid "Templates"
 msgstr "Sablonok"
 
@@ -2556,7 +2535,7 @@ msgstr "Ez a VM ID nem létezik"
 msgid "This {0} ID is already in use"
 msgstr "Ez a VM ID már használatban van"
 
-#: ../www/manager6/node/Disks.js:250
+#: ../www/manager6/node/Disks.js:249
 msgid "Threshold"
 msgstr ""
 
@@ -2618,6 +2597,7 @@ msgstr "Összes mag"
 #: ../www/manager6/qemu/ScsiHwEdit.js:13
 #: ../www/manager6/qemu/ProcessorEdit.js:91
 #: ../www/manager6/storage/ContentView.js:46
+#: ../www/manager6/storage/ContentView.js:521
 #: ../www/manager6/storage/StatusView.js:41
 #: ../www/manager6/ha/StatusView.js:48
 msgid "Type"
@@ -2685,7 +2665,7 @@ msgstr "Frissítés"
 
 #: ../www/manager6/storage/ContentView.js:240
 #: ../www/manager6/storage/ContentView.js:307
-#: ../www/manager6/storage/ContentView.js:389
+#: ../www/manager6/storage/ContentView.js:391
 msgid "Upload"
 msgstr "Feltöltés"
 
@@ -2796,7 +2776,7 @@ msgstr "VZDump biztonsági mentés fájl"
 msgid "Valid CIDR Range"
 msgstr ""
 
-#: ../www/manager6/grid/ObjectGrid.js:123 ../www/manager6/node/Disks.js:248
+#: ../www/manager6/grid/ObjectGrid.js:123 ../www/manager6/node/Disks.js:247
 #: ../www/manager6/qemu/Snapshot.js:111 ../www/manager6/lxc/Snapshot.js:102
 msgid "Value"
 msgstr "Érték"
@@ -2838,7 +2818,7 @@ msgstr "Virtuális gép"
 msgid "Volume group"
 msgstr "Kötetcsoport"
 
-#: ../www/manager6/node/Disks.js:251
+#: ../www/manager6/node/Disks.js:250
 msgid "Worst"
 msgstr ""
 
@@ -3001,8 +2981,19 @@ msgstr ""
 #~ msgid "Barrier"
 #~ msgstr "Barrier"
 
+#, fuzzy
+#~ msgid "Bootdisk Size"
+#~ msgstr "Blokk méret"
+
 #~ msgid "CPU Options"
 #~ msgstr "CPU opciók"
+
+#, fuzzy
+#~ msgid "CPU Usage"
+#~ msgstr "CPU használat"
+
+#~ msgid "CPUs"
+#~ msgstr "CPU-k"
 
 #~ msgid "Do not use any proxy"
 #~ msgstr "Ne használj proxy-t"
@@ -3094,6 +3085,10 @@ msgstr ""
 
 #~ msgid "Memory (MB)"
 #~ msgstr "Memória (MB)"
+
+#, fuzzy
+#~ msgid "Memory Usage"
+#~ msgstr "Memória használat"
 
 #~ msgid "Migrate All VMs"
 #~ msgstr "Összes VM migrálása"
