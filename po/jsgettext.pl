@@ -12,7 +12,7 @@ die "no such directory\n" if ! -d $dir;
 
 my $sources = [];
 
-my $findcmd = ['find', $dir, '-name', '*.js'];
+my $findcmd = [['find', $dir, '-name', '*.js'],['sort']];
 PVE::Tools::run_command($findcmd, outfunc => sub {
     my $line = shift;
     next if $line =~ m|/pvemanagerlib.js$|;
