@@ -15,12 +15,13 @@ ${TOUCHDATA}: ${TOUCHSRC}
 all: ${TOUCHDATA}
 
 .PHONY: install 
-install: ${TOUCHDATA}
+install: ${TOUCHDATA} index.html.tpl
 	install -d ${WWWTOUCHDIR}
 	install -m 0644 ${TOUCHDATA} ${WWWTOUCHDIR}
 	install -d ${WWWTOUCHDIR}/resources/css
 	cp ${TOUCHDIR}/resources/css/*.css ${WWWTOUCHDIR}/resources/css
 	install -m 0644 pve.css ${WWWTOUCHDIR}/resources/css
+	install -m 0644 index.html.tpl ${WWWTOUCHDIR}
 	install -d ${WWWTOUCHDIR}/resources/themes/images
 	cp -a ${TOUCHDIR}/resources/themes/images/default ${WWWTOUCHDIR}/resources/themes/images
 	chown -R www-data:www-data ${WWWTOUCHDIR}
