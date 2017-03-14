@@ -1611,7 +1611,7 @@ msgstr "PGs"
 
 #: ../www/manager6/node/StatusView.js:110
 msgid "PVE Manager Version"
-msgstr "PVE Manager version"
+msgstr "PVE Manager Version"
 
 #: ../www/manager6/node/APT.js:162 ../www/manager6/storage/ContentView.js:51
 msgid "Package"
@@ -1703,7 +1703,7 @@ msgstr "Ports/Slaves"
 
 #: ../www/manager6/node/NetworkEdit.js:260
 msgid "Prefix length"
-msgstr "Prefix-länge"
+msgstr "Präfix-länge"
 
 #: ../www/manager6/Utils.js:55
 msgid "Premium"
@@ -1970,7 +1970,7 @@ msgstr "SWAP-Auslastung"
 
 #: ../www/manager6/window/LoginWindow.js:183
 msgid "Save User name"
-msgstr "Benutzername speicher"
+msgstr "Benutzername speichern"
 
 #: ../www/manager6/window/Settings.js:155
 msgid "Saved User name"
@@ -2412,7 +2412,7 @@ msgstr "Damit löschen Sie alle Daten."
 
 #: ../www/manager6/window/Restore.js:127
 msgid "This will permanently erase current VM data."
-msgstr "Damit löschen Sie alle Daten der jetztigen VM."
+msgstr "Damit löschen Sie alle Daten der jetzigen VM."
 
 #: ../www/manager6/form/GuestIDSelector.js:20
 msgid "This {0} ID does not exists"
@@ -2585,7 +2585,7 @@ msgstr "LUNs direkt verwenden"
 
 #: ../www/manager6/qemu/MemoryEdit.js:46
 msgid "Use fixed size memory"
-msgstr "Verwende fixe Speichergöße"
+msgstr "Verwende fixe Speichergröße"
 
 #: ../www/manager6/qemu/Options.js:226 ../www/manager6/qemu/Options.js:231
 #: ../www/manager6/qemu/Options.js:239
