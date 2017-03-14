@@ -1589,7 +1589,7 @@ msgstr "Optionen"
 #: ../www/manager6/Utils.js:61 ../www/manager6/Utils.js:129
 #: ../www/manager6/qemu/OSTypeEdit.js:95
 msgid "Other OS types"
-msgstr "Andere Bertiebssysteme"
+msgstr "Andere Betriebssysteme"
 
 #: ../www/manager6/ceph/StatusDetail.js:47
 msgid "Out"
